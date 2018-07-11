@@ -1,0 +1,110 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.428">
+    <dc:identifier>ca.m.428</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>GOURDE,  Jacques</dc:title>
+    <dc:description>Member information for: GOURDE,  Jacques</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=7f45dfd9-dd4b-4b04-8dc9-20cb0730d279&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=7f45dfd9-dd4b-4b04-8dc9-20cb0730d279&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.428">
+    <pm:name>
+      <pm:full>GOURDE,  Jacques</pm:full>
+      <pm:first>Jacques</pm:first>
+      <pm:last>Gourde</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1964-01-13" pm:granularity="8" pm:place="Saint-Narcisse-de-Beaurivage, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=7f45dfd9-dd4b-4b04-8dc9-20cb0730d279&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=de5f3d35-56db-4325-afba-731ee0e620fb</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Department Website">http://www.tpsgc-pwgsc.gc.ca/apropos-about/scrtr-eng.html</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Jacques-Gourde(35397)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website">http://www.conservative.ca/?cr=lotbiniere-chutes-de-la-chaudiere</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website (Available in French only)">http://www.jacquesgourde.ca/?option=com_content&amp;view=frontpage&amp;Itemid=55</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jacques_Gourde</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jacques_Gourde</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Jacques_Gourde</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Jacques_Gourde</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Lotbinière--Chutes-de-la-Chaudière" openpx:province="Quebec">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Lotbinière--Chutes-de-la-Chaudière" openpx:province="Quebec">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Lotbinière--Chutes-de-la-Chaudière" openpx:province="Quebec">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2013-09-19" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Prime Minister, for Official Languages and for the Economic Development Agency of Canada for the Regions of Quebec</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2011-05-25" pm:from-granularity="8" pm:till="2013-09-18" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Public Works and Government Services, for Official Languages and for the Economic Development Agency for the Regions of Quebec</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2011-01-30" pm:from-granularity="8" pm:till="2011-05-24" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary for Official Languages</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2008-11-07" pm:from-granularity="8" pm:till="2011-01-29" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of National Revenue</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2008-11-07" pm:from-granularity="8" pm:till="2011-05-24" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Public Works and Government Services</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2007-10-10" pm:from-granularity="8" pm:till="2008-11-06" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Labour and Minister of the Economic Development Agency of Canada for the Regions of Quebec</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2007-01-24" pm:from-granularity="8" pm:till="2007-10-09" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Natural Resources</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2006-02-07" pm:from-granularity="8" pm:till="2007-01-23" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Agriculture and Agri-Food and Minister for the Canadian Wheat Board</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative" pm:party-ref="ca.p.conservative" pm:body="other">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jacques_Gourde">Jacques Gourde (born January 13, 1964 in Saint-Narcisse-de-Beaurivage, Quebec) is a farmer and the Conservative Member of Parliament for Lotbinière—Chutes-de-la-Chaudière. He was first elected in the 2006 federal election and, on February 7, 2006 was appointed Parliamentary Secretary to the Minister of Agriculture and Agri-Food and Minister for the Canadian Wheat Board. Parliamentary Secretary to the Minister of Public Works and Government Services, for Official Languages and for the Economic Development Agency for the Regions of Quebec.Gourde has a diploma in farming management and was a producer and exporter of hay in Saint-Narcisse-de-Beaurivage. He is married to Chantal Beaudoin and they have five children.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

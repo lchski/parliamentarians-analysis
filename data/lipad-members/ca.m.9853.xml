@@ -1,0 +1,112 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9853">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>ROBERTS, The Hon. John (Moody), P.C., B.A., B.Phil., D.Phil.</dc:title>
+    <dc:description>Member information for: ROBERTS, The Hon. John (Moody), P.C., B.A., B.Phil., D.Phil.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b7f7cc60-f342-4ec6-9e4e-738cb3ba3bc9&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b7f7cc60-f342-4ec6-9e4e-738cb3ba3bc9&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9853">
+    <pm:name>
+      <pm:full>ROBERTS, The Hon. John (Moody), P.C., B.A., B.Phil., D.Phil.</pm:full>
+      <pm:first>John (Moody)</pm:first>
+      <pm:last>Roberts</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Phil.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.Phil.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1933-11-28" pm:granularity="8" pm:place="Hamilton, Ontario, Canada"/>
+      <pm:deceased pm:date="2007-03-30" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Business consultant, professor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b7f7cc60-f342-4ec6-9e4e-738cb3ba3bc9&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b4029a9d-1d97-4bc8-be8b-45100904236f</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Roberts_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Roberts_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/John_Roberts_(kanadischer_Politiker)</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/John_Roberts_(kanadischer_Politiker)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="St. Paul's" openpx:province="Ontario">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="St. Paul's" openpx:province="Ontario">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="York--Simcoe" openpx:province="Ontario">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1984-06-30" pm:from-granularity="8" pm:till="1984-09-16" pm:till-granularity="8"/>
+        <pm:name>Minister of Employment and Immigration</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1983-08-12" pm:from-granularity="8" pm:till="1984-06-29" pm:till-granularity="8"/>
+        <pm:name>Minister of Employment and Immigration</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1980-03-03" pm:from-granularity="8" pm:till="1983-08-11" pm:till-granularity="8"/>
+        <pm:name>Minister of the Environment</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1976-09-14" pm:from-granularity="8" pm:till="1979-06-03" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1980-03-03" pm:from-granularity="8" pm:till="1982-09-29" pm:till-granularity="8"/>
+        <pm:name>Minister of State for Science and Technology</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1971-10-01" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Regional Economic Expansion</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-09-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-05-21" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-10-29" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Roberts_(Canadian_politician)">John Moody Roberts, PC (November 28, 1933 – March 30, 2007) was a Canadian politician. Roberts was born in Hamilton, Ontario and grew up in Toronto. He was first elected to the House of Commons of Canada in 1968 as a Liberal Member of Parliament (MP) for the riding of York—Simcoe. He was defeated in the 1972 federal election but returned in 1974. From 1974 to 1984 (defeated in 1979 and re-elected in 1980) he was MP for the riding of St. Paul's in Toronto.His was junior cabinet minister in his role as Parliamentary Secretary to the Minister of Regional Economic Expansion from 1971 to 1972. In 1976, he was appointed Secretary of State for Canada in Prime Minister Pierre Trudeau's cabinet. Roberts lost his seat again in the 1979 election in which the Trudeau government was defeated. He was returned to the House yet again as a result of the 1980 election, and joined Trudeau's final cabinet, first as Minister of the Environment, Minister of State for Science and Technology and then as Minister of Employment and Immigration. As Canadian environment minister in the early 1980s he faced off with the US government over the cross-border issue of acid rain at a time when the Reagan Administration was denying its existence. Roberts led a strong public information campaign on both sides of the border that, at one point, resulted in the US justice department officially branding a National Film Board of Canada documentary Acid from Heaven as "foreign country propaganda". The campaign is credited with ultimately leading to a bilateral accord on acid rain being signed later in the decade.Roberts ran to succeed Trudeau at the 1984 Liberal leadership convention, coming in fourth behind John Turner. Turner kept Roberts in his cabinet as Minister of Employment and Immigration. Roberts and Turner's government were defeated in the 1984 election. An attempt to return to parliament in 1988, this time from Ontario riding (Pickering), was unsuccessful.He taught Political Science and Public Administration at Concordia University in Montreal and Brock University in St. Catharines, Ontario. He was also a visiting fellow at Oxford University in the United Kingdom. In his graduate seminars he blended academic excellence with practical political experience.After retiring from academic life he returned to Toronto, living near the area of Yorkville. Roberts led the Canadian delegation to the 1998 Lisbon World Exposition (Expo 98) in Portugal and which lasted from May 22 to September 30, 1998. He died of a heart attack in 2007.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,66 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5751">
+    <dc:identifier>ca.m.5751</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>DUBÉ,  Jean F.</dc:title>
+    <dc:description>Member information for: DUBÉ,  Jean F.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=bfa4988d-f4b9-4671-aa6b-bc6bace1ee2b&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=bfa4988d-f4b9-4671-aa6b-bc6bace1ee2b&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5751">
+    <pm:name>
+      <pm:full>DUBÉ,  Jean F.</pm:full>
+      <pm:first>Jean F.</pm:first>
+      <pm:last>Dubé</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1962-06-29" pm:granularity="8" pm:place="Campbellton, New Brunswick, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, company head</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=bfa4988d-f4b9-4671-aa6b-bc6bace1ee2b&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=67b5a487-2647-49cf-808b-d661b63f1dc8</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jean_F._Dubé</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jean_F._Dubé</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Madawaska--Restigouche" openpx:province="New Brunswick">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-11-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jean_F._Dubé">Jean F. Dubé (born 29 June 1962 in Campbellton, New Brunswick) was a Progressive Conservative member of the House of Commons of Canada from 1997 to 2000. A career businessman, he is the son of Fernand Dubé who served for thirteen years in the Cabinet of New Brunswick Premier Richard Hatfield. He served as President of the Campbellton Regional Chamber of Commerce, President of the Campbellton Business Improvement Corporation, and was the founding President of the Bay of Chaleur Alzheimer Society. Dubé was elected in the Madawaska—Restigouche electoral district in the 1997 general election. He served in the 36th Canadian Parliament until he was defeated by Liberal candidate Jeannot Castonguay in the 2000 election.He won a 2001 New Brunswick provincial by-election in the Campbellton provincial riding, but lost to Liberal Roy Boudreau in the 2003 general provincial election.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

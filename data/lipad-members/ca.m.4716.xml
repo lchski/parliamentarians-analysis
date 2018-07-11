@@ -1,0 +1,69 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4716">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>ROY,  Joseph-Aurélien</dc:title>
+    <dc:description>Member information for: ROY,  Joseph-Aurélien</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=895de848-9f0e-4178-a76d-f1da18dd431f&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=895de848-9f0e-4178-a76d-f1da18dd431f&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4716">
+    <pm:name>
+      <pm:full>ROY,  Joseph-Aurélien</pm:full>
+      <pm:first>Joseph-Aurélien</pm:first>
+      <pm:last>Roy</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1910-07-23" pm:granularity="8" pm:place="Beaumont, Quebec, Canada"/>
+      <pm:deceased pm:date="2001-12-27" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Contractor, farmer, merchant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=895de848-9f0e-4178-a76d-f1da18dd431f&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only) ">http://www.assnat.qc.ca/en/deputes/roy-joseph-aurelien-5211/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Joseph-Aurélien_Roy</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Joseph-Aurélien_Roy</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Joseph-Aurélien_Roy</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Lévis" openpx:province="Quebec">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Social Credit" pm:party-ref="ca.p.socialcredit" pm:body="other">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-04-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Joseph-Aurélien_Roy">Joseph-Aurélien Roy (July 23, 1910 – December 27, 2001) was a Quebec businessman and political figure. He represented Lévis in the Canadian House of Commons as a Social Credit member from 1962 to 1963 and in the Quebec National Assembly from 1970 to 1973 as a member of the Ralliement créditiste.He was born in Beaumont, Quebec in 1910, the son of farmer Lauréat Roy, and studied at Saint-Étienne-de-Beaumont. He worked on the family farm and then purchased his own farm in 1933. In 1934, he married Marie-Alice Turgeon. Roy moved to Lauzon in 1943, where he worked with a shipbuilding company, later becoming a salesperson with another company. He opened his own hardware business in 1946 and then a construction company in 1951. Roy was also a member of the Saint-Jean-Baptiste Society. He served on the city council from 1952 to 1967. He was elected to the House of Commons in 1962 but was defeated in the election held the following year. Roy was elected in Levis to the Quebec assembly in 1970 but defeated in 1973.He died at Lévis in 2001.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

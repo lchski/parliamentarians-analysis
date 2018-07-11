@@ -1,0 +1,66 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6363">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>HEPBURN,  Mitchell Frederick</dc:title>
+    <dc:description>Member information for: HEPBURN,  Mitchell Frederick</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2e1a0504-6db9-413c-a847-54e5b76f53b4&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2e1a0504-6db9-413c-a847-54e5b76f53b4&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6363">
+    <pm:name>
+      <pm:full>HEPBURN,  Mitchell Frederick</pm:full>
+      <pm:first>Mitchell Frederick</pm:first>
+      <pm:last>Hepburn</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1896-08-12" pm:granularity="8" pm:place="St. Thomas, Ontario, Canada"/>
+      <pm:deceased pm:date="1953-01-04" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2e1a0504-6db9-413c-a847-54e5b76f53b4&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=6136b04a-8afb-4d6a-9809-9edf10b12961</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=456</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Elgin West" openpx:province="Ontario">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1935-08-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Elgin West" openpx:province="Ontario">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1934-06-08" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    </pm:member>
+</root>

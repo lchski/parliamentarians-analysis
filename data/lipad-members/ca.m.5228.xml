@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5228">
+    <dc:identifier>ca.m.5228</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>LEBLANC,  Nic</dc:title>
+    <dc:description>Member information for: LEBLANC,  Nic</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1bbc643e-8d01-4919-8f9c-7574f65a8425&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1bbc643e-8d01-4919-8f9c-7574f65a8425&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5228">
+    <pm:name>
+      <pm:full>LEBLANC,  Nic</pm:full>
+      <pm:first>Nic</pm:first>
+      <pm:last>Leblanc</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1941-11-15" pm:granularity="8" pm:place="Ste-Monique, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1bbc643e-8d01-4919-8f9c-7574f65a8425&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=34fe6844-48bb-4b21-bd5a-ed1a5ec69773</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Nic_Leblanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Nic_Leblanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Nic_Leblanc</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Nic_Leblanc</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Longueuil" openpx:province="Quebec">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Longueuil" openpx:province="Quebec">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Longueuil" openpx:province="Quebec">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1990-09-21" pm:from-granularity="8" pm:till="1994-01-01" pm:till-granularity="4"/>
+        <pm:name>Bloc Québécois Caucus Chair</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent Sovereignist" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1997-03-17" pm:from-granularity="8" pm:till="1997-06-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Bloc Québécois" pm:party-ref="ca.p.blocquebecois" pm:body="other">
+        <pm:period pm:from="1990-12-20" pm:from-granularity="8" pm:till="1997-03-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1990-06-26" pm:from-granularity="8" pm:till="1990-12-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1990-06-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Nic_Leblanc">Nic Leblanc (born 15 November 1941 in Sainte-Monique, Quebec) was a member of the Canadian House of Commons from 1984 to 1997. He is a businessperson by career.He was first elected in the Longueuil electoral district under the Progressive Conservative party in the 1984 federal election.He was re-elected in 1988 federal election, only to leave the Progressive Conservative party on 26 June 1990 following the implosion of the Meech Lake Accord. In December that same year he would join the separatist Bloc Québécois party in Parliament.Leblanc won another election in Longueuil riding in 1993. But in 1997, he left the Bloc Québécois and sat as an "independent sovereigntist" in the House of Commons. He did not seek re-election when the 36th Canadian Parliament ended later that year. In his varied Canadian political career, Leblanc served in the 33rd, 34th and 35th Canadian Parliaments.After some time out of Canadian politics, Leblanc joined the Canadian Alliance on 28 August 2000. He campaigned in the Saint-Lambert electoral district during the 2000, but lost to Liberal candidate Yolande Thibeault.In the 2007 Quebec elections, Leblanc was the Liberal candidate for National Assembly of Quebec in the Marie-Victorin riding. He was defeated, finishing in a distant third place.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

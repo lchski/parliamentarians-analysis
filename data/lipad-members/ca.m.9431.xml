@@ -1,0 +1,77 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9431">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>KNIGHT,  William George, B.A., B.Ed.</dc:title>
+    <dc:description>Member information for: KNIGHT,  William George, B.A., B.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ed98340e-a0d5-4268-bbe1-99c6535370ee&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ed98340e-a0d5-4268-bbe1-99c6535370ee&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9431">
+    <pm:name>
+      <pm:full>KNIGHT,  William George, B.A., B.Ed.</pm:full>
+      <pm:first>William George</pm:first>
+      <pm:last>Knight</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1947-10-24" pm:granularity="8" pm:place="Estevan, Saskatchewan, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ed98340e-a0d5-4268-bbe1-99c6535370ee&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=14092298-dd24-4b9b-ae93-3ea27c47c277</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Bill_Knight</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Bill_Knight</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Assiniboia" openpx:province="Saskatchewan">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Assiniboia" openpx:province="Saskatchewan">
+        <pm:period pm:from="1971-11-08" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1973-01-03" pm:from-granularity="8" pm:till="1974-01-01" pm:till-granularity="4"/>
+        <pm:name>Whip of the N.D.P.</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1971-11-08" pm:from-granularity="8" pm:till="1974-07-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Bill_Knight">William George "Bill" Knight (born October 24, 1947 in Estevan, Saskatchewan) is a former senior executive and Member of Parliament (MP) in the Canadian House of Commons. A teacher by profession, Knight was first elected as a New Democratic Party MP in a 1971 by-election and was re-elected in 1972. He represented the riding of Assiniboia, Saskatchewan until his defeat in the 1974 federal election by Liberal Ralph Goodale. Knight attempted to return to Parliament from the same constituency in 1979 but was defeated by Progressive Conservative Len Gustafson.Knight served as principal secretary to both federal NDP leader Ed Broadbent and Saskatchewan Premier Allan Blakeney in the 1970s. In the 1980s he was federal secretary of the New Democratic Party and its chief electoral strategist. Knight joined the credit union movement in 1989 and, from 1995 to 2001, served as President and CEO of Credit Union Central of Canada, the central governing body for the credit union movement, and helped integrate services at credit unions cross the country. In 2001, Knight was named the first Commissioner of the Financial Consumer Agency of Canada by Finance Minister Paul Martin. His term ended in 2006.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

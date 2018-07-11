@@ -1,0 +1,147 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4942">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>LEMIEUX, The Hon. Rodolphe, P.C., K.C., B.C.L., LL.D.</dc:title>
+    <dc:description>Member information for: LEMIEUX, The Hon. Rodolphe, P.C., K.C., B.C.L., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=733cae8a-7e57-46c6-ab2e-478ac991835f&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=733cae8a-7e57-46c6-ab2e-478ac991835f&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4942">
+    <pm:name>
+      <pm:full>LEMIEUX, The Hon. Rodolphe, P.C., K.C., B.C.L., LL.D.</pm:full>
+      <pm:first>Rodolphe</pm:first>
+      <pm:last>Lemieux</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.C.L.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1866-11-01" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:deceased pm:date="1937-09-28" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, journalist, lawyer, lecturer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=733cae8a-7e57-46c6-ab2e-478ac991835f&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7f6a04da-9a27-4ec3-9d8a-34918589e95a</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="The Speakers of the Canadian House of Commons">http://parl.gc.ca/About/Parliament/Speakers/Hoc/sp-16Lemieux-e.htm</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Rodolphe_Lemieux</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Rodolphe_Lemieux</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Rodolphe_Lemieux</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Rodolphe_Lemieux</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Rodolphe_Lemieux</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Maisonneuve" openpx:province="Quebec">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Rouville" openpx:province="Quebec">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1908-10-26" pm:from-granularity="8" pm:till="1911-07-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Nicolet" openpx:province="Quebec">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1904-02-20" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Gaspé" openpx:province="Quebec">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Rougemont" openpx:province="Quebec">
+        <pm:period pm:from="1930-06-03" pm:from-granularity="8" pm:till="1937-09-28" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1922-03-08" pm:from-granularity="8" pm:till="1930-06-02" pm:till-granularity="8"/>
+        <pm:name>Speaker of the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1911-08-11" pm:from-granularity="8" pm:till="1911-10-06" pm:till-granularity="8"/>
+        <pm:name>Minister of Marine and Fisheries</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1911-08-11" pm:from-granularity="8" pm:till="1911-10-06" pm:till-granularity="8"/>
+        <pm:name>Minister of the Naval Service</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1906-06-04" pm:from-granularity="8" pm:till="1909-05-18" pm:till-granularity="8"/>
+        <pm:name>Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1906-06-04" pm:from-granularity="8" pm:till="1911-08-10" pm:till-granularity="8"/>
+        <pm:name>Postmaster General</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1904-01-29" pm:from-granularity="8" pm:till="1906-06-03" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1937-09-28" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Laurier Liberal" pm:party-ref="ca.p.laurierliberal" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1904-02-20" pm:from-granularity="8" pm:till="1917-12-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1904-01-28" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Rodolphe_Lemieux">Rodolphe Lemieux, PC, FRSC (November 1, 1866 – September 28, 1937) was a Canadian parliamentarian and long time Speaker of the Canadian House of Commons (1922–1930).He was born in Montreal as the son of a Customs officer. After a career as a journalist, lawyer and law professor he was elected to the Canadian House of Commons in the 1896 election as a Liberal. He was a loyal follower of Sir Wilfrid Laurier and, in 1904 became Solicitor General of Canada in Laurier's Cabinet. He subsequently served as Postmaster General of Canada, Minister of Labour and Minister of Marine and Fisheries. His Deputy Minister in the Department of Labour was future Prime Minister of Canada, William Lyon Mackenzie King. As Minister of Labour he started a system in which no strike or lockout in a public utility or mine could be legal until the differences had been referred to a three-man board of conciliation representing the employer, the employees and the public. In 1907, Laurier sent Lemieux to Japan to defend Canadian immigration policies which were discriminatory against the Japanese. He succeeded in obtaining an agreement from Japan to curtail emigration of its citizens to Canada. He also continued in his academic pursuits, becoming a fellow of the Royal Society of Canada in 1908 and President of the Society in 1918. In the 1911 election, Lemieux engaged in a series of public debates before audiences of several thousands with nationalist leader Henri Bourassa who was threatening the Liberal's base in Quebec. The Liberals retained a majority of seats in the province but lost government because of its loss of seats in Ontario. Lemieux was a sharp critic of the Conservative government of Robert Borden accusing it of putting the interests of the British Empire ahead of those of Canada. During World War I, Lemieux opposed conscription and supported Laurier during the Conscription Crisis of 1917. When Mackenzie King led the Liberals back to power in the 1921 election, he chose Ernest Lapointe as his Quebec lieutenant rather than Lemieux. Instead, he nominated Lemieux as Speaker of the House of Commons. Lemieux presided over the House during several minority governments.He was Speaker during the King-Byng Affair of 1926. He remained Speaker when Governor General Byng appointed Arthur Meighen as Prime Minister rather than call an election. He attempted to rule in a neutral manner despite the highly charged atmosphere, and all but one of his rulings were sustained by the House. Instead Lord Byng invited the Conservatives to form a government. In spite of assurances of support from the Progressive Party, the Conservatives were unable to maintain control of the House. Lemieux had to make several crucial rulings. Five were appealed and one was overturned.Lemieux presided over three successive Parliaments and was the longest serving Speaker until Lucien Lamoureux broke the record in 1974. On June 30, 1930, King appointed Lemieux to the Canadian Senate, where he served until his death in 1937.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

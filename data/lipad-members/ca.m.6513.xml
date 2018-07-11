@@ -1,0 +1,70 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6513">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>LITTLE, The Hon. Edgar Sydney</dc:title>
+    <dc:description>Member information for: LITTLE, The Hon. Edgar Sydney</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=95180fdc-a59d-47c2-8880-cb5632bf78ff&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=95180fdc-a59d-47c2-8880-cb5632bf78ff&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6513">
+    <pm:name>
+      <pm:full>LITTLE, The Hon. Edgar Sydney</pm:full>
+      <pm:first>Edgar Sydney</pm:first>
+      <pm:last>Little</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1885-11-05" pm:granularity="8" pm:place="London, Ontario, Canada"/>
+      <pm:deceased pm:date="1943-12-22" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Wholesaler</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=95180fdc-a59d-47c2-8880-cb5632bf78ff&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=c78c4383-6875-40f8-b4ec-0f8f37680935</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Edgar_Sydney_Little</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Edgar_Sydney_Little</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1928-01-10" pm:from-granularity="8" pm:till="1943-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1928-01-10" pm:from-granularity="8" pm:till="1943-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Edgar_Sydney_Little">Edgar Sydney Little (November 5, 1885 - December 23, 1943) was a Canadian politician.The son of Colonel John William Little and Kate Nicholson Little, he was born in London, Ontario, Canada. He was the fifth boy out of seven. The family lived at 245 Dufferin Avenue, across from Centre Park, now known as Victoria Park. Their home is today the site of the London Life building. He attended Talbot Street School in the first year of the century and later Central Collegiate, and finally the University of Toronto. He majored in English, history and Business, and combined these with an interest in politics - his father being a mayor of London, Ontario, in the years 1895, 1896, and 1897. In 1907, he entered into the employ of the firm of Robinson Little and Company and was secretary of that company from 1913 until it was dissolved. He was also secretary of the Holeproof Hosiery Company of Canada Ltd, which was founded by his father, and held the same position at the Helena Costume Company. During his career he was a director of the London Bridge Works Limited, of the Federal Advertising Agency, and Canadian Credit Men's Association Limited, and of the Citizens' Research Institute of Canada, and Secretary Treasurer of the London and Southwestern Railway Company. He served as the president of London Chamber of Commerce in 1922, and was vice president of the Western Fair Association, and member of the executive of the Royal Agricultural Winter Fair in Toronto. He was an active member of the London Club, the London Hunt and Country Club, past President of the London Motor Club, and director of the Highland Golf Club. He served in many capacities on civic boards during his extensive public service.He was a Liberal in politics and vice-president of the executive board of the Ontario Liberal Association. Popularly known as "Syd" he was an unsuccessful candidate for the House of Commons in the City of London riding in 1925. He was appointed to the Senate three years later in 1928, by the Prime Minister, William Lyon Mackenzie King.His public service included membership of the Public Utilities Commission, London Railway Commission, Police Commission, Hospital Trust, the Board of Governors of the University of Western Ontario, the London Health Association, and on the Board of Directors of the London and Port Stanley Railway.E.S. Little was much interested in breeding pedigree livestock, and he made a specialty of Jersey cattle, and Shropshire sheep, exhibiting and winning prizes in all parts of Canada and the United States. He ranked high among the leaders in the movement to promote the keeping of better livestock on Ontario farms. He was president of Belvoir Stock Farms Limited, Delaware, Ontario.He had a fair complexion, brown hair, blue eyes, about 5'8", and a slender build. He wore glasses, or pince-nez, all his life and so was barred from active service. He married Helen Gibson Weld at St. Paul's Cathedral in London, Ontario, on September the 12th, 1914. He was 29 years of age and his wife 21.Alan Waldie Little was born about a year after the wedding, in 1915, followed by Naomi Elizabeth, and brothers David Edmund and Derek Sydney.The family lived at 960 Wellington Street until 1922.In 1918 he bought the estate known as "Belvoir", in Delaware Township, Middlesex County, Ontario. The house at Belvoir (pronounced "Beever") was designed and built by Thomas Stent, a noted architect, and had been previously owned by Helen Gibson Weld's grandfather, Richard Gibson, 1840-1911.E. S. Little had a heart attack followed by a stroke and died at the age of 58, December 23, 1943.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

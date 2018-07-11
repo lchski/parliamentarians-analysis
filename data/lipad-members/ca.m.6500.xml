@@ -1,0 +1,95 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6500">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>LACOMBE,  Liguori, Q.C., B.A., LL.B.</dc:title>
+    <dc:description>Member information for: LACOMBE,  Liguori, Q.C., B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=86a624bc-69e6-4134-9a05-ba60c0113aab&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=86a624bc-69e6-4134-9a05-ba60c0113aab&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6500">
+    <pm:name>
+      <pm:full>LACOMBE,  Liguori, Q.C., B.A., LL.B.</pm:full>
+      <pm:first>Liguori</pm:first>
+      <pm:last>Lacombe</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1895-06-17" pm:granularity="8" pm:place="Sainte-Scholastique, Quebec, Canada"/>
+      <pm:deceased pm:date="1957-04-13" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=86a624bc-69e6-4134-9a05-ba60c0113aab&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=dc80cae0-8178-42e8-b8ea-e44bf4d75320</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Liguori_Lacombe</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Liguori_Lacombe</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Liguori_Lacombe</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Liguori_Lacombe</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Laval--Two Mountains" openpx:province="Quebec">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Laval--Two Mountains" openpx:province="Quebec">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Laval--Two Mountains" openpx:province="Quebec">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Laval--Two Mountains" openpx:province="Quebec">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Laval--Two Mountains" openpx:province="Quebec">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1948-07-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent Liberal" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-06-10" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-03-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1930-07-27" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Liguori_Lacombe">Joseph-Roméo-Liguori Lacombe, (June 17, 1895 - April 13, 1957) generally known as Liguori Lacombe was a Member of Parliament in the Canadian House of Commons from 1925 to 1930 and again from 1935 to 1948. He is best known for having quit the Liberal Party of Canada because of his isolationist opposition to Canada's entry into World War II and for campaigning against the government during the Conscription Crisis of World War II.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

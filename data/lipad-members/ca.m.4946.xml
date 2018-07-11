@@ -1,0 +1,75 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4946">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>COWAN,  Donald James, Q.C., B.A., LL.B.</dc:title>
+    <dc:description>Member information for: COWAN,  Donald James, Q.C., B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=90d65729-a390-4c10-be4b-8c19454edbb3&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=90d65729-a390-4c10-be4b-8c19454edbb3&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4946">
+    <pm:name>
+      <pm:full>COWAN,  Donald James, Q.C., B.A., LL.B.</pm:full>
+      <pm:first>Donald James</pm:first>
+      <pm:last>Cowan</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1883-01-03" pm:granularity="8" pm:place="Drumbo, Ontario, Canada"/>
+      <pm:deceased pm:date="1964-01-18" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister, Crown Attorney</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=90d65729-a390-4c10-be4b-8c19454edbb3&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b586326f-0a0c-4eff-b216-b9e213bac646</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Donald_James_Cowan</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Donald_James_Cowan</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Port Arthur--Thunder Bay" openpx:province="Ontario">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1935-08-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Port Arthur--Thunder Bay" openpx:province="Ontario">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1935-10-13" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Donald_James_Cowan">Donald James Cowan (January 3, 1883 Drumbo, Blenheim Township, Oxford County, Ontario – January 14, 1964 Brantford, Ontario) was a Canadian lawyer and politician. He represented Port Arthur—Thunder Bay in the Canadian House of Commons.Cowan was the son of James D. Cowan and Elizabeth Taylor. Educated in Galt, at the University of Toronto and Osgoode Law School, he established a law practice in Port Arthur, Ontario, in 1908. In 1912, Cowan married Edith Ruby Anderson. He served three years 1913-1915 as an alderman and two years as mayor 1916-1917. Subsequently he was city solicitor from January 1919 to November 1934. Cowan was appointed Crown attorney for Thunder Bay District, Ontario in November 1925. In 1928, he was named King's Counsel. He was elected to the House of Commons as a Conservative in September 1926 and again in 1930. During his two terms in Parliament, he was a member of a select committee appointed to study possible amendments and changes to the British North America Act and promoted a Seaway treaty with the United States. In July 1935 he was rewarded by Prime Minister R.B. Bennett with the judgeship of Brant County, Ontario, only the third judge of that county since 1853.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

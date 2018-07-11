@@ -1,0 +1,72 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.368">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>O'BRIEN, The Hon. Joseph Leonard</dc:title>
+    <dc:description>Member information for: O'BRIEN, The Hon. Joseph Leonard</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=498ef2ed-41a2-4b6c-8753-0873205dc554&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=498ef2ed-41a2-4b6c-8753-0873205dc554&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.368">
+    <pm:name>
+      <pm:full>O'BRIEN, The Hon. Joseph Leonard</pm:full>
+      <pm:first>Joseph Leonard</pm:first>
+      <pm:last>O'Brien</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1895-11-06" pm:granularity="8" pm:place="South Nelson, New Brunswick, Canada"/>
+      <pm:deceased pm:date="1973-06-18" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lumber merchant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=498ef2ed-41a2-4b6c-8753-0873205dc554&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=48d6f4d0-4f26-4295-a6c4-5ae21d8aded7</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Joseph_Leonard_O'Brien</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Joseph_Leonard_O'Brien</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Joseph_Leonard_O'Brien</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Joseph_Leonard_O'Brien</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Northumberland" openpx:province="New Brunswick">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="National Government" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-06-10" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Joseph_Leonard_O'Brien">Joseph Leonard O'Brien (November 10, 1895 – June 18, 1973) was a Canadian politician. Born in South Nelson, New Brunswick, he was a member of the Legislative Assembly of New Brunswick from 1925 to 1930 and was Speaker of the Assembly. By profession he was a lumber merchant, operating a small sawmill in South Nelson.In 1940, he was elected to the Canadian House of Commons for the riding of Northumberland. A member of the National Government, he was defeated in 1945. In 1958, he was appointed the 21st Lieutenant Governor of New Brunswick and served until 1965.He purchased Beaubears Island, New Brunswick and a monument in the national park on the island in his honour.Remains rest at Malcolm Cemetery of St. Patrick's Church located in Nelson-Miramichi, Miramichi, New Brunswick, Canada.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

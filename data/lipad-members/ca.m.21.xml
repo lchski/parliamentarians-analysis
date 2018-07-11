@@ -1,0 +1,133 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.21">
+    <dc:identifier>ca.m.21</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>BÉLANGER, The Hon. Mauril, P.C., B.A.</dc:title>
+    <dc:description>Member information for: BÉLANGER, The Hon. Mauril, P.C., B.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=8b42e1fd-2c9c-4d2c-9d29-c9e2be599d6b&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=8b42e1fd-2c9c-4d2c-9d29-c9e2be599d6b&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.21">
+    <pm:name>
+      <pm:full>BÉLANGER, The Hon. Mauril, P.C., B.A.</pm:full>
+      <pm:first>Mauril</pm:first>
+      <pm:last>Bélanger</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1955-06-15" pm:granularity="8" pm:place="Mattawa, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Administrator, political adviser</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=8b42e1fd-2c9c-4d2c-9d29-c9e2be599d6b&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=0e38b25a-aacd-4e96-9eef-439e0998aebc</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Mauril-Belanger(873)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website">http://www.liberal.ca/mp/</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website">http://www.mauril.ca/</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Mauril_Bélanger</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Mauril_Bélanger</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Mauril_Bélanger</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1995-02-13" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2005-05-17" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Minister for Internal Trade</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2005-05-16" pm:till-granularity="8"/>
+        <pm:name>Minister responsible for Democratic Reform</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Associate Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Associate Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Minister responsible for Official Languages</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1998-07-16" pm:from-granularity="8" pm:till="2000-08-31" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Canadian Heritage</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Deputy Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Liberal Party Deputy House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2004-07-19" pm:till-granularity="8"/>
+        <pm:name>Chief Government Whip</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2004-07-19" pm:till-granularity="8"/>
+        <pm:name>Whip of the Liberal Party</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1995-02-13" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Mauril_Bélanger">Mauril A. Bélanger, PC, MP (born June 15, 1955) is a Member of the Canadian Parliament from the Liberal Party, representing Ottawa-Vanier. Bélanger has been involved in advocacy for the rights of Franco-Ontarians.Bélanger was first elected to Parliament on February 13, 1995 in a by-election. His predecessor, Jean-Robert Gauthier, was appointed to the Senate.Bélanger represents the riding of Ottawa—Vanier in the eastern part of the city, an electoral district containing diverse economic and social classes. It is home to many ethnic communities and has a large Francophone population. Ottawa-Vanier is considered a solid Liberal riding, having returned a Liberal MP since its creation in 1935, usually in a landslide. Bélanger himself has won by large margins in the 1997, 2000, 2004, 2006, and 2008 elections. He won re-election for a seventh term by a reduced margin with 38.2% of the vote in the May 2011 election. As member of Parliament, Bélanger has served as Chair of the Standing Committee on Official Languages, member of the Standing Committee on the Library of Parliament and member of the Prime Minister's Task Force on Urban Issues. From July 1998 to August 2000, he was Parliamentary Secretary to the Minister of Canadian Heritage. In December 2003, he was appointed Deputy Leader of the Government in the House of Commons and Chief Government Whip.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

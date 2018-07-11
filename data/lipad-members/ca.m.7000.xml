@@ -1,0 +1,74 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7000">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>ELLIS,  Alfred Claude, B.A., B.Ed.</dc:title>
+    <dc:description>Member information for: ELLIS,  Alfred Claude, B.A., B.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6316db40-c54a-4b2a-9c5e-26af80dad98d&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6316db40-c54a-4b2a-9c5e-26af80dad98d&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7000">
+    <pm:name>
+      <pm:full>ELLIS,  Alfred Claude, B.A., B.Ed.</pm:full>
+      <pm:first>Alfred Claude</pm:first>
+      <pm:last>Ellis</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1919-11-02" pm:granularity="8" pm:place="Regina, Saskatchewan, Canada"/>
+      <pm:deceased pm:date="1997-10-01" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6316db40-c54a-4b2a-9c5e-26af80dad98d&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=f8e2dcd9-73bd-4f97-9e3d-16520ed4c1b2</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Claude_Ellis</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Claude_Ellis</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Regina City" openpx:province="Saskatchewan">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Regina City" openpx:province="Saskatchewan">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Co-operative Commonwealth Federation (C.C.F.)" pm:party-ref="ca.p.CCF" pm:body="other">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1958-03-30" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Claude_Ellis">Alfred Claude Ellis (known as Claude Ellis) (November 2, 1919 – October 1, 1997) was a schoolteacher and politician.Ellis was born in Weyburn, Saskatchewan but moved with his family to Regina where he attended high school. He was one of the early members of the Saskatchewan CCF serving on the party's provincial council as a teenager while he was president of the Saskatchewan CCF's youth wing, the Co-operative Commonwealth Youth Movement, in the 1930s and appeared at rallies on the same stage as J.S. Woodsworth and M.J. Coldwell. He also an active trade unionist in Saskatchewan.As a student, he won several oratory and debating prizes including the Bryant Public Speaking Contest for Saskatchewan in 1937 and the national Dominion Debating Championship at Guelph, Ontario in 1948.He was first elected to the Canadian House of Commons as the Member of Parliament for Regina City in the 1953 federal election representing the Co-operative Commonwealth Federation. He was re-elected in 1957 federal election but lost his seat in the 1958 election that saw John George Diefenbaker's Tories sweep the country, in particular Diefenbaker's home province of Saskatchewan. Ellis attempted to regain his seat as a New Democratic Party candidate but was unsuccessful. As a parliamentarian he was an advocate for housing and health care among other issues.After his defeat, Ellis returned to teaching, this time as a professor at the University of Saskatchewan.Ellis was eulogised in the House of Commons following his death on October 1, 1997.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

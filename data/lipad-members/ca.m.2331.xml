@@ -1,0 +1,80 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2331">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-16+01:00</dc:date>
+    <dc:title>MACINNIS,  Winona Grace, O.C., O.B.C., B.A., LL.D.</dc:title>
+    <dc:description>Member information for: MACINNIS,  Winona Grace, O.C., O.B.C., B.A., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=adda36bc-8669-4e53-b76d-1081337ec422&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=adda36bc-8669-4e53-b76d-1081337ec422&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2331">
+    <pm:name>
+      <pm:full>MACINNIS,  Winona Grace, O.C., O.B.C., B.A., LL.D.</pm:full>
+      <pm:first>Winona Grace</pm:first>
+      <pm:last>MacInnis</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.B.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1905-07-25" pm:granularity="8" pm:place="Winnipeg, Manitoba, Canada"/>
+      <pm:deceased pm:date="1991-07-10" pm:granularity="8"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Homemaker, teacher, writer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=adda36bc-8669-4e53-b76d-1081337ec422&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=52d9fdc9-383f-4bb5-a671-7eb133e03390</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=1055&amp;t=12&amp;ln=macinnis&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Grace_MacInnis</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Grace_MacInnis</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Vancouver Kingsway" openpx:province="British Columbia">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vancouver Kingsway" openpx:province="British Columbia">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vancouver Kingsway" openpx:province="British Columbia">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1961-08-03" pm:from-granularity="8" pm:till="1974-07-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Grace_MacInnis">Winona Grace MacInnis, OC, OBC (née Woodsworth) (July 25, 1905 – July 10, 1991) was a Canadian politician and feminist. She was the first woman from British Columbia elected to the Canadian House of Commons, as well as the first wife of a former Canadian Member of Parliament to be elected to the House of Commons in her own right, rather than by directly succeeding her husband in a by-election following his death.The daughter of Co-operative Commonwealth Federation founding leader J.S. Woodsworth and the wife of longtime CCF MP Angus MacInnis, Grace MacInnis championed issues such as family planning, affordable housing, abortion rights and women's equality. She was a founding member of the CCF and served as an MLA in the Legislative Assembly of British Columbia from 1941 to 1945, on the executive of the national CCF, and in the Canadian House of Commons as a Member of Parliament representing the CCF's successor, the New Democratic Party from 1965 until her retirement in 1974. MacInnis represented the British Columbia riding of Vancouver—Kingsway. She was the only woman MP elected in the 1968 election.In 1974, she was made an Officer of the Order of Canada "in recognition of a lifetime of service to Canada as teacher, author and parliamentarian". In 1990, she was awarded the Order of British Columbia.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

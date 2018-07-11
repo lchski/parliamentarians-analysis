@@ -1,0 +1,76 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3600">
+    <dc:identifier>ca.m.3600</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>ALLARD,  Carole-Marie, B.A., LL.L.</dc:title>
+    <dc:description>Member information for: ALLARD,  Carole-Marie, B.A., LL.L.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=25684c33-a7f5-4882-ab3f-a7e3048a5daf&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=25684c33-a7f5-4882-ab3f-a7e3048a5daf&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3600">
+    <pm:name>
+      <pm:full>ALLARD,  Carole-Marie, B.A., LL.L.</pm:full>
+      <pm:first>Carole-Marie</pm:first>
+      <pm:last>Allard</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.L.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1949-09-06" pm:granularity="8" pm:place="Dolbeau, Quebec, Canada"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, journalist, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=25684c33-a7f5-4882-ab3f-a7e3048a5daf&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=2122cd08-d533-4c85-868a-0c3ccb7172fa</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Carole-Marie_Allard</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Carole-Marie_Allard</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Carole-Marie_Allard</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Carole-Marie_Allard</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Laval East" openpx:province="Quebec">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-01-13" pm:from-granularity="8" pm:till="2003-12-11" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Canadian Heritage</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-06-27" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Carole-Marie_Allard">Carole-Marie Allard (born September 6, 1949) was a Liberal member of Canada's House of Commons. She was in the House of Commons from 2000 to 2004 and represented the riding of Laval East. She was Parliamentary Secretary to the Minister of Canadian Heritage, and a member of the Standing Committee on Justice and Human Rights and the Vice-Chair of the Special Committee on Non-medical use of drugs. She lost the 2004 election to Robert Carrier of the Bloc Québécois in the riding of Alfred-Pellan.She is a lawyer, former press attaché, former designer, organizer and presenter of media management training programs, a former spokesperson for a corporation, and she is a former journalist, writer and producer.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

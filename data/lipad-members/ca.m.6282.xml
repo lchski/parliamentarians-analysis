@@ -1,0 +1,70 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6282">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>ROBERTSON, The Hon. John Alexander</dc:title>
+    <dc:description>Member information for: ROBERTSON, The Hon. John Alexander</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=387f0646-cb70-456f-aaa6-4bdb98398a96&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=387f0646-cb70-456f-aaa6-4bdb98398a96&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6282">
+    <pm:name>
+      <pm:full>ROBERTSON, The Hon. John Alexander</pm:full>
+      <pm:first>John Alexander</pm:first>
+      <pm:last>Robertson</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1913-10-06" pm:granularity="8" pm:place="Medicine Hat, Alberta, Canada"/>
+      <pm:deceased pm:date="1965-02-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Store manager, train conductor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=387f0646-cb70-456f-aaa6-4bdb98398a96&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Alexander_Robertson</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Alexander_Robertson</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Kenora-Rainy River" openpx:province="Ontario">
+        <pm:period pm:from="1962-11-29" pm:from-granularity="8" pm:till="1965-02-19" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1962-11-29" pm:from-granularity="8" pm:till="1965-02-19" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Alexander_Robertson">John Alexander (Pete) Robertson (October 6, 1913 - February 19, 1965) was a Canadian Senator.Robertson was a freight train conductor for the Canadian Pacific Railway at the time of his surprise appointment by John George Diefenbaker to the Canadian Senate in 1962. He was told of his appointment while in a caboose at Ignace, Ontario.He had previously been an unsuccessful Progressive Conservative candidate in the 1958 federal election but was defeated in the riding of Kenora—Rainy River by 217 votes. He also ran in a 1961 provincial by-election to fill the Kenora seat in the Ontario legislature but was again defeated.Robertson was born in Medicine Hat, Alberta and worked as a grocery store manager in the 1930s before joining the CPR. During World War II, he served in the Canadian Army as a member of the Canadian Provost Corps as a corporal and then acting sergeant.He died of a heart attack at the age of 52.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

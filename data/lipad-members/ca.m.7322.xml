@@ -1,0 +1,95 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7322">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>BÉCHARD, The Hon. François</dc:title>
+    <dc:description>Member information for: BÉCHARD, The Hon. François</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2b8629c1-6e3d-45ef-84c5-f9bd80ecb59a&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2b8629c1-6e3d-45ef-84c5-f9bd80ecb59a&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7322">
+    <pm:name>
+      <pm:full>BÉCHARD, The Hon. François</pm:full>
+      <pm:first>François</pm:first>
+      <pm:last>Béchard</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1830-04-18" pm:granularity="8" pm:place="Mount Johnson, Lower Canada"/>
+      <pm:deceased pm:date="1897-04-13" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2b8629c1-6e3d-45ef-84c5-f9bd80ecb59a&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=89e2f04c-03a3-42c4-acbb-ecd9bf3ca808</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/François_Béchard</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/François_Béchard</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/François_Béchard</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="St. Johns--Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1878-08-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1872-10-12" pm:from-granularity="8" pm:till="1874-01-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Iberville" openpx:province="Quebec">
+        <pm:period pm:from="1867-09-20" pm:from-granularity="8" pm:till="1872-07-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="De Lorimier" openpx:province="Quebec">
+        <pm:period pm:from="1896-07-17" pm:from-granularity="8" pm:till="1897-04-13" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1867-09-20" pm:from-granularity="8" pm:till="1897-04-13" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/François_Béchard">François Béchard (April 18, 1830 – April 13, 1897) was a Quebec farmer and political figure. He represented Iberville and then St. Johns—Iberville in the Canadian House of Commons as a Liberal member from 1867 to 1896. He was a member of the Senate of Canada for De Lorimier division from 1896 to 1897.He was born in Mount Johnson (now Mont-Saint-Grégoire), Lower Canada in 1830, the son of François Béchard and Clémence Gozette, and educated at the College of Saint-Hyacinthe. He served as a major in the local militia and was mayor of Saint-Grégoire. Béchard was named to the Senate in September 1896 and died in 1897 in Montreal while still in office.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

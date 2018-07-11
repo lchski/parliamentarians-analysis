@@ -1,0 +1,76 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5578">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>ROSS,  James Arthur</dc:title>
+    <dc:description>Member information for: ROSS,  James Arthur</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b987b0d3-b67f-4474-96f0-02e3a7d68395&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b987b0d3-b67f-4474-96f0-02e3a7d68395&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5578">
+    <pm:name>
+      <pm:full>ROSS,  James Arthur</pm:full>
+      <pm:first>James Arthur</pm:first>
+      <pm:last>Ross</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1893-12-08" pm:granularity="8" pm:place="Lyleton, Manitoba, Canada"/>
+      <pm:deceased pm:date="1958-04-01" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b987b0d3-b67f-4474-96f0-02e3a7d68395&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=a6542621-818d-4804-a4c6-b6534e53baab</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/J._Arthur_Ross</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/J._Arthur_Ross</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Souris" openpx:province="Manitoba">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Souris" openpx:province="Manitoba">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Souris" openpx:province="Manitoba">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1953-08-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="National Government" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-06-10" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/J._Arthur_Ross">James Arthur Ross (December 8, 1893 – April 1, 1958) was a Manitoba politician. He served in the Canadian House of Commons for thirteen years, and was a candidate for the leadership of the Progressive Conservative Party of Manitoba in 1953.Ross was born in Lyleton, Manitoba, the son of John Alexander Ross and Jessie Mary Sellar, and was educated in Melita and at the Manitoba Agricultural College. He enlisted as a soldier in World War I, served in France, and was promoted to the rank of Lieutenant-Colonel. After the war, he worked as a farmer and served as reeve of Arthur municipality for twelve years. He was also an active Freemason. In 1930, Ross married Hilda Morrison.Ross ran as a candidate of the Manitoba Conservative Party in the southwestern riding of Arthur for the provincial elections of 1927, 1932 and 1936. He was defeated on all three occasions by candidates of the governing Progressive Party (known after 1932 as the Liberal-Progressive Party).[citation needed]In 1940, Ross was elected to the Canadian House of Commons for the riding of Souris, narrowly defeating Liberal candidate George William McDonald. He was re-elected by a wider margin in 1945, and once again by a narrow margin in 1949. He remained an MP until 1953, serving for the entire time in the opposition Progressive Conservative caucus. Ross retired from federal politics in 1953, after his riding was eliminated by redistribution.Ross returned to provincial politics for the 1953 provincial election, and was elected for Arthur on his fourth attempt. He defeated John R. Pitt, who had also been his opponent in 1936.The Manitoba Progressive Conservatives were in a state of transformation during the early 1950s. From 1940 to 1950, they had been part of a coalition government with the Liberal-Progressives. This coalition ended soon after Douglas Campbell became premier in 1948, and the Progressive Conservatives were struggling to re-define themselves as the "government in waiting".The Conservatives had been led since 1936 by Errick Willis, a figure from the party's rural base who was a prominent cabinet minister in the coalition years. Willis had been an ineffective campaigner in the 1953 election, and many Conservatives (including Ross) believed that new leadership would be needed for an electoral breakthrough. In October 1953, Willis bowed to internal pressure and called a leadership convention for the following year. Willis announced that he would stand for re-election; Ross and Dufferin Roblin also declared themselves as candidates.Ross was unskilled at province-wide campaigning, and was unable to develop an organization comparable with those of Willis and Roblin. He was also damaged by reports that he and other MLAs were preparing to start a new party if Willis was re-elected.Ross finished third on the first ballot, with 55 votes. Most of his supporters went to Roblin, who won on the second ballot.Ross died in Melita just before the election of 1958. Had he survived, he almost certainly would have been a leading figure within Roblin's cabinet.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

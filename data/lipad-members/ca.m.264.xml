@@ -1,0 +1,96 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.264">
+    <dc:identifier>ca.m.264</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>SIMARD, The Hon. Raymond, P.C., B.A., B.Comm.</dc:title>
+    <dc:description>Member information for: SIMARD, The Hon. Raymond, P.C., B.A., B.Comm.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a70b8408-34d5-4f1e-a720-4e1bef729208&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a70b8408-34d5-4f1e-a720-4e1bef729208&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.264">
+    <pm:name>
+      <pm:full>SIMARD, The Hon. Raymond, P.C., B.A., B.Comm.</pm:full>
+      <pm:first>Raymond</pm:first>
+      <pm:last>Simard</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Comm.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1958-03-08" pm:granularity="8" pm:place="Ste-Anne, Manitoba, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Business consultant, businessman, consultant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a70b8408-34d5-4f1e-a720-4e1bef729208&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=174098a9-c240-428a-bc92-ae08cf9792ad</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Raymond_Simard</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Raymond_Simard</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Raymond_Simard</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Raymond_Simard</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Saint Boniface" openpx:province="Manitoba">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint Boniface" openpx:province="Manitoba">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint Boniface" openpx:province="Manitoba">
+        <pm:period pm:from="2002-05-13" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2005-07-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister for Internal Trade, Deputy Leader of the Government in the House of Commons and Minister responsible for Official Languages</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2005-07-19" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Deputy Leader of the Government in the House of Commons, Minister responsible for Official Languages and Minister responsible for Democratic Reform</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2006-02-23" pm:from-granularity="8" pm:till="2007-01-17" pm:till-granularity="8"/>
+        <pm:name>Deputy Opposition Whip</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2006-02-23" pm:from-granularity="8" pm:till="2007-01-17" pm:till-granularity="8"/>
+        <pm:name>Deputy Whip of the Liberal Party</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2002-05-13" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Raymond_Simard">Raymond Simard, PC (born March 8, 1958) is a politician from Manitoba, Canada. He was a member of the Canadian House of Commons from 2002 to 2008, representing the riding of Saint Boniface for the Liberal Party of Canada.Simard was born in Ste. Anne, Manitoba. He holds a Bachelor of Arts degree from the College universitaire de Saint-Boniface, as well as a Bachelor of Commerce degree from the University of Manitoba. Simard worked as a businessman and consultant before entering political life, initially for a number of business concerns owned by his family. In 1999, he became the founding President and CEO of Riel Economic Development Corporation, and is also the President and co-owner of Simard Solutions.In 2002, sitting Saint Boniface MP Ron Duhamel was appointed to the Canadian Senate by Prime Minister Jean Chrétien. Simard was selected as the Liberal candidate for the resulting by-election, and on May 13, 2002, he defeated Canadian Alliance candidate Denis Simard by about 4400 votes.In parliament, Simard has expressed a special interest in matters relating to francophone concerns in Canada. His riding is one of the few in western Canada with a significant francophone population (16% list French as their mother tongue, according to the 2001 Canadian census), and the only such riding which regularly elects francophone candidates to parliament.In his private business life, Simard was responsible for opening the first bilingual services centre in Canada.Simard was re-elected in the 2004 federal election, defeating Conservative Ken Cooper by about 6,000 votes. On July 20, 2004, he was appointed Parliamentary Secretary to the Minister for Internal Trade, Deputy Leader of the Government in the House of Commons, and Minister responsible for Official Languages with responsibility for Official Languages and Democratic Reform.In the 2006 federal election, Simard's third election in the federal riding of Saint-Boniface, Simard defeated for a second time Conservative Ken Cooper however by far fewer votes than previous years. In the same year, Simard was appointed Deputy Whip of Her Majesty's loyal opposition (Canada). Simard endorsed Michael Ignatieff in the leadership race of the Liberal Party of Canada.In 2007, Simard was appointed critic of Western Economic Development of her Majesty's loyal opposition.Simard was defeated by Conservative candidate Shelly Glover in the 2008 federal election.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

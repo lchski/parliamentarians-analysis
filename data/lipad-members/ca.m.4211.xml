@@ -1,0 +1,67 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4211">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>HUTCHISON,  William H.</dc:title>
+    <dc:description>Member information for: HUTCHISON,  William H.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=68ca90e4-411e-41a7-8215-43fc6b3c6c46&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=68ca90e4-411e-41a7-8215-43fc6b3c6c46&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4211">
+    <pm:name>
+      <pm:full>HUTCHISON,  William H.</pm:full>
+      <pm:first>William H.</pm:first>
+      <pm:last>Hutchison</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1843-12-25" pm:granularity="8" pm:place="Ottawa, Canada West"/>
+      <pm:deceased pm:date="1919-06-17" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Mill owner</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=68ca90e4-411e-41a7-8215-43fc6b3c6c46&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b3f9e900-186a-4388-99bb-9df69710c3a7</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/William_H._Hutchison</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/William_H._Hutchison</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Ottawa (City of)" openpx:province="Ontario">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-11-06" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/William_H._Hutchison">William H. Hutchison (1843 – June 17, 1919) was a mill owner and political figure in Ontario. He represented the City of Ottawa in the Canadian House of Commons from 1896 to 1900 as a Liberal member.Born in New Edinburgh, Hutchison was the son of Robert Hutchison, a Scottish immigrant who worked as a foreman for Thomas McKay, and Mary McKay, McKay's niece. He worked in flour mills in the United States before returning to Ottawa and going into business with his great-uncle. In 1874, Hutchison married Electa Blanche Willett. Hutchison served on Ottawa city council from 1885 to 1891 and was also chairman of the Board of Works for the city. He was a director of the Chaudiere Electric Light Company, the Ottawa City Passenger Railway Company, the Ottawa Electric Railway Company and the Ottawa Land Association. Hutchison also served as president of the Central Canada Exhibition. He died in Ottawa at the age of 76.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

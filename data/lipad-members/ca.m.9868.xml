@@ -1,0 +1,74 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9868">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>WILSON, The Hon. Cairine Reay</dc:title>
+    <dc:description>Member information for: WILSON, The Hon. Cairine Reay</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=176923a1-4b32-4b92-8bee-1d447764ec79&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=176923a1-4b32-4b92-8bee-1d447764ec79&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9868">
+    <pm:name>
+      <pm:full>WILSON, The Hon. Cairine Reay</pm:full>
+      <pm:first>Cairine Reay</pm:first>
+      <pm:last>Wilson</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1885-02-04" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:deceased pm:date="1962-03-03" pm:granularity="8"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Homemaker, social worker</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=176923a1-4b32-4b92-8bee-1d447764ec79&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=c6e3aee3-34c1-4c01-bf48-6a8a5c7448b1</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Cairine_Wilson</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Cairine_Wilson</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Cairine_Wilson</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Cairine_Wilson</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Cairine_Wilson</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Cairine_Wilson</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Rockcliffe" openpx:province="Ontario">
+        <pm:period pm:from="1930-02-15" pm:from-granularity="8" pm:till="1962-03-03" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1930-02-15" pm:from-granularity="8" pm:till="1962-03-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Cairine_Wilson">Cairine Reay Mackay Wilson (February 4, 1885 – March 3, 1962) was Canada's first female senator.Born Cairine Reay Mackay in Montreal, she was the daughter of Jane Mackay and Robert Mackay, a Liberal Senator and personal friend of Sir Wilfrid Laurier. In 1909, she married Norman Wilson, the Liberal Member of Parliament for Russell and they moved to Cumberland, Ontario to begin a family. In 1918, the Wilsons moved to Ottawa, where Cairine performed extensive volunteer work. She helped found the Twentieth Century Liberal Association and the National Federation of Liberal Women of Canada, of which she was President from 1938 to 1948.Wilson was appointed the first female senator of the country at the age of 45 in February 1930 by the government of Prime Minister William Lyon Mackenzie King, just four months after the Persons Case judgment was handed down by the Judicial Committee of the Privy Council. Previously, women had not been allowed to serve in the Senate as lower courts had ruled they were not full "persons" under the law.As president of the League of Nations Society of Canada in 1938, Senator Wilson spoke out against the Munich Agreement's appeasement of Hitler. During the Second World War, the government of William Lyon Mackenzie King was resistant to permitting Jewish refugees from Germany to settle in Canada, but she was able to arrange the acceptance of 100 orphans.In 1949, at the request of King's successor Louis St. Laurent, Wilson became Canada's first female delegate to the United Nations General Assembly. She was the chairman of the Canadian National Committee on Refugees and the first woman to chair Senate Standing Committee (Immigration and Labour). She was given the Cross of the Knight of the Legion of Honour by France in 1950 for her work with child refugees.Wilson again made parliamentary history in 1955 when she became the first woman Deputy Speaker of the Canadian Senate.Her husband Norman, who had been in failing health for some time, died on July 14, 1956; they were the parents of eight children.Cairine Wilson died suddenly of a heart attack on Saturday, March 3, 1962.A secondary school in Orleans, Ontario is named for Wilson.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,71 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4102">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>SHERWOOD, The Hon. Cyril Beverly</dc:title>
+    <dc:description>Member information for: SHERWOOD, The Hon. Cyril Beverly</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=e8f6bb56-1e38-4ca6-9bb1-33b5d14186e8&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=e8f6bb56-1e38-4ca6-9bb1-33b5d14186e8&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4102">
+    <pm:name>
+      <pm:full>SHERWOOD, The Hon. Cyril Beverly</pm:full>
+      <pm:first>Cyril Beverly</pm:first>
+      <pm:last>Sherwood</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1915-07-01" pm:granularity="8" pm:place="Midland, New Brunswick, Canada"/>
+      <pm:deceased pm:date="1996-12-10" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=e8f6bb56-1e38-4ca6-9bb1-33b5d14186e8&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=71bfd0a7-4b70-423c-9b95-4b9591f5211c</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Cyril_Sherwood</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Cyril_Sherwood</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Cyril_Sherwood</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Royal" openpx:province="New Brunswick">
+        <pm:period pm:from="1979-10-03" pm:from-granularity="8" pm:till="1990-07-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1979-10-03" pm:from-granularity="8" pm:till="1990-07-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Cyril_Sherwood">Cyril Beverly "Cy" Sherwood (July 1, 1915 – December 10, 1996) was a farmer and political figure in New Brunswick, Canada. He represented King's County in the Legislative Assembly of New Brunswick as a Progressive Conservative member from 1952 to 1967. He was named to the Senate of Canada for Royal division in 1979 and served until 1990.He was born in Midland, New Brunswick, the son of Richard M. Sherwood and Edna Gillies. He was educated at the University of New Brunswick. He raised dairy cattle and was also a fox rancher. In 1939, he married Madelene Lunn. Sherwood was Minister of Agriculture in the province's Executive Council from 1952 to 1960. He helped establish the New Brunswick Cream Producers' Marketing Board and the New Brunswick Milk Producers' Association and introduced legislation that led to the creation of the New Brunswick Milk Marketing Board.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

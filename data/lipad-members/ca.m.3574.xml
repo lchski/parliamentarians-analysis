@@ -1,0 +1,69 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3574">
+    <dc:identifier>ca.m.3574</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>LIMOGES,  Richard G.J., B.Comm.</dc:title>
+    <dc:description>Member information for: LIMOGES,  Richard G.J., B.Comm.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1732f72a-c2a7-4928-accf-96235f0cf005&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1732f72a-c2a7-4928-accf-96235f0cf005&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3574">
+    <pm:name>
+      <pm:full>LIMOGES,  Richard G.J., B.Comm.</pm:full>
+      <pm:first>Richard G.J.</pm:first>
+      <pm:last>Limoges</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Comm.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1956-01-01" pm:granularity="8" pm:place="Windsor, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Bank manager</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1732f72a-c2a7-4928-accf-96235f0cf005&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=08c526f2-43fb-40b4-9117-9a4b5fb22a3c</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Rick_Limoges</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Rick_Limoges</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Windsor--St. Clair" openpx:province="Ontario">
+        <pm:period pm:from="1999-04-12" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1999-04-12" pm:from-granularity="8" pm:till="2000-11-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Rick_Limoges">Richard (Rick) Limoges (born January 1, 1956 in Windsor, Ontario) is a former Canadian politician, who represented the electoral district of Windsor—St. Clair in the Canadian House of Commons from 1999 to 2000.Limoges was elected as a councillor for Ward 5 of the City of Windsor in 1985 at the age of 29, at that time the youngest person to have been elected to the municipal council. He was notable for having been one of the first area candidates to use his photo on his campaign signs, featuring his trademark moustache.Following the death of Windsor—St. Clair MP Shaughnessy Cohen on December 9, 1998, Limoges resigned from the city council to stand as the Liberal Party candidate in the resulting by-election, which was held on April 12, 1999. Limoges won by a margin of just 91 votes over New Democratic Party candidate Joe Comartin.Limoges was succeeded on Windsor City Council by Eddie Francis, who later became Windsor's mayor.In the 2000 federal election, however, Comartin defeated Limoges for the seat by a margin of 401 votes. Limoges ran again in the 2004 election, and was defeated by a wider margin of 3,818 votes.He was a candidate for mayor of Windsor in the 2010 municipal election, received 40% of the popular vote but lost to Francis.Limoges is now a member of the Assessment Review Board of Ontario and co-owner of Sandy's Pub along with his wife Sandy http://www.sandyspub.com/He is also C.A.O. of Applied Bio Research Inc. http://www.appliedbioresearch.co/ and co-author of two peer reviewed scientific publications: Jassim S. A. A. and Limoges R. G. 2014. REVIEW ARTICLE: Date palm tree’s defense mechanisms from viral infection and solar ultraviolet radiation. Advances in Microbiology 4:1-5. Published Online January 2014 (http://www.scirp.org/journal/aim), http://dx.doi.org/10.4236/aim.2014.41001 http://www.scirp.org/journal/PaperInformation.aspx?PaperID=41603 Jassim S. A. A. and Limoges R. G. 2013. REVIEW ARTICLE: Impact of external forces on cyanophage-host interactions in aquatic ecosystems. World Journal of Microbiology and Biotechnology: Volume 29, Issue 10 (2013), Page 1751-1762 http://link.springer.com/article/10.1007/s11274-013-1358-5 http://www.ncbi.nlm.nih.gov/pubmed/23619821 DOI 10.1007/s11274-013-1358-5 Limoges is also one of 3 inventors on the patent application: PCT/IB2013/061374 Camelid compound(s), composition(s) and method(s). 27 December 2013</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

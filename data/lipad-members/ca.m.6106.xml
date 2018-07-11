@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6106">
+    <dc:identifier>ca.m.6106</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>RICHARDSON,  John, B.Comm., M.Ed.</dc:title>
+    <dc:description>Member information for: RICHARDSON,  John, B.Comm., M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=71f55123-68a5-4a4d-a9b8-f778f62ccb43&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=71f55123-68a5-4a4d-a9b8-f778f62ccb43&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6106">
+    <pm:name>
+      <pm:full>RICHARDSON,  John, B.Comm., M.Ed.</pm:full>
+      <pm:first>John</pm:first>
+      <pm:last>Richardson</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Comm.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1932-12-01" pm:granularity="8" pm:place="Peterborough, Ontario, Canada"/>
+      <pm:deceased pm:date="2010-06-03" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Educator, school principal, superintendent of education, teacher, vice-principal</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=71f55123-68a5-4a4d-a9b8-f778f62ccb43&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=4f174c94-8647-4036-9d43-6444fe00b82c</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Richardson_(Canadian_MP)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Richardson_(Canadian_MP)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/John_Richardson_(politico_canadese)</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/John_Richardson_(politico_canadese)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Perth--Middlesex" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2002-10-11" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Perth--Middlesex" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Perth--Wellington--Waterloo" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1996-02-23" pm:from-granularity="8" pm:till="1997-07-09" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Veterans Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1996-02-23" pm:from-granularity="8" pm:till="1998-07-15" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="2010-06-03" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Richardson_(Canadian_MP)">BGen John Alexander "Jack" Richardson (1 December 1932 – 2 June 2010) was a member of the Canadian House of Commons from 1993 to 2002. His career was in education and defence. During his term with the Canadian Forces, he attained the rank of Brigadier General.He graduated from the University of Ottawa with a Bachelor of Commerce, then from the Ontario Institute for Studies in Education with a Masters of Education. He served with the Canadian Forces from 1952, including a tour of duty in Germany. He eventually reached the rank of Brigadier General as a reservist. In 1961, he joined Norwood Secondary School where he was a teacher and vice-principal and served at other schools, finally reaching Stratford, Ontario where he became superintendent of instruction.After his retirement from education, Richardson was elected in the 1993 federal election at the Perth—Wellington—Waterloo electoral district for the Liberal party. After riding restructuring, he was re-elected at the Perth—Middlesex electoral district in the 1997 and 2000 federal elections. In all, Richardson served in the 35th and 36th Canadian Parliaments but abruptly resigned 11 October 2002 before completing his term in the 37th Canadian Parliament.The reasons for his resignation were initially declared to be "personal", but later reports indicated Richardson had been ill for some time. A subsequent by-election loss of Richardson's riding to Progressive Conservative candidate Gary Schellenberger was blamed by Prime Minister Jean Chrétien on Richardson's reluctance to leave Canadian politics when his health began deteriorating.Richardson died in his birth city of Peterborough, Ontario on 2 June 2010 after a lengthy battle with Alzheimer’s disease.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

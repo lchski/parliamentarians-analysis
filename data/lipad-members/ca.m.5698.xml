@@ -1,0 +1,77 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5698">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>WARREN,  Ralph Melville</dc:title>
+    <dc:description>Member information for: WARREN,  Ralph Melville</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dca0a287-8341-45f3-a7a4-6ca0d0b2e16c&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dca0a287-8341-45f3-a7a4-6ca0d0b2e16c&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5698">
+    <pm:name>
+      <pm:full>WARREN,  Ralph Melville</pm:full>
+      <pm:first>Ralph Melville</pm:first>
+      <pm:last>Warren</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1882-03-04" pm:granularity="8" pm:place="Wilberforce Township, Ontario, Canada"/>
+      <pm:deceased pm:date="1954-05-06" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dca0a287-8341-45f3-a7a4-6ca0d0b2e16c&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=28174227-6e86-4ea5-bce3-f20f27659792</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=1949</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Ralph_Warren_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Ralph_Warren_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1937-04-05" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1937-04-05" pm:from-granularity="8" pm:till="1953-08-09" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Ralph_Warren_(politician)">Ralph Melville Warren (4 March 1882 – 6 May 1954) was a Canadian politician, a member of the Canadian House of Commons and the Legislative Assembly of Ontario. He was born in Wilberforce Township, Ontario where he attended secondary school and became a farmer by career.In the 1919 Ontario election, he was elected under the United Farmers of Ontario party which formed the government. He held the Renfrew North provincial seat for one term until defeated in the 1923 election.From 1930 to 1938 he was reeve of Wilberforce Township.Warren was elected to federal Parliament for the Liberal party at the Renfrew North riding in a by-election on 5 April 1937 then re-elected for full terms in 1940, 1945 and 1949. Faced with poor health, Warren did not seek another federal term in the 1953 election. He died the following year, survived by his second wife, Eva Marion Farnel.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

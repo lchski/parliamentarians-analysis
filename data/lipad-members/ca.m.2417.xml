@@ -1,0 +1,101 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2417">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>BOURASSA,  Joseph Henri Napoléon</dc:title>
+    <dc:description>Member information for: BOURASSA,  Joseph Henri Napoléon</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2a8c7330-53c3-44dc-9f77-c16aa6af7898&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2a8c7330-53c3-44dc-9f77-c16aa6af7898&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2417">
+    <pm:name>
+      <pm:full>BOURASSA,  Joseph Henri Napoléon</pm:full>
+      <pm:first>Joseph Henri Napoléon</pm:first>
+      <pm:last>Bourassa</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1868-09-01" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:deceased pm:date="1952-08-31" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Journalist, newspaper editor, newspaper owner</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2a8c7330-53c3-44dc-9f77-c16aa6af7898&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=5b17bd7e-9cad-4ca3-8bee-fefd00fa3c38</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/bourassa-henri-2229/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Henri_Bourassa</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Henri_Bourassa</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Бурасса,_Анри</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Henri_Bourassa</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Henri_Bourassa</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Бурасса,_Анри</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Henri_Bourassa</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Henri_Bourassa</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1935-08-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1900-01-18" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1935-10-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1907-10-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1900-01-18" pm:from-granularity="8" pm:till="1900-11-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1899-10-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Henri_Bourassa">Joseph-Napoléon-Henri Bourassa (French pronunciation: ​[ɑ̃ʁi buʁasa]; September 1, 1868 – August 31, 1952) was a French Canadian political leader and publisher. In 1899, Bourassa was outspoken against the British government's request for Canada to send a militia to fight for Britain in the Second Boer War. Laurier's compromise was to send a volunteer force, but the seeds were sown for future conscription protests during the world wars. Bourassa challenged, unsuccessfully, the proposal to build warships to help protect the empire. He led the opposition to mandatory conscription during World War I, arguing that Canada's interests were not at stake. He opposed Catholic bishops who defended military support of Britain and its allies. Bourassa was an ideological father of French-Canadian nationalism.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

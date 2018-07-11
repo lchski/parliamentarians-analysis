@@ -1,0 +1,78 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.79">
+    <dc:identifier>ca.m.79</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>D'AMOURS,  Jean-Claude, B.A., B. Comm.</dc:title>
+    <dc:description>Member information for: D'AMOURS,  Jean-Claude, B.A., B. Comm.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=c8697d30-cfba-4c08-82e3-cb65db980f86&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=c8697d30-cfba-4c08-82e3-cb65db980f86&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.79">
+    <pm:name>
+      <pm:full>D'AMOURS,  Jean-Claude, B.A., B. Comm.</pm:full>
+      <pm:first>Jean-Claude</pm:first>
+      <pm:last>D'Amours</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B. Comm.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1972-12-19" pm:granularity="8" pm:place="Edmundston, New Brunswick, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Account executive, development manager, financial agent / adviser / consultant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=c8697d30-cfba-4c08-82e3-cb65db980f86&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=67519d79-75fc-4eaf-9587-27a7fa3e6f46</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jean-Claude_D'Amours</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jean-Claude_D'Amours</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Jean-Claude_D'Amours</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Jean-Claude_D'Amours</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Madawaska--Restigouche" openpx:province="New Brunswick">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Madawaska--Restigouche" openpx:province="New Brunswick">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Madawaska--Restigouche" openpx:province="New Brunswick">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2011-05-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jean-Claude_D'Amours">Jean-Claude "J.C." D'Amours (born December 19, 1972 in Edmundston, New Brunswick) is a Canadian politician and former Member of Parliament for Madawaska—Restigouche. D'Amours served as a city councillor in Edmundston from 1998 to 2004. D'Amours is a former account executive, development manager and a financial agent/adviser/consultant. In the 2004 federal election, D'Amours was elected to the Canadian House of Commons as a member of the Liberal Party of Canada. During his first mandate, he was a member of the Standing Committee on Human Resources, Skills Development, Social Development and the Status of Persons with Disabilities, the Standing Committee on Official Languages and the Subcommittee on the Employment Insurance Funds of the Standing Committee on Human Resources, Skills Development, Social Development and the Status of Persons with Disabilities.He was re-elected in the 2006 federal election after a close race with Conservative candidate Jean-Pierre Ouellet. His campaign focused on improving the Employment Insurance Program, transferring federal government jobs to rural regions, creating a community development fund and creating a national forum on the forest industry. D'Amours was defeated by Conservative Bernard Valcourt in the 2011 Federal election on May 2.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

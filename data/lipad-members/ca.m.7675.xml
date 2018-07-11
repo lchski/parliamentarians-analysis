@@ -1,0 +1,100 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7675">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>RALSTON, The Hon. James Layton, P.C., K.C.</dc:title>
+    <dc:description>Member information for: RALSTON, The Hon. James Layton, P.C., K.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1e31f4aa-36bd-40a6-a784-7d94f0e97979&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1e31f4aa-36bd-40a6-a784-7d94f0e97979&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7675">
+    <pm:name>
+      <pm:full>RALSTON, The Hon. James Layton, P.C., K.C.</pm:full>
+      <pm:first>James Layton</pm:first>
+      <pm:last>Ralston</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1881-09-27" pm:granularity="8" pm:place="Amherst, Nova Scotia, Canada"/>
+      <pm:deceased pm:date="1949-05-22" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1e31f4aa-36bd-40a6-a784-7d94f0e97979&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=876ab430-1f20-4aa4-a422-20e079465a6d</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/James_Ralston</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/James_Ralston</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Prince" openpx:province="Prince Edward Island">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Prince" openpx:province="Prince Edward Island">
+        <pm:period pm:from="1940-01-02" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Shelburne--Yarmouth" openpx:province="Nova Scotia">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1935-08-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Shelburne--Yarmouth" openpx:province="Nova Scotia">
+        <pm:period pm:from="1926-11-02" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1940-07-05" pm:from-granularity="8" pm:till="1944-11-01" pm:till-granularity="8"/>
+        <pm:name>Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1939-09-06" pm:from-granularity="8" pm:till="1940-07-04" pm:till-granularity="8"/>
+        <pm:name>Minister of Finance and Receiver General</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1930-06-19" pm:from-granularity="8" pm:till="1930-08-06" pm:till-granularity="8"/>
+        <pm:name>Minister of Pensions and National Health</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1926-10-08" pm:from-granularity="8" pm:till="1930-08-06" pm:till-granularity="8"/>
+        <pm:name>Minister of National Defence</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1940-01-02" pm:from-granularity="8" pm:till="1945-06-10" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1926-11-02" pm:from-granularity="8" pm:till="1935-10-13" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/James_Ralston">James Layton Ralston, PC (September 27, 1881 – May 21, 1948) was a Canadian lawyer, soldier and politician.Born in Amherst, Nova Scotia, Ralston graduated from law school at Dalhousie University in 1903 and practised law in Amherst. Ralston was the federal Liberal candidate for Cumberland in the 1908 federal election but was unsuccessful in being elected.He subsequently entered public life when he ran as the provincial Liberal candidate for Cumberland and was elected in the 1911 provincial election. He was re-elected in 1916.Ralston served in World War I as an officer in the 85th Canadian Infantry Battalion (Nova Scotia Highlanders), rising to the rank of Lieutenant-Colonel in 1918 and was decorated for bravery. He was promoted to commanding officer of the Nova Scotia Highlanders and pursued a career as a professional soldier in Canada's post-war army, rising to the rank of Colonel in 1924.Ralston left the military and entered federal politics once again when he was unsuccessful as the Liberal candidate for Halifax in the 1926 federal election, held September 14.Despite losing the general election, Ralston was appointed to the cabinet by Prime Minister William Lyon Mackenzie King and became the Minister of National Defence on October 8. Prime Minister King created a seat for Ralston by appointing the MP for Shelburne—Yarmouth, Paul Lacombe Hatfield, to the Senate, thus opening the riding for a by-election. Ralston won by acclaimation on November 2, 1926, entering the 16th Parliament.Ralston served as Minister of National Defence until the defeat of King's government in the 1930 federal election but was re-elected and remained the MP for Shelburne-Yarmouth through the 17th Parliament, serving in His Majesty's Loyal Opposition.The riding of Shelburne-Yarmouth was consolidated into the new riding of Shelburne—Yarmouth—Clare in 1935 and Ralston opted to not run again, returning to the legal profession, despite the Liberal party regaining power. Ralston was appointed the Canadian delegate to the Third London Naval Conference that December, and he later sat on several Royal Commissions.Germany invaded Poland on September 1, 1939 and Canada's entry into World War II was seen as inevitable. The ensuing international crisis saw Prime Minister King court Ralston's military and cabinet experience. Ralston re-entered active public service and he was subsequently appointed as Minister of Finance on September 6, 1939, replacing Charles Dunning who was in ill-health.Canada declared war on Nazi Germany on September 10 and Ralston participated in the King government's revamping of Canada's 2-decade-long neglected military. The death of Alfred Edgar MacLean, MP for Prince on October 28 opened up the opportunity for Prime Minister King to declare a by-election in a Liberal-friendly riding that Ralston could run in. Ralston was subsequently elected by acclamation on January 2, 1940 and entered the 18th Parliament. He was re-elected several months later on March 26 and continued into the 19th Parliament.In the political tradition of the era, as a federal minister, Ralston brought government patronage to the impoverished rural riding in Prince Edward Island, largely through military spending. On June 10, 1940 the Minister of National Defence, Norman McLeod Rogers was killed when his VIP airplane crashed in Ontario.Prime Minister King subsequently shuffled the cabinet and gave Ralston the National Defence portfolio on July 5. Despite not being from Prince Edward Island, Ralston continued his support to that province as political minister by authorizing the establishment of RCAF Station Mount Pleasant, RCAF Station Summerside (both in his riding) and RCAF Station Charlottetown, as well as a radar station in Tignish (also in his riding).Ralston supported conscription for overseas service during World War II, and in 1942 offered to resign when Prime Minister William Lyon Mackenzie King's government would not introduce it. The resignation issue was dropped, but after visiting Canadian troops in Europe in 1944, he argued again that conscription was necessary, and a schism developed in King's cabinet (see Conscription Crisis of 1944). King forced him to resign, replacing him with Andrew McNaughton on November 1, 1944.Ralston left politics the following year and died in Montreal in 1948.The Colonel James L. Ralston Armoury in Amherst, Nova Scotia is named in his honour and is the historic home of the Nova Scotia Highlanders Regiment. A large tern schooner was named in his honour in 1919 at Eatonville, Nova Scotia.Ralston, Alberta and the Ralston Residence at the Canadian Forces College in Toronto was completed in October 1999, and was named after him.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,81 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2399">
+    <dc:identifier>ca.m.2399</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>MYERS,  Lynn, B.A., B.Ed., M.A.</dc:title>
+    <dc:description>Member information for: MYERS,  Lynn, B.A., B.Ed., M.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=437e0e04-8adb-4ea5-8eb9-4ec5554d6dd8&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=437e0e04-8adb-4ea5-8eb9-4ec5554d6dd8&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2399">
+    <pm:name>
+      <pm:full>MYERS,  Lynn, B.A., B.Ed., M.A.</pm:full>
+      <pm:first>Lynn</pm:first>
+      <pm:last>Myers</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Ed.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1951-05-25" pm:granularity="8" pm:place="Kitchener, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=437e0e04-8adb-4ea5-8eb9-4ec5554d6dd8&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=d90cddb4-43a7-4ff8-a115-417e74ac1862</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Lynn_Myers</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Lynn_Myers</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Kitchener--Conestoga" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Waterloo--Wellington" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Waterloo--Wellington" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2000-09-01" pm:from-granularity="8" pm:till="2003-01-12" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Solicitor General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2006-01-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Lynn_Myers">Lynn A. Myers (born May 25, 1951 in Kitchener, Ontario) is a former Canadian politician.Before being elected federally, he was involved in politics in the Waterloo Region from 1978 to 1997. He served in various capacities including mayor of Wilmot Township(1988), Township councillor (1978) and regional councillor (1985–1997). He first ran for parliament, unsuccessfully, in the 1984 election.A former member of the Canadian House of Commons, he was first elected as a Liberal Member of Parliament in the 1997 federal election for the riding of Waterloo—Wellington to which he was re-elected in 2000.Under redistribution, he was re-elected to a third term for the new riding Kitchener—Conestoga in 2004, but lost the subsequent election in 2006.In addition to his duties as a Member of Parliament, Lynn Myers has served as Parliamentary Secretary to the Solicitor General, Chair of the Standing Committee on Health, Chair of the Caucus Committee on Health Priorities and Chair of the Caucus Committee Working to Prevent Youth Smoking. He has also served as Chair of the Subcommittee on Private Members’ Business of the Standing Committee on Procedure and House Affairs and as Vice-Chair of the Standing Committee on Public Accounts. He has also held the position of Vice-Chair of the Scrutiny of Public Regulations Committee and the Chair of the Liberal Caucus.On January 31, 2007, Myers was critically injured in a car crash east of Stratford, Ontario. The accident occurred at 10:30 p.m. when Myers' car crossed into the path of an oncoming tractor-trailer on Highway 7/8, east of Stratford. The 48-year-old truck driver suffered minor injuries. Myers was later charged with dangerous operation of a motor vehicle, which he pled guilty to on October 3, 2007.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

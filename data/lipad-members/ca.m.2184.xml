@@ -1,0 +1,70 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2184">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>VAN DE WALLE,  Walter</dc:title>
+    <dc:description>Member information for: VAN DE WALLE,  Walter</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=c07e4f86-a8d4-4d58-8692-23d19fc34e34&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=c07e4f86-a8d4-4d58-8692-23d19fc34e34&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2184">
+    <pm:name>
+      <pm:full>VAN DE WALLE,  Walter</pm:full>
+      <pm:first>Walter</pm:first>
+      <pm:last>Van De Walle</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1922-07-20" pm:granularity="8" pm:place="Villeneuve, Alberta, Canada"/>
+      <pm:deceased pm:date="2011-04-21" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=c07e4f86-a8d4-4d58-8692-23d19fc34e34&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=88294171-1102-4544-adc1-cf478db85f9d</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Walter_van_de_Walle</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Walter_van_de_Walle</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="St. Albert" openpx:province="Alberta">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Pembina" openpx:province="Alberta">
+        <pm:period pm:from="1986-09-29" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1986-09-29" pm:from-granularity="8" pm:till="1993-10-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Walter_van_de_Walle">Walter van de Walle (July 20, 1922 – April 21, 2011) was a Canadian politician from Alberta and former member of the Canadian House of Commons.Van de Walle was born to Belgian immigrants in the hamlet of Villeneuve on the shores of Big Lake, Alberta. He lived his whole life in the area, and married Fernande Préfontaine in 1950. In 1945, he moved to Legal in order to farm.Van de Walle's political career began in 1958 when he was elected to the Sturgeon school division board of trustees, on which he served until 1965. In 1959, he was elected to the Sturgeon County council. He was re-elected in 1962, 1965, 1968, 1971 and 1974. He left municipal politics in 1977.In 1985, Van de Walle was inducted into the Alberta Agriculture Hall of Fame for his advocacy of canola products and for starting a provincial program that urged farmers to use herbicides more responsibly.In 1986, Peter Elzinga resigned his position as Member of Parliament for Pembina to run for the Legislative Assembly of Alberta. Van de Walle was nominated to be his replacement by the Progressive Conservative Party of Canada, and won a narrow upset victory over New Democrat Ivor Dent, a former Mayor of Edmonton.Van de Walle was easily re-elected in the 1988 election in the newly formed riding of St. Albert, receiving more than twice the votes of his closest rival. He did not seek re-election in the 1993 election.Following his retirement from politics, Van de Walle continued to live near Legal and continued to be active in the community. He served as a trustee of the Sturgeon Hospital Foundation and was an active member of the Canadian Association of Former Parliamentarians.On April 21, 2011, Van de Walle died in St. Albert at the age of 88.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

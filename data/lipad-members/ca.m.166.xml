@@ -1,0 +1,110 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.166">
+    <dc:identifier>ca.m.166</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>LEBLANC, The Hon. Dominic, P.C., B.A., LL.B., LL.M.</dc:title>
+    <dc:description>Member information for: LEBLANC, The Hon. Dominic, P.C., B.A., LL.B., LL.M.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=44647433-13cb-467e-8632-d49b131d5bb6&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=44647433-13cb-467e-8632-d49b131d5bb6&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.166">
+    <pm:name>
+      <pm:full>LEBLANC, The Hon. Dominic, P.C., B.A., LL.B., LL.M.</pm:full>
+      <pm:first>Dominic</pm:first>
+      <pm:last>LeBlanc</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.M.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1967-12-14" pm:granularity="8" pm:place="Ottawa, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer, notary</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=44647433-13cb-467e-8632-d49b131d5bb6&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=e9bbf631-2fa6-4b34-951b-2bd5eeaddf2b</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Dominic-LeBlanc(1813)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website">http://www.liberal.ca/mp/</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website">http://www.dominicleblanc.ca/</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Dominic_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Dominic_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Dominic_LeBlanc</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Dominic_LeBlanc</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Beauséjour" openpx:province="New Brunswick">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauséjour" openpx:province="New Brunswick">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauséjour" openpx:province="New Brunswick">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauséjour" openpx:province="New Brunswick">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauséjour--Petitcodiac" openpx:province="New Brunswick">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-01-13" pm:from-granularity="8" pm:till="2003-12-11" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2012-11-28" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+        <pm:name>Liberal Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-02-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Chief Government Whip's assistant</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2004-02-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Deputy Whip of the Liberal Party</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Dominic_LeBlanc">Dominic A. LeBlanc, PC, MP (born December 14, 1967), is a Canadian lawyer and politician from New Brunswick, Canada. He is the Member of Parliament for the riding of Beauséjour and sits in the Canadian House of Commons as the Liberal Party's Foreign Affairs Critic. He was first elected in the 2000 federal election and has been re-elected in the last four elections. LeBlanc is the son of former Member of Parliament, Senator and Governor General of Canada, Roméo LeBlanc.LeBlanc ran for leadership of Liberal Party in 2008 but dropped out of the race to endorse Michael Ignatieff, who was later acclaimed leader. With the resignation of Ignatieff after the 2011 federal election LeBlanc was considered a likely candidate in the race to succeed him as party leader, but declined on running.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

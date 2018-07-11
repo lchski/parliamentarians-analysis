@@ -1,0 +1,78 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4671">
+    <dc:identifier>ca.m.4671</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>GROSE,  Ivan</dc:title>
+    <dc:description>Member information for: GROSE,  Ivan</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=ddce732d-2062-4621-84dc-b662f4e975e4&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=ddce732d-2062-4621-84dc-b662f4e975e4&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4671">
+    <pm:name>
+      <pm:full>GROSE,  Ivan</pm:full>
+      <pm:first>Ivan</pm:first>
+      <pm:last>Grose</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1928-10-08" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=ddce732d-2062-4621-84dc-b662f4e975e4&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=8378d9b5-828c-407a-a15f-d285bbc4a75b</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Ivan_Grose</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Ivan_Grose</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Ivan_Grose</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fi.dbpedia.org/resource" pm:description="Dbpedia (FI)">http://fi.dbpedia.org/resource/Ivan_Grose</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Oshawa" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Oshawa" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Oshawa" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-01-13" pm:from-granularity="8" pm:till="2003-12-11" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Veterans Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="2004-06-27" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Ivan_Grose">Ivan Grose (born October 8, 1928 in Toronto, Ontario) is a Canadian businessman and politician.From 1947 to 1951, Grose served in the Royal Canadian Air Force.In 1957 Grose, then 29, held up a bank in Hamilton, Ontario. Grose reportedly took a 22-year-old man who had gone to the Canadian Imperial Bank of Commerce branch hostage with a handgun to his back, and left the bank with $6 000 stuffed into a paper bag. Grose was tried, and eventually pleaded guilty. His time in jail for armed robbery reportedly amounted to 19 months. [1] Grose would put his criminal past behind him, becoming a businessman. Before entering politics, he did not seek a pardon.Grose first stood for federal office as the Liberal Party of Canada candidate for the Canadian House of Commons in the Oshawa district in the 1993 general election. In a Liberal sweep of almost every Ontario seat, Grose defeated New Democratic Party incumbent Mike Breaugh. Grose was the first Liberal MP elected for Oshawa in 47 years.He was re-elected continuously in the federal elections of 1997 and 2000.Grose served as Parliamentary Secretary to the Minister of Veterans Affairs from January 13 to December 11, 2003. He was Vice-Chair of the Commons standing committee on Public Accounts during the first session of the 36th parliament, and of the standing committee on Justice and Human Rights during the second session of that parliament, and the first session of the 37th parliament.Amid considerable infighting in the federal Liberal party in 2004, all incumbent MPs would no longer have their nominations guaranteed. Grose faced challenges for the Liberal nomination from Louise Parkes, a business manager, and councillor and Deputy Mayor for the City of Oshawa, and from Chris Topple, the Ontario Liberal Party candidate for Oshawa in the two prior provincial elections. Parkes won the nomination over Grose and Topple on the first ballot but finished third behind the NDP's Sid Ryan and winner Colin Carrie of the Conservatives in the general election. Grose's third term ended on May 23, 2004, on the dissolution of Commons preceding the 2004 general election.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

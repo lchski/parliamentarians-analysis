@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8538">
+    <dc:identifier>ca.m.8538</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>PATRY,  Claude</dc:title>
+    <dc:description>Member information for: PATRY,  Claude</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=137d51b0-f7d5-4ad7-9bc0-529314cc2d99&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=137d51b0-f7d5-4ad7-9bc0-529314cc2d99&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8538">
+    <pm:name>
+      <pm:full>PATRY,  Claude</pm:full>
+      <pm:first>Claude</pm:first>
+      <pm:last>Patry</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1953-01-10" pm:granularity="8" pm:place="Arvida, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Union officer, welder</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=137d51b0-f7d5-4ad7-9bc0-529314cc2d99&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=43b2c5e2-71c9-445d-bb1e-f1a404fa9224</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Claude-Patry(71413)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website (Available in french only)">http://www.blocquebecois.org/horizon2015/equipe.php?p=Patry&amp;twit=@claude_patry&amp;fb=</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Claude_Patry</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Claude_Patry</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Claude_Patry</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Claude_Patry</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Jonquière--Alma" openpx:province="Quebec">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Bloc Québécois" pm:party-ref="ca.p.blocquebecois" pm:body="other">
+        <pm:period pm:from="2013-02-28" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="2013-02-27" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Claude_Patry">Claude Patry (born January 10, 1953) is a Canadian Member of Parliament for the riding of Jonquière—Alma, first elected in the 2011 Canadian federal election. He was elected as a member of the New Democratic Party, but crossed over to the Bloc Québécois on February 28, 2013. He succeeded Jean-Pierre Blackburn of the Conservative Party, who was Veterans Affairs Minister.Patry was president of the Syndicat national des employés de l'aluminium d'Arvida, the union representing Rio Tinto Alcan workers in the riding.Following his defection to the Bloc in 2013, Patry stated that "he voted for sovereignty in the 1980 and 1995 referendums and that he still hopes Quebec will one day become a country".</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

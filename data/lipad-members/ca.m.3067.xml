@@ -1,0 +1,75 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3067">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>ROEBUCK, The Hon. Arthur Wentworth, Q.C.</dc:title>
+    <dc:description>Member information for: ROEBUCK, The Hon. Arthur Wentworth, Q.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d7573d56-83e2-49cc-b9d8-3f5c6bf944fd&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d7573d56-83e2-49cc-b9d8-3f5c6bf944fd&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3067">
+    <pm:name>
+      <pm:full>ROEBUCK, The Hon. Arthur Wentworth, Q.C.</pm:full>
+      <pm:first>Arthur Wentworth</pm:first>
+      <pm:last>Roebuck</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1878-02-28" pm:granularity="8" pm:place="Hamilton, Ontario, Canada"/>
+      <pm:deceased pm:date="1971-11-17" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister, newspaper editor, newspaper owner</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d7573d56-83e2-49cc-b9d8-3f5c6bf944fd&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=8c8e7e5b-383d-4afa-9564-68c342bc45d1</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=1791</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Arthur_Roebuck</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Arthur_Roebuck</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Trinity" openpx:province="Ontario">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Toronto-Trinity" openpx:province="Ontario">
+        <pm:period pm:from="1945-04-18" pm:from-granularity="8" pm:till="1971-11-17" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1971-11-17" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Arthur_Roebuck">Arthur Wentworth Roebuck, QC, (February 28, 1878 — November 17, 1971) was a Canadian politician and labour lawyer.Roebuck ran for a seat in the Canadian House of Commons in the 1917 federal election as a Laurier Liberal, but was defeated. He was involved with the United Farmers of Ontario and its successor, the Progressive Party, in the 1920s before rejoining the Liberals. He won a seat in the Legislative Assembly of Ontario in the 1934 provincial election that brought the Ontario Liberal Party led by Mitchell Hepburn to power.Roebuck was a senior figure in the Hepburn government serving as Attorney-General of Ontario from 1934 to 1937 as well as Minister of Labour from 1934 until 1935. A progressive, Roebuck promoted the rights of Jews against the anti-Semitism that was still prevalent in 1930s Ontario, and defended the rights of trade unions. He broke with Hepburn over the government's handling of the 1937 United Auto Workers strike against General Motors in Oshawa, and resigned in protest with fellow minister David Croll. Roebuck remained as the Liberal Member of the Legislative Assembly for the Toronto riding of Bellwoods until 1940.Re-entering federal politics, Roebuck was elected Liberal Member of Parliament for the Toronto riding of Trinity in the 1940 federal election after successfully challenging sitting Liberal MP Hugh Plaxton for the party's nomination. He attempted to return to provincial politics running for the leadership of the Ontario Liberal Party at its 1943 leadership convention to succeed Hepburn, but finished second to Harry Nixon.In 1945, he was appointed to the Canadian Senate by Prime Minister William Lyon Mackenzie King, and remained in the Upper House until his death. At the outset of his appointment, he worked with the Canadian Jewish Congress and Rabbi Avraham Aharon Price to have young, Jewish refugees released from internment camps to study in Toronto.He was an important figure in the civil liberties movement in Canada following the war. Following the Igor Gouzenko Affair, Roebuck opposed the government's suspension of the individual rights of individuals accused of espionage, and criticized the use of the Royal Commission on Espionage's transcripts in court. Later, he participated in the defence of Israel Halperin, one of the accused spies, and chaired the Senate Committee on Human Rights and Fundamental Freedoms in 1950, advocating the creation of a Canadian Bill of Rights.Roebuck opposed Pierre Elliott Trudeau's Senate reform proposal in 1969.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

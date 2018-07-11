@@ -1,0 +1,108 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8811">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>CANNON, The Hon. Lucien, P.C., K.C., LL.D.</dc:title>
+    <dc:description>Member information for: CANNON, The Hon. Lucien, P.C., K.C., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6d7aad3a-b476-424b-8f8f-8ece71f89882&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6d7aad3a-b476-424b-8f8f-8ece71f89882&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8811">
+    <pm:name>
+      <pm:full>CANNON, The Hon. Lucien, P.C., K.C., LL.D.</pm:full>
+      <pm:first>Lucien</pm:first>
+      <pm:last>Cannon</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1887-01-16" pm:granularity="8" pm:place="Arthabaska, Quebec, Canada"/>
+      <pm:deceased pm:date="1950-02-14" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6d7aad3a-b476-424b-8f8f-8ece71f89882&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=29998e89-1c59-4f00-8bdc-32fb739dcf06</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/cannon-lucien-2371/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Lucien_Cannon</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Lucien_Cannon</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Lucien_Cannon</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Lucien_Cannon</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Portneuf" openpx:province="Quebec">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Dorchester" openpx:province="Quebec">
+        <pm:period pm:from="1926-11-02" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Dorchester" openpx:province="Quebec">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Dorchester" openpx:province="Quebec">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Dorchester" openpx:province="Quebec">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Dorchester" openpx:province="Quebec">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1926-09-25" pm:from-granularity="8" pm:till="1930-08-06" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1925-09-05" pm:from-granularity="8" pm:till="1926-06-28" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1936-01-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1926-11-02" pm:from-granularity="8" pm:till="1930-07-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1926-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Laurier Liberal" pm:party-ref="ca.p.laurierliberal" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Lucien_Cannon">Lucien Cannon, PC (January 16, 1887 – February 14, 1950) was a Canadian lawyer and politician.Born in Arthabaska, Quebec, the son of Lawrence John Cannon and Aurélie Dumoulin, he studied law at the Laval University and was called to the Quebec Bar in 1910. His brother was Lawrence Arthur Dumoulin Cannon, a puisne judge of the Supreme Court of Canada. His nephew, Charles-Arthur Dumoulin Cannon, and grandson, Lawrence Cannon, were also MPs.In 1911 federal election, he ran as a Liberal candidate for the Canadian House of Commons in the riding of Charlevoix losing to Joseph David Rodolphe Forget. In a 1913 by-election, he was elected to the Legislative Assembly of Quebec in the riding of Dorchester. A Liberal, he was re-elected in 1916. He resigned in 1917 to run again for the Canadian House of Commons in the riding of Dorchester in a by-election. He was defeated, but was elected in the 1917 federal election. He was re-elected in 1921, 1925, and 1926. From 1925 to 1926 and again from 1926 to 1930, he was the Solicitor General of Canada. He was defeated in the 1930 federal election but was re-elected in the 1935 election for the riding of Portneuf. He resigned in 1936 when he was appointed a judge.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

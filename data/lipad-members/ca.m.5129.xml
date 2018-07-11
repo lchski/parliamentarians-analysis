@@ -1,0 +1,94 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5129">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-16+01:00</dc:date>
+    <dc:title>NOWLAN,  John Patrick (Pat), B.A., LL.B.</dc:title>
+    <dc:description>Member information for: NOWLAN,  John Patrick (Pat), B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=233615e5-2efe-4c21-add7-fe0441115d79&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=233615e5-2efe-4c21-add7-fe0441115d79&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5129">
+    <pm:name>
+      <pm:full>NOWLAN,  John Patrick (Pat), B.A., LL.B.</pm:full>
+      <pm:first>John Patrick (Pat)</pm:first>
+      <pm:last>Nowlan</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1931-11-10" pm:granularity="8" pm:place="Wolfville, Nova Scotia, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=233615e5-2efe-4c21-add7-fe0441115d79&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=24b24324-62c7-474d-924c-24d9d205501b</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Pat_Nowlan</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Pat_Nowlan</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Annapolis Valley--Hants" openpx:province="Nova Scotia">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Annapolis Valley--Hants" openpx:province="Nova Scotia">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Annapolis Valley--Hants" openpx:province="Nova Scotia">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Annapolis Valley--Hants" openpx:province="Nova Scotia">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Annapolis Valley" openpx:province="Nova Scotia">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Annapolis Valley" openpx:province="Nova Scotia">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Annapolis Valley" openpx:province="Nova Scotia">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Digby--Annapolis--Kings" openpx:province="Nova Scotia">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent Conservative" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1990-11-21" pm:from-granularity="8" pm:till="1993-10-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1990-11-20" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Pat_Nowlan">John Patrick (Pat) Nowlan (born November 10, 1931) is a retired Canadian parliamentarian and son of Diefenbaker-era Minister of Finance George Nowlan. Nowlan was a Progressive Conservative backbench Member of Parliament representing a Nova Scotia riding in the Canadian House of Commons continuously from 1965 to 1993.Nowlan was an unsuccessful candidate at that year's 1976 Progressive Conservative leadership convention, running as a right wing candidate.In 1991, Nowlan was expelled from the Tory caucus after voting against the Mulroney government's introduction of the Goods and Services Tax. Nowlan sat as an "Independent Progressive Conservative" until his defeat in the 1993 federal election.Pat is married to Cynthia Nowlan, an entrepreneur who started a store in Ottawa called 'The Pepper Pot'. He has four children; Nancy, Linda, John, and James. He also has six grandchildren; Julia, Casey, Molly, Sophie, Thomas, and Yasmin.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

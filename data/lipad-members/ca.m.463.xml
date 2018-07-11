@@ -1,0 +1,74 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.463">
+    <dc:identifier>ca.m.463</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>GRAVEL,  Raymond</dc:title>
+    <dc:description>Member information for: GRAVEL,  Raymond</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=066e57c2-4f0d-4e3f-a6bc-eb57268f68df&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=066e57c2-4f0d-4e3f-a6bc-eb57268f68df&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.463">
+    <pm:name>
+      <pm:full>GRAVEL,  Raymond</pm:full>
+      <pm:first>Raymond</pm:first>
+      <pm:last>Gravel</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1952-11-04" pm:granularity="8" pm:place="Saint-Damien-de-Brandon, Quebec, Canada"/>
+      <pm:deceased pm:date="2014-08-11" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Priest</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=066e57c2-4f0d-4e3f-a6bc-eb57268f68df&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=56bd3446-1be5-4001-b9eb-d589a11568ae</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://simple.wikipedia.org/wiki" pm:description="Wikipedia (SIMPLE)">http://simple.wikipedia.org/wiki/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fi.dbpedia.org/resource" pm:description="Dbpedia (FI)">http://fi.dbpedia.org/resource/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Raymond_Gravel</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Raymond_Gravel</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Repentigny" openpx:province="Quebec">
+        <pm:period pm:from="2006-11-27" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Bloc Québécois" pm:party-ref="ca.p.blocquebecois" pm:body="other">
+        <pm:period pm:from="2006-11-27" pm:from-granularity="8" pm:till="2008-10-13" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Raymond_Gravel">Raymond Gravel (born 1952 in Saint-Damien-de-Brandon, Quebec) is a Catholic priest from the Canadian province of Quebec, who was formerly the Member of Parliament for the riding of Repentigny, as a member of the Bloc Québécois. He was elected to the House of Commons in a November 27, 2006 by-election following the death of Benoît Sauvageau.As a young man Gravel worked in bars in Montreal's Gay Village; he has been open about the fact that he was a sex-trade worker during that time. He entered the seminary in 1982 and became a priest. Gravel is controversial among the Catholic clergy and laity for his support of abortion rights, euthanasia and same-sex marriage, three issues officially opposed by the Church. He is currently the priest at St-Joachim de la Plaine Church in La Plaine, Quebec.He was acclaimed as the Bloc's candidate on October 29, 2006. He received a dispensation from Gilles Lussier, bishop of Joliette, to enter politics. Elected with a large majority in the Bloc stronghold, he became the Bloc critic for seniors' issues.However, following his opposition to Bill C-484, which would have recognized injury of a fetus during a crime as a separate offence from an injury to the mother, and his support for Dr. Henry Morgentaler receiving the Order of Canada, Gravel was ordered by the Vatican to either give up the priesthood or leave politics, and he finally announced he would not run in the 2008 election, saying that the priesthood was his life. He cited as his biggest regret his inability to pass his private member's bill C-490, which aimed to improve seniors' access to guaranteed income supplements.He was removed from a position as a catechist in the Quebec Diocese of Joliette during 2010. Gravel then launched a lawsuit against the LifeSiteNews (LSN) agency, a project of the Campaign Life Coalition, for $500,000 in damages. In his motion, Gravel suggests that articles on the LSN website caused him to lose this responsibility. Gravel stated that LSN misrepresented him by identifying him as 'pro-abortion' while he identifies himself as 'pro-choice'.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

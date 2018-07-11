@@ -1,0 +1,207 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7854">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>TUPPER, The Right Hon. Sir Charles, P.C., G.C.M.G., K.C.M.G., C.B., D.C.L., LL.D., M.D.</dc:title>
+    <dc:description>Member information for: TUPPER, The Right Hon. Sir Charles, P.C., G.C.M.G., K.C.M.G., C.B., D.C.L., LL.D., M.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=24d7bdd8-53ef-4f57-a585-5c5b9effd3dd&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=24d7bdd8-53ef-4f57-a585-5c5b9effd3dd&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7854">
+    <pm:name>
+      <pm:full>TUPPER, The Right Hon. Sir Charles, P.C., G.C.M.G., K.C.M.G., C.B., D.C.L., LL.D., M.D.</pm:full>
+      <pm:first>Charles</pm:first>
+      <pm:last>Tupper</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">G.C.M.G.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.M.G.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.B.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.C.L.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1821-07-02" pm:granularity="8" pm:place="Amherst, Nova Scotia, Canada"/>
+      <pm:deceased pm:date="1915-10-30" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Diplomat, physician</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=24d7bdd8-53ef-4f57-a585-5c5b9effd3dd&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=cc8363e4-2560-4d7d-90fb-0dd76a0ec5de</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eo.wikipedia.org/wiki" pm:description="Wikipedia (EO)">http://eo.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/查尔斯·塔珀</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://io.wikipedia.org/wiki" pm:description="Wikipedia (IO)">http://io.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Таппер,_Чарльз</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ne.wikipedia.org/wiki" pm:description="Wikipedia (NE)">http://ne.wikipedia.org/wiki/चार्ल्स_ट्युप्पर</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yi.wikipedia.org/wiki" pm:description="Wikipedia (YI)">http://yi.wikipedia.org/wiki/טשארלס_טאפער</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be.wikipedia.org/wiki" pm:description="Wikipedia (BE)">http://be.wikipedia.org/wiki/Чарльз_Тапер</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be-x-old.wikipedia.org/wiki" pm:description="Wikipedia (BE-X-OLD)">http://be-x-old.wikipedia.org/wiki/Чарлз_Тапэр</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Чарлз_Топер</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yo.wikipedia.org/wiki" pm:description="Wikipedia (YO)">http://yo.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fa.wikipedia.org/wiki" pm:description="Wikipedia (FA)">http://fa.wikipedia.org/wiki/چارلز_تاپر</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://he.wikipedia.org/wiki" pm:description="Wikipedia (HE)">http://he.wikipedia.org/wiki/צ'ארלס_טאפר</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ml.wikipedia.org/wiki" pm:description="Wikipedia (ML)">http://ml.wikipedia.org/wiki/ചാൾസ്_ടൂപ്പർ</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/찰스_터퍼</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ms.wikipedia.org/wiki" pm:description="Wikipedia (MS)">http://ms.wikipedia.org/wiki/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mr.wikipedia.org/wiki" pm:description="Wikipedia (MR)">http://mr.wikipedia.org/wiki/चार्ल्स_टपर</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eo.dbpedia.org/resource" pm:description="Dbpedia (EO)">http://eo.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh.dbpedia.org/resource" pm:description="Dbpedia (ZH)">http://zh.dbpedia.org/resource/查尔斯·塔珀</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://io.dbpedia.org/resource" pm:description="Dbpedia (IO)">http://io.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Таппер,_Чарльз</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yi.dbpedia.org/resource" pm:description="Dbpedia (YI)">http://yi.dbpedia.org/resource/טשארלס_טאפער</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be.dbpedia.org/resource" pm:description="Dbpedia (BE)">http://be.dbpedia.org/resource/Чарльз_Тапер</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yo.dbpedia.org/resource" pm:description="Dbpedia (YO)">http://yo.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://he.dbpedia.org/resource" pm:description="Dbpedia (HE)">http://he.dbpedia.org/resource/צ'ארלס_טאפר</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be_x_old.dbpedia.org/resource" pm:description="Dbpedia (BE_X_OLD)">http://be_x_old.dbpedia.org/resource/Чарлз_Тапэр</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ml.dbpedia.org/resource" pm:description="Dbpedia (ML)">http://ml.dbpedia.org/resource/ചാൾസ്_ടൂപ്പർ</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ko.dbpedia.org/resource" pm:description="Dbpedia (KO)">http://ko.dbpedia.org/resource/찰스_터퍼</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Charles_Tupper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/Чарлз_Топер</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://mr.dbpedia.org/resource" pm:description="Dbpedia (MR)">http://mr.dbpedia.org/resource/चार्ल्स_टपर</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Cape Breton" openpx:province="Nova Scotia">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cape Breton" openpx:province="Nova Scotia">
+        <pm:period pm:from="1896-02-04" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1887-11-09" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1878-11-04" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1878-08-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1872-10-12" pm:from-granularity="8" pm:till="1874-01-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1870-06-15" pm:from-granularity="8" pm:till="1872-07-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cumberland" openpx:province="Nova Scotia">
+        <pm:period pm:from="1867-09-20" pm:from-granularity="8" pm:till="1872-07-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-05-01" pm:from-granularity="8" pm:till="1896-07-08" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-05-01" pm:from-granularity="8" pm:till="1896-07-08" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-01-15" pm:from-granularity="8" pm:till="1896-04-27" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1887-01-27" pm:from-granularity="8" pm:till="1888-05-22" pm:till-granularity="8"/>
+        <pm:name>Minister of Finance and Receiver General</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1879-05-20" pm:from-granularity="8" pm:till="1884-05-28" pm:till-granularity="8"/>
+        <pm:name>Minister of Railways and Canals</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1878-10-17" pm:from-granularity="8" pm:till="1879-05-19" pm:till-granularity="8"/>
+        <pm:name>Minister of Public Works</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1873-02-22" pm:from-granularity="8" pm:till="1873-11-05" pm:till-granularity="8"/>
+        <pm:name>Minister of Customs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1872-07-02" pm:from-granularity="8" pm:till="1873-03-03" pm:till-granularity="8"/>
+        <pm:name>Minister of Inland Revenue</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1870-06-21" pm:from-granularity="8" pm:till="1872-07-01" pm:till-granularity="8"/>
+        <pm:name>President of the Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1896-07-11" pm:from-granularity="8" pm:till="1901-02-05" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1896-01-15" pm:from-granularity="8" pm:till="1900-11-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1887-11-09" pm:from-granularity="8" pm:till="1888-05-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1887-01-27" pm:from-granularity="8" pm:till="1887-10-01" pm:till-granularity="6"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1878-10-17" pm:from-granularity="8" pm:till="1884-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1870-06-15" pm:from-granularity="8" pm:till="1878-10-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1867-09-20" pm:from-granularity="8" pm:till="1870-06-14" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Charles_Tupper">Sir Charles Tupper, 1st Baronet, GCMG, CB, PC (July 2, 1821 – October 30, 1915) was a Canadian father of Confederation: as the Premier of Nova Scotia from 1864 to 1867, he led Nova Scotia into Confederation. He went on to serve as the sixth Prime Minister of Canada, sworn into office on May 1, 1896, seven days after parliament had been dissolved. He lost the June 23 election and resigned on July 8, 1896. His 69-day term as prime minister is currently the shortest in Canadian history.Tupper was born in Amherst, Nova Scotia to the Rev. Charles Tupper and Miriam Lockhart. He was educated at Horton Academy, Wolfville, Nova Scotia, and studied medicine at the University of Edinburgh Medical School, graduating MD in 1843. He practiced medicine periodically throughout his political career (and served as the first president of the Canadian Medical Association). He entered Nova Scotian politics in 1855 as a protégé of James William Johnston. During Johnston's tenure as premier of Nova Scotia in 1857–59 and 1863–64, Tupper served as provincial secretary. Tupper replaced Johnston as premier in 1864. As premier, Tupper established public education in Nova Scotia. He also worked to expand Nova Scotia's railway network in order to promote industry.By 1860, Tupper supported a union of all the colonies of British North America. Believing that immediate union of all the colonies was impossible, in 1864, he proposed a Maritime Union. However, representatives of the Province of Canada asked to be allowed to attend the meeting in Charlottetown scheduled to discuss Maritime Union in order to present a proposal for a wider union, and the Charlottetown Conference thus became the first of the three conferences that secured Canadian Confederation. Tupper also represented Nova Scotia at the other two conferences, the Quebec Conference (1864) and the London Conference of 1866. In Nova Scotia, Tupper organized a Confederation Party to combat the activities of the Anti-Confederation Party organized by Joseph Howe and successfully led Nova Scotia into Confederation.Following the passage of the British North America Act in 1867, Tupper resigned as premier of Nova Scotia and began a career in federal politics. He held multiple cabinet positions under Prime Minister Sir John A. Macdonald, including President of the Queen's Privy Council for Canada (1870–72), Minister of Inland Revenue (1872–73), Minister of Customs (1873–74), Minister of Public Works (1878–79), and Minister of Railways and Canals (1879–84). Initially groomed as Macdonald's successor, Tupper had a falling out with Macdonald, and by the early 1880s, he asked Macdonald to appoint him as Canadian High Commissioner to the United Kingdom. Tupper took up his post in London in 1883, and would remain High Commissioner until 1895, although in 1887–88, he served as Minister of Finance without relinquishing the High Commissionership.In 1895, the government of Sir Mackenzie Bowell foundered over the Manitoba Schools Question; as a result, several leading members of the Conservative Party of Canada demanded the return of Tupper to serve as prime minister. Tupper accepted this invitation and returned to Canada, becoming prime minister in May 1896. An election was called, just before he was sworn in as prime minister, which his party subsequently lost to Wilfrid Laurier and the Liberals. Tupper served as Leader of the Opposition from July 1896 until 1900, at which point he returned to London, where he lived until his death in 1915.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

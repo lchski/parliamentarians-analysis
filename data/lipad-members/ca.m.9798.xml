@@ -1,0 +1,75 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9798">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>BRITTON,  Byron Moffatt, K.C., B.A., M.A.</dc:title>
+    <dc:description>Member information for: BRITTON,  Byron Moffatt, K.C., B.A., M.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cbccde9c-8a99-4afe-a50b-99388a3a5d55&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cbccde9c-8a99-4afe-a50b-99388a3a5d55&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9798">
+    <pm:name>
+      <pm:full>BRITTON,  Byron Moffatt, K.C., B.A., M.A.</pm:full>
+      <pm:first>Byron Moffatt</pm:first>
+      <pm:last>Britton</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1833-09-03" pm:granularity="8" pm:place="Gananoque, Upper Canada"/>
+      <pm:deceased pm:date="1920-11-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer, lecturer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cbccde9c-8a99-4afe-a50b-99388a3a5d55&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b9fc7a72-2b8a-4f73-95f2-2a2de52aaf28</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Byron_Moffatt_Britton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Byron_Moffatt_Britton</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Kingston" openpx:province="Ontario">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Kingston" openpx:province="Ontario">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1901-09-23" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Byron_Moffatt_Britton">Byron Moffatt Britton (born September 3, 1833 in Gananoque, Upper Canada-died November 19, 1920) was a politician, lawyer and lecturer. He was elected to the Canadian House of Commons in the 1896 election to represent the riding of Kingston. He was re-elected in 1900.The son of Daniel Britton and Nancy Moffatt, both Americans who had come to Upper Canada, he was educated at Victoria University in Cobourg, studied law in Toronto and Belleville and was called to the bar in 1859. Britton set up practice in Kingston. In 1875, he was named Queen's Counsel. He was Crown Attorney for Frontenac county from 1883 to 1891. Britton also served on the board of governors for Kingston General Hospital. In 1863, he married Mary E., the daughter of Luther Hamilton Holton.Prior to his federal experience, he was a councillor, then mayor of Kingston, Ontario (1876–1877). He was appointed Judge of the Court of King's Bench for Ontario on September 24, 1901. Britton presided over the 1911 Angelina Napolitano case.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

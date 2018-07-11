@@ -1,0 +1,92 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1956">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>CHAMPAGNE, The Hon. Andrée , P.C., B.A.</dc:title>
+    <dc:description>Member information for: CHAMPAGNE, The Hon. Andrée , P.C., B.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7a824290-468c-4107-9a12-75853a3733c3&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7a824290-468c-4107-9a12-75853a3733c3&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1956">
+    <pm:name>
+      <pm:full>CHAMPAGNE, The Hon. Andrée , P.C., B.A.</pm:full>
+      <pm:first>Andrée </pm:first>
+      <pm:last>Champagne</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Actress, administrator, public relations officer, radio &amp; tv announcer &amp; producer, writer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7a824290-468c-4107-9a12-75853a3733c3&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=06e3e1fe-7a0f-4f79-b490-7660325635a4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Andrée_Champagne</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Andrée_Champagne</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Andrée_Champagne</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Saint-Hyacinthe--Bagot" openpx:province="Quebec">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Hyacinthe--Bagot" openpx:province="Quebec">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Grandville" openpx:province="Quebec">
+        <pm:period pm:from="2005-08-02" pm:from-granularity="8" pm:till="2014-07-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1984-09-17" pm:from-granularity="8" pm:till="1986-06-29" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Youth)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1990-05-15" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+        <pm:name>Deputy Speaker and Chair of Committees of the Whole of the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1986-10-01" pm:from-granularity="8" pm:till="1990-05-14" pm:till-granularity="8"/>
+        <pm:name>Assistant Deputy Chair of Committees of the Whole</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="2005-08-02" pm:from-granularity="8" pm:till="2014-07-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1993-10-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Andrée_Champagne">Andrée Champagne, PC (born July 17, 1939) is a Canadian actress, pianist and politician. Born in Saint-Hyacinthe, Quebec, Champagne was an accomplished performer and personality in her home province. In the 1960s, she became well known on television playing "Donalda" in Claude-Henri Grignon's series Les Belles Histoires des pays d'en haut. After the series ended in 1970, she opened her own casting agency. She remained active as a performer, but also became involved in cultural issues, serving on the board of directors of l'Institut québécois du cinéma and on the executive of l'Union des artistes in the early 1980s. She also helped create Le Chez Nous des Artistes, a retirement home for artists.Champagne entered politics as a Progressive Conservative candidate in the 1984 election, and was elected in the Tory landslide as Member of Parliament for Saint-Hyacinthe-Bagot. She was appointed to the Cabinet of Prime Minister Brian Mulroney as Minister of State for Youth. From 1986 to 1990, she served as Assistant Deputy Chair of the Committee of the Whole House, and became Deputy Speaker of the House of Commons in 1990. She served in that role until her electoral defeat in the 1993 general election. On August 2, 2005, Prime Minister Paul Martin announced the appointment by Governor General Adrienne Clarkson of Champagne as a Conservative member of the Canadian Senate. She is expected to retire upon reaching the age of 75 on July 17, 2014.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

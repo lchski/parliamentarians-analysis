@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4124">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>GODBOUT, The Hon. Joseph</dc:title>
+    <dc:description>Member information for: GODBOUT, The Hon. Joseph</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8816ee26-4762-47a1-a4be-fbe96abceb05&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8816ee26-4762-47a1-a4be-fbe96abceb05&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4124">
+    <pm:name>
+      <pm:full>GODBOUT, The Hon. Joseph</pm:full>
+      <pm:first>Joseph</pm:first>
+      <pm:last>Godbout</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1850-05-12" pm:granularity="8" pm:place="Saint-Vital de Lambton, Canada East"/>
+      <pm:deceased pm:date="1923-04-01" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Physician</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8816ee26-4762-47a1-a4be-fbe96abceb05&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=9a2fe813-8711-4cbe-991c-f0d3720501a4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Joseph_Godbout</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Joseph_Godbout</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Joseph_Godbout</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Joseph_Godbout</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="La Salle" openpx:province="Quebec">
+        <pm:period pm:from="1901-04-04" pm:from-granularity="8" pm:till="1923-04-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1923-04-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent Liberal" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-03-04" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Joseph_Godbout">Joseph Godbout (May 12, 1850 – April 1, 1923) was a physician and political figure in Quebec. He represented Beauce in the Canadian House of Commons from 1887 to 1901 as an independent Liberal and then Liberal member. He sat for La Salle division in the Senate of Canada from 1901 to 1923.He was born in St-Vital de Lambton, Beauce County, Canada East, the son of Joseph Godbout. Godbout was educated at the Séminaire de Quebec and the Université Laval. He was married twice: to Rachel Audet in 1878 and, after his first wife's death, to Hermine Fauteux (née St-Pierre). Godbout was mayor of St-François in 1898. He was named to the Senate by Sir Wilfrid Laurier on April 4, 1901. Godbout died in office at the age of 72.His grandson Gaspard Fauteux also served as a member of the House of Commons.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

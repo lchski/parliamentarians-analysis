@@ -1,0 +1,74 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8406">
+    <dc:identifier>ca.m.8406</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>CHISHOLM,  Robert, B.A., M.A.</dc:title>
+    <dc:description>Member information for: CHISHOLM,  Robert, B.A., M.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=2576a113-8173-4faf-9a51-558c6087a2a1&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=2576a113-8173-4faf-9a51-558c6087a2a1&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8406">
+    <pm:name>
+      <pm:full>CHISHOLM,  Robert, B.A., M.A.</pm:full>
+      <pm:first>Robert</pm:first>
+      <pm:last>Chisholm</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1957-08-31" pm:granularity="8" pm:place="Kentville, Nova Scotia, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Consultant, union officer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=2576a113-8173-4faf-9a51-558c6087a2a1&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b8bb45de-ae70-43c0-ac24-d1a8e91f7f21</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Robert-Chisholm(71285)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website">http://robertchisholm.ndp.ca</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Robert_Chisholm_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Robert_Chisholm_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Robert_Chisholm</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Robert_Chisholm</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Dartmouth--Cole Harbour" openpx:province="Nova Scotia">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Robert_Chisholm_(Canadian_politician)">Robert Lawrence Chisholm (born August 31, 1957 in Kentville, Nova Scotia) is a former trade unionist and politician from Nova Scotia, Canada. He represented the Halifax Atlantic riding in the Nova Scotia House of Assembly from 1991 to 2003. He succeeded Alexa McDonough as leader of the Nova Scotia New Democratic Party (NDP) in 1996. He served as the leader of the Official Opposition in the Nova Scotia Legislature from 1998 to 1999. He subsequently founded a consulting firm, was co-chair of the 2010-11 United Way of Halifax Region campaign, and sat on the Board of Governors of Dalhousie University. On May 2, 2011, Chisholm was elected as the Member of Parliament for the Dartmouth—Cole Harbour riding in Nova Scotia. As a member of the Official Opposition, he serves as the Critic for Fisheries and Oceans as well as the Atlantic Gateway and Deputy Critic for Intergovernmental Affairs.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

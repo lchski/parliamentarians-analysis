@@ -1,0 +1,95 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3377">
+    <dc:identifier>ca.m.3377</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>KEYES, The Hon. Stan Kazmierczak, P.C.</dc:title>
+    <dc:description>Member information for: KEYES, The Hon. Stan Kazmierczak, P.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=2181bb23-f976-4835-86a1-ad5324f54b8e&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=2181bb23-f976-4835-86a1-ad5324f54b8e&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3377">
+    <pm:name>
+      <pm:full>KEYES, The Hon. Stan Kazmierczak, P.C.</pm:full>
+      <pm:first>Stan Kazmierczak</pm:first>
+      <pm:last>Keyes</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1953-05-17" pm:granularity="8" pm:place="Hamilton, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Broadcast journalist</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=2181bb23-f976-4835-86a1-ad5324f54b8e&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=1b473dad-5e61-4629-9a0f-a3d90c1bb625</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Stan_Keyes</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Stan_Keyes</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Hamilton West" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hamilton West" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hamilton West" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hamilton West" openpx:province="Ontario">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2004-07-19" pm:till-granularity="8"/>
+        <pm:name>Minister of National Revenue</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2004-07-19" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Sport)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1996-02-23" pm:from-granularity="8" pm:till="1998-07-15" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Transport</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2002-02-06" pm:from-granularity="8" pm:till="2004-02-03" pm:till-granularity="8"/>
+        <pm:name>Liberal Party Caucus Chair</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="2004-06-27" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Stan_Keyes">Stanley Kazmierczak Keyes, PC (born May 17, 1953 in Hamilton, Ontario) is a Canadian diplomat and former politician.Keyes was first elected to the House of Commons in 1988 election as the Liberal Party of Canada Member of Parliament for Hamilton West. He was subsequently reelected in 1993, 1997 and 2000 elections. In 2003, he was appointed Minister of National Revenue, Minister of State (Sport), Minister Responsible for the Canada Post Corporation and Minister Responsible for the Royal Canadian Mint. Keyes served as Parliamentary Secretary to the Minister of Transport from February 1996 to July 1998.During the 2004 election, he ran as the Liberal candidate for the redistributed riding of Hamilton Centre, but was defeated by the New Democratic Party candidate David Christopherson, a former provincial cabinet minister. For two years between 2002 and 2004, Keyes was Chair of the National Liberal Caucus and Chair of the National Liberal Caucus Executive Committee. Previously, he served as Chair of the House of Commons Standing Committee on Transport and Chair of the House of Commons Liaison Committee. From 1988 to 2003, Keyes was a member of the House of Commons Standing Committee on Industry, Standing Committee on Transport and the Standing Committee on Foreign Affairs and International Trade. He also led Government of Canada Task Forces on High Speed Rail, Airports, and the Canadian Sports System. His leadership on the Ports and Harbours Task Force earned him the American Association of Port Authorities (AAPA) Port Person of the Year Award, the first Canadian to be so honoured.Before entering politics, Keyes was a television news reporter from 1973 to 1988. He covered local news in Hamilton, Ontario, Queen’s Park, Toronto and Parliament Hill, Ottawa. Keyes is married to Catherine. They have two daughters, Caitlin and Hillary. On August 2, 2005, Keyes was appointed Canadian consul general to Boston.The Conservative government of Stephen Harper replaced Keyes as Canada's representative in Boston on July 13, 2006, with Neil LeBlanc, a former Nova Scotia Tory finance minister and leadership candidate.On October 16, 2006, Keyes became the new President of the Canadian Payday Loan Association.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

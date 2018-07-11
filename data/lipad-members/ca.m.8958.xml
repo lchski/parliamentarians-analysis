@@ -1,0 +1,109 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8958">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>SAUVÉ, The Right Hon. Jeanne, P.C., C.C., C.M.M., C.D.</dc:title>
+    <dc:description>Member information for: SAUVÉ, The Right Hon. Jeanne, P.C., C.C., C.M.M., C.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2b7e4f6a-94db-4cf6-b09b-91946d9d0511&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2b7e4f6a-94db-4cf6-b09b-91946d9d0511&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8958">
+    <pm:name>
+      <pm:full>SAUVÉ, The Right Hon. Jeanne, P.C., C.C., C.M.M., C.D.</pm:full>
+      <pm:first>Jeanne</pm:first>
+      <pm:last>Sauvé</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.M.M.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1922-04-26" pm:granularity="8" pm:place="Howell, Saskatchewan, Canada"/>
+      <pm:deceased pm:date="1993-01-26" pm:granularity="8"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Journalist</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2b7e4f6a-94db-4cf6-b09b-91946d9d0511&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=6a2356e5-ed39-4a04-9a99-8c5917ea4678</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Former Governors General">http://www.gg.ca/document.aspx?id=55&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=1508&amp;t=12&amp;ln=sauvé&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="The Speakers of the Canadian House of Commons">http://parl.gc.ca/About/Parliament/Speakers/Hoc/sp-29Sauve-e.htm</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jeanne_Sauvé</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jeanne_Sauvé</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Сове,_Жанна</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Jeanne_Sauvé</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Jeanne_Sauvé</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/잔_마틸드_소베</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Jeanne_Sauvé</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Жанна_Сове</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Jeanne_Sauvé</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Laval-des-Rapides" openpx:province="Quebec">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Laval-des-Rapides" openpx:province="Quebec">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ahuntsic" openpx:province="Quebec">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ahuntsic" openpx:province="Quebec">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1980-04-14" pm:from-granularity="8" pm:till="1984-01-15" pm:till-granularity="8"/>
+        <pm:name>Speaker of the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1975-12-05" pm:from-granularity="8" pm:till="1979-06-03" pm:till-granularity="8"/>
+        <pm:name>Minister of Communications</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1974-08-08" pm:from-granularity="8" pm:till="1975-12-04" pm:till-granularity="8"/>
+        <pm:name>Minister of the Environment</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1972-11-27" pm:from-granularity="8" pm:till="1974-08-07" pm:till-granularity="8"/>
+        <pm:name>Minister of State for Science and Technology</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1984-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jeanne_Sauvé">Jeanne Mathilde Sauvé PC CC CMM CD (née Benoît, April 26, 1922 – January 26, 1993) was a Canadian journalist, politician, and stateswoman who served as Governor General of Canada, the 23rd since Canadian Confederation.Sauvé was born in Saskatchewan and educated in Ottawa and Paris, prior to working as a journalist for the Canadian Broadcasting Corporation (CBC). She was then elected to the House of Commons in 1972, whereafter she served as a minister of the Crown until 1980, when she became the Speaker of the House of Commons. She was in 1984 appointed as governor general by Queen Elizabeth II, on the recommendation of Prime Minister of Canada Pierre Trudeau, to replace Edward Richard Schreyer as vicereine, and she occupied the post until succeeded by Ray Hnatyshyn in 1990. She was the first woman to serve as Canada's governor general and, while her appointment as the Queen's representative was initially and generally welcomed, Sauvé caused some controversy during her time as vicereine, mostly due to increased security around the office, as well as an anti-monarchist attitude towards the position.On November 27, 1972, Sauvé was sworn into the Queen's Privy Council for Canada, giving her the accordant style of The Honourable; however, as a former Governor General of Canada, Sauvé was entitled to be styled for life with the superior form of The Right Honourable. She subsequently founded and worked with the Sauvé Foundation until her death, caused by Hodgkin's lymphoma, on January 26, 1993.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

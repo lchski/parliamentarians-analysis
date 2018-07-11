@@ -1,0 +1,81 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8957">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>FAIRBAIRN, The Hon. Joyce, P.C., B.A., B.J.</dc:title>
+    <dc:description>Member information for: FAIRBAIRN, The Hon. Joyce, P.C., B.A., B.J.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0a3c9d81-b160-49d8-b9ec-d5eef09fa9bc&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0a3c9d81-b160-49d8-b9ec-d5eef09fa9bc&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8957">
+    <pm:name>
+      <pm:full>FAIRBAIRN, The Hon. Joyce, P.C., B.A., B.J.</pm:full>
+      <pm:first>Joyce</pm:first>
+      <pm:last>Fairbairn</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.J.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1939-11-06" pm:granularity="8" pm:place="Lethbridge, Alberta, Canada"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Journalist</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0a3c9d81-b160-49d8-b9ec-d5eef09fa9bc&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7dcd8ef3-4f45-4d6e-a448-74fc68613675</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="NLC Website - Celebrating Women's Achievements…">http://www.collectionscanada.gc.ca/women/030001-1322-e.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Joyce_Fairbairn</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Joyce_Fairbairn</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Lethbridge" openpx:province="Alberta">
+        <pm:period pm:from="1984-06-29" pm:from-granularity="8" pm:till="2013-01-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-11-04" pm:from-granularity="8" pm:till="1997-06-10" pm:till-granularity="8"/>
+        <pm:name>Minister with special responsibility for Literacy</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1993-11-04" pm:from-granularity="8" pm:till="1997-06-10" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the Senate</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1984-06-29" pm:from-granularity="8" pm:till="2013-01-18" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Joyce_Fairbairn">Joyce Fairbairn, PC (born November 6, 1939) was a Canadian senator and was the first woman to serve as Leader of the Government in the Senate.Fairbairn worked as a journalist in the Parliamentary Press Gallery in Ottawa before being hired as a legislative assistant to Prime Minister Pierre Trudeau in 1970. In 1981, she became Communications Coordinator in the Prime Minister's Office. On June 29, 1984, just prior to leaving office, Trudeau recommended her for appointment as a Liberal senator for Alberta, her home province.She has also had various positions in the Liberal Party, including Vice-Chair of the National and Western Liberal Caucus from 1984 to 1990, and Co-chair of the Liberal Party of Canada Election Readiness Committee in 1991.When the Liberals returned to power after the 1993 election, Prime Minister Jean Chrétien appointed Fairbairn to the Canadian Cabinet as Government Leader in the Senate and Minister with special responsibility for Literacy. She served in Cabinet until 1997. She has been Chair of the Standing Senate Committee on Agriculture and Forestry, and the Special Senate Committee on the Anti-terrorism Act. She sat on the Senate Committee on Agriculture and Forestry until June 2012.In August 2012, it was reported that Fairbairn has taken indefinite sick leave from the Senate due to the onset of Alzheimer's disease. It was subsequently revealed that Fairbairn had been declared legally incompetent in February but had continued voting in the Senate until June. The Fairbairn case has led to calls for the Senate to establish rules to address similar situations should they arise in the future. It was announced on November 30, 2012, that she had tendered her resignation to the Governor General with effect from January 18, 2013.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

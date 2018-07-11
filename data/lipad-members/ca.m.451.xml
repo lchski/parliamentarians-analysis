@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.451">
+    <dc:identifier>ca.m.451</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>SAVOIE,  Denise, B.A., M.A., M.Ed.</dc:title>
+    <dc:description>Member information for: SAVOIE,  Denise, B.A., M.A., M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=43d98498-4000-43e4-b468-5f79352823ad&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=43d98498-4000-43e4-b468-5f79352823ad&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.451">
+    <pm:name>
+      <pm:full>SAVOIE,  Denise, B.A., M.A., M.Ed.</pm:full>
+      <pm:first>Denise</pm:first>
+      <pm:last>Savoie</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1943-11-21" pm:granularity="8" pm:place="St-Boniface, Manitoba, Canada"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Educator</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=43d98498-4000-43e4-b468-5f79352823ad&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7c56b050-ca5d-48ea-b590-6d5121d4fa60</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Denise_Savoie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Denise_Savoie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Denise_Savoie</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Denise_Savoie</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Victoria" openpx:province="British Columbia">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="2012-08-31" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Victoria" openpx:province="British Columbia">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Victoria" openpx:province="British Columbia">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2011-06-06" pm:from-granularity="8" pm:till="2012-08-31" pm:till-granularity="8"/>
+        <pm:name>Deputy Speaker and Chair of Committees of the Whole of the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2008-11-21" pm:from-granularity="8" pm:till="2011-06-05" pm:till-granularity="8"/>
+        <pm:name>Deputy Chair of Committees of the Whole</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2012-08-31" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Denise_Savoie">Denise Savoie (/sæˈvwɑː/; born November 21, 1943 in St. Boniface, Manitoba) is a Canadian politician, who served as the federal Member of Parliament for Victoria from 2006 until 2012 representing the New Democratic Party. She was elected to the House of Commons of Canada in the 2006 federal election as a candidate of the New Democratic Party. She resigned from parliament effective August 31, 2012 citing health reasons.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

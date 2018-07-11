@@ -1,0 +1,89 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6264">
+    <dc:identifier>ca.m.6264</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>PROUD,  George Albert</dc:title>
+    <dc:description>Member information for: PROUD,  George Albert</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1e73027c-405a-4806-a0f7-4883a47a70f9&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1e73027c-405a-4806-a0f7-4883a47a70f9&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6264">
+    <pm:name>
+      <pm:full>PROUD,  George Albert</pm:full>
+      <pm:first>George Albert</pm:first>
+      <pm:last>Proud</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1939-04-09" pm:granularity="8" pm:place="Charlottetown, Prince Edward Island, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Property supervisor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=1e73027c-405a-4806-a0f7-4883a47a70f9&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=905475e2-e55a-4053-8d19-4efb22f0c4da</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="PEILDO Website">http://www.peildo.ca/fedora/repository/leg:27701</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/George_Proud</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/George_Proud</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Hillsborough" openpx:province="Prince Edward Island">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hillsborough" openpx:province="Prince Edward Island">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hillsborough" openpx:province="Prince Edward Island">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1997-07-10" pm:from-granularity="8" pm:till="1998-07-15" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Veterans Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1997-02-22" pm:from-granularity="8" pm:till="1997-07-09" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Labour (Human Resources Development)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1996-07-12" pm:from-granularity="8" pm:till="1997-07-09" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Human Resources Development</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1996-02-23" pm:from-granularity="8" pm:till="1996-07-11" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Labour (Human Resources Development)</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="2000-11-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/George_Proud">George Albert Proud (born 9 April 1939 in Charlottetown, Prince Edward Island) was a member of the Canadian House of Commons from 1988 to 2000.From 1974 to 1982, he was a provincial politician in the Legislative Assembly of Prince Edward Island as a Councillor for the 5th Queens provincial electoral district.Proud moved to federal politics in 1988 general election when he was elected in the Hillsborough electoral district for the Liberal party. He was re-elected in the 1993 and 1997 federal elections. His national Parliament experience spanned the 34th, 35th and 36th Canadian Parliaments.After leaving federal politics as of the 2000 federal election, Proud became a member of the Canadian Transportation Agency in 2001.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

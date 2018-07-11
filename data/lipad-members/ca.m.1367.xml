@@ -1,0 +1,88 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1367">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>DOMM,  William Henry (Bill)</dc:title>
+    <dc:description>Member information for: DOMM,  William Henry (Bill)</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b8477412-c099-4b2b-89a8-94155dd3d914&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b8477412-c099-4b2b-89a8-94155dd3d914&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1367">
+    <pm:name>
+      <pm:full>DOMM,  William Henry (Bill)</pm:full>
+      <pm:first>William Henry (Bill)</pm:first>
+      <pm:last>Domm</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1930-07-24" pm:granularity="8" pm:place="St Catharines, Ontario, Canada"/>
+      <pm:deceased pm:date="2000-01-08" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Broadcaster, businessman, salesman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b8477412-c099-4b2b-89a8-94155dd3d914&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=396b813d-2153-4174-9c9c-392e19dc3ae1</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Bill_Domm</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Bill_Domm</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-09-01" pm:from-granularity="8" pm:till="1993-10-26" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister for Science</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1991-05-08" pm:from-granularity="8" pm:till="1993-06-24" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister for Science</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1984-11-01" pm:from-granularity="8" pm:till="1986-10-14" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Consumer and Corporate Affairs</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1993-10-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Bill_Domm">William Henry (Bill) Domm (July 24, 1930 - January 8, 2000) was a Member of Parliament (MP) in the Canadian House of Commons from 1979 to 1993. He was best known for his crusades against the metric system and in favour of capital punishment[1].Domm represented the riding of Peterborough, Ontario from the 1979 federal election until his defeat in the 1993 election. Born in St. Catharines, Ontario, Domm was the son of a United Church of Canada minister. He was educated at the Ryerson Institute of Technology and became a radio broadcaster in Peterborough.Domm's campaign against Metric conversion in Canada was most vocal during the final Pierre Trudeau government of 1980 to 1984. In 1983, he and other Tory MPs illegally pumped gas using Imperial measurements at their "Freedom to Measure" gas station. The station was leased by the MPs in hopes of provoking the government into laying charges and thus allowing a legal challenge to mandatory use of metric. The government ignored the station and it closed after a year. When the Progressive Conservatives formed government following the 1984 federal election, Domm became parliamentary secretary to the Minister of Consumer and Corporate Affairs, the government minister responsible for the metrification program. However, while the Metric Commission was disbanded and rules on enforcing metric were loosened, the "metrification" of the country was not reversed.[2] Domm's lobbying for the death penalty resulted in a free vote being held in the House of Commons in 1988, however the motion to restore capital punishment was defeated. He was more successful in his campaign for the restoration of Via Rail service on the Toronto-Peterborough-Havelock line. Domm also took stands against bilingualism, abortion and gun control voting against his party on several occasions.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

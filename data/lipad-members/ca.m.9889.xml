@@ -1,0 +1,91 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9889">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>ROCHE,  Douglas, O.C., K.C.S.G., LL.D.</dc:title>
+    <dc:description>Member information for: ROCHE,  Douglas, O.C., K.C.S.G., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6f77b9ca-d1c8-4314-bbe4-e66ec286cc88&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6f77b9ca-d1c8-4314-bbe4-e66ec286cc88&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9889">
+    <pm:name>
+      <pm:full>ROCHE,  Douglas, O.C., K.C.S.G., LL.D.</pm:full>
+      <pm:first>Douglas</pm:first>
+      <pm:last>Roche</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.S.G.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1929-06-14" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, diplomat, editor, journalist, lecturer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6f77b9ca-d1c8-4314-bbe4-e66ec286cc88&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=9a4867df-3c5a-48bc-af20-eb2505248f89</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=3048&amp;t=12&amp;ln=roche&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Douglas_Roche</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Douglas_Roche</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Edmonton South" openpx:province="Alberta">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Edmonton South" openpx:province="Alberta">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Edmonton--Strathcona" openpx:province="Alberta">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Edmonton--Strathcona" openpx:province="Alberta">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Edmonton" openpx:province="Alberta">
+        <pm:period pm:from="1998-09-17" pm:from-granularity="8" pm:till="2004-06-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1979-10-01" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Secretary of State for External Affairs</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1998-09-17" pm:from-granularity="8" pm:till="2004-06-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Douglas_Roche">Douglas James Roche, OC, KCSG (born June 14, 1929) is a former Canadian politician, He served as Progressive Conservative Member of Parliament (MP) for Edmonton—Strathcona from 1972 to 1979 and for Edmonton South 1979-1984. In 1984, he was appointed Canada's Ambassador for Disarmament, a position he held until 1989. He was appointed to the Senate of Canada on September 17, 1998, where he served until June 13, 2004. Currently he resides in Edmonton, Alberta.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

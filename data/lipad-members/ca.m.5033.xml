@@ -1,0 +1,82 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5033">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>BERTRAND,  Lionel</dc:title>
+    <dc:description>Member information for: BERTRAND,  Lionel</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=15f7b640-a209-4f80-8dd3-69851bfeb8ad&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=15f7b640-a209-4f80-8dd3-69851bfeb8ad&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5033">
+    <pm:name>
+      <pm:full>BERTRAND,  Lionel</pm:full>
+      <pm:first>Lionel</pm:first>
+      <pm:last>Bertrand</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1906-03-10" pm:granularity="8" pm:place="Saint-Jovite, Quebec, Canada"/>
+      <pm:deceased pm:date="1979-03-25" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Journalist, newspaper editor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=15f7b640-a209-4f80-8dd3-69851bfeb8ad&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=981e63af-35b0-4a93-abbf-1c8aa90e66af</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/bertrand-lionel-2055/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Lionel_Bertrand</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Lionel_Bertrand</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Lionel_Bertrand</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Lionel_Bertrand</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Terrebonne" openpx:province="Quebec">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Terrebonne" openpx:province="Quebec">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Terrebonne" openpx:province="Quebec">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Terrebonne" openpx:province="Quebec">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1957-06-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent Liberal" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1944-07-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Lionel_Bertrand">Lionel Bertrand (March 10, 1906 in St. Jovite, Quebec, Canada – March 26, 1979) was a Canadian politician, journalist and newspaper editor. He was elected to the Canadian House of Commons in the 1940 election as an Independent Liberal to represent the riding of Terrebonne. He joined the Liberal Party for the 1945 election and was re-elected that year then re-elected in 1949 and in 1953. He was also a Member of the National Assembly of Quebec elected in 1960 to represent the electoral district of Terrebonne. He was appointed as Provincial Secretary, followed by Minister of Tourism, Fish and Game then followed by Member of the Legislative Council of Quebec. Bertrand also authored a number of books.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

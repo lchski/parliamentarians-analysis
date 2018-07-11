@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7781">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>ROSE,  Mark Willson, B.Sc., M.Ed.</dc:title>
+    <dc:description>Member information for: ROSE,  Mark Willson, B.Sc., M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=99588785-2883-4677-aa8a-76e8bbf45189&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=99588785-2883-4677-aa8a-76e8bbf45189&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7781">
+    <pm:name>
+      <pm:full>ROSE,  Mark Willson, B.Sc., M.Ed.</pm:full>
+      <pm:first>Mark Willson</pm:first>
+      <pm:last>Rose</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Sc.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1924-03-05" pm:granularity="8" pm:place="Vancouver, British Columbia, Canada"/>
+      <pm:deceased pm:date="2008-03-08" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Professor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=99588785-2883-4677-aa8a-76e8bbf45189&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=681fba55-f073-423f-8f3e-dfba9a2f09e8</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Mark_Rose_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Mark_Rose_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Mission--Port Moody" openpx:province="British Columbia">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Mission--Port Moody" openpx:province="British Columbia">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Fraser Valley West" openpx:province="British Columbia">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Fraser Valley West" openpx:province="British Columbia">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1982-01-01" pm:from-granularity="4" pm:till="1983-04-01" pm:till-granularity="6"/>
+        <pm:name>N.D.P. Caucus Chair</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1983-04-20" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1974-07-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Mark_Rose_(politician)">Mark Willson Rose (5 March 1924 – 8 March 2008) was a New Democratic Party politician in Canada, active on both the federal and provincial levels. He was a professor by career.He first became a member of the Canadian House of Commons at the Fraser Valley West electoral district which he won in the 1968 federal election. Rose made an earlier, unsuccessful attempt at the Fraser Valley riding in 1965. He served two terms in the 28th and 29th Canadian Parliaments before being defeated by Robert Wenman of the Progressive Conservative party in the 1974 election.Rose returned to Canadian Parliament in the 1979 federal election with a victory at the Mission—Port Moody electoral district. After a term in the 31st Canadian Parliament, he was re-elected in 1980 but resigned from his seat before completing his term in the 32nd Canadian Parliament to campaign in the British Columbia provincial election. He won his campaign for the Coquitlam-Moody riding and was a member of that province's Legislative Assembly until 1991.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,77 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9768">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>DECORE,  John, Q.C., B.A., LL.B.</dc:title>
+    <dc:description>Member information for: DECORE,  John, Q.C., B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=12e5efde-6e7d-4eda-b906-7d5394dec485&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=12e5efde-6e7d-4eda-b906-7d5394dec485&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9768">
+    <pm:name>
+      <pm:full>DECORE,  John, Q.C., B.A., LL.B.</pm:full>
+      <pm:first>John</pm:first>
+      <pm:last>Decore</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1909-04-09" pm:granularity="8" pm:place="Andrew, Alberta, Canada"/>
+      <pm:deceased pm:date="1994-11-11" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister, lawyer, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=12e5efde-6e7d-4eda-b906-7d5394dec485&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=24060d81-a041-4f67-bd48-a7583df80f69</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Decore</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Decore</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Дікур_Іван</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/Дікур_Іван</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Vegreville" openpx:province="Alberta">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vegreville" openpx:province="Alberta">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1957-06-09" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Decore">John Decore (April 9, 1909, Andrew, Alberta – November 11, 1994) was a barrister, lawyer, teacher and a Canadian federal politician.Decore first ran for a seat in the Canadian House of Commons as a Liberal candidate in the 1949 federal election. He would win the Vegreville district defeating incumbent Anthony Hlynka in a close 2 way race. Decore would run for re-election again in the 1953 federal election, once again defeating Anthony Hlynka. Decore would not run again after his second term was over in 1957.Decore attempted to return to federal politics in the 1962 federal election, this time in the Edmonton East electoral district. He would be defeated by incumbent William Skoreyko. He would run one more time for a seat in Parliament the next year in the 1963 federal election in the Edmonton—Strathcona electoral district. He would be defeated in that election by incumbent Terry Nugent.Decore's son Laurence Decore followed his fathers footsteps in politics and became Mayor of Edmonton and Leader of the Opposition in the Legislative Assembly of Alberta.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

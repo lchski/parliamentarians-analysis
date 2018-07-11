@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3636">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>KENNEDY,  John Wilfred</dc:title>
+    <dc:description>Member information for: KENNEDY,  John Wilfred</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0d163d4c-12df-46ba-bc01-b1c27f30d6d5&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0d163d4c-12df-46ba-bc01-b1c27f30d6d5&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3636">
+    <pm:name>
+      <pm:full>KENNEDY,  John Wilfred</pm:full>
+      <pm:first>John Wilfred</pm:first>
+      <pm:last>Kennedy</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1879-10-10" pm:granularity="8" pm:place="Apple Hill, Ontario, Canada"/>
+      <pm:deceased pm:date="1949-11-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0d163d4c-12df-46ba-bc01-b1c27f30d6d5&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=5568600c-b25e-4dec-839c-a0737b823031</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Wilfred_Kennedy</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Wilfred_Kennedy</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Glengarry and Stormont" openpx:province="Ontario">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Glengarry and Stormont" openpx:province="Ontario">
+        <pm:period pm:from="1919-10-27" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive" pm:party-ref="ca.p.progressive" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-10-28" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="United Farmers of Ontario-Labour" pm:party-ref="ca.p.UFO" pm:body="other">
+        <pm:period pm:from="1919-10-27" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Wilfred_Kennedy">John Wilfred Kennedy (October 10, 1879 – November 19, 1949) was a farmer and political figure in Ontario. Canada. He represented Glengarry and Stormont in the Canadian House of Commons from 1919 to 1925 as a United Farmers and then Progressive Party member.He was born in Apple Hill, Ontario, the son of John Kennedy and Catherine McDougall, and was educated in Alexandria, Ontario and the Ontario Agricultural College. In 1915, Kennedy married Helen Meehan. He farmed at Apple Hill. He served on the council for Kenyon Township from 1913 to 1916 and was deputy reeve from 1917 to 1918 and reeve in 1919. Kennedy was defeated when he ran for reelection in 1925 in the restructured riding of Glengarry. Kennedy later sold his farm and opened a business college in Ottawa. For a time, he was employed by the federal Income Tax department.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

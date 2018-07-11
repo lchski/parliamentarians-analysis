@@ -1,0 +1,122 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.30">
+    <dc:identifier>ca.m.30</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>BLAIKIE, The Hon. Rev. William Alexander (Bill), P.C., B.A., M.Div.</dc:title>
+    <dc:description>Member information for: BLAIKIE, The Hon. Rev. William Alexander (Bill), P.C., B.A., M.Div.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=b42f24b0-65c3-47aa-9997-d0678cacc904&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=b42f24b0-65c3-47aa-9997-d0678cacc904&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.30">
+    <pm:name>
+      <pm:full>BLAIKIE, The Hon. Rev. William Alexander (Bill), P.C., B.A., M.Div.</pm:full>
+      <pm:first>William Alexander (Bill)</pm:first>
+      <pm:last>Blaikie</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Div.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1951-06-19" pm:granularity="8" pm:place="Winnipeg, Manitoba, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Clergyperson</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=b42f24b0-65c3-47aa-9997-d0678cacc904&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=2c1cf629-117d-4dc9-a36d-adc9cd3ae548</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Bill_Blaikie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Bill_Blaikie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Bill_Blaikie</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Bill_Blaikie</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Elmwood--Transcona" openpx:province="Manitoba">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Elmwood--Transcona" openpx:province="Manitoba">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg--Transcona" openpx:province="Manitoba">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg--Transcona" openpx:province="Manitoba">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg Transcona" openpx:province="Manitoba">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg Transcona" openpx:province="Manitoba">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg--Birds Hill" openpx:province="Manitoba">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg--Birds Hill" openpx:province="Manitoba">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg--Birds Hill" openpx:province="Manitoba">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2003-01-26" pm:from-granularity="8" pm:till="2004-06-27" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Leader of the N.D.P.</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1996-01-11" pm:from-granularity="8" pm:till="2003-02-05" pm:till-granularity="8"/>
+        <pm:name>N.D.P. House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1993-01-02" pm:from-granularity="8" pm:till="1993-12-01" pm:till-granularity="6"/>
+        <pm:name>N.D.P. Deputy House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2006-04-05" pm:from-granularity="8" pm:till="2008-10-01" pm:till-granularity="6"/>
+        <pm:name>Deputy Speaker and Chair of Committees of the Whole of the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1995-06-30" pm:from-granularity="8" pm:till="1996-01-01" pm:till-granularity="4"/>
+        <pm:name>N.D.P. Caucus Chair</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1983-05-18" pm:from-granularity="8" pm:till="1984-10-28" pm:till-granularity="8"/>
+        <pm:name>N.D.P. Caucus Chair</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Bill_Blaikie">William Alexander "Bill" Blaikie, PC (born June 19, 1951) is a Canadian politician. He was a member of the Legislative Assembly of Manitoba, from 2009 until 2011 representing the Winnipeg division of Elmwood as a member of the New Democratic Party of Manitoba, and served as Minister of Conservation and Government House Leader. He was previously a Member of Parliament (MP) from 1979 to 2008, representing Elmwood—Transcona and its antecedent ridings in the Canadian House of Commons for the federal New Democratic Party.Blaikie had the longest continuous parliamentary record in the 39th Canadian parliament, and in this capacity served as the Dean of the House. He is a member of the Queen's Privy Council for Canada and has the right to be styled the Honourable for life. Blaikie was the Deputy Speaker of the Canadian House of Commons from 2006 to 2008.Prior to the October 2011 provincial election he announced that he was retiring from political life.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

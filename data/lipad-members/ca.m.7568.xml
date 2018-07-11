@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7568">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>MCDONALD,  Robert Matthew Turnbull</dc:title>
+    <dc:description>Member information for: MCDONALD,  Robert Matthew Turnbull</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=778f0917-8681-4a2e-9fb2-0d8fa121a4d4&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=778f0917-8681-4a2e-9fb2-0d8fa121a4d4&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7568">
+    <pm:name>
+      <pm:full>MCDONALD,  Robert Matthew Turnbull</pm:full>
+      <pm:first>Robert Matthew Turnbull</pm:first>
+      <pm:last>McDonald</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1931-09-26" pm:granularity="8" pm:place="Hamilton, Ontario, Canada"/>
+      <pm:deceased pm:date="2002-06-09" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, insurance agent, professional football player, public servant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=778f0917-8681-4a2e-9fb2-0d8fa121a4d4&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=4e9b0f89-acda-4f9e-969f-32d834f46d04</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Bob_McDonald_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Bob_McDonald_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Hamilton South" openpx:province="Ontario">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hamilton South" openpx:province="Ontario">
+        <pm:period pm:from="1958-03-31" pm:from-granularity="8" pm:till="1962-04-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hamilton South" openpx:province="Ontario">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1963-04-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Bob_McDonald_(politician)">Robert Matthew Turnbull McDonald (26 September 1931 – 9 June 2002) was a Progressive Conservative party member of the Canadian House of Commons. Born in Hamilton, Ontario, he was a businessman, insurance agent, professional football player and public servant.Bob McDonald joined the Hamilton Tiger-Cats as a defensive halfback in 1950 and won the Canadian Football League's Gruen Trophy as rookie of the year in the Big Four eastern conference. He quit professional football after contracting poliomyelitis on 6 August 1953 after which he required the use of crutches.Recovered from the illness, his new career was selling insurance. As the 1957 federal election approached, the Progressive Conservative party recruited McDonald as their candidate in the Hamilton South riding. On election day, 10 June 1957, a 25-year-old McDonald defeated Liberal party incumbent Russell Reinke as part of an Ontario sweep by the Tories, helping John Diefenbaker win a minority government.After winning two more terms in the 1958 and 1962 federal elections, McDonald was defeated by William Dean Howe of the New Democratic Party in the 1963 election. McDonald served three terms from the 23rd to 25th Canadian Parliaments.After leaving federal politics McDonald became a Hamilton school trustee in 1964 and returned to business for a decade, running Crystal Glass and Plastics. He moved to provincial government in the 1970s as general manager of the Ontario Mortgage Corporation. From 1978 to 1991, he held various deputy minister positions with the Government of Ontario. He also served on the Peel Police Services Board and the National Parole Board.McDonald died in June 2002, survived by his wife, two daughters and a son.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

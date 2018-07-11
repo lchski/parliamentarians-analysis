@@ -1,0 +1,85 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4838">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>GÉRIN,  François, B.Sc.Comm., LL.D.</dc:title>
+    <dc:description>Member information for: GÉRIN,  François, B.Sc.Comm., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fa05dcc9-6261-488f-958e-411099134573&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fa05dcc9-6261-488f-958e-411099134573&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4838">
+    <pm:name>
+      <pm:full>GÉRIN,  François, B.Sc.Comm., LL.D.</pm:full>
+      <pm:first>François</pm:first>
+      <pm:last>Gérin</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Sc.Comm.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1944-08-03" pm:granularity="8" pm:place="Coaticook, Quebec, Canada"/>
+      <pm:deceased pm:date="2005-04-03" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fa05dcc9-6261-488f-958e-411099134573&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=8fd5dca3-47f4-4110-807e-37b2d7446c2b</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/François_Gérin</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/François_Gérin</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/François_Gérin</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Mégantic--Compton--Stanstead" openpx:province="Quebec">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Mégantic--Compton--Stanstead" openpx:province="Quebec">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1986-10-15" pm:from-granularity="8" pm:till="1987-09-30" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Bloc Québécois" pm:party-ref="ca.p.blocquebecois" pm:body="other">
+        <pm:period pm:from="1991-09-26" pm:from-granularity="8" pm:till="1993-10-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1990-05-18" pm:from-granularity="8" pm:till="1991-09-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1990-05-17" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/François_Gérin">François Gérin (3 August 1944 – 3 April 2005) was a member of the Canadian House of Commons. He was a lawyer by career.Gérin was born in Coaticook, Quebec.He represented the Quebec riding of Mégantic—Compton—Stanstead where he was first elected in the 1984 federal election under the Progressive Conservative party. He was re-elected in 1988, therefore becoming a member in the 33rd and 34th Canadian Parliaments.However, he left the Progressive Conservative party on 5 May 1990 and became independent until he formally became a founding member of the Bloc Québécois in September 1991. In 1993, Gérin left federal politics and did not seek a third term in the House of Commons.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,98 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8222">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>COLLINS, The Hon. Mary, P.C., B.A.</dc:title>
+    <dc:description>Member information for: COLLINS, The Hon. Mary, P.C., B.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=29e3fa33-f542-476f-88d3-d7da7d2f2404&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=29e3fa33-f542-476f-88d3-d7da7d2f2404&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8222">
+    <pm:name>
+      <pm:full>COLLINS, The Hon. Mary, P.C., B.A.</pm:full>
+      <pm:first>Mary</pm:first>
+      <pm:last>Collins</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1940-09-26" pm:granularity="8" pm:place="Vancouver, British Columbia, Canada"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businesswoman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=29e3fa33-f542-476f-88d3-d7da7d2f2404&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=96b58b4d-de5d-496e-97d1-c7f6bbcea43d</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Mary_Collins</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Mary_Collins</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Capilano--Howe Sound" openpx:province="British Columbia">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Capilano" openpx:province="British Columbia">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-06-25" pm:from-granularity="8" pm:till="1993-11-03" pm:till-granularity="8"/>
+        <pm:name>Minister of Amateur Sport</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-06-25" pm:from-granularity="8" pm:till="1993-11-03" pm:till-granularity="8"/>
+        <pm:name>Minister of National Health and Welfare</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-01-04" pm:from-granularity="8" pm:till="1993-06-24" pm:till-granularity="8"/>
+        <pm:name>Minister of Western Economic Diversification</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1990-02-23" pm:from-granularity="8" pm:till="1993-11-03" pm:till-granularity="8"/>
+        <pm:name>Minister responsible for the Status of Women</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1989-01-30" pm:from-granularity="8" pm:till="1993-01-03" pm:till-granularity="8"/>
+        <pm:name>Associate Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-01-04" pm:from-granularity="8" pm:till="1993-06-24" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Environment)</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1993-10-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Mary_Collins">Mary Collins, PC (born September 26, 1940) is a former Canadian politician.She was first elected to the Canadian House of Commons in the 1984 federal election as the Progressive Conservative Member of Parliament for Capilano, British Columbia.She retained her seat in the 1988 federal election for the redistributed riding of Capilano—Howe Sound. She was appointed to the Cabinet of Prime Minister Brian Mulroney as Associate Minister of National Defence from 1989 to 1993. She also served as Minister responsible for the Status of Women from 1990 to 1993.In January 1993, she became Minister of Western Economic Diversification and Minister of State for the environment as well as Status of WomenWhen Kim Campbell succeeded Mulroney as PC leader and prime minister in June 1993, she promoted Collins to the positions of Minister of National Health and Welfare and Minister of Amateur Sport.Her career ended that fall with the defeat of the Campbell government and the loss of her own parliamentary seat in the 1993 federal election.After leaving politics, Collins was President of the BC Health Association. She served as an honorary co-chair of the women's campaign school of the Canadian Women Voters Congress, as a consultant in promoting women's political development in Vietnam and Ukraine. She then spent five years in Russia (2002-2007) working on a health reform project in Chuvashia and for the World Health Organization in Moscow. As of March 2008, she is the Director of the BC Healthy Living Alliance Secretariat| and most recently as well, Chair of the Chronic Disease Prevention Alliance of Canada.. She currently serves as a member of the Vancouver Police Board, the Boards of Royal Roads University, Emerging Leaders Dialogues Canada Inc.,Vancouver Opera Foundation and the Arts Club Theatre of Vancouver. She holds honorary doctorate degrees from Royal Roads University and Royal Roads Military College and is a recipient of the Distinguished Alumni Award from Queen's University and was the inaugural recipient of the Kathleen Beaumont Hill award given by the Vancouver Queen's University Alumni. She also has received the Queen's Jubilee Award.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,72 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.303">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>STEUART, The Hon. David Gordon</dc:title>
+    <dc:description>Member information for: STEUART, The Hon. David Gordon</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=77df9762-31ba-4fcf-9b9a-6b2f1461aada&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=77df9762-31ba-4fcf-9b9a-6b2f1461aada&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.303">
+    <pm:name>
+      <pm:full>STEUART, The Hon. David Gordon</pm:full>
+      <pm:first>David Gordon</pm:first>
+      <pm:last>Steuart</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1916-01-26" pm:granularity="8" pm:place="Regina, Saskatchewan, Canada"/>
+      <pm:deceased pm:date="2010-11-05" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=77df9762-31ba-4fcf-9b9a-6b2f1461aada&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=c153ee17-3675-45ed-aee6-4835cf6b0d10</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/David_Steuart</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/David_Steuart</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/David_Steuart</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/David_Steuart</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Prince Albert-Duck Lake" openpx:province="Saskatchewan">
+        <pm:period pm:from="1976-12-09" pm:from-granularity="8" pm:till="1991-01-26" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1976-12-09" pm:from-granularity="8" pm:till="1991-01-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/David_Steuart">David Gordon "Davey" Steuart (January 26, 1916 – November 5, 2010) was a Saskatchewan politician, cabinet minister and Senator.Born in Moose Jaw, the son of Francis J. Steuart and Abbie Cory Thomas, Steuart moved to Prince Albert with his family in 1936. In the same year, he married Eunice Mary Cooke. Steuart served as a navigator in the Royal Canadian Air Force during World War II. He was elected to Prince Albert city council in 1951 and served as mayor from 1954 to 1958. He also served as president of the Saskatchewan Urban Municipalities Association.A member of the Saskatchewan Liberal Party's provincial executive he helped former Co-operative Commonwealth Federation MP Ross Thatcher win the Liberal Party's leadership convention in 1959 and also became president of the party that year.He failed in his 1960 bid to win a seat in the Saskatchewan legislature but won a by-election two years later and retained the Prince Albert seat in the 1964 provincial election that brought the Thatcher Liberals to power.Steuart was appointed Minister of Health in the provincial cabinet implementing the government's system of user fees for health care and, in 1965, became Minister of Natural Resources and Deputy Premier. In 1967, he became Minister of Finance.Steuart's budgets were blamed for the Liberal Party's defeat in the 1971 provincial election. Nevertheless, Steuart was elected party leader in December 1971 following Thatcher's death. He served as Leader of the Opposition for four years resigning the party leadership two days after the 1975 provincial election in which the party was badly defeated.He was appointed to the Canadian Senate in December 1975 and served until his retirement in 1991, when he moved to Kelowna, British Columbia.Steuart died at home in Kelowna on November 5, 2010, at the age of 94.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

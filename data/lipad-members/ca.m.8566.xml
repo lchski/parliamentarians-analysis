@@ -1,0 +1,112 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8566">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>TOLMIE, The Hon. Simon Fraser, P.C., V.S.</dc:title>
+    <dc:description>Member information for: TOLMIE, The Hon. Simon Fraser, P.C., V.S.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=a4a7d1fa-870b-4590-a260-7e2f460d6e83&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=a4a7d1fa-870b-4590-a260-7e2f460d6e83&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8566">
+    <pm:name>
+      <pm:full>TOLMIE, The Hon. Simon Fraser, P.C., V.S.</pm:full>
+      <pm:first>Simon Fraser</pm:first>
+      <pm:last>Tolmie</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">V.S.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1867-01-25" pm:granularity="8" pm:place="Victoria, British Columbia, Canada"/>
+      <pm:deceased pm:date="1937-10-13" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer, public servant, rancher, veterinary surgeon</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=a4a7d1fa-870b-4590-a260-7e2f460d6e83&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=18eaa163-0ea4-4486-983b-faa66b9d1caf</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Simon_Fraser_Tolmie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Simon_Fraser_Tolmie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Simon_Fraser_Tolmie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Simon_Fraser_Tolmie</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Simon_Fraser_Tolmie</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Simon_Fraser_Tolmie</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Victoria" openpx:province="British Columbia">
+        <pm:period pm:from="1936-06-08" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Victoria" openpx:province="British Columbia">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Victoria" openpx:province="British Columbia">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Victoria City" openpx:province="British Columbia">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Victoria City" openpx:province="British Columbia">
+        <pm:period pm:from="1919-10-27" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Victoria City" openpx:province="British Columbia">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1926-07-13" pm:from-granularity="8" pm:till="1926-09-24" pm:till-granularity="8"/>
+        <pm:name>Minister of Agriculture</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1920-07-10" pm:from-granularity="8" pm:till="1921-12-28" pm:till-granularity="8"/>
+        <pm:name>Minister of Agriculture</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1919-08-12" pm:from-granularity="8" pm:till="1920-07-09" pm:till-granularity="8"/>
+        <pm:name>Minister of Agriculture</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1936-06-08" pm:from-granularity="8" pm:till="1937-10-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1928-06-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Unionist" pm:party-ref="ca.p.unionist" pm:body="other">
+        <pm:period pm:from="1919-10-27" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Unionist" pm:party-ref="ca.p.unionist" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1919-08-12" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Simon_Fraser_Tolmie">Simon Fraser Tolmie, PC (January 25, 1867 – October 13, 1937) was a veterinarian, farmer, politician, and the 21st Premier of the Province of British Columbia, Canada. Tolmie had an impeccable pioneer lineage, which aided him in his political aspirations. He was the son of Dr. William Fraser Tolmie, a prominent figure in the Hudson's Bay Company and a member of both the colonial assembly of Colony of Vancouver Island and the Legislative Assembly of British Columbia. His mother, Jane, was the daughter of John Work, a prominent Victoria resident, Hudson's Bay Company Chief Factor, and member of the former colony's assembly. Jane's mother was Josette Legace, a daughter of a Spokane mother and a French-Candian trapper father. Born in Victoria, Tolmie spent his early life on his family's vast farm, Hillside (the Victoria neighbourhood bears its name). He graduated from the Ontario Veterinary College in 1891 and later became the Dominion Inspector of Livestock. Tolmie entered federal politics in the election of 1917, becoming Unionist MP for Victoria City. He was returned in the subsequent four elections as a Conservative (the riding changed its name to Victoria in 1924). Tolmie served as Minister of Agriculture in the governments of Sir Robert Borden and Arthur Meighen from 1919–1921, and in 1926.Tolmie was elected leader of the British Columbia Conservative Party in 1926 but continued to sit as a Member of Parliament until the 1928 provincial election, in which he ran and was elected MLA for Saanich. The Conservatives were victorious that year, taking 32 of the legislature's 48 seats, including every seat in Vancouver and Victoria. Tolmie thus became Premier of the province, also serving as Minister of Railways.Like their federal counterparts, who returned to power in 1930, Tolmie's Tories' commitment to applying "business principles to the business of government," rebounded to their disadvantage when the Great Depression hit. By 1931, unemployment reached 28% - the highest in Canada - and Tolmie was finally forced to act, setting up remote relief camps. Tolmie acceded to the request from the business community that a royal commission be established to propose solutions to the province's increasingly dire financial situation. The Kidd Report, issued in 1932, recommended such sharp cuts to social services that mainstream British Columbians were enraged. They had come to expect more from their provincial government than its traditional functions of maintaining law and order, providing physical infrastructure and encouraging private enterprise. The strained situation took its toll on the provincial party, which became so wracked by internal discord that the executive decided to run no candidates in the 1933 election. Rather, each local riding association acted on its own. Some candidates ran as independents, some as Independent Conservatives. Those supporting Tolmie, ran as Unionists, and those grouped around William John Bowser, a former premier, ran as Non-Partisans. The result was easily foreseen. The Liberals captured 42% of the vote and 34 of the 47 seats, the new social democratic Co-operative Commonwealth Federation became the official opposition, and the Conservatives who had run under various banners picked up just five seats. Tolmie lost his own seat. Tolmie returned to politics three years later, returning to his old federal seat of Victoria in a 1936 by-election. He died in Victoria a little over a year later. Tolmie led the last Conservative provincial government in British Columbia.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

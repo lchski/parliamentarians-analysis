@@ -1,0 +1,81 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7515">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-16+01:00</dc:date>
+    <dc:title>GILBERT,  John, Q.C., B.A., LL.B.</dc:title>
+    <dc:description>Member information for: GILBERT,  John, Q.C., B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=125cc749-f923-4c88-9d4c-e2f17faa5a5f&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=125cc749-f923-4c88-9d4c-e2f17faa5a5f&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7515">
+    <pm:name>
+      <pm:full>GILBERT,  John, Q.C., B.A., LL.B.</pm:full>
+      <pm:first>John</pm:first>
+      <pm:last>Gilbert</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1921-09-21" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:deceased pm:date="2006-08-07" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=125cc749-f923-4c88-9d4c-e2f17faa5a5f&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7296066f-212c-4b2e-829a-b4eaf3de08fe</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Gilbert_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Gilbert_(Canadian_politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Broadview" openpx:province="Ontario">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Broadview" openpx:province="Ontario">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Broadview" openpx:province="Ontario">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Broadview" openpx:province="Ontario">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1978-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Gilbert_(Canadian_politician)">John Gilbert (September 12, 1921 – August 7, 2006) was a Canadian lawyer, politician and jurist.Gilbert was born in Toronto and grew up in a poor working-class family which he helped support during the Great Depression by selling newspapers at the corner of Yonge and Bloor for two cents each and by gathering coal that had fallen off horse-drawn coal wagons in order to help heat his family's home. The home was eventually lost when the bank foreclosed on its mortgage. He was the youngest of five children, his parents were poor Irish Protestants who had immigrated to Canada. He left school early to support his family by working in a box factory until marrying his wife, Nora, and going to university. As an adult, Gilbert became a lawyer and worked briefly for a large firm. He left it, feeling they charged clients too much, and set up his own private practice. Once a week he went to the Salvation Army to operate a clinic where he gave free legal counsel to the poor. He vowed that every dollar he earned over $5,000 a year he would give away.He entered federal politics in the 1963 federal election running unsuccessfully as a New Democratic Party candidate in the Toronto riding of Broadview with a third place finish. He won the seat two years later in the 1965 election and was re-elected in 1968, 1972 and 1974 before retiring from politics.While an MP, he devoted one day a week meeting constituents at the Woodgreen Community Centre where he would help them with their legal problems.Jack Layton said of Gilbert : "The work that John did in Parliament was exemplary. He, alongside Tommy Douglas and Ed Broadbent, believed that fundamental elements of healthy and prosperous living should not come and go with the precocity of economic times; rather, he believed that the purpose of having a government was to defend the rights and the dignity of people from every social station, and to ensure that nobody had to go without the basic necessities of life.""He was one of the members of Parliament that I most admired in my life," said former NDP leader Ed Broadbent who served in the House of Commons with Gilbert for several years, describing him as a gentle and kind individual adding "there wasn't a tinge of self-righteousness about him," and that the MP "was always good in caucus. He knew the national issues and he made his views known."In 1969, Gilbert criticized the Liberal government of the day accusing it of lacking the commitment to build affordable housing and instead spending money on an inquiry of the issue to discover what was already known.He retired from Parliament in 1978 to accept an appointment as a judge on the Ontario District Court. He asked a young Bob Rae to run as the NDP candidate to succeed him in Broadview. Rae accepted and was elected in a 1978 by-election.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

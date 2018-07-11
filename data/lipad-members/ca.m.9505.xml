@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9505">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>NORTHRUP,  William Barton, K.C., B.A., M.A.</dc:title>
+    <dc:description>Member information for: NORTHRUP,  William Barton, K.C., B.A., M.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=87c17501-d622-40a8-b54a-e744773295dc&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=87c17501-d622-40a8-b54a-e744773295dc&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9505">
+    <pm:name>
+      <pm:full>NORTHRUP,  William Barton, K.C., B.A., M.A.</pm:full>
+      <pm:first>William Barton</pm:first>
+      <pm:last>Northrup</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1856-10-19" pm:granularity="8" pm:place="Belleville, Canada West"/>
+      <pm:deceased pm:date="1925-10-22" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=87c17501-d622-40a8-b54a-e744773295dc&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=34d97e5e-97ee-47bd-ad3e-14800f700dd4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/William_Barton_Northrup</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/William_Barton_Northrup</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Hastings East" openpx:province="Ontario">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hastings East" openpx:province="Ontario">
+        <pm:period pm:from="1908-10-26" pm:from-granularity="8" pm:till="1911-07-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hastings East" openpx:province="Ontario">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hastings East" openpx:province="Ontario">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hastings East" openpx:province="Ontario">
+        <pm:period pm:from="1892-02-20" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1917-12-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1892-02-20" pm:from-granularity="8" pm:till="1896-06-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/William_Barton_Northrup">William Barton Northrup (October 19, 1856 – October 22, 1925) was a Canadian lawyer and politician.Born in Belleville, Canada West, the son of Anson Gilbert Northrup and Jane C. Balster, Northrup was educated at the Upper Canada College and the University of Toronto, where he received a Bachelor of Arts degree in 1877 and a Master of Arts degree in 1878. A lawyer he was head of the firm of Northrup &amp; Roberts, in Belleville. He was created a King's Counsel in 1903.He first ran unsuccessfully as the Conservative candidate for the Canadian House of Commons for the Ontario electoral district of Hastings East in the 1891 federal election losing to Liberal Samuel Barton Burdett. After Burdett died in office in 1892, Northrup was acclaimed in the resulting 1892 by-election. He was defeated in the 1896 federal election and was elected in 1900, 1904, 1908, and 1911.From 1918 to 1924, he was the Clerk of the House of Commons.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

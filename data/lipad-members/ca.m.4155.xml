@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4155">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>PUTTEE,  Arthur W.</dc:title>
+    <dc:description>Member information for: PUTTEE,  Arthur W.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=76a14a62-7837-4de0-b0d2-d237d71f8007&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=76a14a62-7837-4de0-b0d2-d237d71f8007&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4155">
+    <pm:name>
+      <pm:full>PUTTEE,  Arthur W.</pm:full>
+      <pm:first>Arthur W.</pm:first>
+      <pm:last>Puttee</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1868-08-25" pm:granularity="8" pm:place="Folkestone, Kent, England"/>
+      <pm:deceased pm:date="1957-10-21" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Editor, printer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=76a14a62-7837-4de0-b0d2-d237d71f8007&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=917c4a7b-6e78-48f9-b600-af40d68b05b8</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Arthur_Puttee</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Arthur_Puttee</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Winnipeg" openpx:province="Manitoba">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg" openpx:province="Manitoba">
+        <pm:period pm:from="1900-01-25" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent Labour" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-11-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Labour" pm:party-ref="ca.p.Lab" pm:body="other">
+        <pm:period pm:from="1900-01-25" pm:from-granularity="8" pm:till="1900-11-06" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Arthur_Puttee">Arthur W. Puttee (August 25, 1868 – October 21, 1957) was the first Labour Member of Parliament (MP) in the Canadian House of Commons.Puttee was a printer by training. Born in England, he immigrated to North America in 1888. He settled in Winnipeg, Manitoba in 1891. He helped found the local trade union council, the Winnipeg Labour Party (WLP) and a left-wing newspaper called The Voice, which he edited from 1899 until 1918. He was also a founding member of Winnipeg's first English-language Unitarian Church.When Winnipeg's Liberal MP, R.W. Jamieson, died in February 1899, Puttee called for the nomination of a Labour candidate to contest the vacant seat in a by-election (which was finally held on January 25, 1900). The trade union council agreed, and with resources promised from local unions, nominated Puttee as its candidate against Liberal E.D. Martin. Puttee's chances for election benefitted from a serious division in the local Liberal ranks. Martin had been nominated by a minority faction in the party rebelling against Clifford Sifton, a powerful member of Prime Minister Wilfrid Laurier's Cabinet and the leading Liberal spokesman in the western provinces. Many Sifton loyalists unofficially supported Puttee against Martin. There was no Conservative candidate in the race; the Conservative organization in the city supported Martin.Puttee ran on a platform promoting public ownership of "all natural monopolies" and other reformist measures. The basic issue of the campaign was whether labour had a right to have its own representatives in parliament. In a narrow two-way contest, Puttee prevailed by a margin of eight votes (2431 to 2423). Puttee ran for re-election later that year in the 1900 election and won by a margin of 1,200 votes. Puttee again received unofficial Liberal support against Martin, who ran as an Independent with Conservative support.Puttee remained in Parliament until the 1904 election, when he was defeated. There were several reasons for this setback. As an MP, Puttee came into contact with British Labour MPs such as Keir Hardie and Ramsay Macdonald, and promoted the new British Labour Party (then known as the Labour Representation Committee) as a model to emulate. In doing so, he repudiated Marxists within the Winnipeg Labour Party, alienating the city's more radical and revolutionary socialists. The WLP suffered a severe split, and many socialists and radical trade unionists left in 1902 to join the Canadian Socialist League. They ultimately formed the Socialist Party of Manitoba, which had a much more radical program than Puttee's broad-based WLP. A second reason for Puttee's defeat was the loss of Liberal support, as the Sifton loyalists succeeded in nominating their candidate, D.W. Bole. The Conservatives ran William Sanford Evans, later a leader of the provincial Conservative Party. The Liberals made strenuous efforts to appeal to the working class through the dispensation of patronage among leading trade unionists, and by attacking the trade union council as being radical and uninterested in the needs of ordinary workers. Puttee was painted as a dangerous "revolutionist" backed by "assassins". Bole won the election; Puttee finished in third place.Out of office, Puttee returned to his newspaper and continued to agitate for independent working class politics. He became chairman of a new party, the Independent Labour Party, based on the British model. This ILP proved to be short-lived, collapsing in an internal feud after some of its members attempted to define the party as "socialist".In 1910, Puttee endorsed Fred Dixon as a candidate for the provincial legislature, and helped create the short-lived Manitoba Labour Party to support him. Dixon was defeated, due to opposition from the Socialist Party of Canada. Puttee also created a provincial Labour Representation Committee in the 1910s, and used The Voice to endorse labour candidates in the elections of 1914 and 1915. In 1918, Puttee helped to create the Dominion Labour Party, which was intended to consolidate labourist activities in various cities throughout the country.Ultimately, Puttee's conservatism sidelined him as the labour movement came under the influence of socialist ideas. He opposed labour militancy and the Industrial Workers of the World in particular. In 1918, the Winnipeg Trades and Labour Council withdrew its patronage of the Voice due to the paper's moderate tone, and began publishing a new weekly, the Western Labour News, effectively ending Puttee's influence over the labour movement.By the time of the Winnipeg General Strike of 1919, Puttee was a marginal figure sidelined by younger, more militant leaders such as J.S. Woodsworth and Abraham Albert Heaps. He continued to operate in the city's DLP organization, however, and his conservatism was a primary reason for a split in the party in 1920. Puttee sought the DLP's nomination for Mayor of Winnipeg in 1920, but was defeated by Seymour J. Farmer. Puttee's supporters subsequently asserted their control over the party, causing most of its leading figures (including Dixon) to separate and form a new Independent Labour Party. The DLP ceased to be an effective organization after this time.Puttee ran for the Manitoba legislature in the provincial election of 1922 in the riding of Winnipeg -- not as a Labour candidate, but as a Progressive, aligned with the United Farmers of Manitoba. He does not appear to have put much effort into this campaign, and received only 135 votes on the first count, finishing 38th out of 43 candidates. Winnipeg elected ten members via preferential balloting, and Puttee was eliminated after the eighth count. He did not play a significant role in politics after this time.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

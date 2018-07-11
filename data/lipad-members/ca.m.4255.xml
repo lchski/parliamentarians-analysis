@@ -1,0 +1,110 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4255">
+    <dc:identifier>ca.m.4255</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>DUHAMEL, The Hon. Ron J., P.C., B.A., M.Ed., Ph.D.</dc:title>
+    <dc:description>Member information for: DUHAMEL, The Hon. Ron J., P.C., B.A., M.Ed., Ph.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=3c3a67cc-b4f6-4d09-a652-c15faeb264a4&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=3c3a67cc-b4f6-4d09-a652-c15faeb264a4&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4255">
+    <pm:name>
+      <pm:full>DUHAMEL, The Hon. Ron J., P.C., B.A., M.Ed., Ph.D.</pm:full>
+      <pm:first>Ron J.</pm:first>
+      <pm:last>Duhamel</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Ph.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1938-03-02" pm:granularity="8" pm:place="St-Boniface, Manitoba, Canada"/>
+      <pm:deceased pm:date="2002-09-30" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Educator</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=3c3a67cc-b4f6-4d09-a652-c15faeb264a4&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=139f8ecd-912c-44e0-983a-fe60b402c4ba</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Ron_Duhamel</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Ron_Duhamel</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Saint Boniface" openpx:province="Manitoba">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2002-01-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint Boniface" openpx:province="Manitoba">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="St. Boniface" openpx:province="Manitoba">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="St. Boniface" openpx:province="Manitoba">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Manitoba" openpx:province="Manitoba">
+        <pm:period pm:from="2002-01-15" pm:from-granularity="8" pm:till="2002-09-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2000-10-17" pm:from-granularity="8" pm:till="2002-01-14" pm:till-granularity="8"/>
+        <pm:name>Minister of Veterans Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1999-08-03" pm:from-granularity="8" pm:till="2002-01-14" pm:till-granularity="8"/>
+        <pm:name>Secretary of State (Western Economic Diversification) (Francophonie)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1997-06-11" pm:from-granularity="8" pm:till="1999-08-02" pm:till-granularity="8"/>
+        <pm:name>Secretary of State (Science, Research and Development) (Western Economic Diversification)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1994-12-06" pm:from-granularity="8" pm:till="1996-02-22" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the President of the Treasury Board</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-12-06" pm:from-granularity="8" pm:till="1994-12-05" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Public Works (Public Works and Government Services)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-12-06" pm:from-granularity="8" pm:till="1994-12-05" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Supply and Services (Public Works and Government Services)</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="2002-09-30" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Ron_Duhamel">Ronald J. Duhamel, PC (March 2, 1938 – September 30, 2002) was a Canadian Member of Parliament and Senator.Born in Saint Boniface, Manitoba, he obtained a Bachelor of Arts (BA) from Lakehead University and a Master of Arts (MA) and Ph.D. from the University of Toronto. He was a teacher, school principal, professor at the University of Manitoba, assistant deputy minister of education, and deputy minister of education in Manitoba. In 1987, he was awarded the Manitoba Lieutenant-Governor's Medal in Public Administration.He was elected as a Liberal candidate in the riding of Saint Boniface in the 1988 federal election. He was re-elected in 1993, 1997 and 2000. Duhamel was wildly popular in the riding and never won an election with less than 50% of the vote, winning each of his elections by 52%, 63%, 51% and 52%.In 2000, Duhamel was appointed to the federal Cabinet by Prime Minister Jean Chrétien to the portfolio of Veterans Affairs, a post he held until 2002. Other posts he held include Parliamentary Secretary to the Minister of Public Works (Public Works and Government Services), Parliamentary Secretary to the President of the Treasury Board, Secretary of State (Science, Research and Development), Secretary of State (Western Economic Diversification), and Secretary of State (Francophonie).He was appointed to the Senate on January 15, 2002 representing the senatorial division of Manitoba. After a long battle with cancer, he died on September 30, 2002.He married Carolyn and had three daughters; Kathie, Natalie and Karine.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

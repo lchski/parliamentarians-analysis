@@ -1,0 +1,76 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1386">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>MEIGHEN, The Hon. Michael A., C.M. Q.C., B.A., LL.L.</dc:title>
+    <dc:description>Member information for: MEIGHEN, The Hon. Michael A., C.M. Q.C., B.A., LL.L.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=025c650d-dd93-4a79-b974-2e13758bcc66&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=025c650d-dd93-4a79-b974-2e13758bcc66&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1386">
+    <pm:name>
+      <pm:full>MEIGHEN, The Hon. Michael A., C.M. Q.C., B.A., LL.L.</pm:full>
+      <pm:first>Michael A.</pm:first>
+      <pm:last>Meighen</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.M. Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.L.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1939-03-25" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=025c650d-dd93-4a79-b974-2e13758bcc66&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b5d678b5-6b75-4df5-836d-c01c53a0f1f8</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=14595&amp;t=12&amp;ln=Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Michael_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Michael_Meighen</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="St. Marys" openpx:province="Ontario">
+        <pm:period pm:from="1990-09-27" pm:from-granularity="8" pm:till="2012-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="2004-02-02" pm:from-granularity="8" pm:till="2012-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1990-09-27" pm:from-granularity="8" pm:till="2004-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Michael_Meighen">Michael Arthur Meighen, QC (born March 25, 1939) is a former Canadian senator, lawyer and cultural patron. A litigation and commercial lawyer who has practiced in Montreal and Toronto, he is a member of the Bars of both Ontario and Quebec.Meighen is the son of lawyer and philanthropist Theodore Meighen and philanthropist Peggy deLancey Robinson, and the grandson of former Prime Minister of Canada Arthur Meighen. Following his father's death, his mother was married to Senator Hartland Molson from 1990 until her death in 2001.Meighen is a longtime friend, advisor and fundraiser for former Progressive Conservative leader and Prime Minister Brian Mulroney who appointed Meighen to the Senate in 1990 representing Ontario. Both he and Mulroney are lawyers at the law firm of Ogilvy Renault. They also attended law school together at Université Laval, in Quebec City along with other prominent Canadian political leaders such as Lucien Bouchard. He also received a Bachelor of Arts degree in 1960 from McGill University, where he became a member of the Scarlet Key Honor Society for his leadership. He also holds two honorary doctorates from the University of New Brunswick and Mount Allison University.In the mid 1980s, Meighen was legal counsel to the Deschênes Commission on War Criminals. Today, Meighen is counsel to the law firm Ogilvy Renault, which merged with his former firm Meighen Demers in 2001, and is a member of the McGill University Board of Governors, a director of the Cundill Funds, Sentry Select Capital Corp., and J.C. Clark Ltd. of Toronto. In January 2007, Meighen was appointed as a Commissioner of the Roosevelt Campobello International Park by the Canadian Government. He and his wife, Kelly Meighen (née Dillon), are benefactors of the Stratford Festival. In 2004, he became Canadian chair of the Atlantic Salmon Federation which promotes conservation efforts. He is past chair of the Stratford Festival, current chair of the T. R. Meighen Family Foundation and chancellor of the University of King's College in Halifax, Nova Scotia.Meighen sought election to the Canadian House of Commons in both the 1972 federal election and 1974 in the Quebec riding of Westmount but failed to win the seat. More recently, Meighen was the only Conservative senator to vote in favour of same-sex marriage. He is a member of the Banking Trade and Commerce, National Security &amp; Defense and Fisheries committees. Meighen also chairs the Senate Sub-Committee on Veterans Affairs. Meighen was vice-chair of the Senate Committee on National Defence and Security until February 2007 when he and the chair of the Senate Foreign Affairs Committee, fellow moderate Tory Hugh Segal, were instructed to resign their positions by the Prime Minister's Office. Reportedly, the Prime Minister wished to promote more ideologically conservative Senators. Meighen resigned from the Senate on February 6, 2012.On January 16, 2014, McGill University appointed Meighen as its 19th Chancellor, for a three-year term beginning on July 1, 2014. He has three sons, Ted, Hugh and Max. He lives in Toronto.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

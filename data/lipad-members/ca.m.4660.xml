@@ -1,0 +1,83 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4660">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>STEWART, The Hon. John Alexander, P.C., K.C., LL.B.</dc:title>
+    <dc:description>Member information for: STEWART, The Hon. John Alexander, P.C., K.C., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=58f0abc6-b0e9-4950-822a-7b322eaa848b&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=58f0abc6-b0e9-4950-822a-7b322eaa848b&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4660">
+    <pm:name>
+      <pm:full>STEWART, The Hon. John Alexander, P.C., K.C., LL.B.</pm:full>
+      <pm:first>John Alexander</pm:first>
+      <pm:last>Stewart</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1867-01-01" pm:granularity="4" pm:place="Renfrew, Ontario, Canada"/>
+      <pm:deceased pm:date="1922-10-07" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=58f0abc6-b0e9-4950-822a-7b322eaa848b&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=353c8c07-a54c-4090-b2ed-1d6e35ad5b7e</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Alexander_Stewart_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Alexander_Stewart_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Lanark" openpx:province="Ontario">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Lanark" openpx:province="Ontario">
+        <pm:period pm:from="1918-05-02" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1921-09-21" pm:from-granularity="8" pm:till="1921-12-28" pm:till-granularity="8"/>
+        <pm:name>Minister of Railways and Canals</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1922-10-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Unionist" pm:party-ref="ca.p.unionist" pm:body="other">
+        <pm:period pm:from="1918-05-02" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Alexander_Stewart_(politician)">John Alexander Stewart, PC (1867 – October 7, 1922) was a Canadian politician.Born in Renfrew, Ontario, he was a lawyer before being elected to the Canadian House of Commons for the Ontario riding of Lanark. A Unionist, he was appointed Minister of Railways and Canals on September 21, 1921, but served at the post for only three months.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

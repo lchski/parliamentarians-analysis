@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9248">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>BURROWS, The Hon. Theodore Arthur</dc:title>
+    <dc:description>Member information for: BURROWS, The Hon. Theodore Arthur</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=44f8e9c9-5228-4a10-8d0c-fa3688c7889d&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=44f8e9c9-5228-4a10-8d0c-fa3688c7889d&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9248">
+    <pm:name>
+      <pm:full>BURROWS, The Hon. Theodore Arthur</pm:full>
+      <pm:first>Theodore Arthur</pm:first>
+      <pm:last>Burrows</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1857-08-15" pm:granularity="8" pm:place="Ottawa, Ontario, Canada"/>
+      <pm:deceased pm:date="1929-01-18" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Land agent, mill owner</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=44f8e9c9-5228-4a10-8d0c-fa3688c7889d&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=075c9be1-b532-4c8d-be6a-ce0935f1fb08</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Theodore_Arthur_Burrows</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Theodore_Arthur_Burrows</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Theodore_Arthur_Burrows</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Theodore_Arthur_Burrows</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Theodore_Arthur_Burrows</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Dauphin" openpx:province="Manitoba">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-10-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Theodore_Arthur_Burrows">Theodore Arthur Burrows (August 15, 1857 – January 18, 1929) was a politician and office-holder in Manitoba, Canada. He served as the tenth Lieutenant Governor of the province from October 6, 1926 until his death.Burrows was born in Ottawa, Canada West (now Ontario), where his grandfather had been a pioneer settler. He moved to Manitoba in 1875, and was subsequently educated at Manitoba College. In 1877, Burrows became the first law student in Winnipeg history, working in the office of one Frederick Mackenzie. He entered the lumber business in 1879, and subsequently played a major role in developing the industry in Manitoba's northwest.Burrows entered politics in 1892, winning election to the provincial legislature in the riding of Dauphin. Although he described himself as a Liberal-Conservative, he was nevertheless a supporter of Liberal Premier Thomas Greenway. Burrows defeated his Conservative opponent Glenlyon Campbell by 317 votes to 308.Burrows defeated Campbell a second time in 1896, by 589 votes to 577. By this time, he was identifying himself as a Liberal. He was also (like Greenway) a Methodist, and was a strong supporter of Canada's growing prohibition movement. In addition to his political career, he was also appointed a land commissioner of the Canadian Northern Railway in 1896, holding the position until 1904 and overseeing increased settlement in the Dauphin region. Perhaps curiously, he was never appointed to Greenway's cabinet.The Liberals lost the election of 1899, although Burrows actually increased his majority significantly—defeating Conservative R. Hunt by 1203 votes to 779. It may be assumed that the new settlers brought by Burrows to the region were instrumental in his victory.Burrows did not seek re-election in 1903, but campaigned for the federal House of Commons the following year. Running as a Liberal in the federal riding of Dauphin, he was elected unopposed, and supported Prime Minister Wilfrid Laurier in parliament for the next four years. He was upset by his old rival Glenlyon Campbell, 3206 votes to 2989, in the election of 1908, and did not re-enter political life thereafter.In 1926, Burrows was appointed Lt. Governor of Manitoba (a position that was largely ceremonial by this time). A talented singer, he often displayed his baritone voice to visitors at Government House. He died in office, in 1929.The north-end Winnipeg neighbourhood of Burrows is named after him.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

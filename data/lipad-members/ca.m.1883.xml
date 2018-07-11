@@ -1,0 +1,90 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1883">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>WOODSWORTH,  James Shaver</dc:title>
+    <dc:description>Member information for: WOODSWORTH,  James Shaver</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ee1cc492-9867-48d3-a612-c1fb491d2916&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ee1cc492-9867-48d3-a612-c1fb491d2916&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1883">
+    <pm:name>
+      <pm:full>WOODSWORTH,  James Shaver</pm:full>
+      <pm:first>James Shaver</pm:first>
+      <pm:last>Woodsworth</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1874-07-29" pm:granularity="8" pm:place="Toronto (Etobicoke), Ontario, Canada"/>
+      <pm:deceased pm:date="1942-03-21" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, lecturer, longshore worker, minister, secretary, social activist, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ee1cc492-9867-48d3-a612-c1fb491d2916&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=dc5b6adc-c66b-4e2b-8a96-865463fa4f52</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/J._S._Woodsworth</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/J._S._Woodsworth</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh-yue.wikipedia.org/wiki" pm:description="Wikipedia (ZH-YUE)">http://zh-yue.wikipedia.org/wiki/J·S·活茲禾夫</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/J._S._Woodsworth</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/J.S._Woodsworth</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/J.S._Woodsworth</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/J._S._Woodsworth</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Winnipeg North Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg North Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg North Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1935-08-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg North Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg North Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Co-operative Commonwealth Federation (C.C.F.)" pm:party-ref="ca.p.CCF" pm:body="other">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1942-03-21" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Labour" pm:party-ref="ca.p.Lab" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1935-10-13" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/J._S._Woodsworth">James Shaver Woodsworth (July 29, 1874 – March 21, 1942) was a pioneer in the Canadian social democratic movement. Following more than two decades ministering to the poor and the working class, J. S. Woodsworth left the church to lay the foundation for, and become the first leader of, the Co-operative Commonwealth Federation (CCF), a democratic socialist party that later became the secular social-democratic New Democratic Party (NDP).</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,76 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5058">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>MCDONALD, The Hon. Charles</dc:title>
+    <dc:description>Member information for: MCDONALD, The Hon. Charles</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cf5757bd-25a0-4d2d-945f-8d279a69537a&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cf5757bd-25a0-4d2d-945f-8d279a69537a&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5058">
+    <pm:name>
+      <pm:full>MCDONALD, The Hon. Charles</pm:full>
+      <pm:first>Charles</pm:first>
+      <pm:last>McDonald</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1868-01-01" pm:granularity="4" pm:place="Scotland"/>
+      <pm:deceased pm:date="1936-10-06" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Pharmacist</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cf5757bd-25a0-4d2d-945f-8d279a69537a&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Charles_McDonald_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Charles_McDonald_(Canadian_politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Prince Albert" openpx:province="Saskatchewan">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="British Columbia" openpx:province="British Columbia">
+        <pm:period pm:from="1935-12-30" pm:from-granularity="8" pm:till="1936-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1935-12-30" pm:from-granularity="8" pm:till="1936-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Charles_McDonald_(Canadian_politician)">Charles M. McDonald (1867 - October 6, 1936) was a Canadian politician who served in the Legislative Assembly of Saskatchewan and in the Parliament of Canada. He has the distinction of having served in both the Canadian House of Commons and the Senate of Canada for less than a year.McDonald was a pharmacist by profession. He was born in Scotland and immigrated to Canada. By the time of the 1901 census he was living in Prince Albert, Saskatchewan with his wife.He first attracted public attention in 1918 when he assisted in the capture of two bandits sought for the slaying of a law enforcement officer.He was first elected to the Saskatchewan legislature as a Liberal MLA in the 1917 provincial election representing the provincial constituency of Prince Albert and was re-elected in the 1921 provincial election by acclamation.After two terms in the Saskatchewan legislature, McDonald switched to federal politics and contested the federal riding of Prince Albert in the 1925 federal election and was elected with more than 50% of the vote defeating both incumbent Progressive MP Andrew Knox and John Diefenbaker, the Conservative candidate and future prime minister.The federal Liberals were re-elected with a minority government. Despite having fewer seats than the Conservatives they were able to stay in power with the support of Progressive and independent MPs. However, Prime Minister William Lyon Mackenzie King was personally defeated in his riding of York North and needed to find a new constituency. On January 15, 1926, McDonald agreed to resign his seat immediately after his election so that Mackenzie King could contest it in a by-election which was held a month later. McDonald returned to his pharmacy and eventually moved to British Columbia. In December 1935, Prime Minister Mackenzie King, who had just been returned to government after five years of Tory rule, appointed McDonald to the Canadian Senate as a representative for British Columbia. However, McDonald's tenure was short lived as he died in office less than a year later. His combined service in both the House of Commons and the Senate is 361 days.McDonald died in Vancouver after a nine-month illness.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

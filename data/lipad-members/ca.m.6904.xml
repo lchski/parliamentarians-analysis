@@ -1,0 +1,88 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6904">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>HOWARD,  Frank</dc:title>
+    <dc:description>Member information for: HOWARD,  Frank</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ba1f4916-0b63-4654-9f27-242c3d276e6e&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ba1f4916-0b63-4654-9f27-242c3d276e6e&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6904">
+    <pm:name>
+      <pm:full>HOWARD,  Frank</pm:full>
+      <pm:first>Frank</pm:first>
+      <pm:last>Howard</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1925-04-26" pm:granularity="8" pm:place="Kimberley, British Columbia, Canada"/>
+      <pm:deceased pm:date="2011-03-15" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Logger, union staff member</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=ba1f4916-0b63-4654-9f27-242c3d276e6e&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=a57009cb-aee1-4b36-b043-8a743a7ed4b1</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Frank_Howard_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Frank_Howard_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Skeena" openpx:province="British Columbia">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Skeena" openpx:province="British Columbia">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Skeena" openpx:province="British Columbia">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Skeena" openpx:province="British Columbia">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Skeena" openpx:province="British Columbia">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Skeena" openpx:province="British Columbia">
+        <pm:period pm:from="1958-03-31" pm:from-granularity="8" pm:till="1962-04-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Skeena" openpx:province="British Columbia">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1961-08-03" pm:from-granularity="8" pm:till="1974-07-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Co-operative Commonwealth Federation (C.C.F.)" pm:party-ref="ca.p.CCF" pm:body="other">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1961-08-02" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Frank_Howard_(politician)">Frank Howard (April 26, 1925 – March 15, 2011) was a Canadian trade unionist and politician.Howard was born in Kimberley, British Columbia. After a career as a logger and labour union organizer, he was elected to the Legislative Assembly of British Columbia as a BC CCF MLA in 1953. He was defeated in 1956 but won a seat in the House of Commons representing Skeena in the 1957 election.Howard first sat as a member of the Co-operative Commonwealth Federation and then for its successor, the New Democratic Party (NDP). In Parliament, Howard and his caucus colleague Arnold Peters were responsible for reforming Canada's divorce laws, and for achieving significant reforms to Canada's prison system. He was also instrumental in attaining full voting rights for Canadian First Nations.Howard stood as a candidate in the 1971 NDP leadership convention, finishing fifth. He was a Member of Parliament for seventeen years until he lost his seat in the 1974 general election.In 1979, Howard returned to politics, running again for the Legislative Assembly of British Columbia. He won that election and served as Skeena's Member of the Legislative Assembly until 1986.Howard published an autobiography, From Prison to Parliament, in 2003.Howard died on March 15, 2011 at the age of 85.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

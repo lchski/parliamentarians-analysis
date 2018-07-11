@@ -1,0 +1,77 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.101">
+    <dc:identifier>ca.m.101</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>FAILLE,  Meili, B.B.A.</dc:title>
+    <dc:description>Member information for: FAILLE,  Meili, B.B.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=f2aff28f-67a5-442b-8402-b3df36e4fefd&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=f2aff28f-67a5-442b-8402-b3df36e4fefd&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.101">
+    <pm:name>
+      <pm:full>FAILLE,  Meili, B.B.A.</pm:full>
+      <pm:first>Meili</pm:first>
+      <pm:last>Faille</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.B.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1972-06-18" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Consultant, project coordinator</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=f2aff28f-67a5-442b-8402-b3df36e4fefd&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=d8b14d65-95c1-4195-b1cb-ed0d6e2a4138</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Meili_Faille</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Meili_Faille</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Meili_Faille</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Meili_Faille</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Vaudreuil--Soulanges" openpx:province="Quebec">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vaudreuil--Soulanges" openpx:province="Quebec">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vaudreuil--Soulanges" openpx:province="Quebec">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Bloc Québécois" pm:party-ref="ca.p.blocquebecois" pm:body="other">
+        <pm:period pm:from="2004-06-01" pm:from-granularity="6" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Meili_Faille">Meili Faille (born June 18, 1972) is a Canadian politician. She was a Bloc Québécois member of the Canadian House of Commons, being first elected in the 2004 election in the district of Vaudreuil-Soulanges. Prior to being elected, Faille was a consultant and project coordinator. From 2004 to 2008 she was the Bloc shadow critic of Citizenship and Immigration.During the 38th Parliament, Meili Faille was Vice-Chair of Standing Committee on Citizenship and Immigration (CIMM) from October 14, 2004 through October 7, 2005.Faille was born in Montreal, Quebec. Prior to being elected, Faille was Project Leader and Primary Consultant for Groupe LGS (1996–2004). Faille has worked as intern for the Secretary General of the Canadian Human Rights Commission (1993), was Ministerial editor for special projects and briefing notes for the Minister of Employment and Immigration (1992–1993, was an intern in the Cabinet for the Minister of Physical Education and Amateur Sports (1991–1992), was an intern in the Cabinet for the Solicitor General of Canada (1990–1991) and was an intern in the cabinet of the Minister of Northern Canadian and Indian Affairs (1989).Faille holds a Bachelor's in Business Administration from the University of Quebec in Hull, Quebec, and studied Applied Sciences and Chemical Engineering at the University of Ottawa.Faille studied classical (7 years) and contemporary (2 years) piano and followed an apprenticeship for two years under renowned artist Marcel Bourbonnais.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

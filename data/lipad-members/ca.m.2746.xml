@@ -1,0 +1,154 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2746">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>LEWIS, The Hon. Douglas Grinslade, P.C., Q.C., LL.B., F.C.A.</dc:title>
+    <dc:description>Member information for: LEWIS, The Hon. Douglas Grinslade, P.C., Q.C., LL.B., F.C.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=761a9263-10e4-4b7c-848d-e7ba3a1f500e&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=761a9263-10e4-4b7c-848d-e7ba3a1f500e&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2746">
+    <pm:name>
+      <pm:full>LEWIS, The Hon. Douglas Grinslade, P.C., Q.C., LL.B., F.C.A.</pm:full>
+      <pm:first>Douglas Grinslade</pm:first>
+      <pm:last>Lewis</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">F.C.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1938-04-17" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Chartered accountant, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=761a9263-10e4-4b7c-848d-e7ba3a1f500e&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=c47fe223-b29a-4d0a-a199-4373566ab9b1</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Doug_Lewis</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Doug_Lewis</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Simcoe North" openpx:province="Ontario">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Simcoe North" openpx:province="Ontario">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Simcoe North" openpx:province="Ontario">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Simcoe North" openpx:province="Ontario">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-06-25" pm:from-granularity="8" pm:till="1993-11-03" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1991-04-21" pm:from-granularity="8" pm:till="1993-06-24" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1990-02-23" pm:from-granularity="8" pm:till="1991-04-20" pm:till-granularity="8"/>
+        <pm:name>Minister of Transport</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1989-01-30" pm:from-granularity="8" pm:till="1990-02-22" pm:till-granularity="8"/>
+        <pm:name>Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1988-12-08" pm:from-granularity="8" pm:till="1989-01-29" pm:till-granularity="8"/>
+        <pm:name>President of the Treasury Board</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1987-08-27" pm:from-granularity="8" pm:till="1989-01-29" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Government House Leader)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1987-08-27" pm:from-granularity="8" pm:till="1989-01-29" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Treasury Board)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1985-11-25" pm:from-granularity="8" pm:till="1987-10-14" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the President of the Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1984-11-01" pm:from-granularity="8" pm:till="1985-11-24" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the President of the Treasury Board</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1979-10-01" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Supply and Services</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1993-06-25" pm:from-granularity="8" pm:till="1993-11-03" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1989-04-03" pm:from-granularity="8" pm:till="1990-02-22" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1983-02-09" pm:from-granularity="8" pm:till="1983-09-06" pm:till-granularity="8"/>
+        <pm:name>Official Opposition House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1981-09-09" pm:from-granularity="8" pm:till="1983-02-08" pm:till-granularity="8"/>
+        <pm:name>Deputy House Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1993-06-25" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+        <pm:name>Progressive Conservative Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1989-04-03" pm:from-granularity="8" pm:till="1990-02-22" pm:till-granularity="8"/>
+        <pm:name>Progressive Conservative Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1983-02-09" pm:from-granularity="8" pm:till="1983-09-06" pm:till-granularity="8"/>
+        <pm:name>Progressive Conservative Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1981-09-09" pm:from-granularity="8" pm:till="1983-02-08" pm:till-granularity="8"/>
+        <pm:name>Progressive Conservative Party Deputy House Leader</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1993-10-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Doug_Lewis">Douglas Grinslade "Doug" Lewis, PC, QC, (born April 17, 1938) is a former Canadian politician. A chartered accountant and lawyer by training, Lewis entered the Canadian House of Commons when he won the seat of Simcoe North, Ontario, as a Progressive Conservative in the 1979 federal election. In the short-lived government of Prime Minister Joe Clark, he served as Parliamentary Secretary to the Minister of Supply and Services.Re-elected in the 1980 federal election that returned the Liberals to power, Lewis moved to the opposition benches, serving first as Deputy House Leader from 1981 to February 1983, and then as Official Opposition House Leader until September 1983. With the victory of the Progressive Conservatives under Brian Mulroney in the 1984 general election, Lewis again became a parliamentary secretary. In 1987, he entered the Cabinet as both Minister of State to the Government House Leader and Minister of State (Treasury Board). At the end of 1988, he became Acting President of the Treasury Board, and, a month later in January 1989, he was named Minister of Justice. He also served as Government House Leader from April 1989 to February 1990. In April 1990, Lewis was moved from Justice to the position of Minister of Transport. In 1991, he was moved again, this time to the position of Solicitor General of Canada. When Kim Campbell succeeded Mulroney as Progressive Conservative leader and prime minister in June 1993, she kept Lewis in Cabinet as Solicitor General, and also named him Government House Leader. Both Lewis and the Campbell government were defeated in the 1993 general election. Following his political defeat, he returned to his law practice. Lewis remained a supporter of the Progressive Conservatives through the 1990s. However, in 2000, he supported Tom Long's candidacy to lead the new Canadian Alliance, which was an attempt to merge the PC Party with the Reform Party of Canada. In July 2000, however, he insisted to reporters that he was a loyal supporter of Joe Clark's renewed leadership of the Progressive Conservative party. Lewis is currently practicing law with Lewis Downey Tornosky Lassaline &amp; Timpano Professional Corporation. He was elected as a Regional Bencher with the Law Society of Upper Canada in 2007.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6373">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>CARSCALLEN,  Alexander Augustus Williamson</dc:title>
+    <dc:description>Member information for: CARSCALLEN,  Alexander Augustus Williamson</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=09b5fa03-e37e-4560-ad97-6ba5639de2b9&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=09b5fa03-e37e-4560-ad97-6ba5639de2b9&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6373">
+    <pm:name>
+      <pm:full>CARSCALLEN,  Alexander Augustus Williamson</pm:full>
+      <pm:first>Alexander Augustus Williamson</pm:first>
+      <pm:last>Carscallen</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1844-10-14" pm:granularity="8" pm:place="North Fredericksburg Township, Canada West"/>
+      <pm:deceased pm:date="1907-02-13" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Banker</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=09b5fa03-e37e-4560-ad97-6ba5639de2b9&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=5f4cba5c-daee-4024-a0e2-1a04a1702bc7</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Alexander_Augustus_Williamson_Carscallen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Alexander_Augustus_Williamson_Carscallen</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Hastings North" openpx:province="Ontario">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hastings North" openpx:province="Ontario">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Hastings North" openpx:province="Ontario">
+        <pm:period pm:from="1892-12-20" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1892-12-20" pm:from-granularity="8" pm:till="1904-11-02" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Alexander_Augustus_Williamson_Carscallen">Alexander Augustus Williamson Carscallen (October 14, 1844 – February 13, 1907) was a banker and political figure in Ontario. He represented Hastings North in the Canadian House of Commons from 1892 to 1904 as a Conservative member.He was born in North Fredericksburg Township, Lennox County, Canada West, the son of Edward Riggs Carscallen, and was educated in Napanee and at the University of Nashville. He established himself in business in Marmora, Ontario. In 1874, Carscallen married Marcia Pringle. He was a justice of the peace, a member of the North Fredericksburg township council and township reeve, and chairman of the school board. Carscallen was first elected to the House of Commons in an 1892 by-election held after Mackenzie Bowell was named to the Canadian senate. He was reelected in 1896 and 1900. In 1903, the riding of Hastings North was redistributed into Hastings West and Hastings East; Carscallen did not run in 1904. He died in Belleville at the age of 62.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

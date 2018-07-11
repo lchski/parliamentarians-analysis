@@ -1,0 +1,107 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4085">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>CARDIFF,  Lewis Elston</dc:title>
+    <dc:description>Member information for: CARDIFF,  Lewis Elston</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=eb52e405-9f56-43e3-ab3e-e41da2f14356&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=eb52e405-9f56-43e3-ab3e-e41da2f14356&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4085">
+    <pm:name>
+      <pm:full>CARDIFF,  Lewis Elston</pm:full>
+      <pm:first>Lewis Elston</pm:first>
+      <pm:last>Cardiff</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1889-01-22" pm:granularity="8" pm:place="Brussels, Ontario, Canada"/>
+      <pm:deceased pm:date="1969-04-16" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=eb52e405-9f56-43e3-ab3e-e41da2f14356&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=f085295b-4ff4-4378-8a4a-65b86b4890e4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Elston_Cardiff</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Elston_Cardiff</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Huron" openpx:province="Ontario">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Huron" openpx:province="Ontario">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Huron" openpx:province="Ontario">
+        <pm:period pm:from="1958-03-31" pm:from-granularity="8" pm:till="1962-04-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Huron" openpx:province="Ontario">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Huron" openpx:province="Ontario">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Huron North" openpx:province="Ontario">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Huron North" openpx:province="Ontario">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Huron North" openpx:province="Ontario">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1962-01-18" pm:from-granularity="8" pm:till="1962-04-19" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of National Health and Welfare</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1959-11-18" pm:from-granularity="8" pm:till="1961-11-17" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Agriculture</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1957-01-01" pm:from-granularity="4" pm:till="1958-01-01" pm:till-granularity="4"/>
+        <pm:name>Chief Government Whip</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1957-01-01" pm:from-granularity="4" pm:till="1958-01-01" pm:till-granularity="4"/>
+        <pm:name>Whip of the Progressive Conservative Party</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1965-11-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="National Government" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-06-10" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Elston_Cardiff">Lewis Elston Cardiff (22 January 1889 – 16 April 1969) was a Progressive Conservative party member of the Canadian House of Commons. He was born in Brussels, Ontario and initially chose farming as his career.From 1932 to 1940, Elston Cardiff was Reeve of Ontario's Morris Township. After this he entered federal politics with his election at the Huron North riding in the 1940 general election. He became a member of Parliament under the National Government party banner which was used by the Conservative Party at that time. Cardiff became a Progressive Conservative member when that party adopted this new name in 1942.Cardiff was re-elected to successive Parliament terms at Huron North in 1945 and 1949. He was then re-elected at Huron riding after electoral district boundary changes, winning in 1953, 1957, 1958, 1962 and 1963. The 26th Canadian Parliament marked his final term in office and Cardiff did not seek another term in the 1965 election.During his time in federal office, Cardiff was party Whip in 1957 and 1958. For two years from November 1959 he served as Parliamentary Secretary to the Minister of Agriculture, then from January to April 1962 as Parliamentary Secretary to the Minister of National Health and Welfare.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

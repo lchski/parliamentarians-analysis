@@ -1,0 +1,71 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1397">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>HIGGINS,  Gordon Francis, Q.C., O.B.E.</dc:title>
+    <dc:description>Member information for: HIGGINS,  Gordon Francis, Q.C., O.B.E.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=54481bbe-cafa-4aa9-823c-1bacb309f25f&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=54481bbe-cafa-4aa9-823c-1bacb309f25f&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1397">
+    <pm:name>
+      <pm:full>HIGGINS,  Gordon Francis, Q.C., O.B.E.</pm:full>
+      <pm:first>Gordon Francis</pm:first>
+      <pm:last>Higgins</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.B.E.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1905-10-08" pm:granularity="8" pm:place="St. John's, Newfoundland"/>
+      <pm:deceased pm:date="1957-10-13" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=54481bbe-cafa-4aa9-823c-1bacb309f25f&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=93fe9cc5-6eb0-4251-b1eb-cb6481410187</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Gordon_Higgins</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Gordon_Higgins</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="St. John's East" openpx:province="Newfoundland and Labrador">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-08-09" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Gordon_Higgins">For the Alberta educator, see Gordon Higgins Junior High School.Gordon Francis Higgins (born October 8, 1905 in St. John's, Newfoundland — died October 13, 1957 in St. John's, Newfoundland and Labrador) is a former Canadian politician, who represented the electoral district of St. John's East in the Canadian House of Commons from 1949 to 1953. He was a member of the Progressive Conservative Party of Canada.Son of William J. Higgins, Higgins was educated at St. Bonaventure College and was called to the Bar in January, 1931. In 1946 he was voted by the St. John's East district to become one of the three persons to represent that area at the Newfoundland National Convention. An anti-Confederated, he was sent to Ottawa in June 1947 as part of the group to identify options to join Canada. Unconvinced he advocated for Responsible Government during the referendums of 1948.When Newfoundland and Labrador did join Canada, Higgins contested the district of St. John's East for the Progressive Conservative Party, which he won and became one of the first seven Newfoundland members in the House of Commons. His sentiments was strong against confederation which was articulated by his speech to the House of Commons on March 6, 1950 where it says in part regarding transportation freight rates "if this agreement is not honoured by cabinet, I am resigning from this house and I am going back to Newfoundland where I shall endeavour, by all possible means, to have the province of Newfoundland secede from Confederation".Higgins was an active community member where he served on many organizations: President, St. John's Amateur Athletic Association (1930–1950) First President, Newfoundland Tuberculosis Association (1944–1951) Awarded an Order of the British Empire, March 26, 1949 President, Newfoundland Seaman's Association St. John's Royal Regatta Committee St. John's Rotary Club President, Benevolent Irish Society (1942–1954)↑ 1.0 1.1 1.2</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

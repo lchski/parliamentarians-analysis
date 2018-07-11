@@ -1,0 +1,79 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4237">
+    <dc:identifier>ca.m.4237</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>HARPER,  Elijah</dc:title>
+    <dc:description>Member information for: HARPER,  Elijah</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a16c5c75-aa1e-460f-8bf5-944aeebf3276&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a16c5c75-aa1e-460f-8bf5-944aeebf3276&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4237">
+    <pm:name>
+      <pm:full>HARPER,  Elijah</pm:full>
+      <pm:first>Elijah</pm:first>
+      <pm:last>Harper</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1949-03-03" pm:granularity="8" pm:place="Red Sucker Lake, Manitoba, Canada"/>
+      <pm:deceased pm:date="2013-05-17" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Consultant, policy analyst</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a16c5c75-aa1e-460f-8bf5-944aeebf3276&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=f4147409-cd14-429a-8a13-8455113cff8c</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Харпер,_Элайджа</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ca.wikipedia.org/wiki" pm:description="Wikipedia (CA)">http://ca.wikipedia.org/wiki/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eu.wikipedia.org/wiki" pm:description="Wikipedia (EU)">http://eu.wikipedia.org/wiki/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Харпер,_Элайджа</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ca.dbpedia.org/resource" pm:description="Dbpedia (CA)">http://ca.dbpedia.org/resource/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eu.dbpedia.org/resource" pm:description="Dbpedia (EU)">http://eu.dbpedia.org/resource/Elijah_Harper</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Elijah_Harper</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Churchill" openpx:province="Manitoba">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-06-02" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Elijah_Harper">Elijah Harper (March 3, 1949 – May 17, 2013) was a Canadian politician and Chief of his Red Sucker Lake community. He was a key player in the rejection of the Meech Lake Accord, an attempt at Canadian constitutional reform.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

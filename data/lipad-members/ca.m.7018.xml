@@ -1,0 +1,89 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7018">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>CONNOLLY, The Hon. John Joseph, P.C., O.B.E., Q.C., Ph.D., LL.D.</dc:title>
+    <dc:description>Member information for: CONNOLLY, The Hon. John Joseph, P.C., O.B.E., Q.C., Ph.D., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=99f92347-426c-43ea-a3f4-09b7edf0ae79&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=99f92347-426c-43ea-a3f4-09b7edf0ae79&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7018">
+    <pm:name>
+      <pm:full>CONNOLLY, The Hon. John Joseph, P.C., O.B.E., Q.C., Ph.D., LL.D.</pm:full>
+      <pm:first>John Joseph</pm:first>
+      <pm:last>Connolly</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.B.E.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Ph.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1906-10-31" pm:granularity="8" pm:place="Ottawa, Ontario, Canada"/>
+      <pm:deceased pm:date="1982-07-25" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister, lawyer, professor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=99f92347-426c-43ea-a3f4-09b7edf0ae79&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=e3c89815-942a-4435-b723-df68b5da8879</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Joseph_Connolly</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Joseph_Connolly</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/John_Joseph_Connolly</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/John_Joseph_Connolly</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Ottawa West" openpx:province="Ontario">
+        <pm:period pm:from="1953-06-12" pm:from-granularity="8" pm:till="1981-10-31" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-04-10" pm:from-granularity="8" pm:till="1968-04-19" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1964-02-03" pm:from-granularity="8" pm:till="1968-04-19" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1964-02-03" pm:from-granularity="8" pm:till="1968-04-19" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the Senate</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1953-06-12" pm:from-granularity="8" pm:till="1981-10-31" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Joseph_Connolly">John Joseph Connolly, PC, OBE, QC (October 31, 1906 – July 25, 1982) was a Canadian parliamentarian. Born in Ottawa, Ontario, he graduated from the University of Ottawa in 1927. He received a Doctorate of Philosophy from the University of Notre Dame and also taught at the university for a period. He studied law at Université de Montréal and was called to the Quebec bar and the Ontario bar. He was a Queen's Counsel.During World War II, he was the executive assistant to Angus Lewis Macdonald, Minister of National Defence for Naval Services. In 1944, he played a pivotal role in the dismissal of Vice-Admiral Percy W. Nelles, the highest-ranking officer in the Royal Canadian Navy. He was made an Officer of the Order of the British Empire for his work during the war.A law professor, Connolly was appointed to the Canadian Senate as a Liberal by Prime Minister Louis St. Laurent on June 12, 1953. From 1961 to 1964 he served as the federal party's president. In 1964, he was appointed to the Cabinet by Lester Pearson becoming Leader of the Government in the Canadian Senate and Minister without portfolio. He served as government leader until 1968 when Pearson retired and remained a Senator until his own retirement in 1981.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

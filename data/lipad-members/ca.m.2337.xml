@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2337">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>MCGILLIVRAY,  John Alexander, K.C.</dc:title>
+    <dc:description>Member information for: MCGILLIVRAY,  John Alexander, K.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=90363453-ab34-466c-9b6d-50528b86a046&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=90363453-ab34-466c-9b6d-50528b86a046&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2337">
+    <pm:name>
+      <pm:full>MCGILLIVRAY,  John Alexander, K.C.</pm:full>
+      <pm:first>John Alexander</pm:first>
+      <pm:last>McGillivray</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1853-01-04" pm:granularity="8" pm:place="Pickering Township, Canada West"/>
+      <pm:deceased pm:date="1911-02-14" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=90363453-ab34-466c-9b6d-50528b86a046&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=158c9dd7-34ea-485d-80d6-a075c57fdd96</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Alexander_McGillivray</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Alexander_McGillivray</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Ontario North" openpx:province="Ontario">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ontario North" openpx:province="Ontario">
+        <pm:period pm:from="1895-12-12" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal-Conservative" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1895-12-12" pm:from-granularity="8" pm:till="1896-12-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Alexander_McGillivray">John Alexander McGillivray (January 4, 1853 – February 14, 1911) was a Canadian lawyer and politician.Born in Pickering Township, Canada West, McGillivray studied law under George Young Smith in Whitby, Lyman English in Oshawa, and Jones Brothers &amp; Mackenzie in Toronto. He started practicing law with John Billings in Port Perry and later moved to Uxbridge, Ontario. He was elected to the first council of the Town of Uxbridge in 1872 and was mayor in 1890. In 1895, he was acclaimed to the Canadian House of Commons for the riding of Ontario North after the death of the sitting MP Frank Madill. A Liberal-Conservative, he was re-elected in June 1896 winning by one vote. The election was declared void in December 1896 and he did not run in the resulting by-election. From 1902 to 1906, he was Lieutenant-Colonel of the 34th Ontario Battalion of Militia.He died in 1911 and is buried in the Uxbridge Cemetery.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,129 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7507">
+    <dc:identifier>ca.m.7507</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>GAUTHIER, The Hon. Jean-Robert, C.M., O.Ont., D.Ed.(Hon.), D.C.</dc:title>
+    <dc:description>Member information for: GAUTHIER, The Hon. Jean-Robert, C.M., O.Ont., D.Ed.(Hon.), D.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=26223e14-510e-4dcb-8a95-e4483fb87b9e&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=26223e14-510e-4dcb-8a95-e4483fb87b9e&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7507">
+    <pm:name>
+      <pm:full>GAUTHIER, The Hon. Jean-Robert, C.M., O.Ont., D.Ed.(Hon.), D.C.</pm:full>
+      <pm:first>Jean-Robert</pm:first>
+      <pm:last>Gauthier</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.M.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.Ont.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.Ed.(Hon.)</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1929-10-22" pm:granularity="8" pm:place="Ottawa, Ontario, Canada"/>
+      <pm:deceased pm:date="2009-12-10" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Chiropractor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=26223e14-510e-4dcb-8a95-e4483fb87b9e&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=8d54c77b-3842-40d6-a0f1-54c465e91030</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=10756&amp;t=12&amp;ln=gauthier&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jean-Robert_Gauthier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jean-Robert_Gauthier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Jean-Robert_Gauthier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Jean-Robert_Gauthier</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1994-11-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa--Vanier" openpx:province="Ontario">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa East" openpx:province="Ontario">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Ottawa-Vanier" openpx:province="Ontario">
+        <pm:period pm:from="2001-12-04" pm:from-granularity="8" pm:till="2004-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Ontario" openpx:province="Ontario">
+        <pm:period pm:from="1994-11-23" pm:from-granularity="8" pm:till="2001-12-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1975-10-10" pm:from-granularity="8" pm:till="1977-09-30" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of State for Urban Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1990-02-07" pm:from-granularity="8" pm:till="1991-01-29" pm:till-granularity="8"/>
+        <pm:name>Official Opposition House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1989-02-02" pm:from-granularity="8" pm:till="1990-09-01" pm:till-granularity="6"/>
+        <pm:name>Deputy House Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1990-02-07" pm:from-granularity="8" pm:till="1991-01-29" pm:till-granularity="8"/>
+        <pm:name>Liberal Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1989-02-02" pm:from-granularity="8" pm:till="1990-09-01" pm:till-granularity="6"/>
+        <pm:name>Liberal Party Deputy House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1984-09-17" pm:from-granularity="8" pm:till="1990-01-01" pm:till-granularity="4"/>
+        <pm:name>Chief Opposition Whip</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1984-09-17" pm:from-granularity="8" pm:till="1990-01-01" pm:till-granularity="4"/>
+        <pm:name>Whip of the Liberal Party</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="2004-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jean-Robert_Gauthier">Jean-Robert Gauthier, CM OOnt (October 22, 1929 – December 10, 2009) was a Canadian politician. A chiropractor by training, he entered politics as trustee on a local school board. He was elected to the House of Commons of Canada to represent the riding of Ottawa East in the 1972 election as a Liberal Party Member of Parliament. He remained its representative for several decades winning by large majorities each time in the safe Liberal seat. In 1984, he was appointed opposition whip and became a member of the party's shadow cabinet. His highest profile came during his time as official languages critic for the Liberal caucus, in which Gauthier was a strident defender of official bilingualism. Locally, he was known for campaigning to have an aquarium built in Ottawa. With the Liberal victory in the 1993 election, he ran for Speaker of the House, but lost by one vote to Gilbert Parent. In 1994, he was appointed to the Senate. In the Senate, he fought for the rights of French speakers. He retired on his 75th birthday in 2004. In the Senate, he listed his Senate division as "Ontario" from November 23, 1994 to December 3, 2001, and as "Ottawa – Vanier" from December 4, 2001 until his retirement.He was made a member of the Order of Canada in 2007. In 2009, he was made a member of the Order of Ontario.He was made an Officer of the Legion of Honour by the French Government in 2002.In September 2006, Jean-Robert Gauthier Catholic Elementary School opened in Barrhaven.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,72 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3771">
+    <dc:identifier>ca.m.3771</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>DUPLAIN,  Claude</dc:title>
+    <dc:description>Member information for: DUPLAIN,  Claude</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=61710303-a5f1-4e63-aed1-adb4dc548e6b&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=61710303-a5f1-4e63-aed1-adb4dc548e6b&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3771">
+    <pm:name>
+      <pm:full>DUPLAIN,  Claude</pm:full>
+      <pm:first>Claude</pm:first>
+      <pm:last>Duplain</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1954-01-10" pm:granularity="8" pm:place="Saint-Raymond de Portneuf, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Contractor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=61710303-a5f1-4e63-aed1-adb4dc548e6b&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=f017b5df-0489-466d-9bc2-0bfaabdfd855</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Claude_Duplain</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Claude_Duplain</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Claude_Duplain</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Claude_Duplain</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Portneuf" openpx:province="Quebec">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-01-13" pm:from-granularity="8" pm:till="2003-12-11" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Agriculture and Agri-Food</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-06-28" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Claude_Duplain">Claude Duplain (born January 10, 1954) is a Canadian politician.He was elected as the Member of Parliament for Portneuf, as the candidate of the Liberal Party of Canada, during the 37th Parliament (which sat from January 2001 through May 2004). During that time he served as a member of the Standing Committee on Agriculture and Agri-Food and the Standing Committee on Canadian Heritage.Claude Duplain has been president of Construction du Grand Portneuf, a general construction company, since 1996. He is deeply involved in the economic development of the region of Portneuf. From 1993 to 1996, he was president and shareholder of Construction du Grand Portneuf. He was a project estimator and manager for the Joseph Linteau &amp; Sons company (1992–1993) and also a manager for Magasin Rona in Saint-Raymond-de-Portneuf (1986–1992). He worked as a designer for the architectural firm Beaudet, Nolet &amp; Arcam Inc, and also for VariaHab which specializes in prefabricated houses. He completed an architectural technical design course in 1971 after terminating his secondary education in 1970. He took further training in marketing, accounting, data processing, first aid and English.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

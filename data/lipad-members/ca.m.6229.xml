@@ -1,0 +1,90 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6229">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>HERBERT,  Harold Thomas</dc:title>
+    <dc:description>Member information for: HERBERT,  Harold Thomas</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9aa320e1-0bfb-425f-8b78-fa2be23f7799&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9aa320e1-0bfb-425f-8b78-fa2be23f7799&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6229">
+    <pm:name>
+      <pm:full>HERBERT,  Harold Thomas</pm:full>
+      <pm:first>Harold Thomas</pm:first>
+      <pm:last>Herbert</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1922-06-17" pm:granularity="8" pm:place="London, England"/>
+      <pm:deceased pm:date="2003-07-25" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Construction executive</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9aa320e1-0bfb-425f-8b78-fa2be23f7799&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=066e8c26-a7e3-49a6-9445-20b61b78bd12</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Hal_Herbert</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Hal_Herbert</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Harold_Thomas_Herbert</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Harold_Thomas_Herbert</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Vaudreuil" openpx:province="Quebec">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vaudreuil" openpx:province="Quebec">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vaudreuil" openpx:province="Quebec">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vaudreuil" openpx:province="Quebec">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1978-10-01" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Public Works</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1978-10-01" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of State for Urban Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1984-01-16" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+        <pm:name>Deputy Chair of Committees of the Whole</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1984-09-03" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Hal_Herbert">Harold Thomas Herbert (June 17, 1922 – July 25, 2003) was a Canadian politician. He introduced the Private Member's Bill in 1982 which amended the Holidays Act to change the name of Canada's national holiday from "Dominion Day" to "Canada Day".Born in London, England, he joined the Royal Air Force in 1940 and took flight training in Canada in 1941. During the World War II, he flew Spitfires on high-altitude photo-reconnaissance trips and was awarded a Distinguished Flying Cross. After the war, he studied engineering in Scotland and moved to Canada with his wife in 1948. He eventually became a partner with a Montreal construction firm.He was elected to the Canadian House of Commons in the 1972 federal election representing the riding of Vaudreuil. A Liberal, he was re-elected in 1974, 1979, and 1980. He was defeated in 1984. In 1978, he was the Parliamentary Secretary to the Minister of State for Urban Affairs and Parliamentary Secretary to the Minister of Public Works. In 1984, he was the Deputy Chair of Committees of the Whole.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

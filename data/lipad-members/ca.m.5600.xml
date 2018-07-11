@@ -1,0 +1,134 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5600">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>POWER, The Hon. Charles Gavan, P.C., B.A., LL.L.</dc:title>
+    <dc:description>Member information for: POWER, The Hon. Charles Gavan, P.C., B.A., LL.L.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=a47e2fa3-277a-47c3-8868-2fc0fdddd05a&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=a47e2fa3-277a-47c3-8868-2fc0fdddd05a&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5600">
+    <pm:name>
+      <pm:full>POWER, The Hon. Charles Gavan, P.C., B.A., LL.L.</pm:full>
+      <pm:first>Charles Gavan</pm:first>
+      <pm:last>Power</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.L.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1888-01-18" pm:granularity="8" pm:place="Sillery, Quebec, Canada"/>
+      <pm:deceased pm:date="1968-05-30" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=a47e2fa3-277a-47c3-8868-2fc0fdddd05a&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=3e27432c-eb6d-4664-910f-9947912632f4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Charles_Gavan_Power</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Charles_Gavan_Power</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Charles_Gavan_Power</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sl.wikipedia.org/wiki" pm:description="Wikipedia (SL)">http://sl.wikipedia.org/wiki/Charles_Gavan_Power</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Charles_Gavan_Power</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sl.dbpedia.org/resource" pm:description="Dbpedia (SL)">http://sl.dbpedia.org/resource/Charles_Gavan_Power</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1935-08-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1926-09-14" pm:from-granularity="8" pm:till="1930-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec South" openpx:province="Quebec">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Gulf" openpx:province="Quebec">
+        <pm:period pm:from="1955-07-28" pm:from-granularity="8" pm:till="1968-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1940-07-12" pm:from-granularity="8" pm:till="1944-11-26" pm:till-granularity="8"/>
+        <pm:name>Associate Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1940-06-11" pm:from-granularity="8" pm:till="1940-07-04" pm:till-granularity="8"/>
+        <pm:name>Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1940-05-23" pm:from-granularity="8" pm:till="1944-11-26" pm:till-granularity="8"/>
+        <pm:name>Minister of National Defence for Air</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1940-05-23" pm:from-granularity="8" pm:till="1944-11-26" pm:till-granularity="8"/>
+        <pm:name>Minister of National Defence for Air and Associate Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1939-09-19" pm:from-granularity="8" pm:till="1940-05-22" pm:till-granularity="8"/>
+        <pm:name>Postmaster General</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1935-10-23" pm:from-granularity="8" pm:till="1939-09-18" pm:till-granularity="8"/>
+        <pm:name>Minister of Pensions and National Health</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1968-05-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Laurier Liberal" pm:party-ref="ca.p.laurierliberal" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Charles_Gavan_Power">Charles Gavan "Chubby" Power, MC, PC (18 January 1888 – 30 May 1968) was a Canadian politician and ice hockey player. Many members of his family, including his father, two brothers, a son and a grandson, all had political careers; two of his brothers also played ice hockey.Born in Sillery, Quebec, Power played ice hockey while studying law. From 1906, he played for the Quebec Bulldogs of the Eastern Canada Amateur Hockey Association (ECAHA). A proficient scorer, he scored four goals in one game in 1908 and five goals in a game in 1909.He entered politics in the 1917 federal election, after having been wounded during the Battle of the Somme. He was awarded the Military Cross for gallantry during military operations. He was elected as a "Laurier Liberal" during the Conscription Crisis of 1917.In 1935, Power was appointed minister of pensions and health in the Liberal cabinet of William Lyon Mackenzie King. During World War II, he served as minister of national defence for air, and was responsible for expanding the Royal Canadian Air Force. His opposition to conscription led him to resign from Cabinet during the Conscription Crisis of 1944 after the government passed an Order in Council to send conscripts overseas. Power sat as an "Independent Liberal" for the duration of the war and was re-elected as an Independent Liberal in the 1945 federal election. He subsequently rejoined the party and ran to succeed King in the 1948 Liberal leadership convention, but came a poor third.Charles Power retired from the House of Commons in 1955. He was appointed to the Senate of Canada on 28 July 1955 and served until his death in 1968.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

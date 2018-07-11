@@ -1,0 +1,80 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9999">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>YURKO,  William J., B.Sc., P.Eng., F.C.I.C.</dc:title>
+    <dc:description>Member information for: YURKO,  William J., B.Sc., P.Eng., F.C.I.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fbff52cf-93aa-42ed-af95-8929fa555006&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fbff52cf-93aa-42ed-af95-8929fa555006&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9999">
+    <pm:name>
+      <pm:full>YURKO,  William J., B.Sc., P.Eng., F.C.I.C.</pm:full>
+      <pm:first>William J.</pm:first>
+      <pm:last>Yurko</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Sc.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.Eng.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">F.C.I.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1926-02-11" pm:granularity="8" pm:place="Hairy Hill, Alberta, Canada"/>
+      <pm:deceased pm:date="2010-01-28" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Professional engineer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fbff52cf-93aa-42ed-af95-8929fa555006&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=32ed1139-9b9d-40c4-b869-c62e297c9087</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/William_Yurko</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/William_Yurko</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/William_Yurko</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/William_Yurko</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Edmonton East" openpx:province="Alberta">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Edmonton East" openpx:province="Alberta">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1982-01-29" pm:from-granularity="8" pm:till="1984-09-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1982-01-28" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/William_Yurko">William "Vasile" Yurko MLA MP (February 11, 1926 – February 2, 2010) was a Canadian politician, and member of the Legislative Assembly of Alberta and the Canadian House of Commons. Yurko was born in 1926 in Boian, Alberta of Romanian and Ukrainian descent. He served two years in the Canadian Air Force during World War II, then graduated with distinction as a Chemical Engineer from the University of Alberta. He worked for 17 years (six of them within the Atomic Energy of Canada) before 1969, when he entered politics.He was elected Member of the Legislative Assembly (MLA) as a candidate of the Progressive Conservative Association of Alberta in the Strathcona East riding by-election on February 10, 1969 following the resignation of Premier Ernest Manning.He was elected to the Legislative Assembly for the Edmonton Gold Bar riding in 1971 and re-elected in 1975.In 1979 he was elected to the House of Commons for the Edmonton East riding as a candidate of the Progressive Conservative Party of Canada, and he held the seat until 1984, when he ran as an Independent for the same riding, but lost to William Lesick.In 1971, he held the portfolio of Environment Minister in the Alberta Cabinet.In 1977, he held the portfolio of Housing and Public Works Minister.1979–1984, he was a Member of Parliament in the 31st and 32nd Canadian Parliaments.On September 23, 1983, he tabled Bill C-691 (and on March 14, 1984 tried again with Bill C-228) to pardon Louis Riel. The act was not passed until 1992.After 1985 he was a Member of the Senate and Board of Governors of the University of Alberta.↑ ↑ ↑</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,93 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8458">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-16+01:00</dc:date>
+    <dc:title>STANFIELD, The Right Hon. Robert Lorne, P.C., Q.C., B.A., LL.B.</dc:title>
+    <dc:description>Member information for: STANFIELD, The Right Hon. Robert Lorne, P.C., Q.C., B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0fc16474-225b-4f98-b627-1265ff7a4004&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0fc16474-225b-4f98-b627-1265ff7a4004&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8458">
+    <pm:name>
+      <pm:full>STANFIELD, The Right Hon. Robert Lorne, P.C., Q.C., B.A., LL.B.</pm:full>
+      <pm:first>Robert Lorne</pm:first>
+      <pm:last>Stanfield</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1914-04-11" pm:granularity="8" pm:place="Truro, Nova Scotia, Canada"/>
+      <pm:deceased pm:date="2003-12-16" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Ambassador, barrister</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0fc16474-225b-4f98-b627-1265ff7a4004&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7bc29416-f0dd-48a4-a77a-1b0b968b6ca4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Robert_Stanfield</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Robert_Stanfield</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Стэнфилд,_Роберт</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Robert_Stanfield</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Robert_Stanfield</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Стэнфилд,_Роберт</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Robert_Stanfield</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Robert_Stanfield</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Halifax" openpx:province="Nova Scotia">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Halifax" openpx:province="Nova Scotia">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Halifax" openpx:province="Nova Scotia">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Colchester--Hants" openpx:province="Nova Scotia">
+        <pm:period pm:from="1967-11-06" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1967-11-06" pm:from-granularity="8" pm:till="1976-02-21" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1967-11-06" pm:from-granularity="8" pm:till="1979-05-21" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Robert_Stanfield">Robert Lorne Stanfield, PC, QC (April 11, 1914 – December 16, 2003) was the 17th Premier of Nova Scotia and leader of the federal Progressive Conservative Party of Canada. He was born into an affluent Nova Scotia clothing manufacturing and political family in 1914. He graduated from Dalhousie University and Harvard Law School in the 1930s. Stanfield became the leader of the Nova Scotia Progressive Conservative Party in 1948, and after a rebuilding period, lead the party to government in 1956. As premier, he won three-straight elections. His government was credited with modernizing the way the province delivered education and medical services. In 1967, he resigned as premier and became the leader of the federal Progressive Conservative Party. He was the leader of the Her Majesty's Loyal Opposition and fought three general elections, losing each time to the Liberals under Pierre Trudeau. He resigned as leader in 1976 and from public office in 1979. In retirement, he lived mostly in Ottawa, and died there in 2003 from complications due to pneumonia. He is sometimes referred to as "the best prime minister Canada never had." As one of Canada's most distinguished and respected statesmen, he was one of several people granted the style "The Right Honourable" who were not so entitled by virtue of an office held.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

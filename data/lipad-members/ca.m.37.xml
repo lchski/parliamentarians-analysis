@@ -1,0 +1,84 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.37">
+    <dc:identifier>ca.m.37</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>BOSHCOFF,  Ken, B.A., Hon. B.A., M.E.S.</dc:title>
+    <dc:description>Member information for: BOSHCOFF,  Ken, B.A., Hon. B.A., M.E.S.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=5b4a358f-4148-4864-b5de-050cf84c9f52&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=5b4a358f-4148-4864-b5de-050cf84c9f52&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.37">
+    <pm:name>
+      <pm:full>BOSHCOFF,  Ken, B.A., Hon. B.A., M.E.S.</pm:full>
+      <pm:first>Ken</pm:first>
+      <pm:last>Boshcoff</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Hon. B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.E.S.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1949-06-20" pm:granularity="8" pm:place="Fort William, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Business advisor, insurance executive, lecturer, marketing manager</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=5b4a358f-4148-4864-b5de-050cf84c9f52&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=3825b6fc-13e7-46a1-a404-6914a5ffe9f3</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Ken_Boshcoff</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Ken_Boshcoff</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Ken_Boshcoff</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://bg.wikipedia.org/wiki" pm:description="Wikipedia (BG)">http://bg.wikipedia.org/wiki/Кен_Бошкоф</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Ken_Boshcoff</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://bg.dbpedia.org/resource" pm:description="Dbpedia (BG)">http://bg.dbpedia.org/resource/Кен_Бошкоф</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Thunder Bay--Rainy River" openpx:province="Ontario">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Thunder Bay--Rainy River" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1991-01-01" pm:from-granularity="4" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1990-01-01" pm:till-granularity="4"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1974-01-01" pm:from-granularity="4" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Ken_Boshcoff">Ken Boshcoff (born June 20, 1949) is a Canadian politician. He was born in Fort William, Ontario. He served as mayor of Thunder Bay, Ontario from 1997 to 2003, during which he established Thunder Bay as the "Martial Arts Capital of Canada". He also had a role in establishing the Northern Ontario School of Medicine, the first Medical school established in North America in 35 years. Prior to that, he was a Thunder Bay City Councillor from 1978 to 1997. He was re-elected to Thunder Bay City Council in the 2010 municipal election.Defeated twice as a Progressive Conservative candidate in the federal elections of 1984 and 1988, he was elected in 2004 as a Liberal Member of Parliament for the Thunder Bay—Rainy River riding, and was re-elected for MP in 2006. Boschoff remained MP of the riding until 2008, when he was defeated by John Rafferty in the 2008 election.He was subsequently re-elected to Thunder Bay City Council in the 2010 municipal election as a councillor at large.As a child, he attended St. Ann’s Elementary School, followed by two years at St. Patrick High School and two years at Westgate High School. He continued his education in Thunder Bay at Lakehead University, where he completed Political Science and Economics Degrees. In 1975, he received a Master’s Degree in Environmental Studies, Systems Planning from York University.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

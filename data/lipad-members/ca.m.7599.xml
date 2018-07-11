@@ -1,0 +1,79 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7599">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>DUPONT,  Flavien</dc:title>
+    <dc:description>Member information for: DUPONT,  Flavien</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9a7d364b-8ad2-4c3d-b1bf-7a4a4ee73372&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9a7d364b-8ad2-4c3d-b1bf-7a4a4ee73372&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7599">
+    <pm:name>
+      <pm:full>DUPONT,  Flavien</pm:full>
+      <pm:first>Flavien</pm:first>
+      <pm:last>Dupont</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1847-01-01" pm:granularity="4" pm:place="Saint-Simon, Canada East"/>
+      <pm:deceased pm:date="1898-03-12" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Notary</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9a7d364b-8ad2-4c3d-b1bf-7a4a4ee73372&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=cd6197f1-2f4e-4cef-a27f-4e98ff4420e7</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/dupont-flavien-3061/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Flavien_Dupont</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Flavien_Dupont</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Flavien_Dupont</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Flavien_Dupont</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Bagot" openpx:province="Quebec">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Bagot" openpx:province="Quebec">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Bagot" openpx:province="Quebec">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Bagot" openpx:province="Quebec">
+        <pm:period pm:from="1882-09-02" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1882-09-02" pm:from-granularity="8" pm:till="1898-03-12" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Flavien_Dupont">Flavien Dupont (February 13, 1847 – March 12, 1898) was a notary and political figure in Quebec. He represented Bagot in the Legislative Assembly of Quebec from 1876 to 1878 and Bagot in the Canadian House of Commons from 1882 to 1898 as a Conservative member.He was born in Saint-Simon, Canada East, the son of Flavien Dupont and Nathalie Fournier. Dupont was educated at the Séminaire de Saint-Hyacinthe, was admitted as a notary in 1873 and set up practice at Saint-Liboire. He served as secretary-treasurer for Bagot County from 1874 to 1898 and was also secretary-treasurer for the Society for Agriculture and Colonization of Bagot County. Dupont was elected to the provincial assembly in an 1876 by-election held after his uncle Pierre-Samuel Gendron was named prothonotary for the Quebec Superior Court; he was defeated when he ran for reelection in 1878. He was elected to the House of Commons in an 1882 by-election held after Joseph-Alfred Mousseau became Quebec premier. He died in office in Sherbrooke at the age of 51.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

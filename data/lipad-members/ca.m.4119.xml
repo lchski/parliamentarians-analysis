@@ -1,0 +1,123 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4119">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>CARLING, The Hon. Sir John, P.C., K.C.M.G.</dc:title>
+    <dc:description>Member information for: CARLING, The Hon. Sir John, P.C., K.C.M.G.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=c24b8c34-80ba-4bd2-93fc-2ee2c64c11d7&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=c24b8c34-80ba-4bd2-93fc-2ee2c64c11d7&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4119">
+    <pm:name>
+      <pm:full>CARLING, The Hon. Sir John, P.C., K.C.M.G.</pm:full>
+      <pm:first>John</pm:first>
+      <pm:last>Carling</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.M.G.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1828-01-23" pm:granularity="8" pm:place="London, Upper Canada"/>
+      <pm:deceased pm:date="1911-11-06" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Brewer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=c24b8c34-80ba-4bd2-93fc-2ee2c64c11d7&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=bce710c9-3556-4f48-b861-ae3ba9a5f48a</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=691</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Carling</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Carling</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1892-02-26" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1872-10-12" pm:from-granularity="8" pm:till="1874-01-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1867-09-20" pm:from-granularity="8" pm:till="1872-07-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1896-04-23" pm:from-granularity="8" pm:till="1911-11-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1891-04-27" pm:from-granularity="8" pm:till="1892-02-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1892-12-05" pm:from-granularity="8" pm:till="1894-12-12" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1891-06-16" pm:from-granularity="8" pm:till="1892-11-24" pm:till-granularity="8"/>
+        <pm:name>Minister of Agriculture</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1888-07-11" pm:from-granularity="8" pm:till="1888-08-05" pm:till-granularity="8"/>
+        <pm:name>Postmaster General</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1885-09-25" pm:from-granularity="8" pm:till="1891-06-06" pm:till-granularity="8"/>
+        <pm:name>Minister of Agriculture</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1882-05-23" pm:from-granularity="8" pm:till="1885-09-24" pm:till-granularity="8"/>
+        <pm:name>Postmaster General</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal-Conservative" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1892-02-26" pm:from-granularity="8" pm:till="1911-11-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal-Conservative" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1891-04-27" pm:from-granularity="8" pm:till="1892-02-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal-Conservative" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1891-03-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal-Conservative" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1867-09-20" pm:from-granularity="8" pm:till="1874-01-21" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Carling">Sir John Carling, PC, KCMG (January 23, 1828 – November 6, 1911) of the Carling Brewery was a prominent politician and businessman from London, Ontario, Canada. The Carling family and its descendents later resided in Ottawa, Montreal, Halifax, Brockville, London, Toronto, and Windsor, in Canada, as well as Guernsey in the Channel Islands.He was the son of farmer Thomas Carling, who immigrated from Etton in Yorkshire, England to Canada in 1818. In 1839, the family moved to London, where Thomas founded the Carling Brewery in 1843, using a recipe from his native Yorkshire. In 1849, the brewery was turned over to John and his brother William.John’s political career began in municipal government, and in 1858, he was elected to the Legislative Assembly of the Province of Canada. After Confederation in 1867, he represented London in both provincial and federal governments until this was made illegal in 1872. In the 1871 provincial election, he defeated former London mayor Francis Evans Cornish. From 1872 to 1891, he served in the House of Commons as a Conservative Member of Parliament (MP), holding the position as the 7th Postmaster General from 1882 to 1885, and Minister of Agriculture from 1885 to 1891. In this position, he established the Ontario Agricultural College and the Central Experimental Farm near Ottawa. In 1888, he briefly simultaneously held the title of Postmaster General for a second time.After losing the 1891 election to Charles Hyman, he was appointed to the Senate by Prime Minister John A. Macdonald. However, the election was disputed and declared void, and Carling resigned from the Senate in order to run in a by-election in 1892, which he won. He served in the House of Commons until just before the 1896 election, when he resigned and was re-appointed to the Senate.Meanwhile, Carling remained active in London affairs, using his positions in the federal government to influence politics and business. In 1875, John and his brother William built a new Carling Brewery, and an even larger one was built when this burned down in 1879. The brewery was one of the largest in Canada and rivalled the production of fellow London brewery Labatt.He also ensured that the Great Western Railway, the London and Port Stanley Railway, and the London, Huron and Bruce Railway passed through the city. Due to his influence, the Grand Trunk Railway began to manufacture their cars in London. In 1878, he established a water commission to provide a water supply to the city. He also established the Ontario Hospital for the Insane in London, and in 1885 he provided the land on which Wolseley Barracks was established, now the Home Station of The Royal Canadian Regiment and the garrison of the Regiment's 4th Battalion. Carling also facilitated the establishment of Victoria Park.He was knighted in 1893, and served in the Senate until his death in 1911.In 1927, Carling Brewery sponsored a trans-atlantic flight from London (Canada) to London (UK). The plane was named the Sir John Carling, but both it and its pilots, Terence Tully and James Medcalf, disappeared over the Atlantic Ocean.Today there is an arena in London named after him. The town of Port Carling, Ontario is also named in his honour as well as the agricultural buildings in Ottawa, Ontario. Carling Avenue in Ottawa is named after Sir John Carling as well, as are the neighbourhoods of Carlington and Carlingwood.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

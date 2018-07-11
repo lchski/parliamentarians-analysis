@@ -1,0 +1,80 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8192">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-29+01:00</dc:date>
+    <dc:title>LOW,  Solon Earl</dc:title>
+    <dc:description>Member information for: LOW,  Solon Earl</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fdce9d46-5c36-4ca6-b6c7-52d1e6f9ba0b&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fdce9d46-5c36-4ca6-b6c7-52d1e6f9ba0b&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8192">
+    <pm:name>
+      <pm:full>LOW,  Solon Earl</pm:full>
+      <pm:first>Solon Earl</pm:first>
+      <pm:last>Low</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1900-01-08" pm:granularity="8" pm:place="Cardston, Alberta, Canada"/>
+      <pm:deceased pm:date="1962-12-22" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer, gentleman, school principal, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=fdce9d46-5c36-4ca6-b6c7-52d1e6f9ba0b&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=0eb03cc9-149b-4443-80af-ebb2a4c7cc8c</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Solon_Earl_Low</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Solon_Earl_Low</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Лоу,_Солон_Эрл</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Solon_Earl_Low</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Лоу,_Солон_Эрл</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Solon_Earl_Low</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Peace River" openpx:province="Alberta">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peace River" openpx:province="Alberta">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peace River" openpx:province="Alberta">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peace River" openpx:province="Alberta">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Social Credit" pm:party-ref="ca.p.socialcredit" pm:body="other">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1958-03-30" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Solon_Earl_Low">Solon Earl Low (January 8, 1900 – December 22, 1962) was a Canadian politician in the 20th century. Low was born in Cardston, Alberta, and was a farmer, school teacher and school principal. He was elected to the Legislative Assembly of Alberta in the 1935 provincial that swept the Social Credit Party of Alberta to power. Low became provincial treasurer under Premier William Aberhart in 1937. He was defeated in 1940 but regained a seat in a by-election in which George Woytikew resigned for him.In 1944, he was acclaimed the first national leader of the Social Credit Association of Canada at the party's founding convention. Though there had been a group of Social Credit MPs in parliament since 1935 under the leadership of John Horne Blackmore, the party did not have its first national convention until 1944 at which point the national party was officially founded. He was first elected to the House of Commons in the 1945 federal election. Low represented Peace River, Alberta until he lost his seat, along with every other Social Credit Member of Parliament (MP), in the 1958 federal election. Low retired as party leader in 1961 and died in 1962. Low contributed to Social Credit's reputation for antisemitism by numerous controversial comments. As Alberta treasurer he once said: "[A]nti-Semitism is spreading because people cannot fail to observe that a disproportionate number of Jews occupy positions of control in international finance, in revolutionary activities and in some propaganda institutions, the common policy of which is the centralization of power and the perversion of religious and cultural ideals."Ending anti-Semitism, he said, would require Jews to denounce those "arch-criminals" in their midsts who are responsible for these initiatives.In 1947, when Low was federal leader of the Social Credit party, he used a national Canadian Broadcasting Corporation (CBC) broadcast to lambaste "the international power maniacs who aim to destroy Christianity" and the "international gangsters who are day-to-day scheming for world revolution." He also claimed there was a "close tie-up between international communism, international finance, and international political Zionism." Low repudiated anti-Semitism in 1957 after having criticized Canada for not fully supporting Britain and France in the Suez Crisis and having visited the state of Israel.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

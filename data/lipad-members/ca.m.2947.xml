@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2947">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>CRONYN,  Hume, B.A., LL.B.</dc:title>
+    <dc:description>Member information for: CRONYN,  Hume, B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6cf8aa6e-d764-4dcf-aa90-3e38a53cde0a&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6cf8aa6e-d764-4dcf-aa90-3e38a53cde0a&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2947">
+    <pm:name>
+      <pm:full>CRONYN,  Hume, B.A., LL.B.</pm:full>
+      <pm:first>Hume</pm:first>
+      <pm:last>Cronyn</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1864-08-28" pm:granularity="8" pm:place="London, Canada West"/>
+      <pm:deceased pm:date="1933-06-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6cf8aa6e-d764-4dcf-aa90-3e38a53cde0a&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=a44d40db-01cc-4f53-a74b-9df200a80ccf</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Hume_Cronyn_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Hume_Cronyn_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Hume_Blake_Cronyn</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Hume_Blake_Cronyn</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="London" openpx:province="Ontario">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Unionist" pm:party-ref="ca.p.unionist" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Hume_Cronyn_(politician)">Hume Blake Cronyn (August 28, 1864 – June 19, 1933) was a Canadian politician and lawyer. Born in London, Canada West, the son of Verschoyle Cronyn (who was the son of Benjamin Cronyn) and Sophia Eliza Blake (who was the daughter of William Hume Blake), Cronyn was educted at Dr. Tassie's grammar school in Galt, Ontario and at the University of Toronto where he received a Bachelor of Arts degree and a Bachelor of Law degree in 1889. He was called to the Ontario bar in 1889 and practised law in London. In 1907 he was appointed general manager of The Huron and Erie Mortgage Corporation. He was also a General Manager of the Canada Trust Company and a Director of the Mutual Life Assurance Company of Canada.While at the University of Toronto he enlisted in The Queen's Own Rifles of Canada and served during the North-West Rebellion of 1885 and fought in the Battle of Cut Knife. Afterwards he joined the 7th Fusiliers, and served as Major from 1899 to 1907.He was elected to the House of Commons as a Unionist in the riding of London in the 1917 election.An Anglican, he married Frances Amelia Labatt, second daughter of John Labatt, in 1892. He had three sons and two daughters, including Hume Cronyn the actor.Asteroid (12050) Humecronyn is named in his honour.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

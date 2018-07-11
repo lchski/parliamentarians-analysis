@@ -1,0 +1,70 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4004">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>LEWIS, The Hon. John</dc:title>
+    <dc:description>Member information for: LEWIS, The Hon. John</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=4666563f-9220-4766-b50a-78410303a7cb&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=4666563f-9220-4766-b50a-78410303a7cb&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4004">
+    <pm:name>
+      <pm:full>LEWIS, The Hon. John</pm:full>
+      <pm:first>John</pm:first>
+      <pm:last>Lewis</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1858-01-17" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:deceased pm:date="1935-05-18" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, journalist</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=4666563f-9220-4766-b50a-78410303a7cb&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Lewis_(Canadian_senator)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Lewis_(Canadian_senator)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="East Toronto" openpx:province="Ontario">
+        <pm:period pm:from="1925-09-05" pm:from-granularity="8" pm:till="1935-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1905-09-05" pm:from-granularity="8" pm:till="1935-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Lewis_(Canadian_senator)">John Lewis (January 17, 1858 - May 18, 1935) was a Canadian author and journalist who was, variously, editor of the Toronto Daily Star and the Toronto Globe and served in the Canadian Senate for the last ten years of his life.Lewis' father, John, was a Welshman who immigrated to Canada and worked as a teacher and school principal. Lewis himself was born on Bay Street in Toronto, Ontario, a few yards from the future site of Toronto's Old City Hall. After attending Dufferin Public School, where his father was the first principal, and Toronto High School (now Jarvis Collegiate), he worked in a law office for a few years before getting a job with the Toronto World in 1881 and then worked for the Mail and Empire and the Winnipeg Tribune before returning to Toronto in 1883 and worked for the Globe for 19 years. During this time he worked in the press gallery in Ottawa for two years before taking on editorial duties at the paper. He also wrote a biography of Globe founder George Brown. From 1902 to 1905 he worked as an editor at The News and the Mail and Empire. He then worked for the Daily Star as editor from 1905 until 1919.Lewis covered stories as far ranging as the Northwest Rebellion, the Golden Jubilee of Queen Victoria and numerous election campaigns.From 1920 to 1921, Lewis worked for the National Liberal Committee in the lead up to the 1921 federal election, editing the party's political literature and writing a biography of party leader William Lyon Mackenzie King. After the campaign, he returned to the Globe, this time as the newspaper's editor.In 1925, Mackenzie King, now Prime Minister, appointed Lewis to the Senate where he sat as a Liberal representative until his death. His books include The Life of George Brown and the political history Canada and its Provinces.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

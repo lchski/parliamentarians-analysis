@@ -1,0 +1,111 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5231">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>HAMILTON, The Right Hon. Francis Alvin George, P.C., B.A., LL.D.</dc:title>
+    <dc:description>Member information for: HAMILTON, The Right Hon. Francis Alvin George, P.C., B.A., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=074f5c93-b513-42b6-9ad6-39c7c659fcf4&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=074f5c93-b513-42b6-9ad6-39c7c659fcf4&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5231">
+    <pm:name>
+      <pm:full>HAMILTON, The Right Hon. Francis Alvin George, P.C., B.A., LL.D.</pm:full>
+      <pm:first>Francis Alvin George</pm:first>
+      <pm:last>Hamilton</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1912-03-30" pm:granularity="8" pm:place="Kenora, Ontario, Canada"/>
+      <pm:deceased pm:date="2004-06-29" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=074f5c93-b513-42b6-9ad6-39c7c659fcf4&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=351274fc-5b6a-4b50-a258-63821597eb3c</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Alvin_Hamilton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Alvin_Hamilton</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle--Moose Mountain" openpx:province="Saskatchewan">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle--Moose Mountain" openpx:province="Saskatchewan">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle--Moose Mountain" openpx:province="Saskatchewan">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle--Moose Mountain" openpx:province="Saskatchewan">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle--Moose Mountain" openpx:province="Saskatchewan">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle" openpx:province="Saskatchewan">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle" openpx:province="Saskatchewan">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle" openpx:province="Saskatchewan">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle" openpx:province="Saskatchewan">
+        <pm:period pm:from="1958-03-31" pm:from-granularity="8" pm:till="1962-04-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Qu'Appelle" openpx:province="Saskatchewan">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1960-10-11" pm:from-granularity="8" pm:till="1963-04-21" pm:till-granularity="8"/>
+        <pm:name>Minister of Agriculture</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1957-08-22" pm:from-granularity="8" pm:till="1960-10-10" pm:till-granularity="8"/>
+        <pm:name>Minister of Northern Affairs and National Resources</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1988-11-20" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1968-06-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Alvin_Hamilton">Alvin Hamilton PC (March 30, 1912 – June 29, 2004) was a Canadian politician. Hamilton led the Progressive Conservative Party of Saskatchewan from 1949 until he was elected to the Canadian House of Commons in the 1957 general election. This election brought the federal Progressive Conservative Party of Canada to power under John George Diefenbaker.Born Francis Alvin George Hamilton in Kenora, Ontario, he received a Bachelor of Arts degree in 1938 from the University of Saskatchewan. During World War II, he served with the Royal Canadian Air Force as a navigator and flight lieutenant. He was awarded the Burma Star Decoration. After the war, he ran three times unsuccessfully as the Progressive Conservative candidate for the Canadian House of Commons in the 1945, 1949, and 1953 elections. He was elected in 1957 in the riding of Qu'Appelle and re-elected 4 more times in 1958, 1962, 1963, and 1965. He ran in the riding of Regina East in the 1968 federal election, and lost by 192 votes to the New Democrat candidate. He was elected again in the 1972 federal election in the riding of Qu'Appelle—Moose Mountain and was re-elected 4 more times in 1974, 1979, 1980, and 1984. He retired in 1988.Hamilton served as Minister of Northern Affairs and National Resources in the Diefenbaker cabinet from 1957 to 1960, supporting a new vision of northern development. From 1960 to the 1963 election, when the Diefenbaker government was defeated, Hamilton served as Minister of Agriculture, pioneering wheat sales to the People's Republic of China.He was a candidate at the 1967 PC leadership convention, making it to the fourth ballot before dropping out.In 1992, he was bestowed with the title "The Right Honourable" by Elizabeth II in honour of his service to Canada. This is a rare honour for someone who did not serve as Prime Minister of Canada, Chief Justice of Canada or Governor General of Canada.After, retirement he lived a relatively secluded life in the Ottawa-area town of Manotick where he lived until his death in 2004.On June 28, 2007, the newly refurbished Government of Canada Building in downtown Regina, Saskatchewan was officially named the Francis Alvin George Hamilton Building. Also, one of the reception rooms in the Embassy of Canada to China in Beijing is called the Alvin Hamilton Room.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,129 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.165">
+    <dc:identifier>ca.m.165</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>LAYTON, The Hon. Jack, P.C., B.A., M.A., Ph.D.</dc:title>
+    <dc:description>Member information for: LAYTON, The Hon. Jack, P.C., B.A., M.A., Ph.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=878c4a88-aa8e-4e9a-961f-3829672d4dc0&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=878c4a88-aa8e-4e9a-961f-3829672d4dc0&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.165">
+    <pm:name>
+      <pm:full>LAYTON, The Hon. Jack, P.C., B.A., M.A., Ph.D.</pm:full>
+      <pm:first>Jack</pm:first>
+      <pm:last>Layton</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Ph.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1950-07-18" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:deceased pm:date="2011-08-22" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Professor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=878c4a88-aa8e-4e9a-961f-3829672d4dc0&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=44c45099-e6a0-4683-9f81-f10a562209ac</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be.wikipedia.org/wiki" pm:description="Wikipedia (BE)">http://be.wikipedia.org/wiki/Джон_Гільберт_Лейтан</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be-x-old.wikipedia.org/wiki" pm:description="Wikipedia (BE-X-OLD)">http://be-x-old.wikipedia.org/wiki/Джон_Гільбэрт_Лэйтан</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://la.wikipedia.org/wiki" pm:description="Wikipedia (LA)">http://la.wikipedia.org/wiki/Ioannes_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://simple.wikipedia.org/wiki" pm:description="Wikipedia (SIMPLE)">http://simple.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/잭_레이턴</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sh.wikipedia.org/wiki" pm:description="Wikipedia (SH)">http://sh.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh-yue.wikipedia.org/wiki" pm:description="Wikipedia (ZH-YUE)">http://zh-yue.wikipedia.org/wiki/積林頓</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cy.wikipedia.org/wiki" pm:description="Wikipedia (CY)">http://cy.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://no.wikipedia.org/wiki" pm:description="Wikipedia (NO)">http://no.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Джек_Лейтон</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Лейтон,_Джек</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/杰克·林顿</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Jack_Layton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ta.wikipedia.org/wiki" pm:description="Wikipedia (TA)">http://ta.wikipedia.org/wiki/யக்_லேற்ரன்</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh.dbpedia.org/resource" pm:description="Dbpedia (ZH)">http://zh.dbpedia.org/resource/杰克·林顿</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://simple.dbpedia.org/resource" pm:description="Dbpedia (SIMPLE)">http://simple.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cy.dbpedia.org/resource" pm:description="Dbpedia (CY)">http://cy.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Лейтон,_Джек</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://no.dbpedia.org/resource" pm:description="Dbpedia (NO)">http://no.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ta.dbpedia.org/resource" pm:description="Dbpedia (TA)">http://ta.dbpedia.org/resource/யக்_லேற்ரன்</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be.dbpedia.org/resource" pm:description="Dbpedia (BE)">http://be.dbpedia.org/resource/Джон_Гільберт_Лейтан</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be_x_old.dbpedia.org/resource" pm:description="Dbpedia (BE_X_OLD)">http://be_x_old.dbpedia.org/resource/Джон_Гільбэрт_Лэйтан</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://la.dbpedia.org/resource" pm:description="Dbpedia (LA)">http://la.dbpedia.org/resource/Ioannes_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ko.dbpedia.org/resource" pm:description="Dbpedia (KO)">http://ko.dbpedia.org/resource/잭_레이턴</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh_yue.dbpedia.org/resource" pm:description="Dbpedia (ZH_YUE)">http://zh_yue.dbpedia.org/resource/積林頓</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sh.dbpedia.org/resource" pm:description="Dbpedia (SH)">http://sh.dbpedia.org/resource/Jack_Layton</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/Джек_Лейтон</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Toronto--Danforth" openpx:province="Ontario">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="2011-08-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Toronto--Danforth" openpx:province="Ontario">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Toronto--Danforth" openpx:province="Ontario">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Toronto--Danforth" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="2011-08-22" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2011-08-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jack_Layton">John Gilbert "Jack" Layton, PC (July 18, 1950 – August 22, 2011) was a Canadian social democratic politician and Leader of the Official Opposition. He was leader of the New Democratic Party from 2003 to 2011, and previously sat on Toronto City Council, occasionally holding the title of "Acting Mayor" or "Deputy Mayor" of Toronto during his tenure as city councillor. He was the Member of Parliament for Toronto—Danforth from 2004 until his death.Son of a Progressive Conservative cabinet minister, Layton was raised in Hudson, Quebec. He rose to prominence in Toronto municipal politics where he was one of the most prominent left-wing voices on city and Metropolitan Toronto councils, championing many progressive causes. In 1991, he ran for mayor, losing to June Rowlands. Returning to council he rose to become head of the Federation of Canadian Municipalities. In 2003, he was elected leader of the federal NDP on the first ballot of the convention.Under his leadership, support for the NDP increased in each election. The party's popular vote almost doubled in the 2004 election, which gave the NDP the balance of power in Paul Martin's minority government. In May 2005 the NDP supported the Liberal budget in exchange for major amendments, in what was promoted as Canada's "First NDP budget". In November of that year, Layton voted with other opposition parties to defeat the Liberal government over the findings of the Gomery Commission. The NDP saw further gains in the 2006 and 2008 elections, in which the party elected 29 and 37 MPs, respectively.In the 2011 election Layton led the NDP to the most successful result in the party's history, winning 103 seats—enough to form Canada's Official Opposition. Federal support for Layton and the NDP in the election was unprecedented, especially in the province of Quebec where the party won 59 out of 75 seats.Layton died on August 22, 2011, aged 61, after suffering from an undisclosed type of cancer. He was survived by his wife of 23 years, fellow MP Olivia Chow. Shortly before, he had named Nycole Turmel as interim leader of both the New Democratic Party and subsequently of the Official Opposition; Thomas Mulcair eventually won the formal leadership election that followed.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

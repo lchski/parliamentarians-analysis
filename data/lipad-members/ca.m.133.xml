@@ -1,0 +1,103 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.133">
+    <dc:identifier>ca.m.133</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>HARRIS,  Richard M.</dc:title>
+    <dc:description>Member information for: HARRIS,  Richard M.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=63427584-4218-4484-ad50-0c202daf6ac6&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=63427584-4218-4484-ad50-0c202daf6ac6&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.133">
+    <pm:name>
+      <pm:full>HARRIS,  Richard M.</pm:full>
+      <pm:first>Richard M.</pm:first>
+      <pm:last>Harris</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1944-09-06" pm:granularity="8" pm:place="Vancouver, British Columbia, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=63427584-4218-4484-ad50-0c202daf6ac6&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=665a1cf9-fc98-45b7-a3bb-4a1ca3f8c25a</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Richard-M-Harris(1525)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website">http://www.conservative.ca/?cr=cariboo-prince-george</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website ">http://www.dickharris.ca/</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Dick_Harris</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Dick_Harris</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Richard_Harris_(homme_politique)</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Richard_Harris_(homme_politique)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Cariboo--Prince George" openpx:province="British Columbia">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cariboo--Prince George" openpx:province="British Columbia">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cariboo--Prince George" openpx:province="British Columbia">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cariboo--Prince George" openpx:province="British Columbia">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Prince George--Bulkley Valley" openpx:province="British Columbia">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Prince George--Bulkley Valley" openpx:province="British Columbia">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Prince George--Bulkley Valley" openpx:province="British Columbia">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2001-04-25" pm:from-granularity="8" pm:till="2001-12-01" pm:till-granularity="6"/>
+        <pm:name>Whip of the Canadian Alliance</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2001-04-25" pm:from-granularity="8" pm:till="2002-01-13" pm:till-granularity="8"/>
+        <pm:name>Chief Opposition Whip</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative" pm:party-ref="ca.p.conservative" pm:body="other">
+        <pm:period pm:from="2003-12-23" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Canadian Alliance" pm:party-ref="ca.p.canadianalliance" pm:body="other">
+        <pm:period pm:from="2000-03-27" pm:from-granularity="8" pm:till="2003-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Reform" pm:party-ref="ca.p.reform" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="2000-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Dick_Harris">Richard M. "Dick" Harris (born September 6, 1944) is a Canadian politician. He is a Member of Parliament and member of the Conservative Party of Canada. He also was a member of the Reform Party of Canada and the Canadian Alliance. He represents the electoral district of Cariboo—Prince George, and formerly Prince George–Bulkley Valley. He was first elected during the 1993 federal election and was re-elected in 1997, 2000, 2004, 2006, 2008 and 2011. He challenged Reform Party leader Preston Manning for leadership when Manning proposed merging the party with the Progressive Conservative Party of Canada. He later campaigned for Stockwell Day to become leader. The most prominent position he held with his party was Chief Opposition Whip from 2001 to 2002. He generated controversy when he appointed an unelected, Conservative Party member to represent a neighbouring electoral district in governmental affairs, though the electoral district had an elected Member of Parliament, but from an opposition party. In Fiscal Year 2009-10 he was the top spending Member of Parliament, and had the largest hospitality and lowest advertising expenditures of any house member.He has served a member on several parliamentary committees, including the 'Standing Committee on Finance' during the 36th and 37th Parliaments and the 'Standing Committee on Natural Resources' during the 39th, and 40th Parliaments. In the 41st Parliament he sat on the Veteran's Affairs Committee. He has introduced three Private Member Bills into the House of Commons. The first two bills were introduced when he was a member of the opposition. The first bill, having to do with penalties for drunk driving was defeated, however, the government felt that the content of the bill was worthy of introducing a similar bill which was passed. The second bill : An Act to amend the Criminal Code (failure to stop at scene of accident) was introduced in the 38th Parliament but was not adopted. His third private members bill was introduced during the 41st Parliament; An Act to amend the Employment Insurance Act (incarceration) was introduced in October 2011.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

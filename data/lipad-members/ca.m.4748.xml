@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4748">
+    <dc:identifier>ca.m.4748</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>CLOUTHIER,  Hector Daniel (Hec)</dc:title>
+    <dc:description>Member information for: CLOUTHIER,  Hector Daniel (Hec)</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=7d4aaf1f-0363-46aa-a12f-86142886f855&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=7d4aaf1f-0363-46aa-a12f-86142886f855&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4748">
+    <pm:name>
+      <pm:full>CLOUTHIER,  Hector Daniel (Hec)</pm:full>
+      <pm:first>Hector Daniel (Hec)</pm:first>
+      <pm:last>Clouthier</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1949-10-18" pm:granularity="8" pm:place="Pembroke, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, consultant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=7d4aaf1f-0363-46aa-a12f-86142886f855&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7d1749db-2a77-4f88-81fc-46c7963f9c4a</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Hec_Clouthier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Hec_Clouthier</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Renfrew--Nipissing--Pembroke" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2000-09-01" pm:from-granularity="8" pm:till="2000-12-21" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-06-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Hec_Clouthier">Hector Daniel Clouthier (born October 18, 1949 in Pembroke) is a former Federal Member of Parliament for the riding of Renfrew—Nipissing—Pembroke in Ontario, Canada. He is known for wearing a flamboyant fedora and his election slogan, "Give 'em Hec".Prior to being elected, Clouthier was Vice-President of Hec Clouthier and Sons Inc., a well-known lumbering firm in the Upper Ottawa Valley. As a community activist he volunteered as Campaign Chair United Way Upper Ottawa Valley, as Chair of the Ottawa Valley Lumber Association, as President Pembroke and Area Chamber of Commerce , as Chair Quality Assurance and Risk Management Pembroke Regional Hospital and as Chair Personnel St. Joseph's Non Profit Housing.He originally sought the Liberal nomination in Renfrew—Nipissing—Pembroke before the 1993 federal election, but his candidacy was denied by then-party leader Jean Chrétien in favour of sitting MP Len Hopkins. Clouthier ran as an Independent candidate and received more than 10,000 votes, finishing second to Hopkins. In 1997 Hopkins announced he would not be a candidate in the next federal election. There was a spirited battle for the Liberal nomination, and over 4,000 memberships were sold. At the convention Clouthier defeated three other candidates to win the nomination. Subsequently he won the general election and became MP for Renfrew—Nipissing—Pembroke. He was elected by his fellow Liberal MPs as Chair of Eastern Ontario caucus, and was named by the Prime Minister as Parliamentary Secretary to the Minister of National Defence in 2000. In the 2000 election he was defeated by Canadian Alliance candidate Cheryl Gallant in part due to his controversial endorsement of gun control, which had become highly unpopular in the region. After the election he was asked by Prime Minister Jean Chrétien to be a Special Advisor in the Prime Minister's Office. He served in the PMO until Paul Martin took over as Prime Minister. In the fall of 2002 Clouthier met U.S. President George W. Bush in Detroit at a border conference. The American President was "smitten" by Clouthier's fedora and asked for one. Clouthier had a fedora made for the President ( from Giroux Men's Wear in Ottawa ) and sent it to the White House.Clouthier served as Executive Director of the Ontario Horse Racing Industry Association (OHRIA) from 2007 till 2010 when he resigned to once again seek political office.In the 2011 federal election, Clouthier ran in his former riding of Renfrew-Nipissing-Pembroke, placing second to incumbent Gallant. His tally of almost 10,000 votes was the most of any Independent in Ontario.He is President and CEO of Hec Clouthier Consulting Ltd. Augmenting his consulting business Clouthier successfully completed the Strategic Human Resource Management ( SHRM ) program Harvard University Graduate School of Business Administration and has been awarded the Certificate of Achievement in Alternative Dispute Resolution ( ADR ) Faculty of Law, University of Windsor. He was taught by the Jesuits at Loyola College, Montreal.Clouthier holds a professional harness horse driver's licence. He enjoys downhill skiing, playing ice hockey and is an avid marathon runner . He has ran 29 marathons including the Boston Marathon in 2005, 2009, 2010 and 2014 .</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,67 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7057">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>DAHMER,  John</dc:title>
+    <dc:description>Member information for: DAHMER,  John</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=4a794302-e5a8-4bfe-906c-461349d422ee&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=4a794302-e5a8-4bfe-906c-461349d422ee&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7057">
+    <pm:name>
+      <pm:full>DAHMER,  John</pm:full>
+      <pm:first>John</pm:first>
+      <pm:last>Dahmer</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1937-09-05" pm:granularity="8" pm:place="Red Deer, Alberta, Canada"/>
+      <pm:deceased pm:date="1988-11-26" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>School administrator</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=4a794302-e5a8-4bfe-906c-461349d422ee&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=2da41758-72aa-4adf-b26a-5c1af7d7b99b</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Dahmer</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Dahmer</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Beaver River" openpx:province="Alberta">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1988-11-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Dahmer">John Roderick Dahmer (September 5, 1937 – November 26, 1988) was elected a member of the Canadian House of Commons in 1988. His background was in education. A school teacher, guidance councillor, principal, and later involved in adult education, correctional education and vocational training as a director at Lakeland College.He was elected in the 1988 federal election at the Beaver River electoral district for the Progressive Conservative party; however, he was terminally stricken with pancreatic cancer and never saw the first day of the 34th Canadian Parliament.Dahmer had entered Edmonton's Royal Alexandra Hospital on October 28, 1988, after suffering symptoms similar to adult onset type two diabetes, but the extent of his condition was not widely known until after election night. However, by the time cancer was discovered it was after the deadline to withdraw from the general election, and at that point it was not certain the cancer could not be successfully treated with chemotherapy.Dahmer died five days after the election, before the Deputy Clerk of the House of Commons could arrive to conduct a swearing-in ceremony. Despite this, parliamentary policy allowed Dahmer's widow to receive a $29,150 severance, which was equivalent to six months salary in office. This money was used to establish the John Dahmer Community Involvement Scholarship at Lakeland College.As of 2014, he continues to hold the record for the shortest term as a federal Member of Parliament in Canadian history.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

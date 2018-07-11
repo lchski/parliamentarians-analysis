@@ -1,0 +1,79 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1425">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>WARD,  Henry Alfred</dc:title>
+    <dc:description>Member information for: WARD,  Henry Alfred</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6fdf3fe2-5341-459d-bcf2-ff92e4977bdc&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6fdf3fe2-5341-459d-bcf2-ff92e4977bdc&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1425">
+    <pm:name>
+      <pm:full>WARD,  Henry Alfred</pm:full>
+      <pm:first>Henry Alfred</pm:first>
+      <pm:last>Ward</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1849-08-20" pm:granularity="8" pm:place="Port Hope, Canada West"/>
+      <pm:deceased pm:date="1934-05-11" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6fdf3fe2-5341-459d-bcf2-ff92e4977bdc&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=e76ee328-f08f-4a37-b00a-7002862c5519</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Henry_Alfred_Ward</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Henry_Alfred_Ward</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Durham" openpx:province="Ontario">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Durham East" openpx:province="Ontario">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Durham East" openpx:province="Ontario">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Durham East" openpx:province="Ontario">
+        <pm:period pm:from="1885-08-24" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1908-10-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1885-08-24" pm:from-granularity="8" pm:till="1891-03-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Henry_Alfred_Ward">Henry Alfred Ward (August 20, 1849 – May 11, 1934) was a Canadian politician.Born in Port Hope, Canada West, the only surviving son of the late George C. Ward, Registrar for Durham County, Ontario. He became a lawyer and was elected Mayor of Port Hope in 1885, 1893 and 1894. He was first elected to the Canadian House of Commons for Durham East in an 1885 by-election. A Conservative, he was re-elected in 1887 but did not run in 1891. He ran again and was elected in 1900 and 1904 (for the riding of Durham).The Ward family of Port Hope, Ontario were of English descent. Henry Ward was a grandson of Captain Thomas Ward (1770-1861), wwho as born in London and came to Canada with Governor John Graves Simcoe in 1791. Captain Ward was one of the first statute lawyers of Upper Canada and one of the first benchers of the Law Society of Upper Canada. Until 1808, he was Registrar of Northumberland County, Ontario, residing at Brighton. In that year he became Registrar for Durham County, Ontario and removed to Port Hope. In later life he also held the offices of Judge of the County Court and Clerk of the Peace for the Newcastle District. In 1847, Captain Ward resigned from the Registrar's office in favor of his son George C. Ward. Among the Captain's children were Mrs John Tucker Williams.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

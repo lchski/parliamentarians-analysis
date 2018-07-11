@@ -1,0 +1,81 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4392">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>DOUGLAS, The Hon. James Moffat</dc:title>
+    <dc:description>Member information for: DOUGLAS, The Hon. James Moffat</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dc6ece6e-a70f-44a4-9b2d-0c15d6600f23&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dc6ece6e-a70f-44a4-9b2d-0c15d6600f23&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4392">
+    <pm:name>
+      <pm:full>DOUGLAS, The Hon. James Moffat</pm:full>
+      <pm:first>James Moffat</pm:first>
+      <pm:last>Douglas</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1839-05-26" pm:granularity="8" pm:place="Linton, Roxborough, Scotland"/>
+      <pm:deceased pm:date="1920-08-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer, minister, missionary</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dc6ece6e-a70f-44a4-9b2d-0c15d6600f23&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=8e531426-fcf0-46d0-998b-b686f1d10da7</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/James_Moffat_Douglas</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/James_Moffat_Douglas</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/James_Moffat_Douglas</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/James_Moffat_Douglas</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Assiniboia East" openpx:province="Northwest Territories">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Assiniboia East" openpx:province="Northwest Territories">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Tantallon" openpx:province="Saskatchewan">
+        <pm:period pm:from="1906-03-08" pm:from-granularity="8" pm:till="1920-08-19" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent Liberal" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1906-03-08" pm:from-granularity="8" pm:till="1920-08-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1904-11-02" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/James_Moffat_Douglas">James Moffat Douglas (May 26, 1839 – August 19, 1920) was a farmer, missionary and politician from western Canada. The son of John and Euphemia (Moffat) Douglas, he was born and received his early education in Linton, Bankhead, Roxburghshire in Scotland, and came with his parents to settle on a small farm near Cambray, Ontario, in 1851.Douglas was elected to the Canadian House of Commons for the district of Assiniboia East in the 1896 Federal Election he defeated William McDonald, who was previously acclaimed as the ridings Member of Parliament. Douglas won under the Liberal Party of Canada banner. In 1900, he was re-elected to represent the district for a second term, he retired in 1904.Douglas was appointed to the Canadian Senate to represent the province of Saskatchewan on the advice of Prime Minister Wilfrid Laurier on March 8, 1906. He served in the Canadian Senate affiliated as an Independent Liberal until his death on August 19, 1920.Douglas built a homestead in the Qu'Appelle Valley in 1904. He named it Tantallon because he said the location reminded him of Tantallon Castle in Scotland. Tantallon takes its name from the homestead.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,76 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3870">
+    <dc:identifier>ca.m.3870</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>PROCTOR,  Dick, B.J.</dc:title>
+    <dc:description>Member information for: PROCTOR,  Dick, B.J.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=d2532de4-9001-40c6-8c41-1ed8e6678fd5&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=d2532de4-9001-40c6-8c41-1ed8e6678fd5&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3870">
+    <pm:name>
+      <pm:full>PROCTOR,  Dick, B.J.</pm:full>
+      <pm:first>Dick</pm:first>
+      <pm:last>Proctor</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.J.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1941-02-12" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Communication consultant, consultant, journalist</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=d2532de4-9001-40c6-8c41-1ed8e6678fd5&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=6d1bb537-5904-4d24-a902-489d58ea032e</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Dick_Proctor</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Dick_Proctor</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Palliser" openpx:province="Saskatchewan">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Palliser" openpx:province="Saskatchewan">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2000-02-01" pm:from-granularity="6" pm:till="2004-08-01" pm:till-granularity="6"/>
+        <pm:name>N.D.P. Caucus Chair</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2004-06-27" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Dick_Proctor">Dick Proctor (born in Toronto, February 12, 1941) is a Canadian political activist, former New Democratic Party (NDP) Member of Parliament, and a former journalist.Proctor has been active with the NDP in a number of capacities since the 1970s. In the early part of that decade, he was communications director for Ontario NDP leader Stephen Lewis. He was cabinet press secretary to then-Premier of Saskatchewan Allan Blakeney during the 1978 and 1982 provincial election campaigns. He was executive assistant to federal NDP leader Ed Broadbent in the intervening period.In the mid-1980s, Proctor worked as the research director for the National Union of Provincial Government Employees and then as the project coordinator of the Canadian Labour Congress in Latin America. He returned to the NDP in 1989 to serve as the party's federal secretary. He then served as provincial secretary for the Saskatchewan New Democratic Party from 1993 to 1996.He also worked as a journalist for the Edmonton Journal and Toronto Telegram in the 1960s and 1970s, and as sportswriter for the Globe and Mail in the 1970s. Moonlighting for The Hockey News under the pseudonym "Mike Gamble", he wrote a profile of 16-year-old junior hockey player Wayne Gretzky, and may have been the first person to use the phrase "The Great Gretzky".Proctor entered electoral politics when he won a seat in the federal election representing the Saskatchewan riding of Palliser. He was re-elected in the 2000 election and served as NDP caucus chair from 2000 until he lost his seat in the 2004 federal election by 124 votes. From 2004 to 2005 he served as chief of staff to NDP leader Jack Layton. He retired to Victoria, British Columbia in 2005. As an MP, Proctor forced the resignation of Solicitor-General Andy Scott in 1998 when, on a flight from Ottawa to Saint John, New Brunswick, he overheard an indiscreet conversation between Scott and a political ally discussing the inquiry into the Royal Canadian Mounted Police's handling of protesters at the Vancouver Asia-Pacific Economic Cooperation meeting. According to Proctor, Scott's predicted the outcome of the inquiry thus creating the impression that the judicial inquiry's findings had been predetermined. Dick Proctor returned from retirement in October 2008 to act as Interim Federal Secretary for the NDP federal office. The vacancy he is filling was left by Éric Hébert-Daly, who resigned immediately following the 2008 campaign.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

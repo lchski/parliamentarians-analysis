@@ -1,0 +1,67 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6607">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>HOBLITZELL,  Frederick George</dc:title>
+    <dc:description>Member information for: HOBLITZELL,  Frederick George</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=bf625a1b-7f5f-4709-9f6f-acce82ade8ce&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=bf625a1b-7f5f-4709-9f6f-acce82ade8ce&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6607">
+    <pm:name>
+      <pm:full>HOBLITZELL,  Frederick George</pm:full>
+      <pm:first>Frederick George</pm:first>
+      <pm:last>Hoblitzell</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1891-01-02" pm:granularity="8" pm:place="Rahway, New Jersey, United States"/>
+      <pm:deceased pm:date="1964-09-06" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Managing director, president / manager</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=bf625a1b-7f5f-4709-9f6f-acce82ade8ce&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=1e6f2c7b-4adb-42a8-8ce1-6a8816a339f0</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Frederick_Hoblitzell</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Frederick_Hoblitzell</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Eglinton" openpx:province="Ontario">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-06-10" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Frederick_Hoblitzell">Frederick George Hoblitzell (2 January 1891 – 6 September 1964) was a Liberal party member of the Canadian House of Commons. He was born in Rahway, New Jersey, United States, moved to Canada in 1912 and became president and managing director of Anglo Petroleum Ltd. He was also known as a champion amateur golfer in Ontario.He was first elected to Parliament at the Eglinton riding in the 1940 general election, the only Toronto Liberal candidate in that election to defeat a Conservative candidate, namely Richard Langton Baker. After completing one term in the House of Commons, Hoblitzell did not seek further re-election, indicating that the "pressure of business" precluded a re-election campaign in the 1945 election.After leaving federal politics, Hoblitzell returned to business interests, particularly with Anglo Petroleum. In 1949, he was convicted of three Foreign Exchange Control Act infractions involving his business dealings and was fined $4500. In 1951, he was convicted of another charge of purchasing $25,000 in alcoholic beverage, mining, railway stocks without approval by the Foreign Exchange Control Board, under a scheme where he arranged with a New Jersey broker to buy the stocks then pass these along to a "W.F. Howard" in Toronto who was located on Oriole Parkway, the same street as Hoblitzell's residence. Hoblitzell was sentenced to a one year jail term or a $4600 fine for this latter charge.Hoblitzell made a public appearance in June 1962 at a Toronto rally featuring his House of Commons successor, Donald Fleming. Hoblitzell died of a long illness in 1964. His wife, Irene Lillian Parsons died in 1968.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,71 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4318">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-29+01:00</dc:date>
+    <dc:title>KIDD,  Thomas Ashmore, V.D.</dc:title>
+    <dc:description>Member information for: KIDD,  Thomas Ashmore, V.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=172b8451-b115-4c78-8c2b-fc8bdaf5aa9d&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=172b8451-b115-4c78-8c2b-fc8bdaf5aa9d&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4318">
+    <pm:name>
+      <pm:full>KIDD,  Thomas Ashmore, V.D.</pm:full>
+      <pm:first>Thomas Ashmore</pm:first>
+      <pm:last>Kidd</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">V.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1889-05-01" pm:granularity="8" pm:place="Burritt's Rapids, Ontario, Canada"/>
+      <pm:deceased pm:date="1973-12-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Manufacturer, representative</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=172b8451-b115-4c78-8c2b-fc8bdaf5aa9d&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=0c1d418b-2a04-43cf-a2e5-7b055fcb6b5b</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=1374</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Thomas_Kidd_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Thomas_Kidd_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Kingston City" openpx:province="Ontario">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-06-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Thomas_Kidd_(politician)">Thomas Ashmore Kidd (May 1, 1889 – December 19, 1973) was speaker of the Legislature of Ontario in 1930-1934 and served as Conservative MLA for Kingston from 1926 to 1940 and Progressive Conservative MP for Kingston City from 1945 to 1949.He was born in Burritt's Rapids, Ontario, the son of Edward Kidd, and was educated there and in Kemptville. Kidd was a manufacturer and wholesale merchant. He served in France with the Royal Regiment of Canada in 1915 and was wounded at Ypres. In 1920, he married Eva Richardson, the daughter of senator Henry Westman Richardson. Kidd was a member of Kingston city council from 1922 to 1926 and also served on the Kingston Board of Works. He won the Conservative nomination in Kingston after the incumbent Conservative, William Folger Nickle, resigned from the cabinet of Howard Ferguson in order to protest the government's decision to run for re-election on the platform of repealing the Ontario Temperance Act and allowing government controlled liquor sales. Kidd defeated Nickle who ran as a Prohibitionist candidate in the 1926 provincial election. Kidd was re-elected in the 1929 provincial election and served as Speaker of the Ontario Legislative Assembly from 1930 until 1934.He resigned from the provincial legislature to run unsuccessfully for the Canadian House of Commons in the 1940 federal election but won on his second attempt in 1945. Kidd was defeated in bid for re-election in 1949 and again when he tried to return to politics in 1957. Kidd was also a Grand Master in the Orange Lodge.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

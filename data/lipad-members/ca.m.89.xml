@@ -1,0 +1,128 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.89">
+    <dc:identifier>ca.m.89</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>DION, The Hon. Stéphane, P.C., B.A., M.A., Ph.D.</dc:title>
+    <dc:description>Member information for: DION, The Hon. Stéphane, P.C., B.A., M.A., Ph.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=6bde42a3-d07c-4c1f-b9d4-9e14a124f465&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=6bde42a3-d07c-4c1f-b9d4-9e14a124f465&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.89">
+    <pm:name>
+      <pm:full>DION, The Hon. Stéphane, P.C., B.A., M.A., Ph.D.</pm:full>
+      <pm:first>Stéphane</pm:first>
+      <pm:last>Dion</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Ph.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1955-09-28" pm:granularity="8" pm:place="Québec, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, professor of political science</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=6bde42a3-d07c-4c1f-b9d4-9e14a124f465&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=1c9f12e5-cf2f-4957-bf1b-100d364404a9</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Stephane-Dion(460)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website">http://www.liberal.ca/mp/</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website ">http://stephanedion.liberal.ca/en/</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be.wikipedia.org/wiki" pm:description="Wikipedia (BE)">http://be.wikipedia.org/wiki/Стэфан_Марыс_Дыён</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be-x-old.wikipedia.org/wiki" pm:description="Wikipedia (BE-X-OLD)">http://be-x-old.wikipedia.org/wiki/Стэфан_Марыс_Дыён</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://no.wikipedia.org/wiki" pm:description="Wikipedia (NO)">http://no.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/스테판_디옹</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ar.wikipedia.org/wiki" pm:description="Wikipedia (AR)">http://ar.wikipedia.org/wiki/ستيفان_ديون</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/斯特凡·迪翁</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Дион,_Стефан</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ta.wikipedia.org/wiki" pm:description="Wikipedia (TA)">http://ta.wikipedia.org/wiki/ஸ்ரொபோன்_டியோன்</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pdc.wikipedia.org/wiki" pm:description="Wikipedia (PDC)">http://pdc.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Stéphane_Dion</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://he.wikipedia.org/wiki" pm:description="Wikipedia (HE)">http://he.wikipedia.org/wiki/סטפן_דיון</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="1996-03-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Minister of the Environment</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1996-01-25" pm:from-granularity="8" pm:till="2003-12-11" pm:till-granularity="8"/>
+        <pm:name>Minister of Intergovernmental Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1996-01-25" pm:from-granularity="8" pm:till="2003-12-11" pm:till-granularity="8"/>
+        <pm:name>President of the Queen's Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2006-12-02" pm:from-granularity="8" pm:till="2008-12-09" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1996-03-25" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Stéphane_Dion">Stéphane Maurice Dion, PC, MP (born 28 September 1955) is a Canadian politician who has been the Member of Parliament for the riding of Saint-Laurent—Cartierville in Montreal since 1996. He was the leader of the Liberal Party of Canada and the Leader of the Opposition in the House of Commons of Canada from 2006 to 2008. Dion resigned as Liberal leader after the party's defeat in the 2008 general election, but remained in Parliament and was re-elected in his riding in the 2011 election.Dion is a former academic who served as a cabinet minister under Jean Chrétien and Paul Martin and, as such, is a Member of the Privy Council.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

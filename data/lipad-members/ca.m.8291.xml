@@ -1,0 +1,137 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8291">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>LEBLANC, The Right Hon. Roméo, P.C., C.C., C.M.M., O.N.B., C.D., B.A., B.Ed.</dc:title>
+    <dc:description>Member information for: LEBLANC, The Right Hon. Roméo, P.C., C.C., C.M.M., O.N.B., C.D., B.A., B.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2c59ff15-0f47-43c6-8c66-2693d08ea867&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2c59ff15-0f47-43c6-8c66-2693d08ea867&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8291">
+    <pm:name>
+      <pm:full>LEBLANC, The Right Hon. Roméo, P.C., C.C., C.M.M., O.N.B., C.D., B.A., B.Ed.</pm:full>
+      <pm:first>Roméo</pm:first>
+      <pm:last>LeBlanc</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.M.M.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.N.B.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1927-12-18" pm:granularity="8" pm:place="L'Anse-aux-Cormier, New Brunswick, Canada"/>
+      <pm:deceased pm:date="2009-06-24" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Correspondent, journalist, lecturer, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2c59ff15-0f47-43c6-8c66-2693d08ea867&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=07915515-c81e-4e90-8261-958dc26e8e55</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Former Governors General">http://www.gg.ca/document.aspx?id=55&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=3486&amp;t=12&amp;ln=leblanc&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="The Speakers of the Senate of Canada">http://www.parl.gc.ca/About/Parliament/Speakers/Sen/sp-39LeBlanc-e.htm</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Roméo_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Roméo_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Леблан,_Ромео</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Roméo_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Roméo_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Roméo_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/로메오_르블랑</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Roméo_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Ромео_Леблан</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Roméo_LeBlanc</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Roméo_LeBlanc</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Westmorland--Kent" openpx:province="New Brunswick">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Westmorland--Kent" openpx:province="New Brunswick">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Westmorland--Kent" openpx:province="New Brunswick">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Westmorland--Kent" openpx:province="New Brunswick">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Beauséjour" openpx:province="New Brunswick">
+        <pm:period pm:from="1984-06-29" pm:from-granularity="8" pm:till="1994-11-21" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1993-12-07" pm:from-granularity="8" pm:till="1994-11-21" pm:till-granularity="8"/>
+        <pm:name>Speaker of the Senate</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1982-09-30" pm:from-granularity="8" pm:till="1984-06-29" pm:till-granularity="8"/>
+        <pm:name>Minister of Public Works</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1982-09-30" pm:from-granularity="8" pm:till="1984-06-29" pm:till-granularity="8"/>
+        <pm:name>Minister responsible for Canada Mortgage and Housing Corporation</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1980-03-03" pm:from-granularity="8" pm:till="1982-09-29" pm:till-granularity="8"/>
+        <pm:name>Minister of Fisheries and Oceans</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1979-04-02" pm:from-granularity="8" pm:till="1979-06-03" pm:till-granularity="8"/>
+        <pm:name>Minister of Fisheries and Oceans</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1976-09-14" pm:from-granularity="8" pm:till="1979-04-01" pm:till-granularity="8"/>
+        <pm:name>Minister of the Environment</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1976-07-01" pm:from-granularity="8" pm:till="1976-09-13" pm:till-granularity="8"/>
+        <pm:name>Minister of the Environment</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1975-12-05" pm:from-granularity="8" pm:till="1976-01-21" pm:till-granularity="8"/>
+        <pm:name>Minister of the Environment</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1974-08-08" pm:from-granularity="8" pm:till="1976-09-13" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Fisheries)</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1994-11-21" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Roméo_LeBlanc">Roméo-Adrien LeBlanc PC CC CMM ONB CD (December 18, 1927 – June 24, 2009) was a Canadian journalist, politician, and statesman who served as Governor General of Canada, the 25th since Canadian Confederation.LeBlanc was born and educated on Canada's east coast and also studied in France prior to becoming a teacher and then a reporter for Radio-Canada. He was subsequently elected to the House of Commons in 1972, whereafter he served as a minister of the Crown until 1984, when he was moved to the Senate and became that chamber's Speaker. He was in 1994 appointed as governor general by Queen Elizabeth II, on the recommendation of Prime Minister of Canada Jean Chrétien, to replace Ramon John Hnatyshyn as viceroy, and he occupied the post until succeeded by Adrienne Clarkson in 1999, citing his health as the reason for his stepping down. His appointment as the Queen's representative caused some controversy, due to perceptions of political favouritism, though he was praised for raising the stature of Acadians and francophones, and for opening up Rideau Hall to ordinary Canadians and tourists alike.On August 8, 1974, LeBlanc was sworn into the Queen's Privy Council for Canada, giving him the accordant style of The Honourable; however, as a former Governor General of Canada, LeBlanc was entitled to be styled for life with the superior form of The Right Honourable. He died of Alzheimer's disease on June 24, 2009.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

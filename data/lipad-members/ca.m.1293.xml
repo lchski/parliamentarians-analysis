@@ -1,0 +1,75 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1293">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>CRUISE,  Robert</dc:title>
+    <dc:description>Member information for: CRUISE,  Robert</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7c1a0382-2f6e-4c4d-acdd-b42097dfd66f&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7c1a0382-2f6e-4c4d-acdd-b42097dfd66f&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1293">
+    <pm:name>
+      <pm:full>CRUISE,  Robert</pm:full>
+      <pm:first>Robert</pm:first>
+      <pm:last>Cruise</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1868-12-11" pm:granularity="8" pm:place="Lachute, Quebec, Canada"/>
+      <pm:deceased pm:date="1932-06-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7c1a0382-2f6e-4c4d-acdd-b42097dfd66f&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=d7e0ee02-4a58-4ce4-9bd4-2eeb5a66f9b9</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Glenlyon_Campbell</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Glenlyon_Campbell</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Robert_Cruise</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Robert_Cruise</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Dauphin" openpx:province="Manitoba">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Dauphin" openpx:province="Manitoba">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Unionist" pm:party-ref="ca.p.unionist" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-12-16" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Glenlyon_Campbell">Glenlyon Archibald Campbell (October 3, 1863 – October 22, 1917) was a politician in Manitoba, Canada. He served in the Legislative Assembly of Manitoba from 1903 to 1908, and in the Canadian House of Commons from 1908 to 1911. Campbell was a member of the Conservative Party of Canada.Campbell was born at Fort Pelly, in what was then known as the Northwest Territories. His father, Robert Campbell, was a Scotsman who served as Chief Factor for the Hudson's Bay Company, the dominant power in the region. The younger Campbell was educated at Glasgow Academy and the Merchiston Castle School in Edinburgh, and worked as a farmer and rancher upon returning to Canada. He helped to establish the community of Gilbert Plains in 1884, after purchasing the first house constructed in the community from Gilbert Ross (for whom the community is named).Campbell married Harriet Burns, daughter of the Ojibwa Chief Keeseekoowenin, who had been baptized as Moses Burns by the Presbyterian missionary George Flett.He first campaigned for the Manitoba legislature in the 1892 provincial election as a support of the opposition Conservative Party, and lost to Theodore Arthur Burrows by nine votes in Dauphin. Burrows described himself as a "Liberal-Conservative", but endorsed the Liberal government of Thomas Greenway; he later joined the Liberal Party outright. Campbell lost to Burrows again in the 1896 election, by twelve votes.He was first elected to the legislature in the 1903 election, defeated a Liberal candidate by 202 votes in Gilbert Plains. He served as a backbench supporter of Rodmond Palen Roblin's government, and was re-elected without opposition in the 1907 election.Campbell resigned from the provincial legislature in 1908 to campaign in the 1908 federal election. Contesting the riding of Dauphin, he defeated his old nemesis Theodore Arthur Burrows in 217 votes to win the seat. The Liberal Party won a majority government in this election under Wilfrid Laurier, and Campbell served as an opposition member for the next three years.He lost his seat to Liberal Robert Cruise by 748 votes in the 1911 election, even as the Conservative Party won a majority government under Robert Borden. He died six years later.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

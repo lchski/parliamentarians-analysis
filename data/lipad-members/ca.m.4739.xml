@@ -1,0 +1,75 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4739">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>RUSSELL,  Benjamin, K.C., B.A., M.A.</dc:title>
+    <dc:description>Member information for: RUSSELL,  Benjamin, K.C., B.A., M.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=925d89b2-1491-4eb7-85e8-697379f26f2d&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=925d89b2-1491-4eb7-85e8-697379f26f2d&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4739">
+    <pm:name>
+      <pm:full>RUSSELL,  Benjamin, K.C., B.A., M.A.</pm:full>
+      <pm:first>Benjamin</pm:first>
+      <pm:last>Russell</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1849-01-10" pm:granularity="8" pm:place="Dartmouth, Nova Scotia, Canada"/>
+      <pm:deceased pm:date="1935-09-20" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer, professor of law, stenographer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=925d89b2-1491-4eb7-85e8-697379f26f2d&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=e6914a83-a5c7-47ea-b67c-3f067bbaf0f4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Benjamin_Russell_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Benjamin_Russell_(Canadian_politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Hants" openpx:province="Nova Scotia">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Halifax" openpx:province="Nova Scotia">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1904-11-02" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Benjamin_Russell_(Canadian_politician)">Benjamin Russell (January 10, 1849 – September 20, 1935) was a Canadian lawyer, professor of law, judge, and politician in the province Nova Scotia.Born in Dartmouth, Nova Scotia to Nathaniel and Agnes Russell, he was educated at the Halifax Grammar School, and graduated with the degree of Bachelor of Arts from Mount Allison College in 1868. He received the degree of Masters of Arts in 1871 and in 1893, the degree of Doctor of Laws. Russell was admitted to the bar in 1872 and made Queen's Counsel (Earl of Derby) in 1890. As successor to Sir John Sparrow David Thompson, he reported debates in the Nova Scotia House of Assembly (1869 to 1883). He was also a Reporter to the Supreme Court (1875 to 1895) and a legal adviser of the Legislative Council of Nova Scotia (1884 to 1896). He was also professor of contracts and lecturer on Bills and Notes, Sales and Equity Jurisprudence Law at Dalhousie University. Russell was first elected to the Canadian House of Commons for the electoral district of Halifax in the 1896 general election. A Liberal, he was re-elected in the 1900 election for the electoral district of Hants. In 1904 he was appointed a puisne judge of the Nova Scotia Supreme Court on 3 October 1904. He served until his death in 1935. He was also a noted editor of English Law treatises and author.On 6 March 1918, Russell was approached by an independent Halifax lawyer, Walter J. O'Hearn, the representative of Francis Mackey, the pilot of the ill-fated SS Mont-Blanc. On 6 December 1917, Mackey's ship, laden with a cargo of highly volatile explosives, collided with SS Imo, a Belgian Relief vessel under Norwegian registry, in Halifax Harbour. The resultant blast decimated the North End of the city and inflicted many casualties. Along with the captain of the vessel, Aimé Le Médec, and the chief examining officer of the port, Commander F. Evan Wyatt, Mackey had been accused of manslaughter and criminal negligence and arrested. The pilot could not afford bail and was thrown in jail. O'Hearn asked Judge Russell to issue a writ of habeas corpus. Russell agreed there was no justification for the charges and released the prisoner on 15 March 1918. As the captain had been arrested on the same warrant, he too was given a written discharge though he had not spent any time in jail. There were many people who were most displeased with Russell's decision, including Attorney General Orlando Tiles Daniels. On 2 April, an attempt by prosecutor, Andrew Cluney, on behalf of the attorney general's office to overturn the decision in the Nova Scotia Supreme Court (in banco) failed for lack of jurisdiction (as did two subsequent bids to indict Mackey on 9 April and 2 October 1918). Mr. O'Hearn pointed out the lack of jurisdiction from the outset of the proceedings. Four of the five justices, including Chief Justice Edward Robert Harris agreed. Justice Arthur Drysdale was the lone dissenter. Ultimately, Justice Russell's decision was final. The case, In re Mackey, was added as a citation to the Criminal Code of Canada beginning in 1919 under Section 262 entitled, Manslaughter defined. Russell also presided over the Commander Wyatt's grand jury hearing (19–20 March 1918) and trial (17 April 1918). The trial proceedings took less than a day and ended with an acquittal on both charges.In his autobiography, Russell reflected upon these particular proceedings. He stated: "Civium ardor prava jubentium gave me all that I could do in disposing of the cases with which I was bound to deal. One of these concerned the official in charge of the wiring across the mouth of the harbour. To suppose he had anything in the world to do with the disaster was an utterly lunatic notion. Yet my impression is that the Grand Jury insisted on finding a true bill and placing him on trial. When the bill reached me I got rid of it in the shortest and easiest way possible. It was simply nonsensical, and the fact a grand jury could find it was symptomatic of the condition of the common feeling."Judge Russell's autobiography was published in 1932.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

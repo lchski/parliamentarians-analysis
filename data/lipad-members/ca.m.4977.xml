@@ -1,0 +1,68 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4977">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-29+01:00</dc:date>
+    <dc:title>WILLIAMS,  Arthur Henry</dc:title>
+    <dc:description>Member information for: WILLIAMS,  Arthur Henry</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0cd274e4-2adf-47f4-af85-6a4879d11c76&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0cd274e4-2adf-47f4-af85-6a4879d11c76&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4977">
+    <pm:name>
+      <pm:full>WILLIAMS,  Arthur Henry</pm:full>
+      <pm:first>Arthur Henry</pm:first>
+      <pm:last>Williams</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1894-12-04" pm:granularity="8" pm:place="Tredegar, Wales"/>
+      <pm:deceased pm:date="1968-10-04" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Union organiser</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=0cd274e4-2adf-47f4-af85-6a4879d11c76&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=1973</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Arthur_Henry_Williams</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Arthur_Henry_Williams</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Ontario" openpx:province="Ontario">
+        <pm:period pm:from="1948-06-08" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Co-operative Commonwealth Federation (C.C.F.)" pm:party-ref="ca.p.CCF" pm:body="other">
+        <pm:period pm:from="1948-06-08" pm:from-granularity="8" pm:till="1949-06-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Arthur_Henry_Williams">Arthur Henry Williams (December 4, 1894 – October 4, 1968) was a Canadian trade union organizer and politician who served in both the Ontario legislature and the Canadian House of Commons on behalf of the Co-operative Commonwealth Federation. He was born in Tredegar, Wales, emigrating with his wife to Canada in 1929.Williams lived in the Toronto suburb of East York, Ontario in the 1930s and served as president of the East York Workers' Association, a Great Depression era labour organization which was formed in 1931 to improve the situation of the unemployed and had 1,600 members by 1934.At the end of 1933, Williams was elected to and served a one year term as alderman on the East York Town Council for 1934. That same year, Williams ran for the Ontario legislature in the 1934 provincial election as an Ontario CCF candidate and won 21% of the vote (30% in East York Township) coming in third place. He also ran for the House of Commons in York East (the federal riding that included East York) during the 1935 federal election for the national CCF but was defeated by Conservative Robert Henry McGregor and the Liberal candidate.One of the Association's campaigns led by Williams was to convince the East York town council to issue poor relief in the form of cash instead of vouchers. After the council agreed to issue cash instead of vouchers but reduced the value of relief payments the Association organized a "voucher strike" to raise the payments. Council reversed its decision and the Association retaliated by encouraging members to pull their children out of school which had the effect of reducing the provincial government's grant to East York. The Council then capitulated to the Association's demands only to have the Bank of Nova Scotia refuse to grant the municipality a loan which in turn caused the council to end cash relief and return to vouchers. In December 1935, Williams was elected reeve of East York.However, Williams was more than three months in arrears in his rent and had to defend his right to take office as the provincial government had passed a law prohibiting anyone owing more than three months rent from holding office. A new election was scheduled but as no other candidates ran, Williams was acclaimed. The Workers Association under Williams also organized to block bailiffs from evicting families from their homes. The blocking of evictions had the support of many residents and Township officials, no matter their political views. Williams lost the reeve’s office when he ran for re-election in the December 1936 election but the Township's council continued to support the policy of blocking evictions and set a licencing fee for bailiffs and then refused to issue licences for two months giving families threatened with eviction a reprieve.According to a local historian, "If a member of the Workers Association caught wind of an eviction about to take place,they would telephone other members and yell to their neighbours on the street “eviction.” Members would race by foot or by automobile if one were available to the house where the eviction was to take place. As the bailiff would remove the family’s furniture from the house, members of the Association would politely carry the furniture back into the house."At the 1936 convention of the Ontario CCF, Williams filibustered against a resolution opposing a united front between the CCF and the Communist Party of Canada and was threatened with expulsion from the CCF for his behaviour.Williams ran for the Ontario legislature in the 1943 provincial election and was elected from the riding of Ontario which covered Durham County and sat as an Ontario CCF Member of Provincial Parliament for two years until he and most of the CCF's MPPs went down to defeat in the 1945 provincial election.In 1948, he ran in a federal by-election in the riding of Ontario which occurred following the death of Liberal MP W.E.N. Sinclair and won. He served for a year until he was defeated in the 1949 federal election when he came in third place.Williams was active with the Canadian Congress of Labour and spoke at its 1943 federal convention in support of a successful resolution for the union federation to endorse the CCF as the "political arm of labour".Arthur H. Williams died in 1968 and was buried at Erskine Cemetery in Pickering, Ontario.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

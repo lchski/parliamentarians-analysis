@@ -1,0 +1,67 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.762">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>SPERRY,  John Drew</dc:title>
+    <dc:description>Member information for: SPERRY,  John Drew</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=5de7002e-d3b5-41bc-b341-483ed5ed36d6&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=5de7002e-d3b5-41bc-b341-483ed5ed36d6&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.762">
+    <pm:name>
+      <pm:full>SPERRY,  John Drew</pm:full>
+      <pm:first>John Drew</pm:first>
+      <pm:last>Sperry</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1851-02-10" pm:granularity="8" pm:place="Petite-Rivière, Nova Scotia, Canada"/>
+      <pm:deceased pm:date="1933-10-07" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Merchant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=5de7002e-d3b5-41bc-b341-483ed5ed36d6&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=4f6dcc9d-34a9-4a2d-8dc0-525f267b6d4f</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Drew_Sperry</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Drew_Sperry</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Lunenburg" openpx:province="Nova Scotia">
+        <pm:period pm:from="1909-12-22" pm:from-granularity="8" pm:till="1911-07-29" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1909-12-22" pm:from-granularity="8" pm:till="1911-09-20" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Drew_Sperry">John Drew Sperry (February 10, 1851 – October 7, 1933) was a merchant and political figure in Nova Scotia, Canada. He represented Lunenburg County in the Nova Scotia House of Assembly from 1889 to 1896, from 1897 to 1901 and from 1902 to 1906. Sperry represented Lunenburg in the Canadian House of Commons from 1909 to 1911 as a Liberal member.He was born in Petit Rivière, Nova Scotia, the son of John Charles Sperry and Mary Ann Drew, and was educated at the Sackville Academy. Sperry married Maria Dauphinee. He served 12 years on the Lunenburg County council, also serving as county warden. Sperry was first elected to the provincial assembly in an 1889 by-election held after the death of George A. Ross. He resigned his seat in 1896 to run unsuccessfully for a federal seat. He was first elected to the House of Commons in an 1909 by-election held after Alexander Kenneth Maclean resigned his seat to served in the provincial assembly; Sperry was defeated when he ran for reelection in 1911. He died in Petite-Rivière at the age of 82.His son Aubrey also served in the provincial assembly.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

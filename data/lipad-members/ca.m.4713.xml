@@ -1,0 +1,81 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4713">
+    <dc:identifier>ca.m.4713</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>FINLAY,  John Baird, B.A., M.Ed.</dc:title>
+    <dc:description>Member information for: FINLAY,  John Baird, B.A., M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=817dfc59-2f4f-4ffe-9216-0b38d97592c8&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=817dfc59-2f4f-4ffe-9216-0b38d97592c8&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4713">
+    <pm:name>
+      <pm:full>FINLAY,  John Baird, B.A., M.Ed.</pm:full>
+      <pm:first>John Baird</pm:first>
+      <pm:last>Finlay</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1929-01-29" pm:granularity="8" pm:place="Santo Domingo, Dominican Republic"/>
+      <pm:deceased pm:date="2010-10-17" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>School superintendent, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=817dfc59-2f4f-4ffe-9216-0b38d97592c8&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=644d4c4d-fa85-4cf0-bb93-bddc8438021d</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Baird_Finlay</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Baird_Finlay</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Oxford" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Oxford" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Oxford" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2000-09-01" pm:from-granularity="8" pm:till="2003-01-12" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Indian Affairs and Northern Development</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="2010-10-17" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Baird_Finlay">John Baird Finlay (29 January 1929 – 17 October 2010) was a member of the Canadian House of Commons from 1993 to 2004. His career had been in the school system, as a teacher and superintendent.Finlay was born in 1929 in Santo Domingo, Dominican Republic. He attended John Wanless public school in Toronto (1934–36), then a PNEU school in Croydon. England in 1936. He returned to Toronto in 1937 and attended Hodgson public school until 1942 followed by University of Toronto Schools until 1947. He then studied at Victoria College, Toronto earning a Bachelor of Arts in 1952.His teaching career included terms at Upper Canada College from 1952 to 1954, then in Woodstock, Ontario from 1955 to 1964 except for the 1957-58 school year at Ingersoll District Collegiate Institute (IDCI). He was assistant secretary of the Ontario Secondary School Teachers' Federation from 1964 to 1967. He became vice-principal (1967–69) and principal (1970–73) in Woodstock, Ontario, and returned to IDCI as principal from 1973 to 1977. He earned a Master of Education at the University of Western Ontario in 1977. From that year to 1988, he was superintendent of schools for the Oxford County Board of Education.Finlay made unsuccessful attempts at political office in the 1963 Woodstock municipal election, and in the 1981 and 1987 Ontario elections. He was elected to federal office in the riding of Oxford under the Liberal Party of Canada in the 1993, 1997 and 2000 general elections, serving in the 35th, 36th and 37th Canadian Parliaments respectively.Finlay left office in 2004 as he chose not to campaign again for the Oxford riding. David Mackenzie of the Conservative party won the riding in that year's general election.Towards the end of his life, Finlay suffered from Parkinson's disease. He died on 17 October 2010 at the age of 81.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

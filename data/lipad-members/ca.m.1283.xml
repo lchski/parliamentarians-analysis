@@ -1,0 +1,76 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1283">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>AIRD, The Hon. John Black, C.C., O.Ont., Q.C., LL.B., LL.D.</dc:title>
+    <dc:description>Member information for: AIRD, The Hon. John Black, C.C., O.Ont., Q.C., LL.B., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d6bc7a47-85c7-4943-add7-40751335351e&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d6bc7a47-85c7-4943-add7-40751335351e&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1283">
+    <pm:name>
+      <pm:full>AIRD, The Hon. John Black, C.C., O.Ont., Q.C., LL.B., LL.D.</pm:full>
+      <pm:first>John Black</pm:first>
+      <pm:last>Aird</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.Ont.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1923-05-05" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:deceased pm:date="1995-05-06" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Business executive, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d6bc7a47-85c7-4943-add7-40751335351e&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7ea9b0fa-f8b7-4160-acfe-17f61c395a8d</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=883&amp;t=12&amp;ln=aird&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Black_Aird</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Black_Aird</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Toronto" openpx:province="Ontario">
+        <pm:period pm:from="1964-11-10" pm:from-granularity="8" pm:till="1974-11-28" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1964-11-10" pm:from-granularity="8" pm:till="1974-11-28" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Black_Aird">John Black Aird, CC OOnt QC (May 5, 1923 – May 6, 1995) was the 23rd Lieutenant Governor of Ontario, Canada, from 1980 to 1985.Born in Toronto, Ontario, the grandson of Canadian financier Sir John Aird, John Black Aird was educated at Upper Canada College, Trinity College and Osgoode Hall Law School. He was a Brother at the Toronto Chapter of the Alpha Delta Phi. He practised law in Toronto and headed his own firm, Aird &amp; Berlis LLP in 1974.Aird served as a director of several corporations.In 1958 Aird was appointed to the board of directors of Callaghan Mining.Aird later served as chairman of the board of Algoma Central Railway.During World War II, he served in the Royal Canadian Naval Volunteer Reserve. In 1944, he married Lucille Housser. From 1964 to 1974, he served as a Liberal Senator. In 1971, he was Chairman of the Canada-United States Permanent Joint Board on Defence. From 1977 to 1985, he was Chancellor of Wilfrid Laurier University in Waterloo.Aird was appointed an Officer of the Order of Canada, and served as Lieutenant-Governor from 1980 to 1985. The main focus of his mandate was Ontarians with disabilities. He wrote a book, Loyalty in a Changing World, about the contemporary function of the Lieutenant Governor.He was lieutenant-governor when, shortly following the 1985 Ontario election, the Progressive Conservative minority government of Frank Miller was defeated by a motion of no confidence. The defeat occurred after an accord was reached between the David Peterson Liberals and Bob Rae's New Democratic Party to allow the Liberals to form a minority government for two years with NDP support despite the fact that the Liberals had slightly fewer seats than the Tories. Some media outlets, such as the conservative Toronto Sun, compared the matter to the King-Byng Affair and accused Aird of partisanship for asking Peterson to form a government rather than dissolving the legislature and calling a new election. The consensus among constitutional experts, however, is that Aird acted correctly as there had been an election only weeks before the government's defeat in the House, and as it was clear that Peterson had the support in the House to form a government.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

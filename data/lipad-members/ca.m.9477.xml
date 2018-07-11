@@ -1,0 +1,79 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9477">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>CONACHER,  Lionel Pretoria</dc:title>
+    <dc:description>Member information for: CONACHER,  Lionel Pretoria</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b2b6c814-7ac2-4650-a25a-5e33d84bf205&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b2b6c814-7ac2-4650-a25a-5e33d84bf205&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9477">
+    <pm:name>
+      <pm:full>CONACHER,  Lionel Pretoria</pm:full>
+      <pm:first>Lionel Pretoria</pm:first>
+      <pm:last>Conacher</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1902-05-24" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:deceased pm:date="1954-05-26" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Athlete, manager, professional football player</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=b2b6c814-7ac2-4650-a25a-5e33d84bf205&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=eee38206-949f-4b78-ad60-57dd7ec4b1d2</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=1013</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fi.dbpedia.org/resource" pm:description="Dbpedia (FI)">http://fi.dbpedia.org/resource/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Lionel_Conacher</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Lionel_Conacher</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Trinity" openpx:province="Ontario">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Trinity" openpx:province="Ontario">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1954-05-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Lionel_Conacher">Lionel Pretoria Conacher, MP (/ˈkɒnəkər/; May 24, 1900 – May 26, 1954), nicknamed "The Big Train", was a Canadian athlete and politician. Voted the country's top athlete of the first half of the 20th century, he won championships in numerous sports. His first passion was football; he was a member of the 1921 Grey Cup champion Toronto Argonauts. He was a member of the Toronto Maple Leafs baseball team that won the International League championship in 1926. In hockey, he won a Memorial Cup in 1920, and the Stanley Cup twice: with the Chicago Black Hawks in 1934 and the Montreal Maroons in 1935. Additionally, he won wrestling, boxing and lacrosse championships during his playing career. He and Carl Voss are the only players to have their names engraved on both the Grey Cup and Stanley Cup.Conacher retired as an athlete in 1937 to enter politics. He won election to the Legislative Assembly of Ontario in 1937, and in 1949 won a seat in the House of Commons. Many of his political positions revolved around sports. He worked to eliminate corruption in boxing while serving as a Member of Provincial Parliament (MPP) in Ontario, also serving as the chairman of the Ontario Athletic Commission. Additionally, he served a term as director of recreation and entertainment for the Royal Canadian Air Force. It was also on the sporting pitch that Conacher died: He suffered a heart attack during a softball game in 1954.Numerous organizations have honoured Conacher's career. In addition to being named Canada's athlete of the half-century, he was named the country's top football player over the same period. He was inducted into Canada's Sports Hall of Fame in 1955, the Canadian Football Hall of Fame in 1964, the Canadian Lacrosse Hall of Fame in 1965 and the Hockey Hall of Fame in 1994. Additionally, the Canadian Press gives the Lionel Conacher Award to its male athlete of the year.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

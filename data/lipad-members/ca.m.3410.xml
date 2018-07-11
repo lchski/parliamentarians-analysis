@@ -1,0 +1,89 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3410">
+    <dc:identifier>ca.m.3410</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>O'BRIEN,  Pat, B.A. (Hons.), M.Ed.</dc:title>
+    <dc:description>Member information for: O'BRIEN,  Pat, B.A. (Hons.), M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=04a32ebe-ec96-425c-b0c8-c7b2eb88fa45&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=04a32ebe-ec96-425c-b0c8-c7b2eb88fa45&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3410">
+    <pm:name>
+      <pm:full>O'BRIEN,  Pat, B.A. (Hons.), M.Ed.</pm:full>
+      <pm:first>Pat</pm:first>
+      <pm:last>O'Brien</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A. (Hons.)</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1948-01-13" pm:granularity="8" pm:place="London, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Athlete, coach, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=04a32ebe-ec96-425c-b0c8-c7b2eb88fa45&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=052b7aad-f9d8-4f85-a1d5-2a80c863086a</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Pat_O'Brien_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Pat_O'Brien_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Pat_O'Brien_(homme_politique)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Pat_O’Brien_(Politiker)</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Pat_O’Brien_(Politiker)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="London--Fanshawe" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London--Fanshawe" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London--Fanshawe" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="London--Middlesex" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2000-09-01" pm:from-granularity="8" pm:till="2003-01-12" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister for International Trade</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="2005-06-06" pm:from-granularity="8" pm:till="2006-01-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="2005-06-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Pat_O'Brien_(Canadian_politician)">Patrick Wayne "Pat" O'Brien, (born January 13, 1948) is a former member of the Canadian House of Commons. Elected as a Liberal, he ended his career in 2005 as the independent Member of Parliament (MP) for London—Fanshawe in London, Ontario. O'Brien graduated with an honours Bachelor of Arts in history from the University of Western Ontario in 1971, and earned his Master of Education from UWO in 1981. He has served as a high school history teacher and was a member of London City Council from 1982 to 1993. He was also a school trustee from 1980 to 1982. He was elected to Parliament as a candidate of the Liberal Party of Canada in the 1993 election, and was re-elected in the 1997, 2000, and 2004 elections. From 2000 to 2003, he was Parliamentary Secretary to the Minister for International Trade.Before leaving the party, O'Brien was often considered as representing the right-wing of the Liberal party. He was one of the fiercest opponents of same-sex marriage in the Liberal caucus, along with Tom Wappel. He has frequently chastised Prime Minister Paul Martin for not allowing a free vote among his Cabinet on Bill C-38, which is the act to legalize same-sex marriage in Canada. He has repeatedly called for the notwithstanding clause to be used to override the Charter of Rights and Freedoms, which courts have repeatedly ruled requires the government to recognize same-sex marriages. He is also strongly against abortion.On June 6, 2005, O'Brien left the Liberal Party to sit as an independent, citing his opposition to same-sex marriage, and his discomfort with the revelations coming out of the Gomery Commission on the sponsorship scandal.On June 14, O'Brien issued an ultimatum to the government, indicating that he and an anonymous Liberal MP would vote against the government in a series of confidence votes that evening unless the same-sex marriage bill is delayed until the fall session of Parliament. However, the Liberals went on to survive the confidence votes and eventually got the same-sex marriage bill passed in the summer session of parliament.In the fall of 2005, O'Brien announced that he and a former Conservative MP were founding an advocacy group to try to reverse the legalization of same-sex marriage.O'Brien has stated that up to 90% of his constituents were opposed to same-sex marriage, and in the 2004 election, he defeated New Democrat candidate Irene Mathyssen by over 3000 votes, a supporter of same sex marriage. In the 2006 election, although he did not run, he endorsed a Conservative who opposed same-sex marriage; but this time, Mathyssen won the riding.After leaving parliament he has remained active in conservative Canadian politics, appearing at the REAL Women of Canada convention in 2010 [1].</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

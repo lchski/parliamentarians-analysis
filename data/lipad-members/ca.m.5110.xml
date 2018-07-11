@@ -1,0 +1,88 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5110">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>RYAN,  Sylvester Perry, Q.C., B.A., LL.B., LL.M.</dc:title>
+    <dc:description>Member information for: RYAN,  Sylvester Perry, Q.C., B.A., LL.B., LL.M.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=23ca3dab-dcc7-4157-86f8-e63aa87535a3&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=23ca3dab-dcc7-4157-86f8-e63aa87535a3&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5110">
+    <pm:name>
+      <pm:full>RYAN,  Sylvester Perry, Q.C., B.A., LL.B., LL.M.</pm:full>
+      <pm:first>Sylvester Perry</pm:first>
+      <pm:last>Ryan</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.M.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1918-01-12" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:deceased pm:date="2001-10-23" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister and solicitor, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=23ca3dab-dcc7-4157-86f8-e63aa87535a3&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=5754d854-f9ff-4032-a728-53658ab442b4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Sylvester_Perry_Ryan</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Sylvester_Perry_Ryan</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Spadina" openpx:province="Ontario">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Spadina" openpx:province="Ontario">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Spadina" openpx:province="Ontario">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Spadina" openpx:province="Ontario">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1970-09-11" pm:from-granularity="8" pm:till="1972-10-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1969-12-03" pm:from-granularity="8" pm:till="1970-09-10" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1969-12-02" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Sylvester_Perry_Ryan">Sylvester Perry Ryan (January 12, 1918 – October 23, 2001) was a Canadian lawyer and politician. Ryan's federal political career began in 1949 when he ran, twice, for the Toronto seat of Greenwood. Running as a Liberal he was defeated by Progressive Conservative John Ernest McMillin in the 1949 federal election and then, in the by-election called following McMillin's death, was defeated by James MacKerras MacDonnell by less than 200 votes.In 1962, Ryan made another attempt to gain a seat in the Canadian House of Commons, this time for the Toronto riding of Spadina in which he succeeded in defeating prominent Tory publisher John Bassett. Ryan was re-elected as a Liberal under leader Lester B. Pearson in 1963 and 1965 and under Pierre Trudeau in 1968. Uncomfortable with Trudeau's policies, Ryan left the Liberal Party and crossed the floor on December 3, 1969 to sit as an Independent MP. In September 1970 he joined the Progressive Conservative caucus. Ryan cited three reasons for leaving the Liberals - the Trudeau government's downgrading of Canada's relationship with NATO, the government's decision to recognize the People's Republic of China and what Ryan argued was the downgrading of the status and influence of backbench MPs and ordinary Members of Parliament under Trudeau.Attempting to retain his seat in the 1972 federal election Ryan ran as a Progressive Conservative candidate but finished in third place behind Liberal Peter Stollery and Bob Beardsley of the New Democratic Party.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

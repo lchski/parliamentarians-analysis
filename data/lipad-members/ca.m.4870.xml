@@ -1,0 +1,223 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4870">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>MEIGHEN, The Right Hon. Arthur, P.C., Q.C., B.A., LL.D.</dc:title>
+    <dc:description>Member information for: MEIGHEN, The Right Hon. Arthur, P.C., Q.C., B.A., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d02a7b53-dad0-4944-82b0-aed9054a7bc2&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d02a7b53-dad0-4944-82b0-aed9054a7bc2&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4870">
+    <pm:name>
+      <pm:full>MEIGHEN, The Right Hon. Arthur, P.C., Q.C., B.A., LL.D.</pm:full>
+      <pm:first>Arthur</pm:first>
+      <pm:last>Meighen</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1874-06-16" pm:granularity="8" pm:place="Anderson, Ontario, Canada"/>
+      <pm:deceased pm:date="1960-08-05" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d02a7b53-dad0-4944-82b0-aed9054a7bc2&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=e2c8f4d2-c7c3-4459-b1ca-e6d424b22195</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eo.wikipedia.org/wiki" pm:description="Wikipedia (EO)">http://eo.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/阿瑟·米恩</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://oc.wikipedia.org/wiki" pm:description="Wikipedia (OC)">http://oc.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cy.wikipedia.org/wiki" pm:description="Wikipedia (CY)">http://cy.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://io.wikipedia.org/wiki" pm:description="Wikipedia (IO)">http://io.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://gl.wikipedia.org/wiki" pm:description="Wikipedia (GL)">http://gl.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Мейен,_Артур</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://no.wikipedia.org/wiki" pm:description="Wikipedia (NO)">http://no.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ne.wikipedia.org/wiki" pm:description="Wikipedia (NE)">http://ne.wikipedia.org/wiki/आर्थर_मेइघेन</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yi.wikipedia.org/wiki" pm:description="Wikipedia (YI)">http://yi.wikipedia.org/wiki/ארטור_מעגען</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be.wikipedia.org/wiki" pm:description="Wikipedia (BE)">http://be.wikipedia.org/wiki/Артур_Меен</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be-x-old.wikipedia.org/wiki" pm:description="Wikipedia (BE-X-OLD)">http://be-x-old.wikipedia.org/wiki/Артур_Мэен</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Артур_Міен</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yo.wikipedia.org/wiki" pm:description="Wikipedia (YO)">http://yo.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fa.wikipedia.org/wiki" pm:description="Wikipedia (FA)">http://fa.wikipedia.org/wiki/آرتور_میین</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://he.wikipedia.org/wiki" pm:description="Wikipedia (HE)">http://he.wikipedia.org/wiki/ארתור_מיין</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/아서_미언</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ms.wikipedia.org/wiki" pm:description="Wikipedia (MS)">http://ms.wikipedia.org/wiki/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mr.wikipedia.org/wiki" pm:description="Wikipedia (MR)">http://mr.wikipedia.org/wiki/आर्थर_मेइघेन</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eo.dbpedia.org/resource" pm:description="Dbpedia (EO)">http://eo.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh.dbpedia.org/resource" pm:description="Dbpedia (ZH)">http://zh.dbpedia.org/resource/阿瑟·米恩</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ko.dbpedia.org/resource" pm:description="Dbpedia (KO)">http://ko.dbpedia.org/resource/아서_미언</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cy.dbpedia.org/resource" pm:description="Dbpedia (CY)">http://cy.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://io.dbpedia.org/resource" pm:description="Dbpedia (IO)">http://io.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://gl.dbpedia.org/resource" pm:description="Dbpedia (GL)">http://gl.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Мейен,_Артур</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://no.dbpedia.org/resource" pm:description="Dbpedia (NO)">http://no.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yi.dbpedia.org/resource" pm:description="Dbpedia (YI)">http://yi.dbpedia.org/resource/ארטור_מעגען</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be.dbpedia.org/resource" pm:description="Dbpedia (BE)">http://be.dbpedia.org/resource/Артур_Меен</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yo.dbpedia.org/resource" pm:description="Dbpedia (YO)">http://yo.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://he.dbpedia.org/resource" pm:description="Dbpedia (HE)">http://he.dbpedia.org/resource/ארתור_מיין</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be_x_old.dbpedia.org/resource" pm:description="Dbpedia (BE_X_OLD)">http://be_x_old.dbpedia.org/resource/Артур_Мэен</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://oc.dbpedia.org/resource" pm:description="Dbpedia (OC)">http://oc.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Arthur_Meighen</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/Артур_Міен</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://mr.dbpedia.org/resource" pm:description="Dbpedia (MR)">http://mr.dbpedia.org/resource/आर्थर_मेइघेन</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Portage la Prairie" openpx:province="Manitoba">
+        <pm:period pm:from="1925-10-29" pm:from-granularity="8" pm:till="1926-07-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Grenville" openpx:province="Ontario">
+        <pm:period pm:from="1922-01-26" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Portage la Prairie" openpx:province="Manitoba">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Portage la Prairie" openpx:province="Manitoba">
+        <pm:period pm:from="1913-07-19" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Portage la Prairie" openpx:province="Manitoba">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Portage la Prairie" openpx:province="Manitoba">
+        <pm:period pm:from="1908-10-26" pm:from-granularity="8" pm:till="1911-07-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="St. Marys" openpx:province="Ontario">
+        <pm:period pm:from="1932-03-02" pm:from-granularity="8" pm:till="1942-01-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1926-06-29" pm:from-granularity="8" pm:till="1926-09-24" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1920-07-10" pm:from-granularity="8" pm:till="1921-12-28" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1932-02-03" pm:from-granularity="8" pm:till="1935-10-22" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1926-06-29" pm:from-granularity="8" pm:till="1926-09-24" pm:till-granularity="8"/>
+        <pm:name>President of the Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1926-06-29" pm:from-granularity="8" pm:till="1926-09-24" pm:till-granularity="8"/>
+        <pm:name>Secretary of State for External Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1920-07-10" pm:from-granularity="8" pm:till="1921-12-28" pm:till-granularity="8"/>
+        <pm:name>Secretary of State for External Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1919-12-31" pm:from-granularity="8" pm:till="1920-07-09" pm:till-granularity="8"/>
+        <pm:name>Minister of Mines</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1917-10-12" pm:from-granularity="8" pm:till="1920-07-09" pm:till-granularity="8"/>
+        <pm:name>Minister of the Interior</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1917-10-12" pm:from-granularity="8" pm:till="1920-07-09" pm:till-granularity="8"/>
+        <pm:name>Superintendent-General of Indian Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1917-08-31" pm:from-granularity="8" pm:till="1917-10-03" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1917-08-25" pm:from-granularity="8" pm:till="1917-10-11" pm:till-granularity="8"/>
+        <pm:name>Minister of Mines</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1917-08-25" pm:from-granularity="8" pm:till="1917-10-11" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1915-10-02" pm:from-granularity="8" pm:till="1917-08-24" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1913-06-26" pm:from-granularity="8" pm:till="1915-10-01" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1921-12-29" pm:from-granularity="8" pm:till="1926-06-28" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1932-02-03" pm:from-granularity="8" pm:till="1935-01-01" pm:till-granularity="4"/>
+        <pm:name>Leader of the Government in the Senate</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1936-01-01" pm:from-granularity="8" pm:till="1942-01-16" pm:till-granularity="8"/>
+        <pm:name>Leader of the Opposition in the Senate</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1932-02-03" pm:from-granularity="8" pm:till="1942-01-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1922-01-26" pm:from-granularity="8" pm:till="1926-09-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Unionist" pm:party-ref="ca.p.unionist" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1913-06-26" pm:from-granularity="8" pm:till="1917-12-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1908-10-26" pm:from-granularity="8" pm:till="1913-06-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Arthur_Meighen">Arthur Meighen, PC, QC (/ˈmiːən/; 16 June 1874 – 5 August 1960) was a Canadian lawyer and politician. He served two terms as the Conservative ninth Prime Minister of Canada: from 10 July 1920 to 29 December 1921; and from 29 June 1926 to 25 September 1926. He was the first Prime Minister born after Confederation, and the only one to represent a riding in Manitoba. Both of his terms of office were brief. Meighen later served for a decade in the Senate of Canada, and failed in a political comeback attempt in 1941-42, after which he returned to the practice of law. Larry A. Glassford, a professor of education at the University of Windsor, concluded, "On any list of Canadian prime ministers ranked according to their achievements while in office, Arthur Meighen would not place very high."</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,78 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3491">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>DUMONT,  Bernard</dc:title>
+    <dc:description>Member information for: DUMONT,  Bernard</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=bca831f5-fe1d-4b1b-b227-ff89152987ff&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=bca831f5-fe1d-4b1b-b227-ff89152987ff&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3491">
+    <pm:name>
+      <pm:full>DUMONT,  Bernard</pm:full>
+      <pm:first>Bernard</pm:first>
+      <pm:last>Dumont</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1927-01-15" pm:granularity="8" pm:place="Saint-Henri, Quebec, Canada"/>
+      <pm:deceased pm:date="1974-09-25" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Administrator, agent, businessman, insurance broker, insurance executive</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=bca831f5-fe1d-4b1b-b227-ff89152987ff&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b8a2afef-6a17-40f7-b7bd-a4d2655eec5f</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only) ">http://www.assnat.qc.ca/en/deputes/dumont-bernard-3037/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Bernard_Dumont</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Bernard_Dumont</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Bernard_Dumont</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Bernard_Dumont</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Bernard_Dumont</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Bernard_Dumont</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Frontenac" openpx:province="Quebec">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Bellechasse" openpx:province="Quebec">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Ralliement Créditiste" pm:party-ref="ca.p.ralcred" pm:body="other">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1970-04-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Social Credit" pm:party-ref="ca.p.socialcredit" pm:body="other">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-04-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Bernard_Dumont">Bernard Dumont (January 15, 1927 - September 25, 1974) was a politician in Quebec, Canada. He was a member of the Canadian House of Commons and a member of the National Assembly of Quebec.Dumont was born near Lévis, Quebec. He served as mayor of Saint-Vallier, Quebec from 1959 to 1962. He was first elected to Parliament under the Social Credit banner in the district of Bellechasse in the 1962 federal election, but was defeated by Liberal candidate Herman Laverdière the next year. He ran and lost as an independent in a 1964 by-election in the district of Dorchester. and in the 1965 election as a candidate of the Ralliement des créditistes in Bellechasse once again.Dumont returned to Parliament as the member for Frontenac in the 1968 election. He resigned on April 6, 1970 to enter provincial politics. That year, he ran successfully as a candidate of the provincial Ralliement créditiste in the district of Mégantic.During Dumont's time in the National Assembly, the Ralliement was plagued by internal divisions. Most of the Créditiste MNAs withdrew their support from leader Camil Samson and gathered under Armand Bois until a new leader was chosen at a convention; Dumont was one of three MNAs who remained loyal to Samson. Eventually, the Samson faction re-joined the party and Yvon Dupuis was chosen as leader. In the 1973 election, Dumont was defeated in the district of Frontenac.Dumont ran once more for the federal Parliament as an independent in the district of Rivière-du-Loup—Témiscouata in the 1974 election and finished a distant fourth. He died later that year.Like many other Créditistes, Dumont was a vocal opponent of abortion. During a 1969 debate on liberalizing Canada's abortion laws, he was quoted as saying, "As Christians we cannot accept the theory that life only begins at birth."</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

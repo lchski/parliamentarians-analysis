@@ -1,0 +1,96 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8233">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>FITZPATRICK, The Right Hon. Sir Charles, P.C., K.C.</dc:title>
+    <dc:description>Member information for: FITZPATRICK, The Right Hon. Sir Charles, P.C., K.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=89623362-ab4a-44b5-800f-0038af405df5&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=89623362-ab4a-44b5-800f-0038af405df5&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8233">
+    <pm:name>
+      <pm:full>FITZPATRICK, The Right Hon. Sir Charles, P.C., K.C.</pm:full>
+      <pm:first>Charles</pm:first>
+      <pm:last>Fitzpatrick</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1851-12-19" pm:granularity="8" pm:place="Québec, Canada East"/>
+      <pm:deceased pm:date="1942-06-17" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Crown prosecutor, lawyer, professor of criminal law</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=89623362-ab4a-44b5-800f-0038af405df5&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=e25758cd-0077-4fea-99ec-899a05a724ed</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/fitzpatrick-charles-3165/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Charles_Fitzpatrick</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Charles_Fitzpatrick</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Charles_Fitzpatrick</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Charles_Fitzpatrick</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Charles_Fitzpatrick</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Charles_Fitzpatrick</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Charles_Fitzpatrick</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Charles_Fitzpatrick</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Quebec County" openpx:province="Quebec">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec County" openpx:province="Quebec">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec County" openpx:province="Quebec">
+        <pm:period pm:from="1896-07-30" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec County" openpx:province="Quebec">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1902-02-11" pm:from-granularity="8" pm:till="1906-06-03" pm:till-granularity="8"/>
+        <pm:name>Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-07-13" pm:from-granularity="8" pm:till="1902-02-09" pm:till-granularity="8"/>
+        <pm:name>Solicitor General of Canada</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1906-06-04" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Charles_Fitzpatrick">Sir Charles Fitzpatrick, PC, GCMG (December 19, 1853 – June 17, 1942) was a Canadian lawyer and politician, who served as the fifth Chief Justice of Canada. He was born in Quebec City, Canada East, to John Fitzpatrick and Mary Connolly. He studied at Laval University, earning his B.A. degree (1873) and LL.B degree (1876). Called to the bar of Quebec in 1876, he established his practice in Quebec City and later founded the law firm of Fitzpatrick &amp; Taschereau. In 1885, he acted as chief counsel to Louis Riel who was on trial for leading the North-West Rebellion. Riel was found guilty and sentenced to death.Fitzpatrick entered politics in 1890, winning election to the Quebec Legislative Assembly in Québec-Comté electoral district. He was re-elected in 1892, but resigned in June 1896 to enter federal politics.He was first elected to the Canadian House of Commons in Quebec County electoral district in the 1896 federal election as a Liberal Member of Parliament (MP). He served as Solicitor General of Canada from 1896 to 1902, and as Minister of Justice from 1902 until 1906. He was appointed to the Supreme Court of Canada as Chief Justice. He served in that position until 1918 when he was appointed the 12th Lieutenant Governor of Quebec. During his period as Lieutenant Governor, his nephew acted as Premier of Quebec, Louis-Alexandre Taschereau. He is the only Chief Justice other than Sir William Buell Richards to have served in that position without having first been a Puisne Justice on the court (Richards was Chief Justice at the court's creation in 1875), and the only Chief Justice to have been appointed without any prior judicial experience.In 1905, he took part, as the federal government representative, in the negotiations that led to the creation of the provinces of Alberta and Saskatchewan. He was knighted in 1907.May 20, 1879, Fitzpatrick married Marie-Elmire-Corinne Caron, daughter of René-Édouard Caron, 2nd Lieutenant Governor of Quebec, and his wife Marie-Joséphine De Blois.Chief Justice Fitzpatrick died on June 17, 1942, aged 88 years and 6 months; he is interred in Sillery, Quebec.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

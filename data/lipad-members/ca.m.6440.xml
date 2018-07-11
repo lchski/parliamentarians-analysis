@@ -1,0 +1,93 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6440">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>WHITE, The Hon. Thomas, P.C.</dc:title>
+    <dc:description>Member information for: WHITE, The Hon. Thomas, P.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d28c959b-5d7a-48c7-9590-4bbcbd4cdbd0&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d28c959b-5d7a-48c7-9590-4bbcbd4cdbd0&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6440">
+    <pm:name>
+      <pm:full>WHITE, The Hon. Thomas, P.C.</pm:full>
+      <pm:first>Thomas</pm:first>
+      <pm:last>White</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1830-08-07" pm:granularity="8" pm:place="Montreal, Lower Canada"/>
+      <pm:deceased pm:date="1888-04-21" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Editor, journalist, merchant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d28c959b-5d7a-48c7-9590-4bbcbd4cdbd0&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=44ca17f4-1e77-44ba-9b40-2e6449755674</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Thomas_White_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Thomas_White_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Thomas_White_(homme_politique)</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Thomas_White_(homme_politique)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Cardwell" openpx:province="Ontario">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cardwell" openpx:province="Ontario">
+        <pm:period pm:from="1885-08-27" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cardwell" openpx:province="Ontario">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Cardwell" openpx:province="Ontario">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1887-10-03" pm:from-granularity="8" pm:till="1888-04-21" pm:till-granularity="8"/>
+        <pm:name>Superintendent-General of Indian Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1885-08-05" pm:from-granularity="8" pm:till="1888-04-21" pm:till-granularity="8"/>
+        <pm:name>Minister of the Interior</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1888-04-21" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Unknown" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1878-09-16" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Thomas_White_(Canadian_politician)">Thomas White, PC (August 7, 1830 – April 21, 1888) was a Canadian journalist and politician.He was born in Montreal, Lower Canada in 1830, the son of Thomas White, a leather merchant who came to Canada from Ireland in 1826. White worked at a number of jobs before entering the printing trade with the Queen's Printer in Toronto around 1850. He moved to Quebec City in 1851 when that office moved there. In 1852, he assisted Stewart Derbishire in editing the Canada Gazette. He married Esther Vine at Quebec in 1853. Later that year, he founded the Peterborough Review with his brother-in-law. He also served as reeve of Peterborough. From 1860 to 1864, he studied law with Sidney Smith at Cobourg but soon returned to journalism. In 1864, he moved to Hamilton and took over the operation of the Daily Spectator and Journal of Commerce. In 1870, with his brother Richard, he bought the Montreal Gazette.He was first elected to the Canadian House of Commons in the 1878 elections representing the riding of Cardwell. A Conservative, he was re-elected in 1882 and 1887. He served in two ministerial positions: Minister of the Interior and Superintendent-General of Indian Affairs.He died of pneumonia in Ottawa in 1888.His son Robert Smeaton White also served in the House of Commons.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

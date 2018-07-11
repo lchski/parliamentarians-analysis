@@ -1,0 +1,115 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7210">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>MACKENZIE, The Right Hon. Ian Alistair, P.C., K.C., M.A. LL.B.</dc:title>
+    <dc:description>Member information for: MACKENZIE, The Right Hon. Ian Alistair, P.C., K.C., M.A. LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=265c71ea-2b44-4000-8150-fde7d37d4577&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=265c71ea-2b44-4000-8150-fde7d37d4577&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7210">
+    <pm:name>
+      <pm:full>MACKENZIE, The Right Hon. Ian Alistair, P.C., K.C., M.A. LL.B.</pm:full>
+      <pm:first>Ian Alistair</pm:first>
+      <pm:last>Mackenzie</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A. LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1890-07-27" pm:granularity="8" pm:place="Assynt, Scotland"/>
+      <pm:deceased pm:date="1949-09-02" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=265c71ea-2b44-4000-8150-fde7d37d4577&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b4b9cf88-03e0-45f5-a79d-dbfa5358a396</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Ian_Alistair_Mackenzie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Ian_Alistair_Mackenzie</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Ian_Mackenzie</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Ian_Mackenzie</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Vancouver Centre" openpx:province="British Columbia">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vancouver Centre" openpx:province="British Columbia">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vancouver Centre" openpx:province="British Columbia">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Vancouver Centre" openpx:province="British Columbia">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1935-08-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Vancouver Centre" openpx:province="British Columbia">
+        <pm:period pm:from="1948-01-19" pm:from-granularity="8" pm:till="1949-09-02" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1944-10-18" pm:from-granularity="8" pm:till="1948-01-18" pm:till-granularity="8"/>
+        <pm:name>Minister of Veterans Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1939-09-19" pm:from-granularity="8" pm:till="1944-10-17" pm:till-granularity="8"/>
+        <pm:name>Minister of Pensions and National Health</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1935-10-23" pm:from-granularity="8" pm:till="1939-09-18" pm:till-granularity="8"/>
+        <pm:name>Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1930-06-27" pm:from-granularity="8" pm:till="1930-08-06" pm:till-granularity="8"/>
+        <pm:name>Minister of Immigration and Colonization</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1930-06-27" pm:from-granularity="8" pm:till="1930-08-06" pm:till-granularity="8"/>
+        <pm:name>Superintendent-General of Indian Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1944-10-01" pm:from-granularity="8" pm:till="1948-01-18" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1944-10-01" pm:from-granularity="8" pm:till="1948-01-18" pm:till-granularity="8"/>
+        <pm:name>Liberal Party House Leader</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1930-07-28" pm:from-granularity="8" pm:till="1949-09-02" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Ian_Alistair_Mackenzie">Ian Alistair Mackenzie, PC (July 27, 1890 – September 2, 1949) was a Canadian parliamentarian.Born in Assynt, Scotland, Mackenzie entered politics by winning a seat in the Legislative Assembly of British Columbia (BC) in the 1920 BC election. In 1930, he was appointed to Prime Minister William Lyon Mackenzie King's pre-election Cabinet as Minister of Immigration and Colonization and Superintendent of Indian Affairs. While he won his seat in the 1930 federal election the Liberal Party was defeated across the country. Mackenzie entered Parliament as an Opposition Member of Parliament (MP).When the Liberals returned to power through the 1935 election, Mackenzie returned to Cabinet as Minister of National Defence where he had the responsibility for pre-war rearmament. With the outbreak of World War II in 1939, however, Mackenzie was moved to the position of Minister of Pensions and National Health, in part because of his role in a scandal involving the awarding of a contract to manufacture the Bren Gun. In 1944, he became Minister of Veterans Affairs.Mackenzie was an able parliamentarian, and when the increasing pressures of war led Prime Minister King to decide to delegate some of his responsibilities in the House of Commons to the new position of Government House Leader, he chose Mackenzie as the first MP to hold that responsibility.During the war, Mackenzie pandered to anti-Japanese sentiment in British Columbia by declaring to his constituents at his 1944 nomination meeting "Let our slogan be for British Columbia: 'No Japs from the Rockies to the seas.'" As British Columbia's senior cabinet minister Mackenzie had had a key role in the government's decision to intern Japanese-Canadians for the duration of the war.In 1947, Mackenzie was named to the Imperial Privy Council along with several other senior Canadian cabinet ministers, allowing him to use the honorific of "Right Honourable". In 1948, he was appointed to the Canadian Senate. He served only a year and a half until his death in 1949.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

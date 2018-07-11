@@ -1,0 +1,100 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4480">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>WHITE, The Hon. Peter, P.C.</dc:title>
+    <dc:description>Member information for: WHITE, The Hon. Peter, P.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9b1d7a00-039b-436a-81b7-451173585a8a&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9b1d7a00-039b-436a-81b7-451173585a8a&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4480">
+    <pm:name>
+      <pm:full>WHITE, The Hon. Peter, P.C.</pm:full>
+      <pm:first>Peter</pm:first>
+      <pm:last>White</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1838-08-30" pm:granularity="8" pm:place="Pembroke, Upper Canada"/>
+      <pm:deceased pm:date="1906-05-03" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lumber merchant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9b1d7a00-039b-436a-81b7-451173585a8a&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=855a09ec-2e31-4bda-bac4-bb543446d328</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="The Speakers of the Canadian House of Commons">http://parl.gc.ca/About/Parliament/Speakers/Hoc/sp-06White-e.htm</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Peter_White_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Peter_White_(Canadian_politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1876-01-21" pm:from-granularity="8" pm:till="1878-08-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Renfrew North" openpx:province="Ontario">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1878-08-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1891-04-29" pm:from-granularity="8" pm:till="1896-08-18" pm:till-granularity="8"/>
+        <pm:name>Speaker of the House of Commons</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1906-05-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1876-01-21" pm:from-granularity="8" pm:till="1896-06-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1872-10-12" pm:from-granularity="8" pm:till="1874-11-03" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Peter_White_(Canadian_politician)">Peter White, PC (August 30, 1838 – May 3, 1906) was a Canadian parliamentarian. White was born into a family that had established its homestead at the junction of the Muskrat and Ottawa Rivers where the town of Pembroke, Ontario was soon established. His family established several businesses including a lumberyard, general store and blacksmith's shop. As a young man, White and his brother took over the family business and became wealthy as they supplied the steam engine industries. He also became a major shareholder and president of the Pembroke Company. White entered politics and became reeve of Pembroke Township in 1870. He first ran for the Canadian House of Commons as a Conservative candidate in the 1872 federal election in the riding of Renfrew North but was defeated. He won election in the 1874 election, but his victory was overturned by the courts, and he lost the subsequent by-election that was held later that year. He was elected in a subsequent 1876 by-election, again won election in the 1878 election, and sat in the Canadian House of Commons for the next twenty years. A supporter of Sir John A. Macdonald, White was a believer in the National Policy. Following the 1891 election, Macdonald nominated White to be Speaker of the Canadian House of Commons. Macdonald died soon after, and White presided over a tumultuous period in the House of Commons as a succession of Conservative Prime Ministers attempted to hold the party and government together in the absence of the party's long time leader. Debates over the Manitoba Schools Question were particularly divisive, and brought down the government of Sir Mackenzie Bowell. White opposed the government's policy that favoured Catholic education rights as he believed that it interfered with the provincial government's right to set education policy, but, as Speaker, remained silent on the issue until the 1896 election campaign. Despite his independence on the issue, White lost his seat in the election and failed in several attempts to return to the House until the 1904 election when he finally regained a seat. By this time, he was in declining health, and was unable to regularly attend House sittings. He died in office in 1906.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

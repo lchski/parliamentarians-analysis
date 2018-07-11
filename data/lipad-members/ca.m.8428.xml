@@ -1,0 +1,85 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8428">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>BREWIN,  Francis Andrew, Q.C.</dc:title>
+    <dc:description>Member information for: BREWIN,  Francis Andrew, Q.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7f9f4b1b-ac37-43d7-8179-72a9914279d7&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7f9f4b1b-ac37-43d7-8179-72a9914279d7&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8428">
+    <pm:name>
+      <pm:full>BREWIN,  Francis Andrew, Q.C.</pm:full>
+      <pm:first>Francis Andrew</pm:first>
+      <pm:last>Brewin</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1907-09-03" pm:granularity="8" pm:place="Brighton, England"/>
+      <pm:deceased pm:date="1983-09-21" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, barrister, counsel, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=7f9f4b1b-ac37-43d7-8179-72a9914279d7&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b127ee14-8380-426c-aa51-fd87c395737f</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Andrew_Brewin</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Andrew_Brewin</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Greenwood" openpx:province="Ontario">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Greenwood" openpx:province="Ontario">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Greenwood" openpx:province="Ontario">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Greenwood" openpx:province="Ontario">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Greenwood" openpx:province="Ontario">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Greenwood" openpx:province="Ontario">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1979-05-21" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Andrew_Brewin">Francis Andrew (Andy) Brewin (September 3, 1907 - September 21, 1983) was a lawyer and Canadian politician.Brewin was a stalwart in the Co-operative Commonwealth Federation (CCF) and ran numerous times at the federal and provincial levels in the 1940 and 1950s. As a lawyer in the 1940s, he was retained by the Co-operative Committee on Japanese Canadians to contest the federal government's deportation orders affecting thousands of Japanese Canadians. Led by Brewin, the 'Japanese Canadian Reference Case' was heard by the Supreme Court of Canada and later, on appeal, by the Judicial Committee of the Privy Council. Brewin was also retained by a committee of Japanese Canadians who had been detained during World War II as "enemy aliens" in order to try to have their property restored. He succeeded in persuading the government to call a Royal Commission to investigate the question.In 1945, he was asked by Ontario CCF leader Ted Jolliffe to be co-counsel during the infamous LeBel Royal Commission that was looking into whether or not Ontario's premier at the time was employing a secret political police force. He was a candidate for the leadership of the at the party's the 1953 leadership convention, but lost to Donald C. MacDonald. Brewin was first elected to the Canadian House of Commons on behalf of the CCF's successor, the New Democratic Party. Brewin sat as Member of Parliament for the Toronto riding of Greenwood from the 1962 election until his retirement in 1979. Andrew Brewin considered himself a Christian Socialist, and wrote a number of books and pamphlets on the topic.In 1965 Andrew Brewin wrote the book Stand on Guard: The Search for a Canadian Defence Policy, published by McClelland &amp; Stewart, that explored Canada's military's changing role in the mid-twentieth century, including its participation in the then new concept of United Nations peacekeeping.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

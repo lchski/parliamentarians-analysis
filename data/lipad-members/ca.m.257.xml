@@ -1,0 +1,90 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.257">
+    <dc:identifier>ca.m.257</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>SCHELLENBERGER,  Gary</dc:title>
+    <dc:description>Member information for: SCHELLENBERGER,  Gary</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=cabc2fac-f07d-4241-8cc8-8d8ba903ae41&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=cabc2fac-f07d-4241-8cc8-8d8ba903ae41&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.257">
+    <pm:name>
+      <pm:full>SCHELLENBERGER,  Gary</pm:full>
+      <pm:first>Gary</pm:first>
+      <pm:last>Schellenberger</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1943-09-15" pm:granularity="8" pm:place="Sebringville, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, interior decorator, painter</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=cabc2fac-f07d-4241-8cc8-8d8ba903ae41&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=a7d25595-570c-4db0-979f-aebdf311a00b</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Gary-Ralph-Schellenberger(913)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website">http://www.conservative.ca/?cr=perth-wellington</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website">http://schellenberger.ca/</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Gary_Schellenberger</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Gary_Schellenberger</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Gary_Schellenberger</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Gary_Schellenberger</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Perth--Wellington" openpx:province="Ontario">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Perth--Wellington" openpx:province="Ontario">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Perth--Wellington" openpx:province="Ontario">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Perth--Wellington" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Perth--Middlesex" openpx:province="Ontario">
+        <pm:period pm:from="2003-05-12" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2003-09-10" pm:from-granularity="8" pm:till="2004-02-01" pm:till-granularity="8"/>
+        <pm:name>Deputy Whip of the Progressive Conservative Party</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative" pm:party-ref="ca.p.conservative" pm:body="other">
+        <pm:period pm:from="2004-02-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="2003-05-12" pm:from-granularity="8" pm:till="2004-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Gary_Schellenberger">Gary Ralph Schellenberger (born September 15, 1943 in Sebringville, Ontario) is a Canadian politician. He is a current member of the Canadian House of Commons, representing the riding of Perth—Wellington for the Conservative Party.Schellenberger owned a painting and decorating store in Stratford before entering political life. He is a freemason, and an elder at Avonton Presbyterian Church. A councillor in the former Downie Township, Ontario from 1988 to 2000, he first ran for parliament in the 1997 federal election as a Progressive Conservative in Perth—Middlesex. He lost to Liberal John Richardson by over 8,000 votes; former Liberal MP-turned-Reformer Garnet Bloomfield was third. Richardson, Schellenberger and Bloomfield all ran again in the 2000 election, with the same overall result.Richardson resigned his seat on November 10, 2002, suffering from a terminal illness. The subsequent by-election in 2003 garnered national attention, as both the Progressive Conservative and Canadian Alliance candidates attempted to displace the governing Liberals in the riding. Schellenberger, still running as a Progressive Conservative, defeated Liberal Brian Innes by 1,001 votes; despite several appearances from party leader Stephen Harper, the Alliance candidate, Marian Meinen, finished a distant third. Many interpreted this as a sign that the Alliance would be unable to win many Ontario seats in the next election. Shortly after his election, Schellenberger endorsed Peter MacKay for the leadership of the Progressive Conservative Party.Schellenberger was appointed Deputy Whip of the Progressive Conservative Party in September 2003. In early 2004, the Progressive Conservative and Canadian Alliance parties merged as the Conservative Party of Canada. Schellenberger joined this new party, and supported Belinda Stronach in her unsuccessful campaign to become party leader. He was re-elected under the new party's banner in the federal election of 2004, defeating Innes by almost 4,000 votes.In the 2006 federal election, Schellenberger was re-elected by a margin of 9,703 votes, defeating the Liberal candidate, David Cunningham. In the 39th Parliament, Schellenberger was elected Chair of the House of Commons Standing Committee on Canadian Heritage.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

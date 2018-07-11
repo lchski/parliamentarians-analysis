@@ -1,0 +1,75 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6014">
+    <dc:identifier>ca.m.6014</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>BHADURIA,  Jag</dc:title>
+    <dc:description>Member information for: BHADURIA,  Jag</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=f0d35833-c7ed-47f7-aa48-008cc066072d&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=f0d35833-c7ed-47f7-aa48-008cc066072d&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6014">
+    <pm:name>
+      <pm:full>BHADURIA,  Jag</pm:full>
+      <pm:first>Jag</pm:first>
+      <pm:last>Bhaduria</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1940-01-23" pm:granularity="8" pm:place="New Dehli, India"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Management consultant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=f0d35833-c7ed-47f7-aa48-008cc066072d&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b7d086c0-7c50-4843-902d-fd700ac48776</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jag_Bhaduria</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jag_Bhaduria</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Markham--Whitchurch--Stouffville" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal-Democrat" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1996-12-23" pm:from-granularity="8" pm:till="1997-06-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent Liberal" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1994-01-27" pm:from-granularity="8" pm:till="1996-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1994-01-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jag_Bhaduria">Jagdish Singh (Jag) Bhaduria (also variously spelled Badauria or Bhadauria) (born January 23, 1940 in New Delhi, India) is a former Canadian politician. After an unsuccessful attempt to win election to the Canadian House of Commons in Markham riding in the 1988 election, Bhaduria was elected in the 1993 federal election as the Liberal Member of Parliament for Markham—Whitchurch—Stouffville. In 1993, Bhaduia won the Liberal nomination under very controversial circumstances. It was later discovered that he got people to vote for him who were proven to be ineligible to vote, people listed at addresses that were unknown, people who were listed as party members but did not know they were, and members who had not paid membership fees.He was expelled from the Liberal caucus in early 1994 after concerns that he had embellished his resume attracted considerable adverse publicity to Bhaduria. In seeking the Liberal nomination, he had claimed an "LL.B. (Int.)" Many were under the impression that this was a claim to a Bachelor of Laws in international law. Bhaduria, in fact, possessed no bachelor of law degree, and argued that the Int. referred to the intermediate examinations he had taken towards an unfinished LL.B. from the University of London.Bhaduria had already come under fire weeks earlier when it came to light that, in 1990, he had been fired from his position as a teacher with the Toronto Board of Education for writing threatening letters to school administrators. From February 17–20, 2003 and on March 5, 2003 a public hearing was conducted by the Ontario College of Teachers Discipline Committee into allegations of professional misconduct against Bhadauria by issuing documents that he knew or ought to have known contained false, improper or misleading statements. The panel found Bhadauria guilty of professional misconduct and ordered his Certificates of Qualification and Registration suspended for a period of 18 months, including eight months already served when the board suspended him. The panel also ordered Bhadauria reprimanded and stated that if Bhadauria presented himself to be reprimanded by the committee, the remainder of the penalty would be suspended. Bhadauria did not attend the session scheduled for the reprimand and the remainder of the suspension will be served. [2]In the wake of the scandals, over 35,000 of Bhaduria's constituents signed a petition demanding his recall. However, as no process exists to recall Members of Parliament, Bhaduria was able to remain in Parliament until the 1997 federal election when he ran as an independent candidate and was defeated.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

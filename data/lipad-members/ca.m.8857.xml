@@ -1,0 +1,77 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8857">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>O'LEARY, The Hon. M. Grattan, LL.D., D.Soc.Sci.(Hon.)</dc:title>
+    <dc:description>Member information for: O'LEARY, The Hon. M. Grattan, LL.D., D.Soc.Sci.(Hon.)</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6b84394f-7c6e-4a0d-8a8f-baf641e901af&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6b84394f-7c6e-4a0d-8a8f-baf641e901af&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8857">
+    <pm:name>
+      <pm:full>O'LEARY, The Hon. M. Grattan, LL.D., D.Soc.Sci.(Hon.)</pm:full>
+      <pm:first>M. Grattan</pm:first>
+      <pm:last>O'Leary</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.Soc.Sci.(Hon.)</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1888-02-19" pm:granularity="8" pm:place="Percé, Quebec, Canada"/>
+      <pm:deceased pm:date="1976-04-07" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Journalist</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6b84394f-7c6e-4a0d-8a8f-baf641e901af&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b0cf21c2-d751-476e-9066-82fc1155d00e</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Grattan_O'Leary</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Grattan_O'Leary</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/О'Лири,_Майкл</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Grattan_O'Leary</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Grattan_O'Leary</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Grattan_O'Leary</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Grattan_O'Leary</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Carleton" openpx:province="Ontario">
+        <pm:period pm:from="1962-09-24" pm:from-granularity="8" pm:till="1976-04-07" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1942-12-11" pm:from-granularity="8" pm:till="1976-04-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Grattan_O'Leary">Michael Grattan O'Leary (February 19, 1888–April 7, 1976) was a journalist, publisher and a member of the Canadian Senate.He was born in Percé, in the Gaspé, Quebec on February 19, 1888. He spent two years at sea before entering journalism with the St. John Standard. He began work at the Ottawa Journal in 1911. He later became editor of the paper. He was a member of the Parliamentary Press Gallery for more than 20 years.At various times, he was the Ottawa correspondent of The Times, a contributor to British, United States and Canadian magazines, and was Canadian Editor of Collier's.He has attended imperial and international conferences in London, Washington, and Canberra, and was at the Potsdam Conference in 1945.He took a very an active interest in public affairs. He ran as a Conservative Party candidate in the federal riding of Gaspé in the general election of 1925 but was defeated. He was a confidant of a number of Prime Ministers, including Arthur Meighen and John Diefenbaker. He chaired the O'Leary Royal Commission on Publications. O'Leary was appointed by Diefenbaker to the Senate in 1962.He also served as the Rector of Queen's University in Kingston, Ontario in 1968 but was forced to resign under student pressure.[1]He died in Ottawa on April 7, 1976.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

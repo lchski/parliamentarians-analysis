@@ -1,0 +1,132 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1774">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>CHURCHILL, The Hon. Gordon Minto, P.C., D.S.O., M.A., LL.B.</dc:title>
+    <dc:description>Member information for: CHURCHILL, The Hon. Gordon Minto, P.C., D.S.O., M.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d2512bc7-c1b4-48ab-9772-1abe28ea07fa&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d2512bc7-c1b4-48ab-9772-1abe28ea07fa&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1774">
+    <pm:name>
+      <pm:full>CHURCHILL, The Hon. Gordon Minto, P.C., D.S.O., M.A., LL.B.</pm:full>
+      <pm:first>Gordon Minto</pm:first>
+      <pm:last>Churchill</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.S.O.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1898-11-08" pm:granularity="8" pm:place="Cold Water, Ontario, Canada"/>
+      <pm:deceased pm:date="1985-08-03" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister, school principal, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=d2512bc7-c1b4-48ab-9772-1abe28ea07fa&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=74257e2a-6a9c-47ae-98c4-412bc9ca85aa</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Gordon_Churchill</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Gordon_Churchill</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Gordon_Churchill</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Winnipeg South Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg South Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg South Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg South Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1958-03-31" pm:from-granularity="8" pm:till="1962-04-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg South Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg South Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Winnipeg South Centre" openpx:province="Manitoba">
+        <pm:period pm:from="1951-06-25" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1963-02-12" pm:from-granularity="8" pm:till="1963-04-21" pm:till-granularity="8"/>
+        <pm:name>Minister of National Defence</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1960-10-11" pm:from-granularity="8" pm:till="1963-02-11" pm:till-granularity="8"/>
+        <pm:name>Minister of Veterans Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1957-06-21" pm:from-granularity="8" pm:till="1960-10-10" pm:till-granularity="8"/>
+        <pm:name>Minister of Trade and Commerce</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1960-11-17" pm:from-granularity="8" pm:till="1963-02-05" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1960-01-14" pm:from-granularity="8" pm:till="1960-08-10" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1963-05-16" pm:from-granularity="8" pm:till="1965-04-21" pm:till-granularity="8"/>
+        <pm:name>Official Opposition House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1963-05-16" pm:from-granularity="8" pm:till="1965-04-21" pm:till-granularity="8"/>
+        <pm:name>Progressive Conservative Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1960-11-17" pm:from-granularity="8" pm:till="1963-02-05" pm:till-granularity="8"/>
+        <pm:name>Progressive Conservative Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1960-01-14" pm:from-granularity="8" pm:till="1960-08-10" pm:till-granularity="8"/>
+        <pm:name>Progressive Conservative Party House Leader</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent Progressive Conservative" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1968-02-27" pm:from-granularity="8" pm:till="1968-06-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1951-06-25" pm:from-granularity="8" pm:till="1968-02-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Gordon_Churchill">Gordon Minto Churchill, PC, DSO (November 8, 1898 in Coldwater, Ontario – August 3, 1985) was a Canadian politician. He served in the Legislative Assembly of Manitoba from 1946 to 1949 as an independent representative, and in the Canadian House of Commons from 1951 to 1968 as a Progressive Conservative. He was a federal cabinet minister in the government of John Diefenbaker.The son of J. W. Churchill and Mary Shier, Churchill was educated in Port Arthur, Ontario, at United College in Winnipeg and at the University of Manitoba, receiving a Master of Arts degree and a law degree. He worked as a teacher and school principal, and served as president of the Manitoba Teachers' Society. He also was a member of the law firm of Haig and Haig in Winnipeg, dominated by the family of Conservative politician John Thomas Haig.In 1922, he married Mona Mary McLachlin.Churchill saw action in both World Wars. He served overseas in World War I from 1916 to 1919 as a Vickers Machine Gunner. During World War II, he served from 1939 to 1945 with the Fort Garry Horse and Commanding Officer (Lieutenant Colonel) 1st Canadian Carrier Regiment in Northwestern Europe. In 1945, he became Dean of Faculty at Khaki University in England.Churchill's political career began in January 1946, when he was elected to the Manitoba legislature in a special by-election for Manitobans in the Canadian Army, who had not been able to cast ballots in the 1945 provincial election. Despite his ties to the Progressive Conservative Party, he served in the legislature as an independent member for the next four years. He resigned from the Manitoba legislature in 1949 to run for the Canadian House of Commons. Running in Winnipeg South Centre, he finished a distant second against Liberal candidate Ralph Maybank. Maybank resigned two years later, and Churchill was narrowly elected over Liberal Norman Wright to replace him. He was returned by a greater margin in the 1953 federal election, and by a significant majority in the 1957 election.Churchill was a key adviser to Progressive Conservative Party leader John Diefenbaker during this peiod, and was widely credited with developing the strategy that propelled Diefenbaker to victory in 1957. The Liberal Party of Louis St. Laurent had been in power since 1935, and appeared to have strong popular support. Prior to the 1957 election, Churchill wrote a confidential paper arguing that the Progressive Conservative Party could form government by targeting seats in the English-speaking provinces, and did not need to invest resources in Quebec. Diefenbaker followed this strategy, and won a minority government in 1957.Churchill was appointed to Diefenbaker's cabinet on June 21, 1957 as Minister of Trade and Commerce. Later in the year, he led a 57-member trade delegation to the United Kingdom, touring firms throughout the country.The Progressive Conservatives were re-elected with a landslide majority in the 1958 federal election, and Churchill defeated his nearest opponent in Winnipeg South Centre by a margin of almost 20,000 votes. Churchill gave approval in 1959 for Canada's first commercial power nuclear reactor, a CANDU design, to be built at Douglas Point, Ontario. In addition to holding the Trade and Commerce portfolio, he served as acting Leader of the Government in the House of Commons from January 14 to September 10, 1960. On October 17, 1960, he was confirmed to this position on a full-time basis. After a cabinet shuffle on October 11, 1960, he was named Minister of Veterans Affairs.The Progressive Conservatives were re-elected in the 1962 federal election, but were again reduced to a minority government. Churchill's majority against Liberal Ed Russenholt fell to only 2,000 votes. After another cabinet shuffle on February 12, 1963, he was promoted to Minister of National Defence. He had not served two months in this position when the Progressive Conservatives were defeated in the 1963 federal election. Churchill defeated Liberal clergyman Fred Douglas in a further reduced majority, and served as opposition House Leader in the parliament which followed.Churchill again defeated Douglas by about 2,000 votes in the 1965 federal election, which the Progressive Conservatives also lost.During the flag debates of the 1960s, Churchill referred to the new Canadian flag as a "piece of bunting". The Ottawa Citizen quoted him describing Prime Minister Lester Pearson as "a sawdust Caesar, reminding me of Mussolini, trying to force the country to accept his personal choice for a flag."Churchill remained loyal to John Diefenbaker during the Progressive Conservative Party's internal quarrels of the 1960s, and continued to work for Diefenbaker at the party's 1967 leadership convention. When Diefenbaker left the race, he sent Churchill as an emissary to Dufferin Roblin's camp to accept a Roblin badge.In February 1968, Churchill attacked new Progressive Conservative leader Robert Stanfield for not forcing an election when the Liberal government of Lester Pearson was unexpectedly defeated in the house. He left the Progressive Conservative caucus on February 27, 1968 to sit as an Independent Progressive Conservative, and did not run for re-election in the 1968 campaign.He died in Victoria, British Columbia at the age of 86.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

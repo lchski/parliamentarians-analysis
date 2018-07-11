@@ -1,0 +1,115 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1247">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>BÉLAND, The Hon. Henri Sévérin, P.C.</dc:title>
+    <dc:description>Member information for: BÉLAND, The Hon. Henri Sévérin, P.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=50634114-351e-4c08-8b61-8698a41f8814&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=50634114-351e-4c08-8b61-8698a41f8814&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1247">
+    <pm:name>
+      <pm:full>BÉLAND, The Hon. Henri Sévérin, P.C.</pm:full>
+      <pm:first>Henri Sévérin</pm:first>
+      <pm:last>Béland</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1869-10-11" pm:granularity="8" pm:place="Louiseville, Quebec, Canada"/>
+      <pm:deceased pm:date="1935-04-22" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Physician</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=50634114-351e-4c08-8b61-8698a41f8814&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=eeb3cfff-fcac-4ce4-9ec4-e3f6327a2792</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/beland-henri-severin-1955/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Henri_Sévérin_Béland</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Henri_Sévérin_Béland</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Henri_Sévérin_Béland</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1922-01-19" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1908-10-26" pm:from-granularity="8" pm:till="1911-07-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauce" openpx:province="Quebec">
+        <pm:period pm:from="1902-01-08" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Lauzon" openpx:province="Quebec">
+        <pm:period pm:from="1925-09-05" pm:from-granularity="8" pm:till="1935-04-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1921-12-29" pm:from-granularity="8" pm:till="1926-04-14" pm:till-granularity="8"/>
+        <pm:name>Minister of Soldiers' Civil Re-establishment</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1921-12-29" pm:from-granularity="8" pm:till="1926-04-14" pm:till-granularity="8"/>
+        <pm:name>Minister presiding over the Department of Health</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1911-08-19" pm:from-granularity="8" pm:till="1911-10-06" pm:till-granularity="8"/>
+        <pm:name>Postmaster General</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1922-01-19" pm:from-granularity="8" pm:till="1935-04-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1921-12-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Laurier Liberal" pm:party-ref="ca.p.laurierliberal" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1902-01-08" pm:from-granularity="8" pm:till="1917-12-16" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Henri_Sévérin_Béland">Henri Sévérin Béland, PC (October 11, 1869 – April 22, 1935) was a Canadian parliamentarian.Born in Rivière-du-Loup-en-Haut, Quebec (now Louiseville), the son of Henri Béland and Sophie Lesage, he studied medicine at Université Laval. He practiced medicine in New Hampshire before moving to Saint-Joseph-de-Beauce, Quebec. During World War I, he was a doctor in Belgium and held by the Germans as a prisoner of war for three years.From 1897 to 1899, he was the mayor of Saint-Joseph-de-Beauce. In 1897, he was elected to the Legislative Assembly of Quebec as a Liberal in the riding of Beauce. He was acclaimed in 1900. He resigned in 1902 to run federally. In a 1902 by-election, he was acclaimed as a Liberal Member of Parliament in the riding of Beauce. He was re-elected in 1904 and 1908. His seat became vacant from August 9, 1911 when he was appointed Postmaster General in the cabinet of Wilfrid Laurier, a position he occupied until October 9, 1911, and that entitled him to use the title "The Honourable" for the rest of his life. He was defeated in 1911 in the riding of Montmagny and was re-elected in Beauce. He was acclaimed in 1917 and re-elected in 1921. In 1921, he was appointed Minister of Soldiers' Civil Re-establishment and Minister presiding over the Department of Health. He was re-elected in a by-election in 1922. He served in William Lyon Mackenzie King's cabinet until 1926.In 1923, Beland (as federal Minister of Health) announced at a meeting of a committee appointed to review Canada's Opium and Narcotic Drug Act that cannabis would, arbitrarily and without parliamentary debate or process, be added to the federal list of banned substances. As recently as 2002, the Senate has been unable to formally justify Beland's decision.In 1925, he was appointed to the Senate representing the senatorial division of Lauzon, Quebec. He died in office in 1935.Henri-Béland Avenue in Montreal is named in his honour.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

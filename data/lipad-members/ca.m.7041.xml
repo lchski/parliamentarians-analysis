@@ -1,0 +1,105 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7041">
+    <dc:identifier>ca.m.7041</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>ROBICHAUD, The Hon. Fernand, P.C.</dc:title>
+    <dc:description>Member information for: ROBICHAUD, The Hon. Fernand, P.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a2a6aaf3-8df4-43ae-bc93-43b5205370ab&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a2a6aaf3-8df4-43ae-bc93-43b5205370ab&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7041">
+    <pm:name>
+      <pm:full>ROBICHAUD, The Hon. Fernand, P.C.</pm:full>
+      <pm:first>Fernand</pm:first>
+      <pm:last>Robichaud</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=a2a6aaf3-8df4-43ae-bc93-43b5205370ab&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=6abb6a67-c347-4055-a0e9-873712ff0886</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Fernand_Robichaud</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Fernand_Robichaud</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Fernand_Robichaud</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Fernand_Robichaud</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Beauséjour" openpx:province="New Brunswick">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Beauséjour" openpx:province="New Brunswick">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1990-09-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Westmorland--Kent" openpx:province="New Brunswick">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="New Brunswick" openpx:province="New Brunswick">
+        <pm:period pm:from="2010-02-28" pm:from-granularity="8" pm:till="2014-12-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Saint-Louis-de-Kent" openpx:province="New Brunswick">
+        <pm:period pm:from="1997-09-22" pm:from-granularity="8" pm:till="2010-02-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1994-09-15" pm:from-granularity="8" pm:till="1997-06-10" pm:till-granularity="8"/>
+        <pm:name>Secretary of State (Agriculture and Agri-Food, Fisheries and Oceans)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-11-04" pm:from-granularity="8" pm:till="1994-09-14" pm:till-granularity="8"/>
+        <pm:name>Secretary of State (Parliamentary Affairs)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="2001-01-26" pm:from-granularity="8" pm:till="2004-01-14" pm:till-granularity="8"/>
+        <pm:name>Deputy Leader of the Government in the Senate</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1989-10-01" pm:from-granularity="6" pm:till="1991-01-01" pm:till-granularity="4"/>
+        <pm:name>Liberal Party Deputy House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1997-09-22" pm:from-granularity="8" pm:till="2014-12-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-06-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1990-09-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Fernand_Robichaud">Fernand Robichaud, PC (born December 2, 1939) is a Canadian politician.He was born in Shippagan, New Brunswick and received a teaching certificate from the Moncton Technical Institute. Before entering politics, Robichaud was a teacher and businessman. He also served on the municipal council for Saint-Louis-de-Kent.Robichaud was first elected to the Canadian House of Commons in the 1984 election representing the riding of Westmorland—Kent, New Brunswick. In the 1988 election, he was re-elected representing Beauséjour. In 1990, he resigned his seat in order to allow newly elected Liberal leader Jean Chrétien to enter the House of Commons through a by-election. Robichaud served as Special Assistant to the Leader of the Opposition until returning to the House in the 1993 election. With the election of Chrétien as Prime Minister, Robichaud became Secretary of State for Parliamentary Affairs. In 1994, he was appointed Secretary of State for Agriculture and Agri-Food, Fisheries, and Oceans.Robichaud did not run in the 1997 election and was appointed on Chrétien's recommendation to the Canadian Senate on September 23, 1997.From 2001 to 2004, he was deputy government leader in the Senate.On January 29, 2014, Liberal Party leader Justin Trudeau announced all Liberal Senators, including Robichaud, were removed from the Liberal caucus, and would continue sitting as Independents. According to Senate Opposition leader James Cowan, the Senators will still refer to themselves as Liberals even if they are no longer members of the parliamentary Liberal caucus.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

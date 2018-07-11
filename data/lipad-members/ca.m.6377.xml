@@ -1,0 +1,71 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6377">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>SULLIVAN, The Hon. Michael, M.D.</dc:title>
+    <dc:description>Member information for: SULLIVAN, The Hon. Michael, M.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=08a3b914-dff8-4677-9918-7afbfbeac591&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=08a3b914-dff8-4677-9918-7afbfbeac591&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6377">
+    <pm:name>
+      <pm:full>SULLIVAN, The Hon. Michael, M.D.</pm:full>
+      <pm:first>Michael</pm:first>
+      <pm:last>Sullivan</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1838-02-13" pm:granularity="8" pm:place="Killarney, County Kerry, Ireland"/>
+      <pm:deceased pm:date="1915-01-26" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Physician, professor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=08a3b914-dff8-4677-9918-7afbfbeac591&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=d16f5022-88bb-499e-a341-4f54ee236075</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Michael_Sullivan_(Canadian_senator)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Michael_Sullivan_(Canadian_senator)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Kingston" openpx:province="Ontario">
+        <pm:period pm:from="1885-01-29" pm:from-granularity="8" pm:till="1912-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1885-01-29" pm:from-granularity="8" pm:till="1912-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Michael_Sullivan_(Canadian_senator)">Michael Sullivan (February 13, 1838 – January 26, 1915) was a Canadian physician, professor, and politician.Born in Killarney, County Kerry, Ireland, Sullivan came to Canada in 1842 and settled in Kingston, Ontario. He was educated at the Regiopolis College and received an M.D. in 1858 from Queen's College. He served as Purveyor-General during the North-West Rebellion of 1885. In 1872 he was appointed Lecturer in Anatomy in Queen's College, and at the time of the establishment of the Royal College of Physicians and Surgeons of Canada in affiliation with Queen's University, he was appointed Professor of Anatomy. In 1883 he was President of the Canadian Medical Association, and was an Alderman from 1863 to 1873 and Mayor of Kingston from 1874 to 1875. He later became a Professor of Surgery and Histology, and was a trustee of the Kingston Hospital and a member of the Ontario Medical Association. He ran unsuccessfully for the Canadian House of Commons in the 1882 election for Kingston. He was appointed to the Senate on the advice of John Alexander Macdonald in January 1885 representing the senatorial division of Kingston, Ontario. A Conservative, he served for almost 28 years until resigning in 1912.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

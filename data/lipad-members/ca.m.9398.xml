@@ -1,0 +1,68 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9398">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>BLACK,  Martha Louise</dc:title>
+    <dc:description>Member information for: BLACK,  Martha Louise</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6a3cb3cf-befb-4d93-8a69-ce71923d6ff9&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6a3cb3cf-befb-4d93-8a69-ce71923d6ff9&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9398">
+    <pm:name>
+      <pm:full>BLACK,  Martha Louise</pm:full>
+      <pm:first>Martha Louise</pm:first>
+      <pm:last>Black</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1866-02-24" pm:granularity="8" pm:place="Chicago, Illinois, United States"/>
+      <pm:deceased pm:date="1957-10-31" pm:granularity="8"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, homemaker</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6a3cb3cf-befb-4d93-8a69-ce71923d6ff9&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=307afd6b-caa9-43cc-873d-df0784736d7f</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Person of National Historic Significance">http://www.pc.gc.ca/apps/cseh-twih/archives2_e.asp?id=94</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Martha_Black</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Martha_Black</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Yukon" openpx:province="Yukon">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-01-25" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Independent Conservative" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1935-10-14" pm:from-granularity="8" pm:till="1940-03-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Martha_Black">Martha Louise Purdy Black OBE (February 24, 1866 – October 31, 1957) was a Canadian politician and the second woman elected to the Canadian House of Commons.Martha Louise Munger was born in Chicago, Illinois, the daughter of George and Susan Munger, a wealthy family. She was educated at Saint Mary's College (Indiana), which was run by the Sisters of the Holy Cross. Of the five children her mother had over four years, Martha was the only one to survive. She had two younger siblings, George Jr. and Belle. Her father operated a laundry that was destroyed in the Great Chicago Fire.Martha married Will Purdy in 1877 and the couple raised two sons together, Warren and Donald. Martha and Will made plans to join the Klondike Gold Rush in 1899, but Will backed out, departing instead for Hawaii. Martha did not join Will in Hawaii, choosing to travel to the Klondike with her brother in 1898.In 1898 she crossed the Chilkoot Pass into Canada, heading for the gold rush in the Klondike. She gave birth to her and Will's third son, Lyman, in January 1899 in Dawson City.Martha returned home to Chicago, and returned again to the Klondike in 1900. She earned a living by staking gold mining claims and running a sawmill and a gold ore-crushing plant. In 1904, she married George Black, who later became Commissioner of the Yukon from 1912-1916.In the 1935 federal election, she was elected for the riding of Yukon as an Independent Conservative taking the place of her ill husband. She was the second woman ever to be elected to the House of Commons of Canada.She published an autobiography, My Seventy Years, in 1938. This was subsequently updated and published in 1998 as "Martha Black: Her Story from the Dawson Gold Fields to the Halls of Parliament".</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,92 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.163">
+    <dc:identifier>ca.m.163</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>LAUZON,  Guy</dc:title>
+    <dc:description>Member information for: LAUZON,  Guy</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=07efb925-e6f4-4f2a-bd9f-bd5b0a297a8d&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=07efb925-e6f4-4f2a-bd9f-bd5b0a297a8d&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.163">
+    <pm:name>
+      <pm:full>LAUZON,  Guy</pm:full>
+      <pm:first>Guy</pm:first>
+      <pm:last>Lauzon</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1944-04-06" pm:granularity="8" pm:place="St. Andrew's West, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Business manager, entrepreneur</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=07efb925-e6f4-4f2a-bd9f-bd5b0a297a8d&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=1ef4d5bc-a7aa-4da3-b171-ab32c1a35bb9</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="MP profile">http://www.parl.gc.ca/Parliamentarians/en/members/Guy-Lauzon(25516)</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Party Website">http://www.conservative.ca/?cr=stormont-dundas-south-glengarry</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website">http://www.guylauzon.ca/</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Guy_Lauzon</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Guy_Lauzon</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Guy_Lauzon</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Guy_Lauzon</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Stormont--Dundas--South Glengarry" openpx:province="Ontario">
+        <pm:period pm:from="2011-05-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Stormont--Dundas--South Glengarry" openpx:province="Ontario">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Stormont--Dundas--South Glengarry" openpx:province="Ontario">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Stormont--Dundas--South Glengarry" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2007-10-10" pm:from-granularity="8" pm:till="2008-10-29" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Agriculture and Agri-Food and for the Minister for the Federal Economic Development Initiative for Northern Ontario</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2006-03-06" pm:from-granularity="8" pm:till="2008-11-20" pm:till-granularity="8"/>
+        <pm:name>Deputy Whip of the Conservative Party</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2008-11-03" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+        <pm:name>Conservative Party Caucus Chair</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative" pm:party-ref="ca.p.conservative" pm:body="other">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Guy_Lauzon">Guy Lauzon (born April 6, 1944) is a Canadian politician. He is a current member of the Canadian House of Commons, representing the riding of Stormont—Dundas—South Glengarry as a Conservative. He was born in St. Andrew's West, Ontario and his family roots in the region can be traced to the 19th century.Lauzon spent over twenty-two years in the federal public service and served as a local union president of the Public Service Alliance of Canada. During the 1990s, he served as chair of the HDRC's United Way and multiple sclerosis research funding campaigns. He retired in 1993, and is now the general manager of Tri-County Protein, a soybean processing plant in Winchester, Ontario. Lauzon has also served as fundraising chairman of the St. Andrews West Roman Catholic Church, which raised over $100,000 for the building's restoration.In the 2000 federal election, Lauzon ran as the Canadian Alliance candidate in Stormont—Dundas—Charlottenburgh, and finished second behind incumbent Liberal Bob Kilger.The Canadian Alliance and Progressive Conservative Party were merged in 2003, and Lauzon ran as a Conservative in the 2004 election and garnered almost 4,000 votes more than his nearest rival, incumbent Bob Kilger.Lauzon was appointed as the Conservative Party critic for the Treasury Board and Official Languages Committee.In the 2006 federal election, Lauzon was chosen once more to represent the Conservative Party as the candidate for Stormont—Dundas—South Glengarry. He won 54.7% of the popular vote, defeating his nearest challenger, Tom Manley, by over 14,000 votes. It was the Conservatives fourth largest victory in Ontario in terms of popular support.In 2006, Guy Lauzon was appointed to the deputy whip position of the Conservative party.In the spring of 2007, Guy Lauzon was ousted from his position as the Official Languages Committee chair in a non-confidence vote (by all three opposition parties) for cancelling a scheduled meeting moments before witnesses were to testify. The hearing was being held to examine the cancellation of a Court Challenges Program, to which the government cut funding. The Conservative government then, following procedures from what the media has dubbed the “obstruction manual", decided not to nominate a new chair, shutting down the committee’s work.On October 10, 2007 Lauzon was appointed Parliamentary Secretary to the Minister of Agriculture and Agri-Food and for the Federal Economic Development Initiative for Northern Ontario.On November 3, 2008, almost a month following that year's federal election, Lauzon was appointed Chairman of the Conservative Caucus, succeeding defeated Alberta MP Rahim Jaffer.[1]Lauzon introduced a bill, C-350, which would ensure any monetary awards owed to an offender as a result of legal action are first used to resolve financial obligations to victims and family members, such as child support dues.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

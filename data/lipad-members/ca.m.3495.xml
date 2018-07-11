@@ -1,0 +1,71 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3495">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>MURPHY,  Charles Terrence, Q.C., B.A.</dc:title>
+    <dc:description>Member information for: MURPHY,  Charles Terrence, Q.C., B.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=df46dc7b-f5ec-498f-a4f7-af6f11968dde&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=df46dc7b-f5ec-498f-a4f7-af6f11968dde&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3495">
+    <pm:name>
+      <pm:full>MURPHY,  Charles Terrence, Q.C., B.A.</pm:full>
+      <pm:first>Charles Terrence</pm:first>
+      <pm:last>Murphy</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1926-10-19" pm:granularity="8" pm:place="Sault Ste Marie, Ontario, Canada"/>
+      <pm:deceased pm:date="2008-07-12" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister and solicitor, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=df46dc7b-f5ec-498f-a4f7-af6f11968dde&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=1dec1dc1-d74d-4aec-8a97-14ff71aee659</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Terrence_Murphy_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Terrence_Murphy_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Sault Ste. Marie" openpx:province="Ontario">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-10-29" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Terrence_Murphy_(politician)">Charles Terrence "Terry" Murphy Q.C. (19 October 1926 – 12 July 2008) was a Canadian lawyer, politician and judge. Born in Sault Ste. Marie, Ontario Murphy was the eldest son of Charlie and Monica Murphy of John Street. He attended Holy Angels Catholic School and Sault Collegiate Institute (Class of 1943), and entered St. Peter's Seminary in London, Ontario. However, a year later he transferred to Assumption College at the University of Western Ontario, from which he graduated at the age of 19 with a BA (Hon) in philosophy. From there he went to Osgoode Hall Law School."I had no inclination to work with figures, so that ruled out maths and sciences - - it only left teaching and the law - - I chose the latter."Among his activities at some point during his time in Toronto, Murphy visited regularly with a friendly University of Toronto English professor for a beer and talk in the evening at the professor's home. Over twenty years later, when Murphy contacted the professor to see if he would be willing to make a presentation to the Liberal Party Caucus, the professor remembered Murphy's visits. But Marshall McLuhan, now internationally famous, said, "Ah, Terrence, times have changed. We can't talk for nothing any more." McLuhan's fee proved to be more than the Caucus was willing to pay.In 1949, at the age of 22, Murphy became the youngest person in Ontario to be called to the Bar. He returned to Sault Ste. Marie and spent seven years in partnership with George Majic, after which he established his own practice.Murphy served a term as Alderman for the City of Sault Ste. Marie in 1965. He was elected in 1968 as a Liberal member of parliament representing the Sault Ste. Marie Electoral District, at which time he joined the firm of Fitzgerald, Kelleher and Kurisko.While a member of parliament, Murphy served on the parliamentary justice committee. In 1970 he became the leader of the Canadian delegation representing Canada in the North Atlantic Assembly. The Assembly provided elected representatives from NATO countries with some insight into and oversight of the operation of NATO. He was named president of the North Atlantic Assembly in 1971, a position which required him to visit NATO countries and meet their ministers of defence. He also attended meetings of a group nicknamed "the Nine Wise Men", which had been formed to review NATO policy and organization. The group consisted of one representative from each of the NATO countries, including former Canadian Prime Minister Lester B. Pearson, and later West German Chancellor Helmut Schmidt.In October 1970, Liberal Prime Minister Pierre Trudeau proclaimed a state of "apprehended insurrection" under the War Measures Act in response to the kidnapping of British Trade Commissioner James Cross by Quebec separatists. Regulations under the act permitted arrest and detention without charge and banned the kidnappers' organization, the Front de libération du Québec(FLQ). Murphy objected to what he considered to be an unjustifiable suppression of civil liberties and planned to vote against the government. Trudeau met with him and advised him that, if he voted against the government, he would not only be ejected from the Liberal caucus and barred from running for the party again, but his constituency would not receive any programmes or benefits from the government during the balance of his tenure in office. Murphy did not believe that his constituents should suffer as a result of his conscientious convictions, but would not support the government on the issue. He absented himself from the House during the key vote.Murphy returned to legal practice with the firm after his defeat in the 1972 federal election by New Democratic Party candidate Cyril Symes. He ran against Symes again in the 1979 election, but was again defeated.In 1980 he was appointed Judge for the District of Sudbury/Manitoulin, becoming a judge of the Superior Court of Justice when the superior courts of the province were re-structured. He retired from the bench in 2000. Five years later, Murphy was formally acknowledged by the Advocates’ Society in the book Learned Friends as one of fifty of the finest advocates practising in Ontario from 1950 to 2000, who exemplified the very highest standards of advocacy and shaped the legal profession in the province.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

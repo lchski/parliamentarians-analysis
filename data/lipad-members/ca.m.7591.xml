@@ -1,0 +1,74 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7591">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>ROWLAND,  Douglas Charles, C.D., B.A., M.A.</dc:title>
+    <dc:description>Member information for: ROWLAND,  Douglas Charles, C.D., B.A., M.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=14b8528d-56b3-4272-9ac2-de49e097a546&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=14b8528d-56b3-4272-9ac2-de49e097a546&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7591">
+    <pm:name>
+      <pm:full>ROWLAND,  Douglas Charles, C.D., B.A., M.A.</pm:full>
+      <pm:first>Douglas Charles</pm:first>
+      <pm:last>Rowland</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1940-06-14" pm:granularity="8" pm:place="Regina, Saskatchewan, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lecturer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=14b8528d-56b3-4272-9ac2-de49e097a546&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=9c7182f6-5098-4040-a4ae-ac2726959f9b</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Doug_Rowland</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Doug_Rowland</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Selkirk" openpx:province="Manitoba">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Selkirk" openpx:province="Manitoba">
+        <pm:period pm:from="1970-04-13" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="New Democratic Party" pm:party-ref="ca.p.newdemocraticparty" pm:body="other">
+        <pm:period pm:from="1970-04-13" pm:from-granularity="8" pm:till="1974-07-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Doug_Rowland">Douglas Charles Rowland, (born June 14, 1940) is a former Canadian politician.Rowland has had extensive experience on Boards in the not-for-profit sector as well as on management committees in government and the private sector. He was, for five years, Chair of the Board of Directors of the Canadian Association of Former Parliamentarians (CAFP), now Immediate Past Chair and a member of the Editorial Board of the CAFP. Rowland is President Emeritus of the International Election Monitors Institute formed jointly by the CAFP, the United States Association of Former Members of Congress and the Former Members Association of the European Parliament. He is a member of the Board of Directors of the Parliamentary Centre. He is also a Fellow of the Centre for the Study of Democracy at Queen's University, Kingston, Ontario and the first Canadian member of the International Solidarity Committee of the Washington-based Freedom House. He is President of the Friends of the Canadian War Museum.He was for nine years a member of the Board of Trustees of The Salvation Army Ottawa Grace Hospital and for six of those years, Chair. He was a member of the Founding Board of the New Ottawa Hospital. He is a Past Chair of The Salvation Army Advisory Board for Ottawa. He also chaired The Salvation Army Capital Campaign task group of Ottawa and was a member of The Salvation Army Territorial Advisory Board. He served as a member of the Ottawa committee for the Canadian War Museum fund-raising campaign. He also serves on the Board of Directors of the Canadian Shield Foundation and is a volunteer van-driver for Unitarian House Retirement Home.Rowland was a federal Member of Parliament in the early 1970s. During both Parliaments in which he served he held the post of Defence Critic for the New Democratic Party. Prior to his election, he had been chief of staff to the Manitoba Provincial NDP leader, A. R. (Russ) Paulley, and Principal Secretary to Federal NDP leaders T. C. Douglas and David Lewis. He played a leading organizational role in the NDP victory in Manitoba in 1969 following which he became Special Assistant to the Premier, Ed Schreyer, and Associate Secretary to the Cabinet. Subsequently, he held a series of senior executive positions within the central agencies of the federal government including Assistant Secretary to the Cabinet for Federal-Provincial Relations. He moved from the government to hold senior positions in a Crown Corporation and in an international marketing services firm.Rowland has been active in governance and democracy work internationally. He has had assignments in Morocco, where he developed a domestic election monitoring organization, in Mexico, in the former Yugoslavia and in Indonesia. In January 2006, Rowland headed the six-person International Mission for Iraqi Elections’ Assessment Team sent to Baghdad to analyze the December 2005 Iraqi election results. In 2007, he participated in election monitoring missions in Morocco and Ukraine. In March 2010, he headed a six-person Election Monitoring team to Iraq composed of former legislators from the United States, Sweden, the United Kingdom and Canada. He was an election observer in Kazakhstan with the OSCE in 2011.Rowland holds a Bachelor of Arts degree from St. Johns College, University of Manitoba, a Master of Arts degree in Political Science from the University of Manitoba and received a “distinction” for his doctoral studies in Canadian Government and International Relations at McGill University.He served in the Royal Canadian Navy (Reserve) receiving several awards as a Naval Cadet. As a lieutenant, he served on continuous naval duty in a frigate of the Atlantic fleet. He attained the rank of Lieutenant Commander and holds the Canadian Forces Decoration (C. D.) and the Queen's Diamond Jubilee Medal. He has had a lifelong interest in military history.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

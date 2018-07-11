@@ -1,0 +1,67 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7334">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-29+01:00</dc:date>
+    <dc:title>YOUNG,  Rodney</dc:title>
+    <dc:description>Member information for: YOUNG,  Rodney</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=35f77fcc-b0b0-4bde-b3b4-7e9f80b8066e&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=35f77fcc-b0b0-4bde-b3b4-7e9f80b8066e&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7334">
+    <pm:name>
+      <pm:full>YOUNG,  Rodney</pm:full>
+      <pm:first>Rodney</pm:first>
+      <pm:last>Young</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1910-03-21" pm:granularity="8" pm:place="Liverpool, England"/>
+      <pm:deceased pm:date="1978-04-13" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Barrister and solicitor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=35f77fcc-b0b0-4bde-b3b4-7e9f80b8066e&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Rodney_Young_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Rodney_Young_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Vancouver Centre" openpx:province="British Columbia">
+        <pm:period pm:from="1948-06-08" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Co-operative Commonwealth Federation (C.C.F.)" pm:party-ref="ca.p.CCF" pm:body="other">
+        <pm:period pm:from="1948-06-08" pm:from-granularity="8" pm:till="1949-06-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Rodney_Young_(politician)">Rodney Young (March 21, 1910 – January 1, 1978) was a lawyer and Canadian Member of Parliament.Young was born in Liverpool and emigrated to Canada in 1926 at the age of 16 setting in Vancouver. He was a socialist activist during the Great Depression and did political work in the unemployment relief camps that were set up during the Great Depression in Canada.Young was a member of the Socialist Party of Canada's British Columbia section and was one of the party's two candidates in the dual member constituency of Vancouver Centre for the 1933 provincial election garnering 64 votes.In 1934, the Socialist Party in BC joined the fledgling Co-operative Commonwealth Federation and Young joined the youth wing of the fledgling democratic socialist political party.He joined the Royal Canadian Corps of Signals during World War II, serving in the Canadian Army from 1940 until 1946.Following demobilization, he enrolled in the University of British Columbia's law school. While still a law student in 1948, he contested a by-election in Vancouver Centre on behalf of the CCF and was elected to the Canadian House of Commons. He only served for a year before being defeated in his attempt to retain his seat in the 1949 federal election. His attempt to regain the seat in the 1953 resulted in a third place finish.Young was a socialist and on the left-wing of the CCF. His involvement with Marxist activists resulted in his expulsion from the British Columbia wing of the CCF by the party's executive in 1954 in what was called the "Rod Young affair".</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,90 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6044">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>GILLMOR, The Hon. Arthur Hill</dc:title>
+    <dc:description>Member information for: GILLMOR, The Hon. Arthur Hill</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9f5b8f3e-a5e3-4e38-8fa7-f36c56d10856&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9f5b8f3e-a5e3-4e38-8fa7-f36c56d10856&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6044">
+    <pm:name>
+      <pm:full>GILLMOR, The Hon. Arthur Hill</pm:full>
+      <pm:first>Arthur Hill</pm:first>
+      <pm:last>Gillmor</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1824-03-12" pm:granularity="8" pm:place="St. George, New Brunswick, Canada"/>
+      <pm:deceased pm:date="1903-04-13" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Farmer, lumberman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=9f5b8f3e-a5e3-4e38-8fa7-f36c56d10856&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=ac353256-e3ef-458b-81ff-8b572a6b403a</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Arthur_Hill_Gillmor</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Arthur_Hill_Gillmor</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Arthur_Hill_Gillmor</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Arthur_Hill_Gillmor</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Charlotte" openpx:province="New Brunswick">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Charlotte" openpx:province="New Brunswick">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Charlotte" openpx:province="New Brunswick">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Charlotte" openpx:province="New Brunswick">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Charlotte" openpx:province="New Brunswick">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1878-08-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="New Brunswick" openpx:province="New Brunswick">
+        <pm:period pm:from="1900-04-02" pm:from-granularity="8" pm:till="1903-04-13" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1900-04-02" pm:from-granularity="8" pm:till="1903-04-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1896-06-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Arthur_Hill_Gillmor">Arthur Hill Gillmor (March 12, 1824 – April 13, 1903) was a Canadian farmer, lumberman and Liberal politician from New Brunswick. He was the son of Daniel and Purmelia Gillmor, both native of New Brunswick. He was educated at the St. Andrews Grammar School, St. Andrews, New Brunswick and later engaged in the local lumber and farming business. Mr. Gillmor married Hannah Dawes Howe, of Maine, in January 1846. They had four children: Daniel, Henry, Percy and Delia.Mr. Gillmor sat in New Brunswick's House of Assembly for five terms, and gained a reputation for integrity. The last of these mandates was as provincial secretary in Albert James Smith's government, which had run on a platform opposing Confederation. When the Smith government was defeated in the 1866 election, Gillmor left politics for a time to concentrate on business.After Confederation, he represented the riding of Charlotte, New Brunswick in the Canadian House of Commons from 1874 to 1896. He was a strong candidate for the office of Lieutenant-Governor of New Brunswick in 1899, being strongly endorsed by his former political opponents as well as supporters, but did not secure the appointment. He was subsequently appointed Canadian commissioner to the World’s Fair at Paris. He was appointed to the Senate by Sir Wilfrid Laurier in 1900, where he served until his death in 1903, when he died on a train while en route to Ottawa after a return trip to his hometown of St. George. Mr. Gillmor is buried in the St. George Rural Cemetery, in St. George, New Brunswick.His son Daniel also served in the Senate from 1907 to 1918.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

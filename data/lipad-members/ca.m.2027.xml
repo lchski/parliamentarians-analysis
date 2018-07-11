@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2027">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>SMITH, The Hon. Ernest D'Israeli</dc:title>
+    <dc:description>Member information for: SMITH, The Hon. Ernest D'Israeli</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=622ee825-5e98-46fb-b73e-3bb0bebbfc18&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=622ee825-5e98-46fb-b73e-3bb0bebbfc18&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2027">
+    <pm:name>
+      <pm:full>SMITH, The Hon. Ernest D'Israeli</pm:full>
+      <pm:first>Ernest D'Israeli</pm:first>
+      <pm:last>Smith</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1853-12-08" pm:granularity="8" pm:place="Winona, Canada West"/>
+      <pm:deceased pm:date="1948-10-15" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Fruit grower, industrialist, merchant, nurseryman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=622ee825-5e98-46fb-b73e-3bb0bebbfc18&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=13370209-5852-4003-be05-7ded90c113e7</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/E._D._Smith</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/E._D._Smith</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/E._D._Smith</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/E._D._Smith</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Wentworth" openpx:province="Ontario">
+        <pm:period pm:from="1905-11-22" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Wentworth" openpx:province="Ontario">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Wentworth South" openpx:province="Ontario">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Wentworth" openpx:province="Ontario">
+        <pm:period pm:from="1913-05-26" pm:from-granularity="8" pm:till="1946-01-10" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1913-05-26" pm:from-granularity="8" pm:till="1946-01-10" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1905-11-22" pm:from-granularity="8" pm:till="1908-10-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1905-02-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/E._D._Smith">Ernest D'Israeli Smith (December 8, 1853 – October 15, 1948) was a Canadian businessman and politician who founded a food company that bears his name. He was born in the hamlet of Winona, part of Saltfleet Township (which became Stoney Creek) on Ontario's Niagara Peninsula. His wife was the first president of the Women’s Institute in Stoney Creek, which was also organized by Adelaide Hoodless and Erland and Janet Lee. In his mature years, Smith relied on his sons to spearhead new business ventures. An expansion to Britain was foiled by the start of the First World War, and continued fruit sales in Canada were reduced by the Great Depression of the 1930s. Consequently, the company concentrated on tomato production for export since it was more of a staple than fruit.His farms were a place where women worked during the First World War as part of the Women's Work on the Land program. This program brought female university students onto farms during the summer to help with food production.After the start of the Second World War, E.D. Smith &amp; Sons Ltd. acquired the Canadian rights to H.P. Sauce Ltd. of Britain and in 1948 the latter's subsidiary Lea &amp; Perrins Ltd. On October 15, 1948, E.D. Smith died. The private company bearing his name was sold to Imperial Capital in 2001. In October 2007 it became a wholly owned subsidiary of TreeHouse Foods, Inc. Its current product line includes jams &amp; spreads, syrups, pie fillings, ketchup, sauces, and salad dressings.The E.D. Smith archives and collection (family and factory) is currently housed in the Erland Lee Museum in Stoney Creek</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

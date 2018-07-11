@@ -1,0 +1,80 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4339">
+    <dc:identifier>ca.m.4339</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>O'BRIEN,  Lawrence D.</dc:title>
+    <dc:description>Member information for: O'BRIEN,  Lawrence D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=5094e3a6-9f95-4727-8065-69bc03a45101&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=5094e3a6-9f95-4727-8065-69bc03a45101&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4339">
+    <pm:name>
+      <pm:full>O'BRIEN,  Lawrence D.</pm:full>
+      <pm:first>Lawrence D.</pm:first>
+      <pm:last>O'Brien</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1951-03-31" pm:granularity="8" pm:place="L'Anse au Loup, Newfoundland and Labrador, Canada"/>
+      <pm:deceased pm:date="2004-12-16" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Adult education instructor, public servant, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=5094e3a6-9f95-4727-8065-69bc03a45101&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=592c25c5-47d2-4fb7-b8fa-747abad40396</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Lawrence_O'Brien</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Lawrence_O'Brien</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Labrador" openpx:province="Newfoundland and Labrador">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2004-12-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labrador" openpx:province="Newfoundland and Labrador">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labrador" openpx:province="Newfoundland and Labrador">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labrador" openpx:province="Newfoundland and Labrador">
+        <pm:period pm:from="1996-03-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1999-09-01" pm:from-granularity="8" pm:till="2001-09-12" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Fisheries and Oceans</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1996-03-25" pm:from-granularity="8" pm:till="2004-12-16" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Lawrence_O'Brien">You may have also meant Lawrence Francis "Larry" O'Brien, one-time Postmaster General of the United States and commissioner of the National Basketball Association.Lawrence David O'Brien (March 31, 1951, L'Anse-au-Loup, Labrador – December 16, 2004, St. John's, Newfoundland) was a Canadian politician. O’Brien represented Labrador in the House of Commons of Canada as a Liberal from 1996 until his death in 2004. Before being elected to parliament, O’Brien was an adult education instructor, a public servant, a teacher, and from 1985 to 1996, a town councillor in Happy Valley-Goose Bay, Newfoundland and Labrador. He served as Parliamentary Secretary to the Minister of Fisheries and Oceans from 1999 to 2001. He was a strong supporter of a 2003 constitutional amendment which officially changed the name of the province of Newfoundland to "Newfoundland and Labrador."O'Brien was a candidate for the provincial Liberal nomination in the district of Cartwright-L'anse au Clair in 1996. After his loss in that race, he entered, and won, the federal Liberal nomination for the by-election in the riding of Labrador, vacated by the appointment of Bill Rompkey to the Senate. O'Brien was elected in the federal by-election on March 25, 1996, and re-elected in the general elections of 1997, 2000, and 2004.He was diagnosed with cancer in 1998 and died on December 16, 2004. He is survived by his wife and two children. On January 31, 2005, the members of the House of Commons paid respects to him and his career.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

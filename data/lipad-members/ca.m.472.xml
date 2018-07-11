@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.472">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>BONNELL, The Hon. M. Lorne, M.D.(c.m.), L.M.C.C.</dc:title>
+    <dc:description>Member information for: BONNELL, The Hon. M. Lorne, M.D.(c.m.), L.M.C.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=05dda8ce-80ab-40d2-b1d7-e634963aba4a&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=05dda8ce-80ab-40d2-b1d7-e634963aba4a&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.472">
+    <pm:name>
+      <pm:full>BONNELL, The Hon. M. Lorne, M.D.(c.m.), L.M.C.C.</pm:full>
+      <pm:first>M. Lorne</pm:first>
+      <pm:last>Bonnell</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.D.(c.m.)</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">L.M.C.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1923-01-04" pm:granularity="8" pm:place="Hopefield, Prince Edward Island, Canada"/>
+      <pm:deceased pm:date="2006-10-09" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Physician</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=05dda8ce-80ab-40d2-b1d7-e634963aba4a&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=d40ce5a4-5e02-49dd-b84f-e7cab75a7ddb</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="PEILDO Website">http://www.peildo.ca/fedora/repository/leg%3A20893</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Lorne_Bonnell</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Lorne_Bonnell</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Murray River" openpx:province="Prince Edward Island">
+        <pm:period pm:from="1971-11-04" pm:from-granularity="8" pm:till="1998-01-04" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1971-11-04" pm:from-granularity="8" pm:till="1998-01-04" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Lorne_Bonnell">Mark Lorne Bonnell (January 4, 1923 – October 9, 2006) was a Canadian physician, provincial politician, and senator.Born in Hopefield, Prince Edward Island, the son of Lottie and Harry Bonnell, he received his Doctor of Medicine from Dalhousie University in 1949. He practiced medicine in Murray River, Prince Edward Island and helped to deliver more than 3000 babies during his career.In 1951, he was elected to the Legislative Assembly of Prince Edward Island representing the district of 4th Kings. A member of the Prince Edward Island Liberal Party, he was re-elected in 1955, 1959, 1962, 1966, and 1970. He was the Minister of Health, Minister of Welfare, Minister Tourist Development, and Minister Responsible for Housing. His grandfather, Captain Mark H. Bonnell, was also a member of the Legislative Assembly of Prince Edward Island.In 1971, he was appointed to the senate representing the senatorial division of Murray River, Prince Edward Island. A Liberal, he retired at the mandatory age of 75 in 1998.In 2001, he was awarded an honorary degree from the University of Prince Edward Island.He married Ruby Jardine in 1949. They had two children: Mark and Linda.He died at the Queen Elizabeth Hospital in Charlottetown in 2006.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

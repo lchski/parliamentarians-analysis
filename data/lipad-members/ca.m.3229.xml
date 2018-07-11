@@ -1,0 +1,107 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3229">
+    <dc:identifier>ca.m.3229</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>BRADSHAW, The Hon. Claudette, P.C., O.N.B.</dc:title>
+    <dc:description>Member information for: BRADSHAW, The Hon. Claudette, P.C., O.N.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=9143f4e2-1302-4626-8612-5714e0920860&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=9143f4e2-1302-4626-8612-5714e0920860&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3229">
+    <pm:name>
+      <pm:full>BRADSHAW, The Hon. Claudette, P.C., O.N.B.</pm:full>
+      <pm:first>Claudette</pm:first>
+      <pm:last>Bradshaw</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.N.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1949-04-08" pm:granularity="8" pm:place="Moncton, New Brunswick, Canada"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Executive director</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=9143f4e2-1302-4626-8612-5714e0920860&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=afb3b4d0-a203-4016-962f-aafeb13ad67b</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Claudette_Bradshaw</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Claudette_Bradshaw</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Claudette_Bradshaw</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Claudette_Bradshaw</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Moncton--Riverview--Dieppe" openpx:province="New Brunswick">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Moncton--Riverview--Dieppe" openpx:province="New Brunswick">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Moncton" openpx:province="New Brunswick">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2004-07-19" pm:till-granularity="8"/>
+        <pm:name>Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2003-12-12" pm:from-granularity="8" pm:till="2004-07-19" pm:till-granularity="8"/>
+        <pm:name>Minister responsible for Homelessness</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1998-11-23" pm:from-granularity="8" pm:till="2003-12-11" pm:till-granularity="8"/>
+        <pm:name>Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Human Resources Development)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2002-01-15" pm:from-granularity="8" pm:till="2002-05-25" pm:till-granularity="8"/>
+        <pm:name>Secretary of State (Multiculturalism) (Status of Women)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1997-07-10" pm:from-granularity="8" pm:till="1998-11-22" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister for International Cooperation</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1997-07-10" pm:from-granularity="8" pm:till="1998-11-22" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister responsible for La Francophonie</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Claudette_Bradshaw">Claudette Bradshaw, PC, ONB (born April 8, 1949) is a former Canadian politician who served as Member of Parliament (MP) for the riding of Moncton—Riverview—Dieppe, New Brunswick. She was first elected on June 2, 1997 and served until 2005. She is a member of the Liberal Party of Canada. Claudette Bradshaw was appointed Parliamentary Secretary to the Minister for International Cooperation and Minister Responsible for the Francophonie on June 10, 1997. On November 23, 1998, she was appointed to cabinet as Minister of Labour. After being re-elected in November 2000, she was re-appointed as Minister of Labour on January 15, 2002 and again on December 12, 2003. From March 23, 1999 until July 20, 2004, she was the Federal Coordinator on Homelessness. After the 2004 election, Prime Minister Paul Martin shuffled the cabinet, and demoted Bradshaw to the position of Minister of State (Human Resources Development). In November 2005, Bradshaw announced that she would not stand for re-election in the 2006 federal election.Following her retirement from federal politics, there was some speculation that she would run for the provincial Liberals in the next New Brunswick election in the riding of Kent South. Bradshaw later announced she was not interested in re-entering electoral politics but was appointed as special advisor to leader Shawn Graham for that election campaign.In 2009, she was appointed a member of the Order of New Brunswick.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

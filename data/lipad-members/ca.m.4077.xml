@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4077">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>FARRIS, The Hon. John Wallace de Beque, Q.C., D.C.L., LL.D.</dc:title>
+    <dc:description>Member information for: FARRIS, The Hon. John Wallace de Beque, Q.C., D.C.L., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=294ad51f-34ab-43b9-80f2-2035daf47f9c&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=294ad51f-34ab-43b9-80f2-2035daf47f9c&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4077">
+    <pm:name>
+      <pm:full>FARRIS, The Hon. John Wallace de Beque, Q.C., D.C.L., LL.D.</pm:full>
+      <pm:first>John Wallace de Beque</pm:first>
+      <pm:last>Farris</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.C.L.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1878-12-03" pm:granularity="8" pm:place="White's Cove, New Brunswick, Canada"/>
+      <pm:deceased pm:date="1970-02-25" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=294ad51f-34ab-43b9-80f2-2035daf47f9c&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=d6520c06-dbfc-4c2f-9a4b-07aebcc5dea1</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Wallace_de_Beque_Farris</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Wallace_de_Beque_Farris</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Vancouver South" openpx:province="British Columbia">
+        <pm:period pm:from="1937-01-09" pm:from-granularity="8" pm:till="1970-02-25" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1937-01-09" pm:from-granularity="8" pm:till="1970-02-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Wallace_de_Beque_Farris">John Wallace de Beque Farris (December 3, 1878 – February 25, 1970) was a Canadian lawyer and politician.Born in White's Cove, New Brunswick, the son of Laughlin P. Farris and Louise Hay, he was educated at St. Martin's Seminary, received his Bachelor of Arts from Acadia University and received his Bachelor of Law from the University of Pennsylvania. He was called to the British Columbia Bar in 1903. He founded the law firm now called Farris, Vaughan, Wills &amp; Murphy LLP and was the first prosecutor of Vancouver.In 1907, he ran unsuccessfully for the Legislative Assembly of British Columbia for the riding of Vancouver. He lost again in 1909 for the riding of Richmond. He was elected in 1916 as a Liberal MLA for the riding of Vancouver and was re-elected in 1920. From 1917 to 1922, he was the Attorney General and Minister of Labour.In 1937, he was appointed to the Senate of Canada representing the senatorial division of Vancouver South, British Columbia. He served until his death in 1970. Late in life, he was known within the Liberal Party as a staunch supporter of Pierre-Elliott Trudeau's leadership and an opponent of Senate reform.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

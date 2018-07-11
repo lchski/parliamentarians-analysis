@@ -1,0 +1,160 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8721">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>MULRONEY, The Right Hon. Martin Brian, P.C., C.C., G.O.Q., B.A., LL.L.</dc:title>
+    <dc:description>Member information for: MULRONEY, The Right Hon. Martin Brian, P.C., C.C., G.O.Q., B.A., LL.L.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1335c5d9-2c4e-4ed4-b8d2-c85f1099e8d8&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1335c5d9-2c4e-4ed4-b8d2-c85f1099e8d8&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8721">
+    <pm:name>
+      <pm:full>MULRONEY, The Right Hon. Martin Brian, P.C., C.C., G.O.Q., B.A., LL.L.</pm:full>
+      <pm:first>Martin Brian</pm:first>
+      <pm:last>Mulroney</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">G.O.Q.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.L.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1939-03-20" pm:granularity="8" pm:place="Baie-Comeau, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Author, corporate executive, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1335c5d9-2c4e-4ed4-b8d2-c85f1099e8d8&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b996125c-0640-42bc-bfa9-c8114413cdbd</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=3844&amp;t=12&amp;ln=mulroney&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eo.wikipedia.org/wiki" pm:description="Wikipedia (EO)">http://eo.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/马丁·布赖恩·马尔罗尼</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ga.wikipedia.org/wiki" pm:description="Wikipedia (GA)">http://ga.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://simple.wikipedia.org/wiki" pm:description="Wikipedia (SIMPLE)">http://simple.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://oc.wikipedia.org/wiki" pm:description="Wikipedia (OC)">http://oc.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ca.wikipedia.org/wiki" pm:description="Wikipedia (CA)">http://ca.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cs.wikipedia.org/wiki" pm:description="Wikipedia (CS)">http://cs.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cy.wikipedia.org/wiki" pm:description="Wikipedia (CY)">http://cy.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://io.wikipedia.org/wiki" pm:description="Wikipedia (IO)">http://io.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eu.wikipedia.org/wiki" pm:description="Wikipedia (EU)">http://eu.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Малруни,_Брайан</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://no.wikipedia.org/wiki" pm:description="Wikipedia (NO)">http://no.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://tr.wikipedia.org/wiki" pm:description="Wikipedia (TR)">http://tr.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ne.wikipedia.org/wiki" pm:description="Wikipedia (NE)">http://ne.wikipedia.org/wiki/ब्रायन_मुलरोनी</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://vi.wikipedia.org/wiki" pm:description="Wikipedia (VI)">http://vi.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yi.wikipedia.org/wiki" pm:description="Wikipedia (YI)">http://yi.wikipedia.org/wiki/ברייען_מאלראני</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be.wikipedia.org/wiki" pm:description="Wikipedia (BE)">http://be.wikipedia.org/wiki/Браян_Малруні</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Браян_Малруні</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yo.wikipedia.org/wiki" pm:description="Wikipedia (YO)">http://yo.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh-yue.wikipedia.org/wiki" pm:description="Wikipedia (ZH-YUE)">http://zh-yue.wikipedia.org/wiki/穆羅尼</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://da.wikipedia.org/wiki" pm:description="Wikipedia (DA)">http://da.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fa.wikipedia.org/wiki" pm:description="Wikipedia (FA)">http://fa.wikipedia.org/wiki/برایان_مالرونی</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ja.wikipedia.org/wiki" pm:description="Wikipedia (JA)">http://ja.wikipedia.org/wiki/ブライアン・マルルーニー</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://he.wikipedia.org/wiki" pm:description="Wikipedia (HE)">http://he.wikipedia.org/wiki/בריאן_מלרוני</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mn.wikipedia.org/wiki" pm:description="Wikipedia (MN)">http://mn.wikipedia.org/wiki/Брайан_Малрони</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/브라이언_멀로니</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ms.wikipedia.org/wiki" pm:description="Wikipedia (MS)">http://ms.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mr.wikipedia.org/wiki" pm:description="Wikipedia (MR)">http://mr.wikipedia.org/wiki/ब्रायन_मुलरोनी</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pdc.wikipedia.org/wiki" pm:description="Wikipedia (PDC)">http://pdc.wikipedia.org/wiki/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eo.dbpedia.org/resource" pm:description="Dbpedia (EO)">http://eo.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh.dbpedia.org/resource" pm:description="Dbpedia (ZH)">http://zh.dbpedia.org/resource/马丁·布赖恩·马尔罗尼</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://io.dbpedia.org/resource" pm:description="Dbpedia (IO)">http://io.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://oc.dbpedia.org/resource" pm:description="Dbpedia (OC)">http://oc.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ca.dbpedia.org/resource" pm:description="Dbpedia (CA)">http://ca.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cs.dbpedia.org/resource" pm:description="Dbpedia (CS)">http://cs.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cy.dbpedia.org/resource" pm:description="Dbpedia (CY)">http://cy.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ga.dbpedia.org/resource" pm:description="Dbpedia (GA)">http://ga.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eu.dbpedia.org/resource" pm:description="Dbpedia (EU)">http://eu.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Малруни,_Брайан</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://no.dbpedia.org/resource" pm:description="Dbpedia (NO)">http://no.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://tr.dbpedia.org/resource" pm:description="Dbpedia (TR)">http://tr.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://vi.dbpedia.org/resource" pm:description="Dbpedia (VI)">http://vi.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yi.dbpedia.org/resource" pm:description="Dbpedia (YI)">http://yi.dbpedia.org/resource/ברייען_מאלראני</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be.dbpedia.org/resource" pm:description="Dbpedia (BE)">http://be.dbpedia.org/resource/Браян_Малруні</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yo.dbpedia.org/resource" pm:description="Dbpedia (YO)">http://yo.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://da.dbpedia.org/resource" pm:description="Dbpedia (DA)">http://da.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fi.dbpedia.org/resource" pm:description="Dbpedia (FI)">http://fi.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ja.dbpedia.org/resource" pm:description="Dbpedia (JA)">http://ja.dbpedia.org/resource/ブライアン・マルルーニー</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://he.dbpedia.org/resource" pm:description="Dbpedia (HE)">http://he.dbpedia.org/resource/בריאן_מלרוני</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://mn.dbpedia.org/resource" pm:description="Dbpedia (MN)">http://mn.dbpedia.org/resource/Брайан_Малрони</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ko.dbpedia.org/resource" pm:description="Dbpedia (KO)">http://ko.dbpedia.org/resource/브라이언_멀로니</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Brian_Mulroney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/Браян_Малруні</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://mr.dbpedia.org/resource" pm:description="Dbpedia (MR)">http://mr.dbpedia.org/resource/ब्रायन_मुलरोनी</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pdc.dbpedia.org/resource" pm:description="Dbpedia (PDC)">http://pdc.dbpedia.org/resource/Brian_Mulroney</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Charlevoix" openpx:province="Quebec">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Manicouagan" openpx:province="Quebec">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Central Nova" openpx:province="Nova Scotia">
+        <pm:period pm:from="1983-08-29" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1984-09-17" pm:from-granularity="8" pm:till="1993-06-24" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1983-08-29" pm:from-granularity="8" pm:till="1984-09-16" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1983-08-29" pm:from-granularity="8" pm:till="1993-10-24" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Brian_Mulroney">Martin Brian Mulroney (born March 20, 1939), PC, CC, GOQ, was the 18th Prime Minister of Canada from September 17, 1984 to June 25, 1993, and was leader of the Progressive Conservative Party of Canada from 1983 to 1993. His tenure as Prime Minister was marked by the introduction of major economic reforms, such as the Canada-U.S. Free Trade Agreement and the Goods and Services Tax, and the rejection of constitutional reforms such as the Meech Lake Accord and the Charlottetown Accord. Prior to his political career, he was a prominent lawyer and businessman in Montreal.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

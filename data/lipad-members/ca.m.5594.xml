@@ -1,0 +1,73 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5594">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-07-18+01:00</dc:date>
+    <dc:title>GOULD,  Oliver Robert</dc:title>
+    <dc:description>Member information for: GOULD,  Oliver Robert</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=64ea5c35-fa23-4e75-a3d7-1d07114270e0&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=64ea5c35-fa23-4e75-a3d7-1d07114270e0&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5594">
+    <pm:name>
+      <pm:full>GOULD,  Oliver Robert</pm:full>
+      <pm:first>Oliver Robert</pm:first>
+      <pm:last>Gould</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1874-04-04" pm:granularity="8" pm:place="Hants County, England"/>
+      <pm:deceased pm:date="1951-10-07" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Carpenter, farmer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=64ea5c35-fa23-4e75-a3d7-1d07114270e0&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Oliver_Robert_Gould</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Oliver_Robert_Gould</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Assiniboia" openpx:province="Saskatchewan">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-09-05" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Assiniboia" openpx:province="Saskatchewan">
+        <pm:period pm:from="1919-10-27" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive" pm:party-ref="ca.p.progressive" pm:body="other">
+        <pm:period pm:from="1921-12-06" pm:from-granularity="8" pm:till="1925-10-28" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="United Farmers" pm:party-ref="ca.p.progressive" pm:body="other">
+        <pm:period pm:from="1919-10-27" pm:from-granularity="8" pm:till="1921-12-05" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Oliver_Robert_Gould">Oliver Robert Gould (April 4, 1874 – October 7, 1951) was a farmer and political figure in Saskatchewan, Canada. He represented Assiniboia in the Canadian House of Commons from 1919 to 1925 as a United Farmers and then Progressive Party member.He was born in Pontypridd, Wales, the son of John Gould and Mary Ann Pike, and came to Forest, Ontario with his family in 1881, moving to Oak Lake, Manitoba in the early 1890s. Gould settled on a farm near Manor, Saskatchewan, where he also worked as a carpenter. He served five years on the town council for Manor. Gould was first elected to the House of Commons as a United Farmers MP in an 1919 by-election held after John Gillanders Turriff was named to the Senate. He was re-elected as a Progressive MP in the 1921 general election but defeated when he ran for re-election in 1925 federal election. He was married three times; first to Sarah Elizabeth Hindmarch, then to Daisy Fern Malin and finally to Hazel Maxwell Reid.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

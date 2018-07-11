@@ -1,0 +1,91 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2112">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>MCCREATH, The Hon. Peter L., P.C., F.R.S.A., B.A., M.A., B.Ed., M.Ed.</dc:title>
+    <dc:description>Member information for: MCCREATH, The Hon. Peter L., P.C., F.R.S.A., B.A., M.A., B.Ed., M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2541ca5e-f120-4f05-a0b5-b808a686483c&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2541ca5e-f120-4f05-a0b5-b808a686483c&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2112">
+    <pm:name>
+      <pm:full>MCCREATH, The Hon. Peter L., P.C., F.R.S.A., B.A., M.A., B.Ed., M.Ed.</pm:full>
+      <pm:first>Peter L.</pm:first>
+      <pm:last>McCreath</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">F.R.S.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Ed.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1943-07-05" pm:granularity="8" pm:place="Halifax, Nova Scotia, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Journalist, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=2541ca5e-f120-4f05-a0b5-b808a686483c&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=2ce80496-b0f4-4914-b3ef-35a5ea0c1703</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Peter_McCreath</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Peter_McCreath</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="South Shore" openpx:province="Nova Scotia">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-06-25" pm:from-granularity="8" pm:till="1993-11-03" pm:till-granularity="8"/>
+        <pm:name>Minister of Veterans Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-03-11" pm:from-granularity="8" pm:till="1993-03-22" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Industry, Science and Technology</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1993-03-11" pm:from-granularity="8" pm:till="1993-06-24" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister for International Trade</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1991-02-27" pm:from-granularity="8" pm:till="1993-03-10" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of State (Finance and Privatization)</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-10-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Peter_McCreath">Peter L. McCreath, PC (born July 5, 1943) is former Chairman of the Nova Scotia Liquor Corporation, President of PMC Communications Inc. and a former Canadian politician.A journalist and teacher by training, McCreath was elected to the Canadian House of Commons in the 1988 election as the Progressive Conservative Member of Parliament for the Nova Scotia riding of South Shore.In 1991, he became Parliamentary Secretary to the Minister of State for Finance and Privatization. In 1993, he was appointed Parliamentary Secretary to the Minister of Industry, Science and Technology and to the Minister for International Trade.When Kim Campbell succeeded Brian Mulroney as PC Party leader and Prime Minister of Canada, she appointed McCreath to Cabinet as Minister of Veterans Affairs. However, McCreath's cabinet career was short-lived as both he and the Campbell government were defeated in the subsequent 1993 general election.Following his defeat, McCreath turned to business entering the field of public affairs, communications and government relations. After 5 years with CIBC, he established his own company, PMC Communications Inc.McCreath became Founding Chairman of the Nova Scotia Liquor Corporation in 2001. During the past 8 years he has led the transformation of the NSLC into leading and award winning Canadian retail organization and one of Canada's most profitable crown corporations.McCreath has written several books, is a co-author of the history textbooks Discovering Canada, Canadian History: Voices and Vision, has authored a biography, The Life &amp; Times of Alexander Keith, Nova Scotia's Brewmaster (2001), A History of Early Nova Scotia (1982 with John G. Leefe) and The People's Choice (about life as an MP - 1995).</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

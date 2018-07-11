@@ -1,0 +1,79 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1503">
+    <dc:identifier>ca.m.1503</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>ELLEY,  Reed, B.A., M.Div.</dc:title>
+    <dc:description>Member information for: ELLEY,  Reed, B.A., M.Div.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=712848d8-67ac-4310-bc6e-890e57b29ee3&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=712848d8-67ac-4310-bc6e-890e57b29ee3&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1503">
+    <pm:name>
+      <pm:full>ELLEY,  Reed, B.A., M.Div.</pm:full>
+      <pm:first>Reed</pm:first>
+      <pm:last>Elley</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Div.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1945-07-22" pm:granularity="8" pm:place="Simcoe, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Clergyperson</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=712848d8-67ac-4310-bc6e-890e57b29ee3&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=57825e20-10bf-48a1-8ad5-5fb181fde355</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Reed_Elley</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Reed_Elley</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Nanaimo--Cowichan" openpx:province="British Columbia">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Nanaimo--Cowichan" openpx:province="British Columbia">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative" pm:party-ref="ca.p.conservative" pm:body="other">
+        <pm:period pm:from="2003-12-23" pm:from-granularity="8" pm:till="2008-10-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Canadian Alliance" pm:party-ref="ca.p.canadianalliance" pm:body="other">
+        <pm:period pm:from="2000-03-27" pm:from-granularity="8" pm:till="2003-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Reform" pm:party-ref="ca.p.reform" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Reed_Elley">Reed Elley (born 1945) is a retired Baptist minister who was elected to the Canadian Parliament in 1997 as a member of the Reform Party. He was reelected in 2000 and retired in 2004.Elley was born in Simcoe, Ontario and was educated at McMaster University in Hamilton, where he obtained a BA in History and an MDiv in theology. He pastored several churches in the Baptist denomination in three provinces, Ontario, Alberta and British Columbia. In 1967, he married Louise Plester from Chemainus, British Columbia and they raised eight children—four children of their own as well as four foster children,three of which are first nations.Elley joined the Reform Party of Canada, then led by Preston Manning, in 1988. His first political activity was in 1992, when he ran a Vote No campaign in the federal riding of Calgary Centre during the Charlottetown Accord constitutional referendum. He then became an area manager for the Reform candidate Jim Silye. During that time he and his family moved to Vancouver Island, where he became involved in the winning campaign of Bob Ringma in 1993. After the election, he was asked to become president of the Nanaimo-Cowichan constituency association for the Reform Party.He was nominated as the Reform candidate in Nanaimo-Cowichan in 1997 and won in that year's federal election. He was re-elected in 2000 in what the local press described as a land slide win as a member of the Canadian Alliance party, and ended his career as a member of the Conservative Party of Canada. As MP, he served as critic for Indian Affairs and Northern Development, and Labour. He held the positions of deputy chair of the health committee for several years, and also served on the Fisheries and Oceans committee and the Persons With Disabilities committee.He was noted as a good local MP who worked hard for his constituents regardless of their background.He ran in the 2008 general election but was not successful,finishing second to the NDP candidate.In 2011 he was elected president of the fledgling BC Conservative Party and held the position for a year. He is now retired from politics and living in Chemainus,BC.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

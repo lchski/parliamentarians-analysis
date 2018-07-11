@@ -1,0 +1,99 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3482">
+    <dc:identifier>ca.m.3482</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>ADAMS, The Hon. Peter, P.C., B.A., M.Sc., Ph.D.</dc:title>
+    <dc:description>Member information for: ADAMS, The Hon. Peter, P.C., B.A., M.Sc., Ph.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=cae8968d-ec08-4415-8747-d3967bf5fcc3&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=cae8968d-ec08-4415-8747-d3967bf5fcc3&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3482">
+    <pm:name>
+      <pm:full>ADAMS, The Hon. Peter, P.C., B.A., M.Sc., Ph.D.</pm:full>
+      <pm:first>Peter</pm:first>
+      <pm:last>Adams</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Sc.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Ph.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1936-04-17" pm:granularity="8" pm:place="United Kingdom"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Professor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=cae8968d-ec08-4415-8747-d3967bf5fcc3&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=c6d37520-6aa6-4f48-a5e7-40dfca7c6570</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=468</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Peter_Adams_(politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Peter_Adams_(politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Peterborough" openpx:province="Ontario">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2005-10-07" pm:from-granularity="8" pm:till="2006-02-05" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Human Resources and Skills Development</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2005-07-20" pm:from-granularity="8" pm:till="2005-10-06" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Human Resources and Skills Development and Minister responsible for Democratic Renewal</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="2004-07-20" pm:from-granularity="8" pm:till="2005-07-19" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Human Resources and Skills Development</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1997-07-10" pm:from-granularity="8" pm:till="1999-08-31" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Leader of the Government in the House of Commons</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="2006-01-22" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Peter_Adams_(politician)">Peter Adams, PC OOnt (born April 17, 1936) is a Canadian politician, and a former Liberal Member of Canada's House of Commons. He was a Member of Parliament from 1993 until 2006, representing the riding of Peterborough in eastern Ontario. Previously, Adams represented the provincial riding of Peterborough in the Legislative Assembly of Ontario from 1987 to 1990, sitting as a member of the Ontario Liberal Party.Born in the United Kingdom, Adams was educated at the University of Sheffield and McGill University. He has served as director of the subarctic research laboratory in Schefferville, Quebec, and before entering political life was a member of the Geography department and coordinator of Northern Studies at Trent University in Peterborough, where he is now an Emeritus Professor. Adams also served as Vice President - Academic while at Trent. Adams has authored many books and articles, and co-edited the regional history Peterborough and the Kawarthas. In 1981, he was named as Peterborough's Citizen of the Year.He first ran for the Ontario legislature in the 1977 provincial election, but finished third against Progressive Conservative John Turner (not to be confused with the former Liberal Prime Minister of the same name) and incumbent New Democrat Gill Sandeman. He ran again in the 1981 provincial election, and finished second against Turner.Adams ran for the seat again in the 1987 provincial election, and won by a comfortable majority amid a landslide provincial victory for the Liberal Party. He was not appointed to the cabinet of David Peterson, but served as parliamentary assistant to Minister of the Environment Jim Bradley from 1989 to 1990.The Liberals were unexpectedly defeated by the New Democratic Party in the 1990 provincial election, and Adams lost his seat to NDP candidate Jenny Carter by 185 votes.Adams was first elected to the Canadian House of Commons in the federal election of 1993, defeating Progressive Conservative incumbent Bill Domm by almost 16,000 votes. He was re-elected in the elections of 1997, 2000 and 2004, each time by a comfortable margin.Adams is on the left-wing of the Liberal Party. He was for many years a prominent supporter of Jean Chrétien, opposing Paul Martin's bid to succeed Chrétien as party leader. Adams was appointed by Martin as Parliamentary Secretary to the Minister of Human Resources and Skills Development and Minister responsible for Democratic Renewal on July 20, 2004. He did not stand for re-election in the 2006 federal election.In 2012 he was made a member of the Order of Ontario.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

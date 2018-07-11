@@ -1,0 +1,77 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2350">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-08+01:00</dc:date>
+    <dc:title>LIVINGSTON,  James</dc:title>
+    <dc:description>Member information for: LIVINGSTON,  James</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8c77c740-34fa-40c3-b1c3-ffa76453fe5c&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8c77c740-34fa-40c3-b1c3-ffa76453fe5c&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2350">
+    <pm:name>
+      <pm:full>LIVINGSTON,  James</pm:full>
+      <pm:first>James</pm:first>
+      <pm:last>Livingston</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1838-11-29" pm:granularity="8" pm:place="East Kilbride, Scotland"/>
+      <pm:deceased pm:date="1920-04-14" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Merchant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8c77c740-34fa-40c3-b1c3-ffa76453fe5c&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=384808c0-9196-4ebf-bab1-33610c691f14</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=1421</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/James_Livingston_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/James_Livingston_(Canadian_politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Waterloo South" openpx:province="Ontario">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Waterloo South" openpx:province="Ontario">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Waterloo South" openpx:province="Ontario">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Waterloo South" openpx:province="Ontario">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1900-11-06" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/James_Livingston_(Canadian_politician)">James Livingston (November 29, 1838 – April 15, 1920) was an Ontario businessman and political figure. He represented Waterloo South in the Legislative Assembly of Ontario from 1879 to 1882 and in the Canadian House of Commons from 1882 to 1900 as a Liberal member.He was born in East Kilbride, Scotland in 1838, the son of a weaver. He worked at weaving as a youth and then came to Perth County, Canada West in 1856. A year later, Livingston moved to Conestogo in Waterloo County where he worked for flax growers, soon afterwards becoming manager. In 1865, he went into business with his brother growing flax at Wellesley. The company expanded into the production of linseed oil at Baden, also opening a foundry and general store. The business steadily expanded due to Livingston's shrewd business sense, and quickly acquired holdings in the Western Canada as well as Michigan. As the both the Livingston family and business grew, James required the assistance of his new son-in-law, who managed the Michigan holdings. He served as reeve for Wilmot Township from 1878 to 1879. In 1879, he was elected to the Ontario assembly but resigned his seat in 1882 to run for a seat in the federal parliament. He died in Kitchener at the age of 81.Livingston's former residence, Castle Kilbride, has been designated a Canadian National Historic Site.Livingston married Louise Liersch in 1861, with whom he had 12 children: eight daughters and four sons. John Peter (J.P.), one of James' sons, succeeded his father as head of the Livingston empire; he acquired the famed home, "Castle Kilbride", upon James' death in 1915. J.P. and wife, Laura, had one child, Laura Louise Livingston. Laura Louise married Harris Veitch, who together had three children. By the fifth decade of the twentieth century, the flax industry had begun a decline, and so too did the Livingston empire. Laura Louise and Harris were forced to sell the home by 1986, and auctioned off the home's furnishings in 1988. Unfortunately "Castle Kilbride" sat vacant for number of years until the Township of Wilmot purchased it and resorted it to its original Victorian Era beauty. The Livingston home remains 'the jewel of Wilmot Township'.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

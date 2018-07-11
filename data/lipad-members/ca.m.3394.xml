@@ -1,0 +1,70 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3394">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>VAN ROGGEN, The Hon. George Clifford</dc:title>
+    <dc:description>Member information for: VAN ROGGEN, The Hon. George Clifford</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=416ab185-bccc-44b4-ae34-6e7bf302beb7&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=416ab185-bccc-44b4-ae34-6e7bf302beb7&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3394">
+    <pm:name>
+      <pm:full>VAN ROGGEN, The Hon. George Clifford</pm:full>
+      <pm:first>George Clifford</pm:first>
+      <pm:last>Van Roggen</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1921-07-22" pm:granularity="8" pm:place="Vancouver, British Columbia, Canada"/>
+      <pm:deceased pm:date="1992-06-08" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=416ab185-bccc-44b4-ae34-6e7bf302beb7&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=8c56fcdc-2eb2-4098-8a47-d1423e6a22d1</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/George_Van_Roggen</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/George_Van_Roggen</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Vancouver-Points Grey" openpx:province="British Columbia">
+        <pm:period pm:from="1971-11-04" pm:from-granularity="8" pm:till="1992-06-08" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1971-11-04" pm:from-granularity="8" pm:till="1992-06-08" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/George_Van_Roggen">George Clifford Van Roggen (July 22, 1921 - June 8, 1992) was a Canadian Senator and a longtime advocate of free trade with the United States.Van Roggen was born in Vancouver, British Columbia. After graduating in law from the University of British Columbia, Van Roggen went to Whitehorse, Yukon in 1949 becoming the town's only practicing lawyer. He later became future Conservative MP Eric Nielsen's law partner.He returned to Vancouver in 1957 to practice corporate law specializing in corporate real estate.He was a Liberal Party activist and served as British Columbia campaign chair for the Liberals under Lester Pearson and served in the same role under Pierre Trudeau for the 1968 and 1972 federal elections.The issue of free trade with the United States had been a dead letter in Canadian politics since the defeat of Sir Wilfrid Laurier's government in the 1911 federal election on the issue of what was called "reciprocity" with the United States. In 1966, Van Roggen spearheaded the approval of a pro-free trade resolution at a national Liberal Party conference. The motion passed but Prime Minister Pearson responded by saying the issue should not be considered "at this time."He was appointed to the Senate in 1971. In 1974, he became chairman of the Senate's Committee of Foreign Affairs and had the committee conduct a study of free trade with the United States which recommended the negotiation of a free trade agreement. This recommendation was endorsed by the Senate in 1982 and was adopted by the Royal Commission on the Economic Union and Development Prospects for Canada in 1985. In turn, the Progressive Conservative government of Brian Mulroney accepted the Commission's recommendation and proceeded to negotiate the Canada-United States Free Trade Agreement in 1987 which was ratified in 1988.By this time, the Liberals under leader John Turner had come out against free trade putting Van Roggen in an awkward position. He resigned as chairman of the Senate Foreign Committee in 1986 rather than vote against what had been his idea. When the Senate stalled passage of the Free Trade Agreement, Prime Minister Mulroney called the 1988 federal election and campaigned on the issue and was re-elected. After the election, Van Roggen voted with Conservative Senators to approve the Free Trade Agreement while his fellow Liberal senators abstained. The Agreement passed and came into effect on January 1, 1989.Van Roggen was described as a "C.D. Howe Liberal" and considered an economic conservative but a social liberal who supported a social safety net.Van Roggen died of liver cancer in Vancouver in 1992.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

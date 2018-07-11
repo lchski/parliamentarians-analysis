@@ -1,0 +1,128 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3164">
+    <dc:identifier>ca.m.3164</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>REYNOLDS, The Hon. John Douglas, P.C.</dc:title>
+    <dc:description>Member information for: REYNOLDS, The Hon. John Douglas, P.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=10ed8e96-0925-4e31-8bbb-c3da002050cf&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=10ed8e96-0925-4e31-8bbb-c3da002050cf&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3164">
+    <pm:name>
+      <pm:full>REYNOLDS, The Hon. John Douglas, P.C.</pm:full>
+      <pm:first>John Douglas</pm:first>
+      <pm:last>Reynolds</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1942-01-19" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, manager, sales and marketing consultant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=10ed8e96-0925-4e31-8bbb-c3da002050cf&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=791201a5-d87b-4904-82e4-f02ee1e261ff</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Personal Website">http://www.johnreynolds.ca/</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Reynolds_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Reynolds_(Canadian_politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="West Vancouver--Sunshine Coast" openpx:province="British Columbia">
+        <pm:period pm:from="2004-06-28" pm:from-granularity="8" pm:till="2005-11-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="West Vancouver--Sunshine Coast" openpx:province="British Columbia">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="West Vancouver--Sunshine Coast" openpx:province="British Columbia">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-10-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Burnaby--Richmond--Delta" openpx:province="British Columbia">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1977-09-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Burnaby--Richmond--Delta" openpx:province="British Columbia">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2001-12-12" pm:from-granularity="8" pm:till="2002-05-20" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2004-03-22" pm:from-granularity="8" pm:till="2005-01-27" pm:till-granularity="8"/>
+        <pm:name>Official Opposition House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2002-04-04" pm:from-granularity="8" pm:till="2003-12-22" pm:till-granularity="8"/>
+        <pm:name>Official Opposition House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2001-04-25" pm:from-granularity="8" pm:till="2001-12-17" pm:till-granularity="8"/>
+        <pm:name>Official Opposition House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2004-03-22" pm:from-granularity="8" pm:till="2005-01-27" pm:till-granularity="8"/>
+        <pm:name>Conservative Party House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2002-04-04" pm:from-granularity="8" pm:till="2003-12-22" pm:till-granularity="8"/>
+        <pm:name>Canadian Alliance House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="2001-04-25" pm:from-granularity="8" pm:till="2001-12-17" pm:till-granularity="8"/>
+        <pm:name>Canadian Alliance House Leader</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2000-08-01" pm:from-granularity="8" pm:till="2001-04-24" pm:till-granularity="8"/>
+        <pm:name>Chief Opposition Whip</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2000-08-01" pm:from-granularity="8" pm:till="2001-04-24" pm:till-granularity="8"/>
+        <pm:name>Whip of the Canadian Alliance</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative" pm:party-ref="ca.p.conservative" pm:body="other">
+        <pm:period pm:from="2003-12-23" pm:from-granularity="8" pm:till="2006-01-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Canadian Alliance" pm:party-ref="ca.p.canadianalliance" pm:body="other">
+        <pm:period pm:from="2000-03-27" pm:from-granularity="8" pm:till="2003-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Reform" pm:party-ref="ca.p.reform" pm:body="other">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="2000-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1977-09-04" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Reynolds_(Canadian_politician)">John Douglas Reynolds, PC (born January 19, 1942) was the Member of Parliament for the riding of West Vancouver—Sunshine Coast—Sea to Sky Country in the Canadian House of Commons from 1997 to 2006. He had also been an MP in the 1970s as well as a provincial politician in British Columbia in the 1980s and 1990s. He was first elected to Parliament as a candidate of the Progressive Conservatives in 1972 and was re-elected in 1974. He resigned in 1977 after disagreeing with Joe Clark's Red Tory policies.Beginning in 1983 he was active in the Social Credit Party of British Columbia and served as Speaker of the British Columbia Legislative Assembly and as a cabinet minister. In 1986 he was a candidate at the Social Credit leadership convention coming in fifth. He remained in provincial politics until 1991 when he was defeated in his bid for re-election.Reynolds returned to parliament in 1997 as a Reform MP and served as Chief Opposition Whip. He remained in this role when the Reform Party was folded into the Canadian Alliance. When Stockwell Day faced a revolt in his caucus in 2001 and Chuck Strahl resigned as House leader, Reynolds was named in his place. When Day resigned as Alliance leader, Reynolds was chosen as interim party leader and leader of the opposition and served until Stephen Harper was elected the new party leader.Reynolds resigned as House leader on January 24, 2005, but continued as MP for his riding until his retirement at the 2006 federal election. He was the coordinator of the Conservative campaign in British Columbia. On the day after the election, which resulted in a Conservative minority government, Harper asked Reynolds to approach Liberal minister David Emerson about crossing the floor and serving as a minister in Harper's government. Emerson eventually accepted the offer, which triggered a firestorm of criticism. However, Reynolds, who had strongly criticized Belinda Stronach's switch from the Conservatives to the Liberals, told a suburban Vancouver newspaper that he was "very happy" that Emerson was a Conservative and claimed that the people of Emerson's left-leaning Vancouver riding got the better end of the bargain. "Instead of having someone in opposition," he said, "they have someone who is a cabinet minister of a new government."</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

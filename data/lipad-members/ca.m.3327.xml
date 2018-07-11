@@ -1,0 +1,102 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3327">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>COURTEMANCHE, The Hon. Henri, P.C., B.A., LL.B.</dc:title>
+    <dc:description>Member information for: COURTEMANCHE, The Hon. Henri, P.C., B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1d4d038a-aefe-49a4-9186-aa1defc70ccd&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1d4d038a-aefe-49a4-9186-aa1defc70ccd&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3327">
+    <pm:name>
+      <pm:full>COURTEMANCHE, The Hon. Henri, P.C., B.A., LL.B.</pm:full>
+      <pm:first>Henri</pm:first>
+      <pm:last>Courtemanche</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1916-08-07" pm:granularity="8" pm:place="Mont-Laurier, Quebec, Canada"/>
+      <pm:deceased pm:date="1986-03-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1d4d038a-aefe-49a4-9186-aa1defc70ccd&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=a2b33f87-c1ae-455d-bc34-12acecce3787</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Henri_Courtemanche</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Henri_Courtemanche</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Henri_Courtemanche</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Henri_Courtemanche</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Henri_Courtemanche</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1958-03-31" pm:from-granularity="8" pm:till="1962-04-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Labelle" openpx:province="Quebec">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Rougemont" openpx:province="Quebec">
+        <pm:period pm:from="1960-01-20" pm:from-granularity="8" pm:till="1961-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1958-05-12" pm:from-granularity="8" pm:till="1960-01-19" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1957-10-14" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+        <pm:name>Deputy Speaker and Chair of Committees of the Whole of the House of Commons</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1960-01-20" pm:from-granularity="8" pm:till="1961-12-22" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1958-03-31" pm:from-granularity="8" pm:till="1960-01-19" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent Progressive Conservative" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-03-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-08-09" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Henri_Courtemanche">Henri Courtemanche, PC (August 7, 1916 – March 19, 1986) was a Canadian parliamentarian.Born in Mont-Laurier, Quebec, the son of Victor Courtemanche and Louise Massé, he was educated at the Académie de Mont-Laurier, the Séminaire de St. Joseph de Mont-Laurier, the Collège Saint-Laurent and the Université de Montréal. Courtemanche was called to the Quebec bar in 1947 and practised law in Mont-Laurier and Montreal. In 1945, he married Gisèle Paquette, the daughter of Joseph-Henri-Albiny Paquette.Courtemanche was first elected as the Progressive Conservative Member of Parliament for Labelle, Quebec in the 1949 federal election. He was defeated in 1953 but returned to the Canadian House of Commons in the 1957 federal election. He had announced that he would run in the election as a "Nationalist Independent" - and ran and was elected as an "Independent Progressive Conservative". However, the election brought the Progressive Conservatives to power under John Diefenbaker with a minority government and Courtemanche rejoined the party within weeks of its election victory and was appointed Deputy Speaker of the House of Commons.Diefenbaker elevated Courtemanche to his Cabinet as Secretary of State for Canada following the 1958 federal election that returned the Tories with a majority government. On January 20, 1960, Courtemanche resigned from Cabinet, reportedly for health reasons, and was appointed to the Senate.In 1961, he became the centre of a scandal when a former hospital administrator alleged that Courtemanche was paid a 10% kickback on all government grants made to a Montreal hospital in the mid-1950s. Courtemanche claimed that the $66,000 he received in total were legal fees for his services. He subsequently said the money was paid as a fee for his lobbying efforts.Ultimately, Courtemanche resigned his Senate seat on December 22, 1961, less than two years into his appointment, after an investigation into his activities found him "unworthy" of public office.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

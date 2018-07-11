@@ -1,0 +1,229 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.3549">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>LAURIER, The Right Hon. Sir Wilfrid, P.C., G.C.M.G., K.C., B.C.L., D.C.L., LL.D., Litt.D.</dc:title>
+    <dc:description>Member information for: LAURIER, The Right Hon. Sir Wilfrid, P.C., G.C.M.G., K.C., B.C.L., D.C.L., LL.D., Litt.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=e2f3ce71-bd81-4d34-8a08-56a140552231&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=e2f3ce71-bd81-4d34-8a08-56a140552231&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.3549">
+    <pm:name>
+      <pm:full>LAURIER, The Right Hon. Sir Wilfrid, P.C., G.C.M.G., K.C., B.C.L., D.C.L., LL.D., Litt.D.</pm:full>
+      <pm:first>Wilfrid</pm:first>
+      <pm:last>Laurier</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">G.C.M.G.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.C.L.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.C.L.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Litt.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1841-11-20" pm:granularity="8" pm:place="Saint-Lin, Canada East"/>
+      <pm:deceased pm:date="1919-02-17" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=e2f3ce71-bd81-4d34-8a08-56a140552231&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=69d449d5-c80a-4bb3-a405-c27e084683c6</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/laurier-wilfrid-4029/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/威尔弗里德·劳雷尔</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://oc.wikipedia.org/wiki" pm:description="Wikipedia (OC)">http://oc.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ca.wikipedia.org/wiki" pm:description="Wikipedia (CA)">http://ca.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cs.wikipedia.org/wiki" pm:description="Wikipedia (CS)">http://cs.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cy.wikipedia.org/wiki" pm:description="Wikipedia (CY)">http://cy.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://io.wikipedia.org/wiki" pm:description="Wikipedia (IO)">http://io.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eu.wikipedia.org/wiki" pm:description="Wikipedia (EU)">http://eu.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://gl.wikipedia.org/wiki" pm:description="Wikipedia (GL)">http://gl.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Лорье,_Уилфрид</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://no.wikipedia.org/wiki" pm:description="Wikipedia (NO)">http://no.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ne.wikipedia.org/wiki" pm:description="Wikipedia (NE)">http://ne.wikipedia.org/wiki/विल्फ्रिड_लारियर</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://tl.wikipedia.org/wiki" pm:description="Wikipedia (TL)">http://tl.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yi.wikipedia.org/wiki" pm:description="Wikipedia (YI)">http://yi.wikipedia.org/wiki/ווילפריד_לאריער</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Вільфред_Лор'є</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yo.wikipedia.org/wiki" pm:description="Wikipedia (YO)">http://yo.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://da.wikipedia.org/wiki" pm:description="Wikipedia (DA)">http://da.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fa.wikipedia.org/wiki" pm:description="Wikipedia (FA)">http://fa.wikipedia.org/wiki/ویلفرد_لاوریر</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ja.wikipedia.org/wiki" pm:description="Wikipedia (JA)">http://ja.wikipedia.org/wiki/ウィルフリッド・ローリエ</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://he.wikipedia.org/wiki" pm:description="Wikipedia (HE)">http://he.wikipedia.org/wiki/וילפריד_לורייה</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/윌프리드_로리에</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ms.wikipedia.org/wiki" pm:description="Wikipedia (MS)">http://ms.wikipedia.org/wiki/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mr.wikipedia.org/wiki" pm:description="Wikipedia (MR)">http://mr.wikipedia.org/wiki/विल्फ्रिड_लॉरिये</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh.dbpedia.org/resource" pm:description="Dbpedia (ZH)">http://zh.dbpedia.org/resource/威尔弗里德·劳雷尔</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ko.dbpedia.org/resource" pm:description="Dbpedia (KO)">http://ko.dbpedia.org/resource/윌프리드_로리에</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ca.dbpedia.org/resource" pm:description="Dbpedia (CA)">http://ca.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cs.dbpedia.org/resource" pm:description="Dbpedia (CS)">http://cs.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cy.dbpedia.org/resource" pm:description="Dbpedia (CY)">http://cy.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://io.dbpedia.org/resource" pm:description="Dbpedia (IO)">http://io.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eu.dbpedia.org/resource" pm:description="Dbpedia (EU)">http://eu.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://gl.dbpedia.org/resource" pm:description="Dbpedia (GL)">http://gl.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Лорье,_Уилфрид</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://no.dbpedia.org/resource" pm:description="Dbpedia (NO)">http://no.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://tl.dbpedia.org/resource" pm:description="Dbpedia (TL)">http://tl.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yi.dbpedia.org/resource" pm:description="Dbpedia (YI)">http://yi.dbpedia.org/resource/ווילפריד_לוריער</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yo.dbpedia.org/resource" pm:description="Dbpedia (YO)">http://yo.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://da.dbpedia.org/resource" pm:description="Dbpedia (DA)">http://da.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fi.dbpedia.org/resource" pm:description="Dbpedia (FI)">http://fi.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ja.dbpedia.org/resource" pm:description="Dbpedia (JA)">http://ja.dbpedia.org/resource/ウィルフリッド・ローリエ</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://he.dbpedia.org/resource" pm:description="Dbpedia (HE)">http://he.dbpedia.org/resource/וילפריד_לורייה</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://oc.dbpedia.org/resource" pm:description="Dbpedia (OC)">http://oc.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Wilfrid_Laurier</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/Вільфред_Лор'є</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://mr.dbpedia.org/resource" pm:description="Dbpedia (MR)">http://mr.dbpedia.org/resource/विल्फ्रिड_लॉरिये</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1921-10-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Soulanges" openpx:province="Quebec">
+        <pm:period pm:from="1911-09-21" pm:from-granularity="8" pm:till="1917-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Ottawa (City of)" openpx:province="Ontario">
+        <pm:period pm:from="1908-10-26" pm:from-granularity="8" pm:till="1911-07-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1908-10-26" pm:from-granularity="8" pm:till="1911-07-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Wright" openpx:province="Quebec">
+        <pm:period pm:from="1904-11-03" pm:from-granularity="8" pm:till="1908-09-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1900-11-07" pm:from-granularity="8" pm:till="1904-09-29" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1896-07-30" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saskatchewan (Provisional District)" openpx:province="Northwest Territories">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1896-06-23" pm:from-granularity="8" pm:till="1900-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-04-24" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1887-02-22" pm:from-granularity="8" pm:till="1891-02-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1882-06-20" pm:from-granularity="8" pm:till="1887-01-15" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1878-09-17" pm:from-granularity="8" pm:till="1882-05-18" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1877-11-28" pm:from-granularity="8" pm:till="1878-08-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Drummond--Arthabaska" openpx:province="Quebec">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1878-08-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-07-11" pm:from-granularity="8" pm:till="1911-10-06" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1906-01-06" pm:from-granularity="8" pm:till="1906-02-05" pm:till-granularity="8"/>
+        <pm:name>Minister of Marine and Fisheries</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1905-03-13" pm:from-granularity="8" pm:till="1905-04-07" pm:till-granularity="8"/>
+        <pm:name>Minister of the Interior</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1905-03-13" pm:from-granularity="8" pm:till="1905-04-07" pm:till-granularity="8"/>
+        <pm:name>Superintendent-General of Indian Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-07-11" pm:from-granularity="8" pm:till="1911-10-06" pm:till-granularity="8"/>
+        <pm:name>President of the Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1877-10-08" pm:from-granularity="8" pm:till="1878-10-08" pm:till-granularity="8"/>
+        <pm:name>Minister of Inland Revenue</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1911-10-10" pm:from-granularity="8" pm:till="1919-02-17" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1887-06-23" pm:from-granularity="8" pm:till="1896-07-10" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Laurier Liberal" pm:party-ref="ca.p.laurierliberal" pm:body="other">
+        <pm:period pm:from="1917-12-17" pm:from-granularity="8" pm:till="1919-02-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1896-07-11" pm:from-granularity="8" pm:till="1917-12-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1891-03-05" pm:from-granularity="8" pm:till="1896-07-10" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1877-10-08" pm:from-granularity="8" pm:till="1891-03-04" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1874-01-22" pm:from-granularity="8" pm:till="1877-10-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Wilfrid_Laurier">Sir Henri Charles Wilfrid Laurier, GCMG, PC, KC, (20 November 1841 – 17 February 1919), known as Wilfrid Laurier (French: [wilfʁid loʁje]; English /ˈlɒrieɪ/), was the seventh Prime Minister of Canada from 11 July 1896 to 6 October 1911.Canada's first francophone prime minister, Laurier is often considered one of the country's greatest statesmen. He is well known for his policies of conciliation, expanding Confederation, and compromise between French and English Canada. His vision for Canada was a land of individual liberty and decentralized federalism. He also argued for an English-French partnership in Canada. "I have had before me as a pillar of fire," he said, "a policy of true Canadianism, of moderation, of reconciliation." And he passionately defended individual liberty, "Canada is free and freedom is its nationality," and "Nothing will prevent me from continuing my task of preserving at all cost our civil liberty." Laurier was also well regarded for his efforts to establish Canada as an autonomous country within the British Empire, though he supported the continuation of the British Empire if it was based on "absolute liberty political and commercial".Laurier is the fourth-longest serving Prime Minister of Canada, behind William Lyon Mackenzie King, John A. Macdonald, and Pierre Trudeau. A 2011 Maclean's historical ranking of the Prime Ministers placed Laurier first. Laurier also holds the record for the most consecutive federal elections won (4), and his 15 year tenure remains the longest unbroken term of office among Prime Ministers. In addition, his nearly 45 years (1874–1919) of service in the House of Commons is an all-time record for that house. Finally, at 31 years, 8 months, Laurier was the longest-serving leader of a major Canadian political party, surpassing King by over two years. Laurier's portrait is displayed on the Canadian five-dollar bill.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

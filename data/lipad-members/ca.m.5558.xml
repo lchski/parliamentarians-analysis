@@ -1,0 +1,72 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5558">
+    <dc:identifier>ca.m.5558</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>HAYES,  Sharon Ruth, B.Math.</dc:title>
+    <dc:description>Member information for: HAYES,  Sharon Ruth, B.Math.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=c0c9a388-a828-4cd5-96c9-7866883588aa&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=c0c9a388-a828-4cd5-96c9-7866883588aa&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5558">
+    <pm:name>
+      <pm:full>HAYES,  Sharon Ruth, B.Math.</pm:full>
+      <pm:first>Sharon Ruth</pm:first>
+      <pm:last>Hayes</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Math.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1948-01-15" pm:granularity="8" pm:place="Toronto, Ontario, Canada"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Homemaker, instructor - computer science, programmer analyst</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=c0c9a388-a828-4cd5-96c9-7866883588aa&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=e0b14251-e3bb-4026-90c8-2b95bdec5e0e</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Sharon_Hayes</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Sharon_Hayes</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Port Moody--Coquitlam" openpx:province="British Columbia">
+        <pm:period pm:from="1997-06-02" pm:from-granularity="8" pm:till="1997-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Port Moody--Coquitlam" openpx:province="British Columbia">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-04-27" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Reform" pm:party-ref="ca.p.reform" pm:body="other">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1997-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Sharon_Hayes">Sharon Ruth Hayes (born January 15, 1948) is a former Canadian politician. Born in Toronto, Ontario, she represented the riding of Port Moody—Coquitlam from 1993 to 1997 for the Reform Party of Canada.Hayes is a graduate of the Honours Math and Computer Science program at the University of Waterloo; while enrolled there, she worked as a co-op student with the Toronto Stock Exchange and IBM. After graduation, she worked as a program analyst at the University of Guelph and then as a Sessional Instructor in computer science at Simon Fraser University. She married Douglas Hayes June 13, 1970.Her election victory in 1993 came over the incumbent, Ian Waddell of the New Democratic Party, and challenger Celso Boscariol, B.C. president of the Liberal Party of Canada. As one of 52 Reform MPs, she served as Chair of the party's Family Caucus and critic on Human Rights and Status of Women. She was assistant critic for Health (1995-'96) and Human Resources (1997), and a member of the Standing Committees on Health (1994-'97), Citizenship and Immigration (1994-'96) and Human Rights (1996-'97), and of the sub-Committee on HIV/AIDS (1994-'96). While in office, Hayes joined many of her Reform colleagues in donating 10% of their salary to charity and opting out of the MP pension plan.Hayes was best known as a socially conservative advocate for family issues. She crafted the RPC's response to parliamentary initiatives on family and the definition of family, age of consent, Child Care Tax Credit, corporal punishment and the Unified Family Court. She was an advocate for the rights of the disabled, and prompted a change to the compassionate airfare policy for Air Canada. Hayes also sponsored a rally in 1994 in Coquitlam of an estimated 2,000 persons to press for changes to the Young Offenders Act.She was a member of the Canadian Delegation to the Fourth UN Conference for Women in Beijing in 1995, but left early to protest what she called (in an essay published in the Globe and Mail on Sept. 15, 1995) the conference's pre-ordained, anti-family agenda. She had also stirred controversy for issuing a press release on her House of Commons letterhead calling on Liberal ministers attending the conference to reject "Chinese government policies that endorse the mandated one-child policy, the murder of inmates for body parts and the alleged consumption of human fetuses as health food." Writing on her personal blog in 2011, Hayes apologized to anyone who had been offended by the release, noting, "Thankfully, there has been no evidence of the truth of that story since that time." She explained that she had not intended for the release to be made public, and, "In no way did I intend to discredit any nationality or group of people then or since."Hayes was also a speaker at the First World Congress of Families, organized by the Howard Center for Family, Religion &amp; Society, in Prague in 1997. She was appointed co-chair of the RPC's Family Campaign, along with Chuck Stahl, leading up to the 1997 general election. Even though her husband, Doug, was in a coma from a massive brain hemorrhage when the election was called and she was able to campaign very little, she was reelected. However, she resigned four months later to care for her ailing husband after his condition deteriorated. Prime Minister Jean Chrétien, Opposition Leader Preston Manning, Bloc Québécois leader Gilles Duceppe, and NDP spokesman Bill Blaikie all praised her in the House following her resignation announcement.Husband, Douglas Charles Hayes (October 15, 1945 to May 26, 2013) was memorialized at Willingdon Church Burnaby on June 3, 2013.She has two daughters and seven grandchildren. A past board member at Trinity Western University and Focus on the Family Canada, Hayes currently sits on the board of Affordable Housing Societies.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

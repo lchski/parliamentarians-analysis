@@ -1,0 +1,82 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4175">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>MCCUTCHEON, The Hon. Malcolm Wallace, P.C., C.B.E., Q.C., LL.D.</dc:title>
+    <dc:description>Member information for: MCCUTCHEON, The Hon. Malcolm Wallace, P.C., C.B.E., Q.C., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1d8ca7d9-069b-46ac-a065-4d3b27bee650&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1d8ca7d9-069b-46ac-a065-4d3b27bee650&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4175">
+    <pm:name>
+      <pm:full>MCCUTCHEON, The Hon. Malcolm Wallace, P.C., C.B.E., Q.C., LL.D.</pm:full>
+      <pm:first>Malcolm Wallace</pm:first>
+      <pm:last>McCutcheon</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.B.E.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1906-05-18" pm:granularity="8" pm:place="London, Ontario, Canada"/>
+      <pm:deceased pm:date="1969-01-23" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Executive director, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1d8ca7d9-069b-46ac-a065-4d3b27bee650&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=00000000-0000-0000-0000-000000000000</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Malcolm_Wallace_McCutcheon</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Malcolm_Wallace_McCutcheon</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Gormley" openpx:province="Ontario">
+        <pm:period pm:from="1962-08-09" pm:from-granularity="8" pm:till="1968-05-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1963-02-12" pm:from-granularity="8" pm:till="1963-04-21" pm:till-granularity="8"/>
+        <pm:name>Minister of Trade and Commerce</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1962-08-09" pm:from-granularity="8" pm:till="1963-02-11" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1962-08-09" pm:from-granularity="8" pm:till="1968-05-13" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Malcolm_Wallace_McCutcheon">Malcolm Wallace McCutcheon, CBE PC QC known as Wallace McCutcheon (May 18, 1906 – January 23, 1969) was a Canadian lawyer, actuary and politician.Wallace McCutcheon was born in London, Ontario. Together with Edward Plunkett Taylor and Colonel W. Eric Phillips, he was founder of Argus Corporation, an investment company that controlled a variety of businesses including farm machinery and Dominion grocery stores.During World War II, he was a member of the Wartime Prices and Trade Board.He was appointed to the Canadian Senate on August 9, 1962 on the recommendation of Prime Minister John George Diefenbaker. McCutcheon sat in the caucus of the Progressive Conservative Party of Canada, and represented the senatorial division of Gormley, Ontario.He served as a Minister without Portfolio in Diefenbaker's government from his appointment to February 11, 1963, when he was promoted to Minister of Trade and Commerce. His promotion was generally regarded as a move to shore up support for the Progressive Conservatives among members of Canada's financial sector. The Progressive Conservatives were defeated in the 1963 federal election, and the Diefenbaker government resigned on April 21, 1963. McCutcheon later supported Dalton Camp's efforts to call a leadership review and remove Diefenbaker as party leader.McCutcheon provided financial support for the Progressive Conservative Party of British Columbia in the 1963 provincial election. He was also a fundraiser for the University of Toronto.McCutcheon ran for the leadership of the PC Party at the 1967 leadership convention, placing sixth out of eleven candidate on the first ballot, and withdrawing from the race after the second ballot to endorse the eventual winner, Robert Stanfield.McCutcheon ran as an unabashed "small-c conservative", i.e., a candidate of the party's right-wing. He had considerable support and financing from Bay Street, Toronto's financial district.He campaigned aggressively against "big government" and "creeping socialism". He used dozens of attractive young women in his demonstration at the convention (dubbed "blonde goddesses" by the Toronto Star), and advocated a guaranteed annual income of $10,000 per adult as an alternative to the various social programs offered by different levels of government. He also advocated a "made-in-Canada" constitution to replace the British North America Acts and to guarantee the rights of Canadians, including language and cultural rights. He opposed public medicare.He resigned from the Senate on May 13, 1968 in order to contest the 1968 federal election as the Progressive Conservative candidate in the Ontario riding of York—Simcoe. He placed second with 13,100 votes (37.3% of the vote), compared to 15,906 won by John Roberts. McCutcheon died in 1969, aged 62.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

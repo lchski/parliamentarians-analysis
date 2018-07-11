@@ -1,0 +1,87 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7218">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>ROBERTSON, The Hon. Gideon Decker, P.C.</dc:title>
+    <dc:description>Member information for: ROBERTSON, The Hon. Gideon Decker, P.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=414e57ce-9124-4c77-9209-81821f0c3db6&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=414e57ce-9124-4c77-9209-81821f0c3db6&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7218">
+    <pm:name>
+      <pm:full>ROBERTSON, The Hon. Gideon Decker, P.C.</pm:full>
+      <pm:first>Gideon Decker</pm:first>
+      <pm:last>Robertson</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1874-08-26" pm:granularity="8" pm:place="Welland County, Ontario, Canada"/>
+      <pm:deceased pm:date="1933-08-25" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Telegrapher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=414e57ce-9124-4c77-9209-81821f0c3db6&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=4a6b04ab-4cac-4955-909d-68dedbdbb688</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Gideon_Robertson</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Gideon_Robertson</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Welland" openpx:province="Ontario">
+        <pm:period pm:from="1917-01-20" pm:from-granularity="8" pm:till="1933-08-25" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1930-08-07" pm:from-granularity="8" pm:till="1932-02-02" pm:till-granularity="8"/>
+        <pm:name>Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1920-07-10" pm:from-granularity="8" pm:till="1921-12-28" pm:till-granularity="8"/>
+        <pm:name>Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1918-11-08" pm:from-granularity="8" pm:till="1920-07-09" pm:till-granularity="8"/>
+        <pm:name>Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1917-10-23" pm:from-granularity="8" pm:till="1918-11-07" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1917-01-20" pm:from-granularity="8" pm:till="1933-08-25" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Gideon_Robertson">Gideon Decker Robertson, PC (August 26, 1874 – August 5, 1933) was a Canadian Senator and Canadian Cabinet minister.Robertson was a telegrapher by profession and had links with conservatives in the labour movement. In January 1917, he was appointed to the Senate as a Conservative as a means of bringing in labour representation during the First World War. When Prime Minister Sir Robert Borden formed a Unionist government in October as a means of creating a national government for the war effort, he made Robertson minister without portfolio in order to give Cabinet representation from labour. On November 8, 1918, Robertson became Minister of Labour.He held this portfolio in 1919 during the Winnipeg General Strike. At the beginning of the action Robertson and Minister of Interior Arthur Meighen went to the city to meet the "Citizens' Committee of 1000" which had been formed by local businessmen and professionals in opposition to the strike. He refused to meet the Central Strike Committee to hear their demands. Robertson ordered federal government employees to return to work or lose their jobs. On June 17, he ordered the arrest of the twelve principal strike leaders, including J.S. Woodsworth. Robertson also supported the government's decision to send in the Royal Northwest Mounted Police to crush the strike in an action that became known as "Bloody Saturday". Robertson earned the longstanding enmity of the left and labour movement for his role in the strike and, despite his background, was not considered a legitimate representative of workers by most of the working class. Robertson retained his position as labour minister when Arthur Meighen became Prime Minister of Canada until the government's defeat in the 1921 federal election. Robertson returned to government when R.B. Bennett's Conservatives won the 1930 election, and again became Minister of Labour, but remained unpopular with his constituents. When visiting Winnipeg in 1932, six thousand workers met him at the railway station with the slogan: "A Faker Comes to Town." He stepped down as Labour minister in February and died the next year.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

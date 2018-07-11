@@ -1,0 +1,138 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1571">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>MACKASEY, The Hon. Bryce Stuart, P.C., LL.D.</dc:title>
+    <dc:description>Member information for: MACKASEY, The Hon. Bryce Stuart, P.C., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=356b3da2-aff0-4859-9541-4fdcbaad2a58&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=356b3da2-aff0-4859-9541-4fdcbaad2a58&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1571">
+    <pm:name>
+      <pm:full>MACKASEY, The Hon. Bryce Stuart, P.C., LL.D.</pm:full>
+      <pm:first>Bryce Stuart</pm:first>
+      <pm:last>Mackasey</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1921-08-25" pm:granularity="8" pm:place="Québec, Quebec, Canada"/>
+      <pm:deceased pm:date="1999-09-05" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, diplomat, manufacturer, merchant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=356b3da2-aff0-4859-9541-4fdcbaad2a58&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=2dfaa202-bfab-4517-b4ea-2321b1df3820</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="National Assembly of Quebec Website (Available in French only)">http://www.assnat.qc.ca/en/deputes/mackasey-bryce-stuart-4275/biographie.html</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Bryce_Mackasey</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Bryce_Mackasey</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Bryce_Mackasey</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Bryce_Mackasey</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Bryce_Mackasey</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Bryce_Mackasey</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Lincoln" openpx:province="Ontario">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Verdun" openpx:province="Quebec">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Verdun" openpx:province="Quebec">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Verdun" openpx:province="Quebec">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Verdun" openpx:province="Quebec">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Verdun" openpx:province="Quebec">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Verdun" openpx:province="Quebec">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1976-04-08" pm:from-granularity="8" pm:till="1976-09-14" pm:till-granularity="8"/>
+        <pm:name>Minister of Consumer and Corporate Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1976-03-16" pm:from-granularity="8" pm:till="1976-04-07" pm:till-granularity="8"/>
+        <pm:name>Minister of Consumer and Corporate Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1974-08-08" pm:from-granularity="8" pm:till="1976-09-14" pm:till-granularity="8"/>
+        <pm:name>Postmaster General</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1972-01-28" pm:from-granularity="8" pm:till="1972-11-26" pm:till-granularity="8"/>
+        <pm:name>Minister of Manpower and Immigration</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-07-06" pm:from-granularity="8" pm:till="1972-01-27" pm:till-granularity="8"/>
+        <pm:name>Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-04-20" pm:from-granularity="8" pm:till="1968-07-05" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-02-09" pm:from-granularity="8" pm:till="1968-04-19" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1974-06-03" pm:from-granularity="8" pm:till="1974-08-07" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Without Portfolio)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1966-01-07" pm:from-granularity="8" pm:till="1968-02-08" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Labour</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1965-07-16" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of National Health and Welfare</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-09-03" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1976-10-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Bryce_Mackasey">Bryce Stuart Mackasey, PC (August 25, 1921 – September 5, 1999) was a Canadian Member of Parliament, Cabinet minister, and Ambassador to Portugal.Born in Quebec City, Quebec, he was elected as a Liberal candidate in the riding of Verdun in the 1962 federal election. He was re-elected in the 1963, 1965, 1968, 1972, and 1974 elections. He resigned in 1976 to run in the Quebec provincial election that year, and was elected to the Quebec National Assembly for the riding of Notre-Dame-de-Grâce. He resigned in 1978 to run in a federal by-election in the riding of Ottawa Centre, but was defeated. From 1978 to 1979, he served briefly as President of Air Canada. He was re-elected in the riding of Lincoln in the 1980 election.He held numerous ministerial positions including Labour, Manpower and Immigration, Secretary of State, Postmaster General of Canada and Consumer and Corporate Affairs.When Mackasey left office in 1984 Prime Minister John Turner appointed him Ambassador to Portugal; this led to Conservative leader Brian Mulroney's famous comment about patronage, "There's no whore like an old whore". Mulroney canceled the appointment shortly after he was elected and appointed Liberal former Speaker of the House Lloyd Francis in Mackasey's place.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

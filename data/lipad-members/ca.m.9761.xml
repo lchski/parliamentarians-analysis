@@ -1,0 +1,166 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9761">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>ST-LAURENT, The Right Hon. Louis Stephen, P.C., C.C., Q.C., B.A., LL.L., LL.D., D.C.L.</dc:title>
+    <dc:description>Member information for: ST-LAURENT, The Right Hon. Louis Stephen, P.C., C.C., Q.C., B.A., LL.L., LL.D., D.C.L.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dcd2258a-b8c3-4099-bffb-7b24cce8341e&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dcd2258a-b8c3-4099-bffb-7b24cce8341e&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9761">
+    <pm:name>
+      <pm:full>ST-LAURENT, The Right Hon. Louis Stephen, P.C., C.C., Q.C., B.A., LL.L., LL.D., D.C.L.</pm:full>
+      <pm:first>Louis Stephen</pm:first>
+      <pm:last>St-Laurent</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.L.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.C.L.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1882-02-01" pm:granularity="8" pm:place="Compton, Quebec, Canada"/>
+      <pm:deceased pm:date="1973-07-25" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer, professor of law</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=dcd2258a-b8c3-4099-bffb-7b24cce8341e&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=06c170ba-b711-49d2-8e4a-db0d34e47ded</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=2308&amp;t=12&amp;ln=st-laurent&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/路易·圣洛朗</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/루이_생로랑</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ca.wikipedia.org/wiki" pm:description="Wikipedia (CA)">http://ca.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cy.wikipedia.org/wiki" pm:description="Wikipedia (CY)">http://cy.wikipedia.org/wiki/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://io.wikipedia.org/wiki" pm:description="Wikipedia (IO)">http://io.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cs.wikipedia.org/wiki" pm:description="Wikipedia (CS)">http://cs.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Сен-Лоран,_Луи</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://no.wikipedia.org/wiki" pm:description="Wikipedia (NO)">http://no.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ne.wikipedia.org/wiki" pm:description="Wikipedia (NE)">http://ne.wikipedia.org/wiki/लुइस_सेन्ट_लोरेन्ट</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yi.wikipedia.org/wiki" pm:description="Wikipedia (YI)">http://yi.wikipedia.org/wiki/לואיס_סעינט_לורענט</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be.wikipedia.org/wiki" pm:description="Wikipedia (BE)">http://be.wikipedia.org/wiki/Луі_Сен-Ларан</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Louis_St-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/Луї_Сан-Лоран</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yo.wikipedia.org/wiki" pm:description="Wikipedia (YO)">http://yo.wikipedia.org/wiki/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fa.wikipedia.org/wiki" pm:description="Wikipedia (FA)">http://fa.wikipedia.org/wiki/لوئیز_سنت_لارنت</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://he.wikipedia.org/wiki" pm:description="Wikipedia (HE)">http://he.wikipedia.org/wiki/לואי_סן-לורן</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://oc.wikipedia.org/wiki" pm:description="Wikipedia (OC)">http://oc.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ms.wikipedia.org/wiki" pm:description="Wikipedia (MS)">http://ms.wikipedia.org/wiki/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mr.wikipedia.org/wiki" pm:description="Wikipedia (MR)">http://mr.wikipedia.org/wiki/लुई_स्टीवन_सेंट_लॉरें</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh.dbpedia.org/resource" pm:description="Dbpedia (ZH)">http://zh.dbpedia.org/resource/路易斯·圣劳伦特</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ko.dbpedia.org/resource" pm:description="Dbpedia (KO)">http://ko.dbpedia.org/resource/루이_생로랑</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ca.dbpedia.org/resource" pm:description="Dbpedia (CA)">http://ca.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cy.dbpedia.org/resource" pm:description="Dbpedia (CY)">http://cy.dbpedia.org/resource/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://io.dbpedia.org/resource" pm:description="Dbpedia (IO)">http://io.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cs.dbpedia.org/resource" pm:description="Dbpedia (CS)">http://cs.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Сен-Лоран,_Луи</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://no.dbpedia.org/resource" pm:description="Dbpedia (NO)">http://no.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yi.dbpedia.org/resource" pm:description="Dbpedia (YI)">http://yi.dbpedia.org/resource/לואיס_סעינט_לורענט</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Louis_St-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yo.dbpedia.org/resource" pm:description="Dbpedia (YO)">http://yo.dbpedia.org/resource/Louis_St._Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://he.dbpedia.org/resource" pm:description="Dbpedia (HE)">http://he.dbpedia.org/resource/לואי_סן-לורן</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://oc.dbpedia.org/resource" pm:description="Dbpedia (OC)">http://oc.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Louis_Saint-Laurent</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/Луї_Сан-Лоран</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://mr.dbpedia.org/resource" pm:description="Dbpedia (MR)">http://mr.dbpedia.org/resource/लुई_स्टीवन_सेंट_लॉरें</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Quebec East" openpx:province="Quebec">
+        <pm:period pm:from="1942-02-09" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1948-11-15" pm:from-granularity="8" pm:till="1957-06-20" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1948-11-15" pm:from-granularity="8" pm:till="1957-04-24" pm:till-granularity="8"/>
+        <pm:name>President of the Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1948-09-10" pm:from-granularity="8" pm:till="1948-11-14" pm:till-granularity="8"/>
+        <pm:name>Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1948-07-01" pm:from-granularity="8" pm:till="1948-09-09" pm:till-granularity="8"/>
+        <pm:name>Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1946-09-04" pm:from-granularity="8" pm:till="1948-09-09" pm:till-granularity="8"/>
+        <pm:name>Secretary of State for External Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1941-12-10" pm:from-granularity="8" pm:till="1946-12-09" pm:till-granularity="8"/>
+        <pm:name>Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1957-06-21" pm:from-granularity="8" pm:till="1958-01-15" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1941-12-10" pm:from-granularity="8" pm:till="1958-03-30" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Louis_St._Laurent">Louis Stephen St. Laurent, PC, CC, QC (Saint-Laurent or St-Laurent in French, baptized Louis-Étienne St-Laurent), (1 February 1882 – 25 July 1973) was the 12th Prime Minister of Canada, from 15 November 1948 to 21 June 1957. He was a Liberal with a strong base in the Catholic francophone community, from which base he had long mobilised support to Prime Minister William Lyon Mackenzie King. His foreign policy initiatives transformed Canada from an isolationism with little role in world affairs to an active "middle power." St. Laurent was an enthusiastic proponent of Canada's joining NATO in 1949 to fight Communist totalitarianism, overcoming opposition from some intellectuals, the far left, and many French Canadians. The contrast with Mackenzie King was not dramatic – they agreed on most policies. St. Laurent had more hatred of communism, and less fear of the United States. He was neither an idealist nor a bookish intellectual, but a “eminently moderate, cautious conservative man....and a strong Canadian nationalist.”</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

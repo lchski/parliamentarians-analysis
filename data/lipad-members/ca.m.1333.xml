@@ -1,0 +1,89 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1333">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>HAIG, The Hon. John Thomas, P.C., Q.C., B.A.</dc:title>
+    <dc:description>Member information for: HAIG, The Hon. John Thomas, P.C., Q.C., B.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=f5053d3a-cc4b-4417-a131-bf1a36346556&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=f5053d3a-cc4b-4417-a131-bf1a36346556&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1333">
+    <pm:name>
+      <pm:full>HAIG, The Hon. John Thomas, P.C., Q.C., B.A.</pm:full>
+      <pm:first>John Thomas</pm:first>
+      <pm:last>Haig</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1877-12-15" pm:granularity="8" pm:place="Colborne, Ontario, Canada"/>
+      <pm:deceased pm:date="1962-10-23" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=f5053d3a-cc4b-4417-a131-bf1a36346556&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=8dcecde1-5c4d-442c-bd03-581e0d4bf74b</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/John_Thomas_Haig</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/John_Thomas_Haig</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/John_Thomas_Haig</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Winnipeg" openpx:province="Manitoba">
+        <pm:period pm:from="1935-08-14" pm:from-granularity="8" pm:till="1962-01-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1957-10-09" pm:from-granularity="8" pm:till="1958-05-11" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1957-10-09" pm:from-granularity="8" pm:till="1958-05-11" pm:till-granularity="8"/>
+        <pm:name>Leader of the Government in the Senate</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1945-09-12" pm:from-granularity="8" pm:till="1957-01-01" pm:till-granularity="8"/>
+        <pm:name>Leader of the Opposition in the Senate</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1942-12-11" pm:from-granularity="8" pm:till="1962-01-17" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Conservative (1867-1942)" pm:party-ref="ca.p.conservative1942" pm:body="other">
+        <pm:period pm:from="1935-08-14" pm:from-granularity="8" pm:till="1942-11-10" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/John_Thomas_Haig">John Thomas Haig, PC (December 15, 1877 – October 23, 1962) was a politician in Manitoba, Canada. He served as parliamentary leader of the Manitoba Conservative Party in 1921-22.Born in Colborne, Ontario, Haig received his BA from the University of Manitoba, was called to the Manitoba bar in 1904 and worked as a Barrister-at-law. In 1907, he married Josephine M. Dickie. He was elected to the Winnipeg Public School Board in 1908, and continued to hold this position after entering provincial politics, also serving as board chairman. In 1927, Haig was named King's Counsel. He was president of the Manitoba Curling Association and of the Assiniboia Lawn-Bowling Club.Haig was first elected to the Legislative Assembly of Manitoba for Assiniboia in 1914. He was soundly defeated in the Liberal landslide of 1915, but returned to the legislature in 1920 at the head of the Conservative Party list in Winnipeg. (Winnipeg elections were determined by a form of proportional representation at this time.)Conservative leader R.G. Willis was unable to win a seat in the 1920 election, and Haig was called to lead the eight-member caucus in parliament. He ran for the party's leadership in April 1922, but was defeated by Major Fawcett Taylor.Haig was re-elected to the legislature in 1922, 1927 and 1932, and remained an important voice for the party. In August 1935, he was appointed to the Canadian Senate on the recommendation of Prime Minister R.B. Bennett. From 1945 until 1957, Haig was Leader of the Opposition in the Senate for the Progressive Conservative Party. After the 1957 federal election, Haig joined the Cabinet of John George Diefenbaker, serving as Minister without portfolio and Leader of the Government in the Senate until May 11, 1958.He retired from the Senate on January 17, 1962 due to poor health.Haig died in Winnipeg at the age of 84.His son James Campbell Haig also served in the Senate.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

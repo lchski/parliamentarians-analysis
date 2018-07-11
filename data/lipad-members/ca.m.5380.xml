@@ -1,0 +1,84 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5380">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>MAHONEY, The Hon. Patrick Morgan, P.C., Q.C., B.A., LL.B.</dc:title>
+    <dc:description>Member information for: MAHONEY, The Hon. Patrick Morgan, P.C., Q.C., B.A., LL.B.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6d8a7f87-00c8-4beb-98a6-a6a13772c7e1&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6d8a7f87-00c8-4beb-98a6-a6a13772c7e1&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5380">
+    <pm:name>
+      <pm:full>MAHONEY, The Hon. Patrick Morgan, P.C., Q.C., B.A., LL.B.</pm:full>
+      <pm:first>Patrick Morgan</pm:first>
+      <pm:last>Mahoney</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1929-01-20" pm:granularity="8" pm:place="Winnipeg, Manitoba, Canada"/>
+      <pm:deceased pm:date="2012-06-08" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6d8a7f87-00c8-4beb-98a6-a6a13772c7e1&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=ba829963-fed4-4d2c-b5ba-de691482c559</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Patrick_Morgan_Mahoney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Patrick_Morgan_Mahoney</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Patrick_Morgan_Mahoney</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Patrick_Morgan_Mahoney</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Calgary South" openpx:province="Alberta">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1972-01-28" pm:from-granularity="8" pm:till="1972-11-26" pm:till-granularity="8"/>
+        <pm:name>Minister of State (Without Portfolio)</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1970-10-01" pm:from-granularity="8" pm:till="1972-01-27" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of Finance</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-10-29" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Patrick_Morgan_Mahoney">Patrick Morgan (Pat) Mahoney, PC (January 20, 1929 – June 8, 2012) was a judge, politician, lawyer and businessman and was the last Liberal to be elected to the Canadian House of Commons from Calgary, Alberta.Mahoney was first elected to parliament in the 1968 election as the Liberal Member of Parliament for Calgary South. A Liberal in a province and city not known for electing Liberal politicians, Mahoney rode the wave of Trudeaumania to defeat Progressive Conservative incumbent Harold Raymond Ballard by 756 votes.In 1970, he became parliamentary secretary to the Minister of Finance. He held that position until January 1972 when he was promoted to the Cabinet of Prime Minister Pierre Trudeau as a Minister of State.Mahoney's promotion was not enough for him to save his seat in the subsequent 1972 election, and he went down to defeat at the hands of Tory rival Peter Bawden, losing by more than 16,000 votes. No federal Liberal has been elected from Calgary since. In 2011, Mahoney joked that the Liberals "will elect an MP in Calgary again before the Maple Leafs win the Stanley Cup."Subsequent to his defeat, Mahoney, a lawyer by training, was appointed to the Federal Court of Appeal.Mahoney joined the Calgary Stampeders of the Canadian Football League as an executive in 1955 and, in 1959, moved the Labour Day Classic match against the rival Edmonton Eskimos from Edmonton to Calgary where it has been played ever since. He briefly served as the team's general manager in 1965 and also served as president of the league's Western Football Conference.He retired to North Vancouver, British Columbia where he died at the age of 83.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,76 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.1351">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-29+01:00</dc:date>
+    <dc:title>CAMPBELL,  Alexander Maxwell (Max)</dc:title>
+    <dc:description>Member information for: CAMPBELL,  Alexander Maxwell (Max)</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=51425031-1eb0-45af-b914-4a4550526acd&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=51425031-1eb0-45af-b914-4a4550526acd&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.1351">
+    <pm:name>
+      <pm:full>CAMPBELL,  Alexander Maxwell (Max)</pm:full>
+      <pm:first>Alexander Maxwell (Max)</pm:first>
+      <pm:last>Campbell</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1888-08-07" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:deceased pm:date="1962-08-14" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Contractor, farmer, manager</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=51425031-1eb0-45af-b914-4a4550526acd&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=aa89b441-6555-4466-a538-e6b29d4e0bd7</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Max_Campbell</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Max_Campbell</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="The Battlefords" openpx:province="Saskatchewan">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="The Battlefords" openpx:province="Saskatchewan">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="The Battlefords" openpx:province="Saskatchewan">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Co-operative Commonwealth Federation (C.C.F.)" pm:party-ref="ca.p.CCF" pm:body="other">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1958-03-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Co-operative Commonwealth Federation (C.C.F.)" pm:party-ref="ca.p.CCF" pm:body="other">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-06-26" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Max_Campbell">Alexander Maxwell (Max) Campbell (7 August 1888 – 1962) was a Co-operative Commonwealth Federation (CCF) member of the Canadian House of Commons. He was born in Montreal, Quebec and became a contractor, farmer and manager by career.Campbell's first federal campaign was in the 1930 election as a Farmer party candidate where he unsuccessfully contested for the South Battleford seat. His next campaign was with the CCF in the 1945 federal election where he won his first Parliamentary term at The Battlefords riding. Campbell was then defeated at The Battlefords by Arthur James Bater of the Liberal party in the 1949 election.Campbell unseated Bater at the next election in 1953 and was re-elected in 1957 then lost to Progressive Conservative party candidate Albert Horner in the 1958 election.Max felt the call of the west and was able to convince his father that the prairies were just the thing for a young man recovering from an illness brought on by riding a bicycle in inclement weather. He left his Montreal home and came to the prairies at the age of 15, helping family friend Ernie Keith on his Bow River ranch. Not long after Max arrived, the ranch land was given over to the railway and the ranchers along the river carefully researched Northwest Territory maps for the best land to settle. They pinpointed the Manitou Lake area and drove cattle and horses overland to the northeast, with Max driving one of the wagons.Max met his bride, Miss Charlotte Vickers Graham in the years that followed. David Maxwell, Marion, Malcolm, Charlotte Myrtle, Robert Alexander and Muriel Jean Campbell were born to the couple. Early records show Max holding CCF meetings in the Neilburg community hall, building the party and movement that would be Canada's conscience. Two of Max's key issues in his time as Member of Parliament for the Battlefords were pollution in the North Saskatchewan River and working to improve the lot of first nations people. When Max Campbell died in 1962, the local headlines called him "A good man."</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

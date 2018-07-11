@@ -1,0 +1,67 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.7353">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>FLYNN,  Patrick Joseph</dc:title>
+    <dc:description>Member information for: FLYNN,  Patrick Joseph</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cc85714f-64ac-475d-9109-0253c423a424&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cc85714f-64ac-475d-9109-0253c423a424&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.7353">
+    <pm:name>
+      <pm:full>FLYNN,  Patrick Joseph</pm:full>
+      <pm:first>Patrick Joseph</pm:first>
+      <pm:last>Flynn</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1921-09-08" pm:granularity="8" pm:place="Rathcormac, County Cork, Ireland"/>
+      <pm:deceased pm:date="1996-06-09" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Management consultant, public relations officer, radiographer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=cc85714f-64ac-475d-9109-0253c423a424&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=efa7024a-dabe-4d62-a6ed-809ca923ea6c</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Patrick_Flynn_(Canadian_politician)</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Patrick_Flynn_(Canadian_politician)</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Kitchener" openpx:province="Ontario">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1979-05-21" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Patrick_Flynn_(Canadian_politician)">Patrick Joseph (Joe) Flynn (September 8, 1921 – June 9, 1996) was an Irish-born Canadian politician. He served as a Liberal Member of Parliament representing Kitchener, Ontario from 1974 until 1979. His younger brother Dennis Flynn was also active in Canadian politics.Flynn was born Patrick Joseph "Joe" O'Flynn in Rathcormac, County Cork, Ireland on September 8, 1921. He and Dennis, along with their parents, John Joseph O'Flynn and Molly O'Flynn (née Mary Cahill) immigrated to Canada in 1925 on board the CP Ship Melita. Evidently the family dropped the "O'", and became known simply as Flynn.First arriving in Quebec City, they travelled by train to Toronto where they settled. He served as a Chief Petty Officer on the HMCS Halifax during the World War II.Joe and Dennis had three siblings, all born in Toronto:Eileen Natale - whose husband (now deceased) started Tuxedo Junction in Toronto and then Eugene Natale, Men's Clothier, which was managed by Eileen.Mary Ross - who worked for the municipal government of the City of Toronto; her husband, Ron (deceased), was a high school teacher.John Joseph Flynn Jr. - John married Joselyn Leise, an elementary school teacher, and John is a Senior Teaching Fellow with the Canada School of Public Service (for the Canadian government).On March 18, 1944 he married Norma Jean (Betty) Brown, at St. Vincent de Paul Roman Catholic Church in Toronto. Upon his discharge from the RCN in 1945, Mr. Flynn accepted a position within the radiology department of St. Joseph's Hospital in Toronto. In 1948 accepted a new position at K-W Hospital in Kitchener, Ontario. Mr. Flynn left the hospital to pursue a career in sales and successfully represented companies such as Merrel, Alberta Distillers and Hiram Walker. In the late 1960s, Mr. Flynn was elected to the Kitchener Separate School Board and later went on to become Chair of the Waterloo County Catholic School Board. Joe and Betty Flynn had nine children, three of which were born in Toronto (Pat, Michael &amp; Maureen) and the remainder were born in Kitchener (K.C., Larry, Mary Geraldine, Terry, Cathy &amp; Sean). Tragically two of their children died at very young ages (Mary Geraldine 1958-1958 and Cathaleen Mavourneen 1963-1969). They resided in the "North Ward" area of Kitchener from 1948-1979. During his early days in Kitchener, Joe was an active member of the local Catholic community in Kitchener and was instrumental in the founding and building of St. Teresa Catholic Church. In early 1974 he won the nomination of the Kitchener Center Liberal Party to run as their candidate for Member of Parliament in the July 8th general election. He soundly defeated Progressive Conservative candidate, Mr. Barney Lawrence by more than 5,000 votes. During his term in the House of Commons, Mr. Flynn went onto to serve on a number of House committees rising to Chair the Veterans Affairs Committee. In September 1978 he suffered a near-fatal aortic aneurysm while a patient in the National Defence Medical Centre in Ottawa. In May 1979 Prime Minister Pierre Trudeau recommended to the Governor General Ed Schreyer that he be appointed to the Canadian Pension Commission for a 10-year period. Due to health reasons, Mr. Flynn retired from the Commission in 1983 and returned to Kitchener for his retirement. Joe and Betty Flynn resided in the Doon area of Kitchener from 1983 until his death in 1996. He is survived by his wife Betty (1922–present) and his seven children.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

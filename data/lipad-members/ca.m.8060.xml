@@ -1,0 +1,86 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8060">
+    <dc:identifier>ca.m.8060</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>MAHEU, The Hon. Shirley</dc:title>
+    <dc:description>Member information for: MAHEU, The Hon. Shirley</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=6b88107b-4cfd-4fd4-8ee0-5a7d6048936a&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=6b88107b-4cfd-4fd4-8ee0-5a7d6048936a&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8060">
+    <pm:name>
+      <pm:full>MAHEU, The Hon. Shirley</pm:full>
+      <pm:first>Shirley</pm:first>
+      <pm:last>Maheu</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1931-10-07" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:deceased pm:date="2006-02-01" pm:granularity="8"/>
+      <pm:gender>female</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Administrator, insurance broker</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=6b88107b-4cfd-4fd4-8ee0-5a7d6048936a&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=045fd2ea-00b8-46d4-acdb-0c79ab0765c7</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Shirley_Maheu</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Shirley_Maheu</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Shirley_Maheu</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Shirley_Maheu</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent--Cartierville" openpx:province="Quebec">
+        <pm:period pm:from="1993-10-25" pm:from-granularity="8" pm:till="1996-01-31" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Saint-Laurent" openpx:province="Quebec">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="1993-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="senate" pm:district="Rougemont" openpx:province="Quebec">
+        <pm:period pm:from="1996-02-01" pm:from-granularity="8" pm:till="2006-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="2004-10-06" pm:from-granularity="8" pm:till="2006-02-01" pm:till-granularity="8"/>
+        <pm:name>Speaker pro tempore</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="commons">
+        <pm:period pm:from="1994-01-18" pm:from-granularity="8" pm:till="1996-02-02" pm:till-granularity="8"/>
+        <pm:name>Deputy Chair of Committees of the Whole</pm:name>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1988-11-21" pm:from-granularity="8" pm:till="2006-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Shirley_Maheu">Shirley Maheu (October 7, 1931 – February 1, 2006) was a Canadian politician. A resident of Saint-Laurent, Quebec since 1965, where she operated a successful insurance brokerage firm in partnership with her husband Renė Maheu, Senator Maheu was a founding member of the Saint-Laurent Chamber of Commerce and served as its first Vice-President. She was also active in a number of local and national community groups and charities including Boy Scouts of Canada.In addition to business and community work, she was an active municipal and federal politician, and served as a Saint-Laurent Municipal Councillor from 1982 to 1988. In the 1988 federal election in November 1988, she was elected to the Canadian House of Commons as the Liberal Member of Parliament for Saint-Laurent, Quėbec. Sitting on the opposition bench, she served as the Liberal Critic for Multiculturalism and Citizenship. In September, 1990 she was also appointed Regional Whip for Quebec. Re-elected in the renamed riding of Saint-Laurent—Cartierville during the 1993 election that brought the Liberals to power under Jean Chrétien, she served as Deputy Chair of Committees of the Whole from January 1994 to February 1996, with one of her roles being assistant deputy Speaker of the House of Commons.In 1996, she was appointed to the Canadian Senate on Chrėtien's recommendation in order to give "star candidate" Stéphane Dion the opportunity to contest a by-election to fill the vacancy in the House created by Maheu's appointment. She was active on a number of Senate committees, including serving as Chair of the Standing Committees on Human Rights and that of Privileges, Standing Rules and Orders. In October 2004, she was appointed Speaker pro tempore of the Senate of Canada.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,78 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.493">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>EYTON, The Hon. John Trevor, O.C., Q.C., B.A., LL.B., LL.D.</dc:title>
+    <dc:description>Member information for: EYTON, The Hon. John Trevor, O.C., Q.C., B.A., LL.B., LL.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=01bdf9be-7adb-4e66-a39b-986c6a902437&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=01bdf9be-7adb-4e66-a39b-986c6a902437&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.493">
+    <pm:name>
+      <pm:full>EYTON, The Hon. John Trevor, O.C., Q.C., B.A., LL.B., LL.D.</pm:full>
+      <pm:first>John Trevor</pm:first>
+      <pm:last>Eyton</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">O.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.B.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1934-07-12" pm:granularity="8" pm:place="Québec, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=01bdf9be-7adb-4e66-a39b-986c6a902437&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=f955a330-2003-4246-acf1-6246c70390f8</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=506&amp;t=12&amp;ln=eyton&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Trevor_Eyton</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Trevor_Eyton</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Ontario" openpx:province="Ontario">
+        <pm:period pm:from="1990-09-23" pm:from-granularity="8" pm:till="2009-07-12" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Conservative" pm:party-ref="not-avaible" pm:body="other">
+        <pm:period pm:from="2004-02-02" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1990-09-23" pm:from-granularity="8" pm:till="2004-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Trevor_Eyton">John Trevor Eyton, OC QC (born July 12, 1934) is a Canadian businessman, former lawyer, and retired Senator.Eyton was born in Quebec City in 1934 and was educated and raised in Quebec and Toronto. He was educated at Beaupré Public School and Jarvis Collegiate Institute. In 1957 he received his Bachelor of Arts from the University of Toronto, and earned his Bachelor of Laws from the University of Toronto Law School in 1960.After completing his studies, Eyton joined the law firm of Tory Tory DesLauriers &amp; Binnington, where he remained until 1979 when he left to become President and Chief Executive Officer of Brascan Limited, a post he held for 12 years. Senator Eyton remained with Brascan as Chairman and Senior Chairman until 1997 and continues on its Board of Directors. He was appointed to the Senate of Canada in 1991 by Brian Mulroney Eyton is a board member of a number of corporations, including Coca-Cola Enterprises (Atlanta), General Motors of Canada, Noranda, Nestle Canada and Coretec, and serves as Chairman and a director of Ivernia West. He is involved in amateur sport and philanthropic organizations including Junior Achievement, the Canadian Olympic Foundation and is Chairman of Canada's Sports Hall of Fame. Senator Eyton is a member of the Canadian Journalism Foundation, the Canadian Institute for Advanced Research, and the Advisory Committee of the Toronto Zoo Foundation. For many years Eyton sat on the Board of Grenville Christian College during the period that Father Charles Farnsworth was headmaster of the school. The former Canadian private school is now the subject of a class action lawsuit. Widespread child abuse has been alleged in the media where it has also been alleged that the school was operated as a mind control cult.Eyton is an Officer of the Order of Canada, Queen's Counsel for Ontario, and has been awarded honorary Doctors of Laws by both the University of Waterloo and the University of King's College at Dalhousie - where he was Chancellor from 1996 to 2001. In 2000 he was awarded Mexico’s Order of the Aztec Eagle – the highest award given to foreigners by the government of Mexico.In his spare time he enjoys skiing and golf. Trevor Eyton has been married to Barbara Jane Montgomery since 1955. They have five children: Deborah Jane, Susannah Margaret, Sarah Elizabeth, Adam Tudor, and Christopher Montgomery, who have given the Eytons 11 grandchildren.Eyton retired from the Senate on July 12, 2009, upon reaching the mandatory retirement age of 75.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

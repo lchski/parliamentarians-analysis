@@ -1,0 +1,79 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9516">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>SHAW,  Frederick Davis</dc:title>
+    <dc:description>Member information for: SHAW,  Frederick Davis</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=f786df30-a001-4982-becb-a5fa8e5551eb&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=f786df30-a001-4982-becb-a5fa8e5551eb&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9516">
+    <pm:name>
+      <pm:full>SHAW,  Frederick Davis</pm:full>
+      <pm:first>Frederick Davis</pm:first>
+      <pm:last>Shaw</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1909-08-04" pm:granularity="8" pm:place="Cardston, Alberta, Canada"/>
+      <pm:deceased pm:date="1977-12-09" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=f786df30-a001-4982-becb-a5fa8e5551eb&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=48f57638-7932-4467-9b2f-4e55779031a4</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Frederick_Davis_Shaw</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Frederick_Davis_Shaw</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Red Deer" openpx:province="Alberta">
+        <pm:period pm:from="1957-06-10" pm:from-granularity="8" pm:till="1958-02-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Red Deer" openpx:province="Alberta">
+        <pm:period pm:from="1953-08-10" pm:from-granularity="8" pm:till="1957-04-12" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Red Deer" openpx:province="Alberta">
+        <pm:period pm:from="1949-06-27" pm:from-granularity="8" pm:till="1953-06-13" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Red Deer" openpx:province="Alberta">
+        <pm:period pm:from="1945-06-11" pm:from-granularity="8" pm:till="1949-04-30" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Red Deer" openpx:province="Alberta">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Social Credit" pm:party-ref="ca.p.socialcredit" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1958-03-30" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Frederick_Davis_Shaw">Frederick Davis Shaw (born: August 4, 1909, Cardston, Alberta - died: December 9, 1977) was a long serving Canadian federal politician.Shaw first ran for the Canadian House of Commons in the 1940 federal election. He ran as a Social Credit candidate in the Red Deer electoral district. Shaw would win a hotly contested 4 way race to earn his first term in office. He would be re-elected in the 1945 federal election easily defeating 4 other candidates. Shaw would run for his third term in office in the 1949 federal election winning over 10,000 votes and retaining his district in a landslide. Shaw would win his 4th term in office with another substantial but reduced plurality defeating 4 other candidates in the 1953 federal election. He would win his last term in office defeating Progressive Conservative candidate Harris Rogers in a landslide in the 1957 federal election. Parliament was dissolved a year later forcing another federal election in 1958, in which Rogers and Shaw faced each other again, this time with Harris defeating Shaw.After his electoral defeat from office, Shaw moved to British Columbia. He attempted twice more to win another seat in by running as the Social Credit candidate in the 1962 federal election and a year later in the 1963 federal election. Both times he ran in the Okanagan Boundary electoral district against incumbent Progressive Conservative Member of Parliament David Vaughan Pugh and was defeated. 'Jack' as he was known, was married to Eva. They had 3 sons, Douglas, Donald and Frederick Jr. and a daughter Patricia born on Queen Elizabeth's Coronation, June 2, 1953.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

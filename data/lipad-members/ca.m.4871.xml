@@ -1,0 +1,111 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4871">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-24+01:00</dc:date>
+    <dc:title>WALKER,  James Edgar</dc:title>
+    <dc:description>Member information for: WALKER,  James Edgar</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6059ff4b-ca5f-4227-87b0-a17ef1943264&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6059ff4b-ca5f-4227-87b0-a17ef1943264&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4871">
+    <pm:name>
+      <pm:full>WALKER,  James Edgar</pm:full>
+      <pm:first>James Edgar</pm:first>
+      <pm:last>Walker</pm:last>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1911-07-21" pm:granularity="8" pm:place="Vegreville, Alberta, Canada"/>
+      <pm:deceased pm:date="1989-04-19" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, insurance agent</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=6059ff4b-ca5f-4227-87b0-a17ef1943264&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=a9913f68-7c06-4c6c-adf1-e9f519f4f7d2</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/James_Edgar_Walker</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/James_Edgar_Walker</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="York Centre" openpx:province="Ontario">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="York Centre" openpx:province="Ontario">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="York Centre" openpx:province="Ontario">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="York Centre" openpx:province="Ontario">
+        <pm:period pm:from="1963-04-08" pm:from-granularity="8" pm:till="1965-09-08" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="York Centre" openpx:province="Ontario">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1963-02-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-08-30" pm:from-granularity="8" pm:till="1970-09-30" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-04-20" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the President of the Treasury Board</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-01-07" pm:from-granularity="8" pm:till="1968-04-20" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the President of the Treasury Board</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1966-01-07" pm:from-granularity="8" pm:till="1968-01-06" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Minister of National Revenue</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1963-10-30" pm:from-granularity="8" pm:till="1965-12-01" pm:till-granularity="8"/>
+        <pm:name>Chief Government Whip</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1963-01-01" pm:from-granularity="4" pm:till="1963-01-01" pm:till-granularity="4"/>
+        <pm:name>Chief Government Whip's assistant</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1963-01-01" pm:from-granularity="4" pm:till="1963-01-01" pm:till-granularity="4"/>
+        <pm:name>Deputy Whip of the Liberal Party</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1963-01-01" pm:from-granularity="4" pm:till="1965-01-01" pm:till-granularity="4"/>
+        <pm:name>Whip of the Liberal Party</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1962-06-18" pm:from-granularity="8" pm:till="1974-07-07" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/James_Edgar_Walker">James Edgar Walker (July 21, 1911 – April 19, 1989) was a Canadian politician.Born in Vegreville, Alberta, he attended the University of Alberta. After working as an insurance agent, he was transferred to Ontario in 1939 by the farm equipment company he was working for at the time. During World War II, he was a corporal with the Royal Canadian Electrical and Mechanical Engineers. After the war, he worked in Toronto eventually starting his own insurance firm, James Walker Insurance Co. Limited, which he sold in 1959.In 1953, he was elected to the City of North York Council. In 1958, he ran unsuccessfully for reeve.He was elected to the Canadian House of Commons in the riding of York Centre in the 1962 federal election. A Liberal, he was re-elected in 1963, 1965, 1968, and 1972. From 1963 to 1965, he was the Chief Government Whip. From 1966 to 1968, he was the Parliamentary Secretary to the Minister of National Revenue. In 1968, he was the Parliamentary Secretary to the President of the Treasury Board. From 1968 to 1970, he was the Parliamentary Secretary to the Prime Minister Pierre Trudeau.After leaving politics, he was a Citizenship Judge.He was married to Mona and they had three children; James, Virginia, John; his second marriage was to Lillian.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

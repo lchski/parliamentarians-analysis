@@ -1,0 +1,84 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.5177">
+    <dc:identifier>ca.m.5177</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>CARIGNAN,  Jean Guy, B.A., M.B.A.</dc:title>
+    <dc:description>Member information for: CARIGNAN,  Jean Guy, B.A., M.B.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=24317823-b9e0-4bf6-ae20-4e3475ab02e8&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=24317823-b9e0-4bf6-ae20-4e3475ab02e8&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.5177">
+    <pm:name>
+      <pm:full>CARIGNAN,  Jean Guy, B.A., M.B.A.</pm:full>
+      <pm:first>Jean Guy</pm:first>
+      <pm:last>Carignan</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.B.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1941-05-03" pm:granularity="8" pm:place="Victoriaville, Quebec, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Administrator</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=24317823-b9e0-4bf6-ae20-4e3475ab02e8&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=026a6c9e-4a1c-48da-b867-6af1c21eea94</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Jean-Guy_Carignan</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Jean-Guy_Carignan</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Jean-Guy_Carignan</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Jean-Guy_Carignan</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Québec East" openpx:province="Quebec">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2004-05-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="2003-10-10" pm:from-granularity="8" pm:till="present" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2003-10-08" pm:from-granularity="8" pm:till="2003-10-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent Liberal" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="2002-10-07" pm:from-granularity="8" pm:till="2003-10-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Independent" pm:party-ref="not-available" pm:body="other">
+        <pm:period pm:from="2001-12-14" pm:from-granularity="8" pm:till="2002-10-06" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2000-11-27" pm:from-granularity="8" pm:till="2001-12-13" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Jean-Guy_Carignan">Jean-Guy Carignan BA, MBA (born 3 May 1941 in Victoriaville, Quebec) was a member of the Canadian House of Commons from 2000 to 2004. He was an administrator by career.Carignan joined the 37th Canadian Parliament on 27 November 2000 after being elected a Liberal member for the Quebec East electoral district.On his election day, however, he was charged with offences relating to a hit and run incident on 3 October 2000. He pleaded guilty to these charges on 6 November 2001 and was sentenced to a partial house arrest and 100 hours of community service that allowed him to attend the House of Commons. He resigned from the Liberal party on 14 December 2001 and continued as an independent member of Parliament.He declared himself an "Independent Liberal" for a year, beginning 7 October 2002. On 8 October 2003 he rejoined the Liberal party for two days, with Jean Chrétien calling for his resignation after it was learned he did not yet complete his sentence for his 2001 conviction.Further controversy ensued following a mailing of 2000 Christmas cards featuring a picture of Carignan with Palestinian leader Yasser Arafat. Groups such as the Canadian Jewish Congress and the B'nai B'rith Canada’s League for Human Rights condemned the MP's choice of seasonal greetings.With the Quebec East riding boundaries redistributed in 2003, Carignan contested the Louis-Saint-Laurent electoral district in the 2004 federal election as an independent candidate but finished in sixth place while Bernard Cleary of the Bloc Québécois won the riding.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

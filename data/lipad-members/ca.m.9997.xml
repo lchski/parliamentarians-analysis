@@ -1,0 +1,71 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.9997">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-15+01:00</dc:date>
+    <dc:title>COCHRANE,  Dennis H., B.A., B.Ed., M.Ed.</dc:title>
+    <dc:description>Member information for: COCHRANE,  Dennis H., B.A., B.Ed., M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8707e6cd-a6e7-4257-bf98-a17459fd5c1f&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8707e6cd-a6e7-4257-bf98-a17459fd5c1f&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.9997">
+    <pm:name>
+      <pm:full>COCHRANE,  Dennis H., B.A., B.Ed., M.Ed.</pm:full>
+      <pm:first>Dennis H.</pm:first>
+      <pm:last>Cochrane</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Ed.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1950-10-26" pm:granularity="8" pm:place="Moncton, New Brunswick, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>School principal, teacher</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=8707e6cd-a6e7-4257-bf98-a17459fd5c1f&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=6aa3a685-d9a6-44c1-a34d-c8e898d18b5d</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Dennis_Cochrane</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Dennis_Cochrane</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Moncton" openpx:province="New Brunswick">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-10-01" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Progressive Conservative" pm:party-ref="ca.p.progressiveconservative" pm:body="other">
+        <pm:period pm:from="1984-09-04" pm:from-granularity="8" pm:till="1988-11-20" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Dennis_Cochrane">Dennis H. Cochrane, CM (born 26 October 1950 in Moncton, New Brunswick) is a Canadian politician and civil servant.He graduated from the New Brunswick Teacher's College in 1970, received a Bachelor of Arts degree from the University of New Brunswick in 1974, received a Bachelor of Education in 1974 and a Master of Education in 1981 from the University of Moncton. From 1970 to 1991, he was a school teacher and principal in New Brunswick.He was elected to the Moncton City Council in 1977 and he was elected Mayor of Moncton in 1979, being re-elected in 1980. In 1983, he was Councillor-at-Large of Moncton. He was elected to the Canadian House of Commons representing the riding of Moncton in 1984 as a Progressive Conservative. He was defeated in 1988.He next entered provincial politics and was elected leader of the Progressive Conservative Party of New Brunswick in 1990. In this role he regained seats for his party in the 1991 election, the PCs having been shut out in 1987. Though his party won only three seats, it gained others later through by-elections and seemed poised to win, at least, official opposition status in the coming election. The opposition Confederation of Regions Party was suffering internal strife and a number of its members chose to sat as independents. Cochrane invited them to join the PC caucus; however they declined and one of the Acadian members quit in protest. As a result, Cochrane resigned the leadership.Following the victory of the Progressive Conservative Party of Nova Scotia in 1999 election, he was named deputy minister of Education for the neighbouring province of Nova Scotia.He resigned at the end of 2009 when he accepted a position as Interim President and Vice Chancellor of St. Thomas University (New Brunswick) effective January 2010, replacing outgoing Michael W. Higgins. The appointment was expected to continue until 1 July 2011.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

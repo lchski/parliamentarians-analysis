@@ -1,0 +1,72 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.343">
+    <dc:identifier>ca.m.343</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>MERASTY,  Gary, B.Ed., M.Ed.</dc:title>
+    <dc:description>Member information for: MERASTY,  Gary, B.Ed., M.Ed.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=b2f45004-fa0b-42b9-8360-ec12a79b3df1&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=b2f45004-fa0b-42b9-8360-ec12a79b3df1&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.343">
+    <pm:name>
+      <pm:full>MERASTY,  Gary, B.Ed., M.Ed.</pm:full>
+      <pm:first>Gary</pm:first>
+      <pm:last>Merasty</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">B.Ed.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.Ed.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1964-09-22" pm:granularity="8" pm:place="Winnipeg, Manitoba, Canada"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Aboriginal leader, consultant</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=b2f45004-fa0b-42b9-8360-ec12a79b3df1&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7188fa02-4d12-4500-b687-3fff667dea75</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Gary_Merasty</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Gary_Merasty</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Gary_Merasty</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Gary_Merasty</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Desnethé--Missinippi--Churchill River" openpx:province="Saskatchewan">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2007-08-31" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2007-08-31" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Gary_Merasty">Gary Merasty, (born September 22, 1964 in Winnipeg, Manitoba and raised in Pelican Narrows, Saskatchewan) is a Canadian politician and former Liberal Member of Parliament for Desnethé—Missinippi—Churchill River in northern Saskatchewan. A former two-time Grand Chief of the Prince Albert Grand Council, Merasty is a member of the Peter Ballantyne Cree Nation within Treaty 6 territory. He is the first Status First Nations person to be elected in Saskatchewan.In one of the closest races of the 2006 federal election, Merasty defeated Conservative incumbent Jeremy Harrison. On election night, Merasty's victory was reported as 10,225 to 10,119, a margin of 106. Jeremy Harrison challenged the result, but a judicial recount confirmed Merasty's victory by a reduced margin of 67 votes. On the morning after the election, Harrison alleged widespread misconduct. However, an investigation conducted by Elections Canada determined that no wrongdoing had taken place.As a Member of Parliament, Merasty served on the House of Commons Standing Committee on Agriculture and Agri-Food, the Standing Committee on Aboriginal Affairs and Northern Development and the Legislative Committee on Bill C-2. He also sat on the Standing Committee on Human Resources, Social Development and the Status of Persons with Disabilities. In the Liberal caucus, he served as Indian Affairs associate critic and was a Special Advisor for Aboriginal Outreach.Merasty introduced two successful motions into the House of Commons, the first calling for the implementation of the Kelowna Accord and the second offering an apology to survivors of the Canadian residential school system. Merasty introduced the Kelowna Accord motion on September 29, 2006. Although the motion was opposed by the federal Conservative government [1], it passed by a vote of 160-113.Merasty first asked the federal government to offer a formal apology to survivors of the residential school system on November 7, 2006. Merasty raised the question again on March 27, 2007 after Minister of Indian Affairs and Northern Development and Federal Interlocutor for Métis and Non-Status Indians Jim Prentice suggested that an apology was unnecessary since the primary aim of the schools was "to provide education for aboriginal children." Prentice again refused to offer an apology.In response, on May 1, 2007, Merasty introduced a motion into the House of Commons to calling on the House to "apologize to the survivors of the Indian Residential Schools for the trauma they suffered as a result of the policies intended to assimilate First Nations, Inuit and Métis children, causing the loss of aboriginal culture, heritage and language, while also leaving a sad legacy of emotional, physical and sexual abuse." After Merasty introduced the motion, Prentice announced the Conservatives would support it, allowing the apology to pass unanimously (257-0).Merasty was named in the 100 Alumni of Influence by the University of Saskatchewan in 2007. In 2005, he received an honorary diploma in Entrepreneurship and Small Business from the Saskatchewan Institute of Applied Science and Technology.He has also received both the Queen Elizabeth II Golden Jubilee Medal and the Commemorative Medal for the Centennial of Saskatchewan for his service to the people of Saskatchewan.[2]As announced in July 2007, Merasty stepped down as MP for the riding on August 31, to pursue a career in the private sector.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

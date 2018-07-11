@@ -1,0 +1,74 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.422">
+    <dc:identifier>ca.m.422</dc:identifier>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-01-14+01:00</dc:date>
+    <dc:title>DHALIWAL,  Sukh, P.Eng.</dc:title>
+    <dc:description>Member information for: DHALIWAL,  Sukh, P.Eng.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=3da57866-49d8-42d1-9f5b-c78561f67c9d&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=3da57866-49d8-42d1-9f5b-c78561f67c9d&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.422">
+    <pm:name>
+      <pm:full>DHALIWAL,  Sukh, P.Eng.</pm:full>
+      <pm:first>Sukh</pm:first>
+      <pm:last>Dhaliwal</pm:last>
+      <pm:titles>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.Eng.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1960-10-01" pm:granularity="8" pm:place="Punjab, India"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman, professional engineer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/parlinfo/Files/Parliamentarian.aspx?Item=3da57866-49d8-42d1-9f5b-c78561f67c9d&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=df8c1c3f-a7a1-497e-9e28-43a62e34a1df</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Sukh_Dhaliwal</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Sukh_Dhaliwal</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Sukh_Dhaliwal</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Sukh_Dhaliwal</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Newton--North Delta" openpx:province="British Columbia">
+        <pm:period pm:from="2008-10-14" pm:from-granularity="8" pm:till="2011-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Newton--North Delta" openpx:province="British Columbia">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2008-09-07" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="2006-01-23" pm:from-granularity="8" pm:till="2011-05-01" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Sukh_Dhaliwal">Sukh Dhaliwal, (Punjabi: ਸੁਖ ਧਾਲੀਵਾਲ) MP (born October 1, 1960 in Punjab, India) is a businessman and politician in British Columbia, Canada, who was the Liberal Member of Parliament for Newton—North Delta from 2006 to 2011. He emigrated from India in 1984 and became a Canadian citizen three years later. As a businessman, he founded a successful land surveying company and played an important role in the municipal politics of Surrey where he is said to have dominated the Surrey Electors Team membership list by signing up over 2,600 new party members. This represented over half the total number of members. However, in the November 1999 municipal elections Dhaliwal lost his own bid for a seat on city council.He was the federal Liberal candidate for the Newton-North Delta riding in 2004, but lost to Conservative Gurmant Grewal by just over 500 votes. Grewal decided to not seek re-election, and in 2006 Dhaliwal faced Conservative newcomer Phil Eidsvik. The NDP was also strong in the riding, and 2004 candidate Nancy Clegg, also ran again. Dhaliwal succeeded in winning the seat by 1000 votes.In the 2006 Liberal leadership campaign, Dhaliwal initially supported Joe Volpe. After Volpe encountered a fundraising scandal, Dhaliwal withdrew his support and moved to support Michael Ignatieff. Dhaliwal was instrumental in building support for Ignatieff's campaign in the Sikh community. Dhaliwal played a key role in Ignatieff’s short-lived, but successful, second leadership campaign in 2008.Dhalwal in 2008 had written to a U.S. District Court judge on official House of Commons stationery in support of convicted international drug trafficker Ranjit Singh Cheema.On October 14, 2008 Dhaliwal was re-elected to Parliament by 2500 votes, defeating the NDP’s Teresa Townsley, a Delta School Board trustee, and the Conservative Party’s Sandeep Pandher. Following the election, Dhaliwal was elected as the Chair of the Northern and Western Caucus of the Official Opposition, and served as the critic for the Asia Pacific Gateway and Western Economic Diversification Canada. Dhaliwal has served on several House of Commons Committees: International Trade; Transportation, Infrastructure and Communities; and Access to Information, Privacy and Ethics. The Ethics Committee attracted high profile attention when it investigated allegations surrounding Karlheinz Schreiber’s dealings with former Prime Minister Brian Mulroney.He lost to Jinny Sims of the New Democratic Party in the 2011 election.On October 31, 2012 it was reported he is seeking the British Columbia Liberal Party nomination in Surrey-Panorama Ridge for the 2013 Provincial Election. The seat was held by Stephanie Cadieux however Cadieux is moving to Surrey-Cloverdale after current MLA Kevin Falcon announced he was not seeking re-election.Sukh Dhaliwal says he is no longer running in the provincial election after he was charged with six counts of tax evasion for his business that he runs with his wife. Roni Dhaliwal, a Surrey bylaw officer, was charged with 14 offences of tax evasion under the Criminal Code of Canada.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

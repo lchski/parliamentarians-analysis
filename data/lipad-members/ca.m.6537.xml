@@ -1,0 +1,72 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.6537">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>VAILLANCOURT, The Hon. Cyrille, C.B.E., D.S.A.</dc:title>
+    <dc:description>Member information for: VAILLANCOURT, The Hon. Cyrille, C.B.E., D.S.A.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1faa5c36-fcf2-4816-8b2f-40bb19a390ca&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1faa5c36-fcf2-4816-8b2f-40bb19a390ca&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.6537">
+    <pm:name>
+      <pm:full>VAILLANCOURT, The Hon. Cyrille, C.B.E., D.S.A.</pm:full>
+      <pm:first>Cyrille</pm:first>
+      <pm:last>Vaillancourt</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.B.E.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">D.S.A.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1892-01-17" pm:granularity="8" pm:place="Saint-Anselme, Quebec, Canada"/>
+      <pm:deceased pm:date="1969-10-30" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Businessman</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=1faa5c36-fcf2-4816-8b2f-40bb19a390ca&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=7e12d849-46e2-4f9c-bbd2-4a652977d5f5</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Cyrille_Vaillancourt</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Cyrille_Vaillancourt</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Kennebec" openpx:province="Quebec">
+        <pm:period pm:from="1944-03-03" pm:from-granularity="8" pm:till="1969-01-03" pm:till-granularity="8"/>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1944-03-03" pm:from-granularity="8" pm:till="1969-01-03" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Cyrille_Vaillancourt">Cyrille Vaillancourt (January 17, 1892 – October 30, 1969) was a journalist, civil servant, businessman and political figure in Quebec. Vaillancourt played an important role in the development of the caisses populaires in Quebec. He represented La Durantaye division in the Legislative Council of Quebec from 1943 to 1944 and sat for Kennebec division in the Senate of Canada from 1944 to 1969 as a Liberal.He was born in Saint-Anselme, Quebec, the son of Cyrille-Émile Vaillancourt and Marie-Louise Larochelle, and was educated at the Collège de Lévis and the Université Laval. Vaillancourt worked for the Étoile du Nord at Joliette before serving in the Quebec Department of Agriculture, responsible for the areas of beekeeping and maple syrup production. He became director for the Caisse-Populaire at Lévis in 1924, then was vice-president from 1929 to 1932 and administrator from 1929 to 1969. From 1927 to 1963, he was general manager for the regional federation of caisses populaires for Quebec district. He was the first president of the Fédération des caisses populaires for the province of Quebec. Vaillancourt also served as president of Assurance-vie Desjardins, the Association Coopérative Desjardins and the Société de Gestion Aubigny.Vaillancourt was honorary lieutenant-colonel and then honorary colonel in the militia. He served on the school board for Lévis from 1927 to 1961. He was president of the Saint Vincent de Paul Society at Lévis. He was named a commander in the Order of the British Empire in 1944 and a commander in the Order of St. Gregory the Great in 1947.He established the following periodicals: l'Abeille (later l'Abeille et l'érable) in 1918 la Caisse populaire Desjardins (later la Revue Desjardins) in 1934With Albert Faucher, he published Alphonse Desjardins Pionnier de la coopération d'épargne et de crédit en Amérique in 1950.He was married twice: to Maria Ferland in 1916 and to Marie-Blanche Normandin, dit Lajoie in 1920.Vaillancourt resigned from the Senate on January 3, 1969 due to ill health. He died at Lévis on October 30 of the same year, at the age of 77.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

@@ -1,0 +1,81 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.8965">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-30+01:00</dc:date>
+    <dc:title>MACMILLAN, The Hon. Cyrus, P.C., M.A., Ph.D.</dc:title>
+    <dc:description>Member information for: MACMILLAN, The Hon. Cyrus, P.C., M.A., Ph.D.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=63f599ff-c04d-4606-9be3-df0557166675&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=63f599ff-c04d-4606-9be3-df0557166675&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.8965">
+    <pm:name>
+      <pm:full>MACMILLAN, The Hon. Cyrus, P.C., M.A., Ph.D.</pm:full>
+      <pm:first>Cyrus</pm:first>
+      <pm:last>Macmillan</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Ph.D.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1882-09-12" pm:granularity="8" pm:place="Wood Islands, Prince Edward Island, Canada"/>
+      <pm:deceased pm:date="1953-06-29" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Dean, professor</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=63f599ff-c04d-4606-9be3-df0557166675&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=f27fbbe6-2f89-4f60-8a3a-c8f8ee722a19</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Cyrus_Macmillan</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Cyrus_Macmillan</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Queen's" openpx:province="Prince Edward Island">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-04-16" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1930-06-17" pm:from-granularity="8" pm:till="1930-08-06" pm:till-granularity="8"/>
+        <pm:name>Minister of Fisheries</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1943-04-01" pm:from-granularity="8" pm:till="1946-06-06" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Assistant to the Minister of National Defence for Air</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1940-03-26" pm:from-granularity="8" pm:till="1945-06-10" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Cyrus_Macmillan">Cyrus Macmillan, PC (September 12, 1882 – June 29, 1953) was a Canadian academic, writer,and politician.Born in Wood Islands, Prince Edward Island, he received a Bachelor of Arts degree in 1900 and a Master of Arts degree in 1903 from McGill University. He received a Ph.D. from Harvard University in 1909 and started as a Lecturer at McGill. During World War I, he serverd with the 7th Canadian Siege Battery. After the war, he became an Associate Professor and in 1923 was appointed Chairman of the English department. From 1940 to 1947, he was the Dean of the Faculty of Arts and Science. In June 1930, he was appointed Minister of Fisheries in the cabinet of Liberal Prime Minister Mackenzie King. He was defeated in July's 1930 federal election in the Prince Edward Island riding of Queen's. In 1940, he was elected to the Canadian House of Commons in the riding of Queen's. He was defeated in 1945. From 1943 to 1946, he was the Parliamentary Assistant to the Minister of National Defence for Air.He is the author of McGill and Its Story, 1821-1921 (1921), Canadian Wonder Tales (1918) and Canadian Fairy Tales (1922)</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

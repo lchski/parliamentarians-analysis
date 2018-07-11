@@ -1,0 +1,218 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.4635">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-06-16+01:00</dc:date>
+    <dc:title>TRUDEAU, The Right Hon. Pierre Elliott, P.C., C.C., C.H., Q.C., M.A., LL.L., LL.D., F.R.S.C.</dc:title>
+    <dc:description>Member information for: TRUDEAU, The Right Hon. Pierre Elliott, P.C., C.C., C.H., Q.C., M.A., LL.L., LL.D., F.R.S.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=3e66b4c9-6dae-4083-8d96-5d3f94979e94&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=3e66b4c9-6dae-4083-8d96-5d3f94979e94&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.4635">
+    <pm:name>
+      <pm:full>TRUDEAU, The Right Hon. Pierre Elliott, P.C., C.C., C.H., Q.C., M.A., LL.L., LL.D., F.R.S.C.</pm:full>
+      <pm:first>Pierre Elliott</pm:first>
+      <pm:last>Trudeau</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Right Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">C.H.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">Q.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">M.A.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.L.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">LL.D.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">F.R.S.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1919-10-18" pm:granularity="8" pm:place="Montreal, Quebec, Canada"/>
+      <pm:deceased pm:date="2000-09-28" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer, professor of law, writer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=3e66b4c9-6dae-4083-8d96-5d3f94979e94&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=b17e1005-06c7-4b73-b5da-bc49c896d9e0</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Order of Canada">http://www.gg.ca/honour.aspx?id=1688&amp;t=12&amp;ln=trudeau&amp;lan=eng</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://el.wikipedia.org/wiki" pm:description="Wikipedia (EL)">http://el.wikipedia.org/wiki/Πιερ_Ελλιό_Τρυντώ</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eo.wikipedia.org/wiki" pm:description="Wikipedia (EO)">http://eo.wikipedia.org/wiki/Pierre-Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh.wikipedia.org/wiki" pm:description="Wikipedia (ZH)">http://zh.wikipedia.org/wiki/皮埃尔·特鲁多</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://simple.wikipedia.org/wiki" pm:description="Wikipedia (SIMPLE)">http://simple.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://oc.wikipedia.org/wiki" pm:description="Wikipedia (OC)">http://oc.wikipedia.org/wiki/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://is.wikipedia.org/wiki" pm:description="Wikipedia (IS)">http://is.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://it.wikipedia.org/wiki" pm:description="Wikipedia (IT)">http://it.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cs.wikipedia.org/wiki" pm:description="Wikipedia (CS)">http://cs.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://cy.wikipedia.org/wiki" pm:description="Wikipedia (CY)">http://cy.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ar.wikipedia.org/wiki" pm:description="Wikipedia (AR)">http://ar.wikipedia.org/wiki/بيير_ترودو</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://io.wikipedia.org/wiki" pm:description="Wikipedia (IO)">http://io.wikipedia.org/wiki/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://eu.wikipedia.org/wiki" pm:description="Wikipedia (EU)">http://eu.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://id.wikipedia.org/wiki" pm:description="Wikipedia (ID)">http://id.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://es.wikipedia.org/wiki" pm:description="Wikipedia (ES)">http://es.wikipedia.org/wiki/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ru.wikipedia.org/wiki" pm:description="Wikipedia (RU)">http://ru.wikipedia.org/wiki/Трюдо,_Пьер_Эллиот</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://nl.wikipedia.org/wiki" pm:description="Wikipedia (NL)">http://nl.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pt.wikipedia.org/wiki" pm:description="Wikipedia (PT)">http://pt.wikipedia.org/wiki/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://la.wikipedia.org/wiki" pm:description="Wikipedia (LA)">http://la.wikipedia.org/wiki/Petrus_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://tr.wikipedia.org/wiki" pm:description="Wikipedia (TR)">http://tr.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ne.wikipedia.org/wiki" pm:description="Wikipedia (NE)">http://ne.wikipedia.org/wiki/पिएरी_ट्रुडो</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://vi.wikipedia.org/wiki" pm:description="Wikipedia (VI)">http://vi.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ca.wikipedia.org/wiki" pm:description="Wikipedia (CA)">http://ca.wikipedia.org/wiki/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://pl.wikipedia.org/wiki" pm:description="Wikipedia (PL)">http://pl.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yi.wikipedia.org/wiki" pm:description="Wikipedia (YI)">http://yi.wikipedia.org/wiki/פיער_עליאט_טרודא</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be.wikipedia.org/wiki" pm:description="Wikipedia (BE)">http://be.wikipedia.org/wiki/П'ер_Эліёт_Трудо</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fr.wikipedia.org/wiki" pm:description="Wikipedia (FR)">http://fr.wikipedia.org/wiki/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://be-x-old.wikipedia.org/wiki" pm:description="Wikipedia (BE-X-OLD)">http://be-x-old.wikipedia.org/wiki/П’ер_Трудо</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://uk.wikipedia.org/wiki" pm:description="Wikipedia (UK)">http://uk.wikipedia.org/wiki/П'єр_Трюдо</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://yo.wikipedia.org/wiki" pm:description="Wikipedia (YO)">http://yo.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://zh-yue.wikipedia.org/wiki" pm:description="Wikipedia (ZH-YUE)">http://zh-yue.wikipedia.org/wiki/皮耶·杜呂多</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://da.wikipedia.org/wiki" pm:description="Wikipedia (DA)">http://da.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fa.wikipedia.org/wiki" pm:description="Wikipedia (FA)">http://fa.wikipedia.org/wiki/پیر_ترودو</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://fi.wikipedia.org/wiki" pm:description="Wikipedia (FI)">http://fi.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://hu.wikipedia.org/wiki" pm:description="Wikipedia (HU)">http://hu.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ja.wikipedia.org/wiki" pm:description="Wikipedia (JA)">http://ja.wikipedia.org/wiki/ピエール・トルドー</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://he.wikipedia.org/wiki" pm:description="Wikipedia (HE)">http://he.wikipedia.org/wiki/פייר_אליוט_טרודו</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mg.wikipedia.org/wiki" pm:description="Wikipedia (MG)">http://mg.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://qu.wikipedia.org/wiki" pm:description="Wikipedia (QU)">http://qu.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sr.wikipedia.org/wiki" pm:description="Wikipedia (SR)">http://sr.wikipedia.org/wiki/Пјер_Тридо</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://no.wikipedia.org/wiki" pm:description="Wikipedia (NO)">http://no.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ko.wikipedia.org/wiki" pm:description="Wikipedia (KO)">http://ko.wikipedia.org/wiki/피에르_트뤼도</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sv.wikipedia.org/wiki" pm:description="Wikipedia (SV)">http://sv.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ur.wikipedia.org/wiki" pm:description="Wikipedia (UR)">http://ur.wikipedia.org/wiki/پئیر_ٹرڈیو</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sh.wikipedia.org/wiki" pm:description="Wikipedia (SH)">http://sh.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://ms.wikipedia.org/wiki" pm:description="Wikipedia (MS)">http://ms.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://mr.wikipedia.org/wiki" pm:description="Wikipedia (MR)">http://mr.wikipedia.org/wiki/पिएर_त्रूदो</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://sc.wikipedia.org/wiki" pm:description="Wikipedia (SC)">http://sc.wikipedia.org/wiki/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://el.dbpedia.org/resource" pm:description="Dbpedia (EL)">http://el.dbpedia.org/resource/Πιέρ_Ελλιό_Τρυντώ</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eo.dbpedia.org/resource" pm:description="Dbpedia (EO)">http://eo.dbpedia.org/resource/Pierre-Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh.dbpedia.org/resource" pm:description="Dbpedia (ZH)">http://zh.dbpedia.org/resource/皮埃尔·特鲁多</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://simple.dbpedia.org/resource" pm:description="Dbpedia (SIMPLE)">http://simple.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://oc.dbpedia.org/resource" pm:description="Dbpedia (OC)">http://oc.dbpedia.org/resource/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ca.dbpedia.org/resource" pm:description="Dbpedia (CA)">http://ca.dbpedia.org/resource/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://it.dbpedia.org/resource" pm:description="Dbpedia (IT)">http://it.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cs.dbpedia.org/resource" pm:description="Dbpedia (CS)">http://cs.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://cy.dbpedia.org/resource" pm:description="Dbpedia (CY)">http://cy.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ar.dbpedia.org/resource" pm:description="Dbpedia (AR)">http://ar.dbpedia.org/resource/بيير_ترودو</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://io.dbpedia.org/resource" pm:description="Dbpedia (IO)">http://io.dbpedia.org/resource/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://eu.dbpedia.org/resource" pm:description="Dbpedia (EU)">http://eu.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://id.dbpedia.org/resource" pm:description="Dbpedia (ID)">http://id.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://es.dbpedia.org/resource" pm:description="Dbpedia (ES)">http://es.dbpedia.org/resource/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://qu.dbpedia.org/resource" pm:description="Dbpedia (QU)">http://qu.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://nl.dbpedia.org/resource" pm:description="Dbpedia (NL)">http://nl.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pt.dbpedia.org/resource" pm:description="Dbpedia (PT)">http://pt.dbpedia.org/resource/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://la.dbpedia.org/resource" pm:description="Dbpedia (LA)">http://la.dbpedia.org/resource/Petrus_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://tr.dbpedia.org/resource" pm:description="Dbpedia (TR)">http://tr.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://is.dbpedia.org/resource" pm:description="Dbpedia (IS)">http://is.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://pl.dbpedia.org/resource" pm:description="Dbpedia (PL)">http://pl.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yi.dbpedia.org/resource" pm:description="Dbpedia (YI)">http://yi.dbpedia.org/resource/פיער_עליאט_טרודא</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be.dbpedia.org/resource" pm:description="Dbpedia (BE)">http://be.dbpedia.org/resource/П'ер_Эліёт_Трудо</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fr.dbpedia.org/resource" pm:description="Dbpedia (FR)">http://fr.dbpedia.org/resource/Pierre_Elliott_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://yo.dbpedia.org/resource" pm:description="Dbpedia (YO)">http://yo.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ru.dbpedia.org/resource" pm:description="Dbpedia (RU)">http://ru.dbpedia.org/resource/Трюдо,_Пьер_Эллиот</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://de.dbpedia.org/resource" pm:description="Dbpedia (DE)">http://de.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://da.dbpedia.org/resource" pm:description="Dbpedia (DA)">http://da.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fa.dbpedia.org/resource" pm:description="Dbpedia (FA)">http://fa.dbpedia.org/resource/پیر_ترودو</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://fi.dbpedia.org/resource" pm:description="Dbpedia (FI)">http://fi.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://hu.dbpedia.org/resource" pm:description="Dbpedia (HU)">http://hu.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ja.dbpedia.org/resource" pm:description="Dbpedia (JA)">http://ja.dbpedia.org/resource/ピエール・トルドー</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://he.dbpedia.org/resource" pm:description="Dbpedia (HE)">http://he.dbpedia.org/resource/פייר_אליוט_טרודו</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://be_x_old.dbpedia.org/resource" pm:description="Dbpedia (BE_X_OLD)">http://be_x_old.dbpedia.org/resource/П’ер_Трудо</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sr.dbpedia.org/resource" pm:description="Dbpedia (SR)">http://sr.dbpedia.org/resource/Пјер_Тридо</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://no.dbpedia.org/resource" pm:description="Dbpedia (NO)">http://no.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ko.dbpedia.org/resource" pm:description="Dbpedia (KO)">http://ko.dbpedia.org/resource/피에르_트뤼도</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sv.dbpedia.org/resource" pm:description="Dbpedia (SV)">http://sv.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://zh_yue.dbpedia.org/resource" pm:description="Dbpedia (ZH_YUE)">http://zh_yue.dbpedia.org/resource/皮耶·杜呂多</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://ur.dbpedia.org/resource" pm:description="Dbpedia (UR)">http://ur.dbpedia.org/resource/پئیر_ٹرڈیو</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sh.dbpedia.org/resource" pm:description="Dbpedia (SH)">http://sh.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://uk.dbpedia.org/resource" pm:description="Dbpedia (UK)">http://uk.dbpedia.org/resource/П'єр_Трюдо</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://mr.dbpedia.org/resource" pm:description="Dbpedia (MR)">http://mr.dbpedia.org/resource/पिएर_एलियट_त्रूदो</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://sc.dbpedia.org/resource" pm:description="Dbpedia (SC)">http://sc.dbpedia.org/resource/Pierre_Trudeau</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="commons" pm:district="Mount Royal" openpx:province="Quebec">
+        <pm:period pm:from="1980-02-18" pm:from-granularity="8" pm:till="1984-07-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Mount Royal" openpx:province="Quebec">
+        <pm:period pm:from="1979-05-22" pm:from-granularity="8" pm:till="1979-12-14" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Mount Royal" openpx:province="Quebec">
+        <pm:period pm:from="1974-07-08" pm:from-granularity="8" pm:till="1979-03-26" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Mount Royal" openpx:province="Quebec">
+        <pm:period pm:from="1972-10-30" pm:from-granularity="8" pm:till="1974-05-09" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Mount Royal" openpx:province="Quebec">
+        <pm:period pm:from="1968-06-25" pm:from-granularity="8" pm:till="1972-09-01" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="commons" pm:district="Mount Royal" openpx:province="Quebec">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1968-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1980-03-03" pm:from-granularity="8" pm:till="1984-06-29" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-04-20" pm:from-granularity="8" pm:till="1979-06-03" pm:till-granularity="8"/>
+        <pm:name>Prime Minister</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-04-20" pm:from-granularity="8" pm:till="1968-05-01" pm:till-granularity="8"/>
+        <pm:name>President of the Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-04-20" pm:from-granularity="8" pm:till="1968-07-05" pm:till-granularity="8"/>
+        <pm:name>Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1968-03-11" pm:from-granularity="8" pm:till="1968-04-19" pm:till-granularity="8"/>
+        <pm:name>President of the Privy Council</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1967-04-04" pm:from-granularity="8" pm:till="1968-04-19" pm:till-granularity="8"/>
+        <pm:name>Minister of Justice and Attorney General of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="other">
+        <pm:period pm:from="1979-06-04" pm:from-granularity="8" pm:till="1980-03-02" pm:till-granularity="8"/>
+        <pm:name>Leader of the Official Opposition</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1966-01-07" pm:from-granularity="8" pm:till="1967-04-03" pm:till-granularity="8"/>
+        <pm:name>Parliamentary Secretary to the Prime Minister</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1965-11-08" pm:from-granularity="8" pm:till="1984-06-29" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Pierre_Trudeau">Joseph Philippe Pierre Yves Elliott Trudeau, PC CH CC QC FSRC (/truːˈdoʊ/; French pronunciation: ​[tʁydo]; October 18, 1919 – September 28, 2000), usually known as Pierre Trudeau or Pierre Elliott Trudeau, was the 15th Prime Minister of Canada from April 20, 1968 to June 4, 1979, and again from March 3, 1980 to June 30, 1984.Trudeau began his political career as a lawyer, intellectual, and activist in Quebec politics. In the 1960s, he entered federal politics by joining the Liberal Party of Canada. He was appointed as Lester Pearson's Parliamentary Secretary, and later became his Minister of Justice. From his base in Montreal, Trudeau took control of the Liberal Party and became a charismatic leader, inspiring "Trudeaumania". From the late 1960s until the mid-1980s, he dominated the Canadian political scene and aroused passionate reactions. "Reason before passion" was his personal motto. He retired from politics in 1984, and John Turner succeeded him as Prime Minister.Admirers praise the force of Trudeau's intellect and salute his political acumen in preserving national unity against the Quebec sovereignty movement, suppressing a violent revolt, and establishing the Charter of Rights and Freedoms within Canada's constitution. Critics accuse him of arrogance, economic mismanagement, and unduly favouring the federal government relative to the provinces, especially in trying to distribute the oil wealth of the Prairies.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>

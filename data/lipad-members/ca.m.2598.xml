@@ -1,0 +1,114 @@
+<root xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:pmx="http://www.politicalmashup.nl/extra" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pmd="http://www.politicalmashup.nl/docinfo" xmlns:openpx="https://openparliament.ca/extra" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-datatypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pm="http://www.politicalmashup.nl">
+  <pmd:docinfo>
+    <pm:comment>Data is valid with respect to the Relax NG schema http://schema.politicalmashup.nl/memberX.html. This is the open version of http://schema.politicalmashup.nl/member.html</pm:comment>
+  </pmd:docinfo>
+  <meta pm:id="ca.m.2598">
+    <dc:identifier/>
+    <dc:format>text/xml</dc:format>
+    <dc:type>Members</dc:type>
+    <dc:contributor>http://www.politicalmashup.nl</dc:contributor>
+    <dc:coverage>
+      <country dcterms:ISO3166-1="CA">Canada</country>
+    </dc:coverage>
+    <dc:creator>http://dilipad.history.ac.uk</dc:creator>
+    <dc:language>
+      <pm:language dcterms:ISO639-2="eng">English</pm:language>
+    </dc:language>
+    <dc:publisher>http://www.parl.gc.ca/parlinfo/</dc:publisher>
+    <dc:rights>http://www.parl.gc.ca/parlinfo/</dc:rights>
+    <dc:date>2015-08-07+01:00</dc:date>
+    <dc:title>SCOTT, The Hon. Sir Richard William, P.C., K.C.</dc:title>
+    <dc:description>Member information for: SCOTT, The Hon. Sir Richard William, P.C., K.C.</dc:description>
+    <dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo">http://www.parl.gc.ca/parlinfo</pm:link>
+      </dc:source>
+      <dc:source pm:used-source="true">
+        <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=eff412ee-7e16-49a4-b348-66a8e49ae340&amp;Language=E&amp;Section=ALL">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=eff412ee-7e16-49a4-b348-66a8e49ae340&amp;Language=E&amp;Section=ALL</pm:link>
+      </dc:source>
+    </dc:source>
+    <dc:subject/>
+    <dc:relation>All pm:party-ref attributes appearing in http://www.politicalmashup.nl documents refer to http://resolver.politicalmashup.nl/[pm:party-ref] .</dc:relation>
+  </meta>
+  <pm:member pm:id="ca.m.2598">
+    <pm:name>
+      <pm:full>SCOTT, The Hon. Sir Richard William, P.C., K.C.</pm:full>
+      <pm:first>Richard William</pm:first>
+      <pm:last>Scott</pm:last>
+      <pm:titles>
+        <pm:title pm:position="prefix" pm:honorific="honorary">The Hon.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">P.C.</pm:title>
+        <pm:title pm:position="suffix" pm:honorific="academic">K.C.</pm:title>
+      </pm:titles>
+    </pm:name>
+    <pm:personal>
+      <pm:born pm:date="1825-02-24" pm:granularity="8" pm:place="Prescott, Upper Canada"/>
+      <pm:deceased pm:date="1913-04-23" pm:granularity="8"/>
+      <pm:gender>male</pm:gender>
+    </pm:personal>
+    <pm:curriculum>
+      <pm:extra-curricular pm:source="http://www.parl.gc.ca/parlinfo/">
+        <pm:name>Lawyer</pm:name>
+      </pm:extra-curricular>
+    </pm:curriculum>
+    <pm:links>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Parlinfo">http://www.parl.gc.ca/ParlInfo/Files/Parliamentarian.aspx?Item=eff412ee-7e16-49a4-b348-66a8e49ae340&amp;Language=E&amp;Section=ALL</pm:link>
+      <pm:link pm:linktype="photo" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Portrait photo Parlinfo">http://www.parl.gc.ca/parlinfo/images/Picture.aspx?Item=24a01b47-d521-49d0-9e8c-eb8e195c0e58</pm:link>
+      <pm:link pm:linktype="trusted" pm:source="http://www.parl.gc.ca/parlinfo" pm:description="Legislative Assembly of Ontario Website ">http://www.ontla.on.ca/web/members/members_detail.do?locale=en&amp;ID=741</pm:link>
+      <pm:link pm:linktype="dbpedia" pm:source="http://dbpedia.org" pm:description="Dbpedia ()">http://dbpedia.org/resource/Richard_William_Scott</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://en.wikipedia.org" pm:description="Wikipedia (EN)">http://en.wikipedia.org/wiki/Richard_William_Scott</pm:link>
+      <pm:link pm:linktype="wikipedia" pm:source="http://de.wikipedia.org/wiki" pm:description="Wikipedia (DE)">http://de.wikipedia.org/wiki/Richard_William_Scott</pm:link>
+    </pm:links>
+    <pm:memberships>
+      <pm:membership pm:body="senate" pm:district="Ottawa" openpx:province="Ontario">
+        <pm:period pm:from="1874-03-13" pm:from-granularity="8" pm:till="1913-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-07-17" pm:from-granularity="8" pm:till="1896-11-16" pm:till-granularity="8"/>
+        <pm:name>Minister of the Interior</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-07-17" pm:from-granularity="8" pm:till="1896-11-16" pm:till-granularity="8"/>
+        <pm:name>Superintendent-General of Indian Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1896-07-13" pm:from-granularity="8" pm:till="1908-10-08" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1876-10-07" pm:from-granularity="8" pm:till="1876-10-23" pm:till-granularity="8"/>
+        <pm:name>Minister of the Interior</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1876-10-07" pm:from-granularity="8" pm:till="1876-10-23" pm:till-granularity="8"/>
+        <pm:name>Superintendent-General of Indian Affairs</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1874-01-09" pm:from-granularity="8" pm:till="1878-10-08" pm:till-granularity="8"/>
+        <pm:name>Secretary of State of Canada</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="government">
+        <pm:period pm:from="1873-11-07" pm:from-granularity="8" pm:till="1874-01-08" pm:till-granularity="8"/>
+        <pm:name>Minister Without Portfolio</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1902-01-01" pm:from-granularity="4" pm:till="1908-01-01" pm:till-granularity="4"/>
+        <pm:name>Leader of the Government in the Senate</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1874-01-01" pm:from-granularity="4" pm:till="1878-01-01" pm:till-granularity="4"/>
+        <pm:name>Leader of the Government in the Senate</pm:name>
+      </pm:membership>
+      <pm:membership pm:body="senate">
+        <pm:period pm:from="1879-01-01" pm:from-granularity="8" pm:till="1896-01-01" pm:till-granularity="8"/>
+        <pm:name>Leader of the Opposition in the Senate</pm:name>
+      </pm:membership>
+    <pm:membership pm:party-name="Liberal" pm:party-ref="ca.p.liberal" pm:body="other">
+        <pm:period pm:from="1874-03-13" pm:from-granularity="8" pm:till="1913-04-23" pm:till-granularity="8"/>
+      </pm:membership>
+    </pm:memberships>
+    <pm:biographies>
+      <pm:biography pm:source="http://dbpedia.org/page/Richard_William_Scott">Sir Richard William Scott, PC, KC (February 24, 1825 – April 23, 1913) was a Canadian politician and cabinet minister.He was born in Prescott, Ontario in 1825, a descendant of a family from County Clare. A lawyer by training, Scott was admitted to the bar in 1848 and established a practice in Bytown (now Ottawa). He became a member of municipal council in 1851, was mayor of Bytown in 1852, and held a seat in the Legislative Assembly of the Province of Canada from 1857 until 1863. With Canadian Confederation, Scott won a seat in the Ontario legislature as a Liberal representing Ottawa from 1867 to 1871. He was Speaker of the legislature briefly in December 1871 before being appointed to the provincial cabinet as Commissioner of Crown Lands. Scott played a leading role in passing legislation ensuring the rights of separate schools in Ontario.In November 1873, he left provincial politics when he was appointed minister without portfolio by Alexander Mackenzie in the federal Cabinet. Mackenzie had become prime minister after Sir John A. Macdonald's government had been forced to resign due to the Pacific Scandal. Scott was appointed to the Canadian Senate by Mackenzie in January 1874, and became Secretary of State for Canada and Leader of the Government in the Senate. A supporter of temperance, he drafted the "Scott Act" which allowed any county or municipality in Canada to prohibit the retail sale of liquor by majority vote. With the defeat of the Liberal government in the 1878 election, Scott became Leader of the Opposition in the Senate until the return of the Liberals to government under Wilfrid Laurier. Scott resumed his old Cabinet position of Secretary of State. Scott retired from the cabinet in 1908, but remained in the Senate until his death in 1913.</pm:biography>
+    </pm:biographies>
+  </pm:member>
+</root>
