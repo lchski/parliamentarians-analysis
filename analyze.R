@@ -31,6 +31,18 @@ age_at_election <- import_lop_mps %>%
   select(Name, `Date of Birth`, `Political Affiliation`, `Date Appointed/Date of First Election`, age_at_first_election) %>%
   arrange(age_at_first_election)
 
+# Summarize
+
+age_at_election %>%
+  summarize(
+    mean = mean(age_at_first_election, na.rm = TRUE),
+    median = median(age_at_first_election, na.rm = TRUE),
+    min = min(age_at_first_election, na.rm = TRUE),
+    max = max(age_at_first_election, na.rm = TRUE)
+  )
+
 # Visualize
 
-age_at_election
+age_at_election %>%
+  ggplot(aes(x = age_at_first_election)) +
+  geom_histogram(binwidth = 2)
