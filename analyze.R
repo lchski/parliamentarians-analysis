@@ -31,6 +31,9 @@ age_at_election <- import_lop_mps %>%
   select(Name, `Date of Birth`, `Political Affiliation`, `Date Appointed/Date of First Election`, age_at_first_election) %>%
   arrange(age_at_first_election)
 
+## % of MPs first elected at age 65 or above
+(age_at_election %>% filter(age_at_first_election >= 65) %>% count() %>% pull(n)) / (age_at_election %>% count() %>% pull(n))
+
 # Summarize
 
 age_at_election %>%
