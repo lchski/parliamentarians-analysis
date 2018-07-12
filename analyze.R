@@ -3,15 +3,35 @@ library(tidyverse)
 # Load data
 
 ## Mmm, CSV!
-import_lop_mps <- read_csv("data/lop-mps.csv")
+import_lop_mps <- read_csv("data/lop-mps.csv") %>%
+  rename(
+    picture = Picture,
+    name = Name,
+    birth_date = `Date of Birth`,
+    birth_city = `City of Birth`,
+    birth_province_region = `Province/Region of Birth`,
+    birth_country = `Country of Birth`,
+    deceased_date = `Deceased Date`,
+    gender = Gender,
+    profession = Profession,
+    seat_riding_senatorial_division = `Riding/Senatorial Division`,
+    seat_province_territory = `Province/Territory`,
+    political_affiliation = `Political Affiliation`,
+    date_of_parliamentary_entry = `Date Appointed/Date of First Election`,
+    role_type_of_parliamentarian = `Type of Parliamentarian`,
+    role_minister = Minister,
+    role_critic = Critic,
+    years_of_service = `Years of Service`,
+    military_service = `Military Service`
+  )
 
 # Tidy data
 
 ## Separate "Type of Parliamentarian" column into multiple rows per period of MP's service
 lop_mps <- import_lop_mps %>%
-  separate_rows(`Type of Parliamentarian`, sep="\\)") %>%
-  filter(`Type of Parliamentarian` != "") %>%
-  mutate(days_of_service = as.numeric(str_extract(`Years of Service`, "(\\d+)"))) %>%
+  separate_rows(role_type_of_parliamentarian, sep="\\)") %>%
+  filter(role_type_of_parliamentarian != "") %>%
+  mutate(days_of_service = as.numeric(str_extract(years_of_service, "(\\d+)"))) %>%
   mutate(years_of_service = days_of_service / 365)
 
 ## TODO: extract type of service, service start, service end for each record
@@ -20,17 +40,17 @@ lop_mps <- import_lop_mps %>%
 
 ## Number of MPs born per year
 lop_mps %>%
-  transmute(date = substr(`Date of Birth`, 1, 4)) %>%
+  transmute(date = substr(birth_date, 1, 4)) %>%
   group_by(date) %>%
   summarise(count = n()) %>%
   arrange(date)
 
 ## Age at election
 age_at_election <- import_lop_mps %>%
-  filter(`Date of Birth` != "") %>%
-  mutate(age_at_first_election = as.integer(substr(as.character(`Date Appointed/Date of First Election`), 1, 4)) - as.integer(substr(`Date of Birth`, 1, 4))) %>%
-  mutate(years_of_service = as.numeric(str_extract(`Years of Service`, "(\\d+)")) / 365) %>%
-  select(Name, `Date of Birth`, `Political Affiliation`, `Date Appointed/Date of First Election`, age_at_first_election, years_of_service) %>%
+  filter(birth_date != "") %>%
+  mutate(age_at_first_election = as.integer(substr(as.character(date_of_parliamentary_entry), 1, 4)) - as.integer(substr(birth_date, 1, 4))) %>%
+  mutate(years_of_service = as.numeric(str_extract(years_of_service, "(\\d+)")) / 365) %>%
+  select(name, birth_date, political_affiliation, date_of_parliamentary_entry, age_at_first_election, years_of_service) %>%
   arrange(age_at_first_election)
 
 ## % of MPs first elected at age 65 or above
