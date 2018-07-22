@@ -1,4 +1,7 @@
 library(tidyverse)
+library(ggthemr)
+
+ggthemr('light')
 
 # Load data
 
@@ -33,6 +36,9 @@ lop_mps <- import_lop_mps %>%
   filter(role_type_of_parliamentarian != "") %>%
   mutate(days_of_service = as.numeric(str_extract(years_of_service, "(\\d+)"))) %>%
   mutate(years_of_service = days_of_service / 365)
+
+by_service <- import_lop_mps %>%
+  mutate(role_type_of_parliamentarian = list(head(str_split(role_type_of_parliamentarian, "\\)")[[1]], -1)))
 
 ## TODO: extract type of service, service start, service end for each record
 
@@ -81,7 +87,14 @@ age_at_election %>%
 ## Histogram of age of first election
 age_at_election %>%
   ggplot(aes(x = age_at_first_election)) +
-  geom_histogram(binwidth = 2)
+  geom_histogram(binwidth = 2) +
+  scale_x_continuous(limits = c(0, NA)) +
+  labs(
+    title = "Age at first election to the House of Commons",
+    x = "Age at first election",
+    y = "Count",
+    caption = "By @lchski with data from Library of Parliament."
+  )
 
 ## Hexplot (binned scatterplot, to indicate density) of age at first election by years of service
 age_at_election %>%
