@@ -56,7 +56,7 @@ age_at_election <- import_lop_mps %>%
   filter(birth_date != "") %>%
   mutate(age_at_first_election = as.integer(substr(as.character(date_of_parliamentary_entry), 1, 4)) - as.integer(substr(birth_date, 1, 4))) %>%
   mutate(years_of_service = as.numeric(str_extract(years_of_service, "(\\d+)")) / 365) %>%
-  select(name, birth_date, political_affiliation, date_of_parliamentary_entry, age_at_first_election, years_of_service) %>%
+  select(name, birth_date, gender, political_affiliation, date_of_parliamentary_entry, age_at_first_election, years_of_service) %>%
   arrange(age_at_first_election)
 
 ## % of MPs first elected at age 65 or above
@@ -93,6 +93,17 @@ age_at_election %>%
     title = "Age at first election to the House of Commons",
     x = "Age at first election",
     y = "Count",
+    caption = "By @lchski with data from Library of Parliament."
+  )
+
+## Frequency polygram of age at first election by gender (freqpoly allows comparison between categorical data, i.e. gender)
+age_at_election %>%
+  ggplot(aes(x = age_at_first_election, stat(density), colour = gender)) +
+  geom_freqpoly(binwidth = 2) +
+  labs(
+    title = "Age at first election to the House of Commons by gender",
+    x = "Age at first election",
+    y = "Density",
     caption = "By @lchski with data from Library of Parliament."
   )
 
