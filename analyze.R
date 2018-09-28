@@ -30,12 +30,15 @@ import_lop_mps <- read_csv("data/lop-mps.csv") %>%
 
 # Tidy data
 
-## Separate "Type of Parliamentarian" column into multiple rows per period of MP's service
+## Separate days of service, estimate years of service
 lop_mps <- import_lop_mps %>%
-  separate_rows(role_type_of_parliamentarian, sep="\\)") %>%
-  filter(role_type_of_parliamentarian != "") %>%
   mutate(days_of_service = as.numeric(str_extract(years_of_service, "(\\d+)"))) %>%
   mutate(years_of_service = days_of_service / 365)
+
+## Separate "Type of Parliamentarian" column into multiple rows per period of MP's service
+lop_mps <- lop_mps %>%
+  separate_rows(role_type_of_parliamentarian, sep="\\)") %>%
+  filter(role_type_of_parliamentarian != "") %>%
 
 by_service <- import_lop_mps %>%
   mutate(role_type_of_parliamentarian = list(head(str_split(role_type_of_parliamentarian, "\\)")[[1]], -1)))
@@ -81,6 +84,11 @@ age_at_election %>%
     min_years_of_service = min(years_of_service, na.rm = TRUE),
     max_years_of_service = max(years_of_service, na.rm = TRUE)
   )
+
+## Number of MP days
+import_lop_mps %>%
+  mutate(days_of_service = as.numeric(str_extract(years_of_service, "(\\d+)"))) %>%
+  summarize(sum(days_of_service))
 
 # Visualize
 
