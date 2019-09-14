@@ -47,7 +47,7 @@ by_service <- import_lop_mps %>%
 
 ## TODO: extract type of service, service start, service end for each record
 
-lop_mps_role_type_of_parliamentarian <- lop_mps %>%
+lop_mps_role_type_of_parliamentarian_by_role <- lop_mps %>%
   select(id, role = role_type_of_parliamentarian) %>%
   separate_rows(role, sep="\\)") %>%
   filter(role != "") %>%
@@ -67,6 +67,15 @@ lop_mps_role_type_of_parliamentarian <- lop_mps %>%
   mutate(role_id = paste0(id, "-", row_number())) %>%
   ungroup() %>%
   select(id, role_id, role, period_start, period_end)
+
+seq_date <- function(x) seq(min(x), max(x), by = "day")
+
+lop_mps_role_type_of_parliamentarian_by_role_by_day <- lop_mps_role_type_of_parliamentarian_by_role %>%
+  gather(period_start, period_end, key = "period_bound", value = "date") %>%
+  select(id, role_id, role, date) %>%
+  arrange(id, role_id, date) %>%
+  group_by(role_id) %>%
+  complete(date = seq.Date(min(date), max(date), by="day"), nesting(id, role))
   
 ## dates are `nchar`:
 ### 13 (current parliament, round to today)
