@@ -33,3 +33,5 @@ political_affiliation
 role_minister
 role_critic
 ```
+
+Brainstorming here. Split across `role_type_of_parliamentarian` now... Maybe a fancy lookup join thing? We create exploded (but not by day, just `period_start` and `period_end`) tables for each of the above. Then we use the exploded `role_type_of_parliamentarian` as the canonical, and for each day look at each of the “exploded” tables for the above, pulling in the changed value for it (e.g. pulling in `seat_riding_senatorial_division` will usually be the same, but then it changes one day and you look to the next one). Something like that.
