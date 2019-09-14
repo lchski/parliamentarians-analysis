@@ -1,4 +1,5 @@
 library(tidyverse)
+library(lubridate)
 library(ggthemr)
 
 ggthemr('light')
@@ -45,3 +46,30 @@ by_service <- import_lop_mps %>%
   mutate(role_type_of_parliamentarian = list(head(str_split(role_type_of_parliamentarian, "\\)")[[1]], -1)))
 
 ## TODO: extract type of service, service start, service end for each record
+
+lop_mps_role_type_of_parliamentarian <- lop_mps %>%
+  select(id, role = role_type_of_parliamentarian) %>%
+  separate_rows(role, sep="\\)") %>%
+  filter(role != "") %>%
+  separate(role, c("role", "period"), sep = " \\(") %>%
+  separate(period, c("period_start", "period_end"), sep = " - ") %>%
+  mutate(period_end_nchar = nchar(period_end), period_end = case_when(
+    period_end_nchar == 0 ~ as.character(today()),
+    period_end_nchar == 4 ~ paste0(period_end, "/01/01"),
+    TRUE ~ period_end
+  )) %>%
+  mutate(
+    period_start = ymd(period_start),
+    period_end = ymd(period_end)
+  ) %>%
+  arrange(id, period_start) %>%
+  group_by(id) %>%
+  mutate(role_id = paste0(id, "-", row_number())) %>%
+  ungroup() %>%
+  select(id, role_id, role, period_start, period_end)
+  
+## dates are `nchar`:
+### 13 (current parliament, round to today)
+### 17 (ends in a four-digit year, round to January 1)
+### 23 (complete date)
+
