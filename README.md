@@ -20,3 +20,16 @@ Follow these steps to download the data from the search page:
 3. Activate the “show/hide columns” interface. Select all the columns you want. (I, being greedy, selected _all_ the columns—even Picture,
    which returns blank values.)
 4. Press the “CSV” button. It’s downloaded, woo!
+
+---
+
+Columns to split across dates:
+
+```
+role_type_of_parliamentarian
+seat_riding_senatorial_division
+seat_province_territory [divides on lowercase letter immediately followed by uppercase letter without a space in between]
+political_affiliation
+role_minister
+role_critic
+```
