@@ -73,7 +73,13 @@ lop_mps_role_type_of_parliamentarian_by_role_by_day <- lop_mps_role_type_of_parl
   select(id, role_id, role, date) %>%
   arrange(id, role_id, date) %>%
   group_by(role_id) %>%
-  complete(date = full_seq(date, 1), nesting(id, role))
+  complete(date = full_seq(date, 1), nesting(id, role)) %>%
+  ungroup()
+
+lop_mps_role_type_of_parliamentarian_by_role_by_day %>%
+  arrange(id) %>%
+  slice(1:10000) %>%
+  left_join(lop_mps) %>% View()
   
 ## dates are `nchar`:
 ### 13 (current parliament, round to today)
