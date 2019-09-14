@@ -68,14 +68,12 @@ lop_mps_role_type_of_parliamentarian_by_role <- lop_mps %>%
   ungroup() %>%
   select(id, role_id, role, period_start, period_end)
 
-seq_date <- function(x) seq(min(x), max(x), by = "day")
-
 lop_mps_role_type_of_parliamentarian_by_role_by_day <- lop_mps_role_type_of_parliamentarian_by_role %>%
   gather(period_start, period_end, key = "period_bound", value = "date") %>%
   select(id, role_id, role, date) %>%
   arrange(id, role_id, date) %>%
   group_by(role_id) %>%
-  complete(date = seq.Date(min(date), max(date), by="day"), nesting(id, role))
+  complete(date = full_seq(date, 1), nesting(id, role))
   
 ## dates are `nchar`:
 ### 13 (current parliament, round to today)
