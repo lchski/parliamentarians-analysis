@@ -51,7 +51,22 @@ lop_mps_seat_riding_senatorial_division <- lop_mps %>%
   select(id, geography = seat_riding_senatorial_division) %>%
   separate_rows(geography, sep="(?<=[ 0-9])(\\))") %>%
   filter(geography != "") %>%
-  separate(geography, c("geography", "period"), sep = " (\\()(?=[0-9])")
+  separate(geography, c("geography", "period"), sep = " (\\()(?=[0-9])") %>%
+  separate(period, c("period_start", "period_end"), sep = " - ") %>%
+  mutate(period_end_nchar = nchar(period_end), period_end = case_when(
+    period_end_nchar == 0 ~ as.character(today()),
+    period_end_nchar == 4 ~ paste0(period_end, "/01/01"),
+    TRUE ~ period_end
+  )) %>%
+  mutate(
+    period_start = ymd(period_start),
+    period_end = ymd(period_end)
+  ) %>%
+  arrange(id, period_start) %>%
+  group_by(id) %>%
+  mutate(geography_id = paste0(id, "-", row_number())) %>%
+  ungroup() %>%
+  select(id, geography_id, geography, period_start, period_end)
 
 lop_mps_role_type_of_parliamentarian_by_role <- lop_mps %>%
   select(id, role = role_type_of_parliamentarian) %>%
