@@ -35,3 +35,22 @@ role_critic
 ```
 
 Brainstorming here. Split across `role_type_of_parliamentarian` now... Maybe a fancy lookup join thing? We create exploded (but not by day, just `period_start` and `period_end`) tables for each of the above. Then we use the exploded `role_type_of_parliamentarian` as the canonical, and for each day look at each of the “exploded” tables for the above, pulling in the changed value for it (e.g. pulling in `seat_riding_senatorial_division` will usually be the same, but then it changes one day and you look to the next one). Something like that.
+
+
+`role_type_of_parliamentarian`, `seat_riding_senatorial_division`, and `seat_province_territory` can all be linked. Split them, give them unique ID (`id` + `row_number()`), join, then split on the date range.
+
+Separating on `seat_riding_senatorial_division`, some riding names have, e.g., “(City of)” in them (see parliamentarian 17, “Ottawa (City of)”):
+
+```
+  geography       period_start        
+  <chr>           <chr>               
+1 Ottawa          City of             
+2 Sherbrooke      Town of             
+3 Alberta         Provisional District
+4 Saskatchewan    Provisional District
+5 Ottawa          County of           
+6 Bloor and Yonge Toronto             
+```
+
+(\()(?=[0-9]) # seems to work?
+(\()(?![0-9]) # not great

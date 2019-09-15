@@ -47,6 +47,12 @@ by_service <- import_lop_mps %>%
 
 ## TODO: extract type of service, service start, service end for each record
 
+lop_mps_seat_riding_senatorial_division <- lop_mps %>%
+  select(id, geography = seat_riding_senatorial_division) %>%
+  separate_rows(geography, sep="(?<=[ 0-9])(\\))") %>%
+  filter(geography != "") %>%
+  separate(geography, c("geography", "period"), sep = " (\\()(?=[0-9])")
+
 lop_mps_role_type_of_parliamentarian_by_role <- lop_mps %>%
   select(id, role = role_type_of_parliamentarian) %>%
   separate_rows(role, sep="\\)") %>%
