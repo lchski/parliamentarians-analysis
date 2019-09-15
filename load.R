@@ -98,9 +98,8 @@ lop_mps_role_type_of_parliamentarian_by_role_by_day <- lop_mps_role_type_of_parl
   complete(date = full_seq(date, 1), nesting(id, role)) %>%
   ungroup()
 
-lop_mps_role_type_of_parliamentarian_by_role_by_day %>%
+lop_mps_by_day <- lop_mps_role_type_of_parliamentarian_by_role_by_day %>%
   arrange(id) %>%
-  slice(1:10000) %>%
   left_join(lop_mps) %>% View()
   
 ## dates are `nchar`:
