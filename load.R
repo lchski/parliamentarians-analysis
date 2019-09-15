@@ -66,7 +66,7 @@ lop_mps_seat_riding_senatorial_division <- lop_mps %>%
   group_by(id) %>%
   mutate(geography_id = paste0(id, "-", row_number())) %>%
   ungroup() %>%
-  select(id, geography_id, geography, period_start, period_end)
+  select(geography_id, geography)
 
 lop_mps_role_type_of_parliamentarian_by_role <- lop_mps %>%
   select(id, role = role_type_of_parliamentarian) %>%
@@ -87,7 +87,8 @@ lop_mps_role_type_of_parliamentarian_by_role <- lop_mps %>%
   group_by(id) %>%
   mutate(role_id = paste0(id, "-", row_number())) %>%
   ungroup() %>%
-  select(id, role_id, role, period_start, period_end)
+  select(id, role_id, role, period_start, period_end) %>%
+  left_join(lop_mps_seat_riding_senatorial_division, by = c("role_id" = "geography_id"))
 
 lop_mps_role_type_of_parliamentarian_by_role_by_day <- lop_mps_role_type_of_parliamentarian_by_role %>%
   gather(period_start, period_end, key = "period_bound", value = "date") %>%

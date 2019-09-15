@@ -52,5 +52,17 @@ Separating on `seat_riding_senatorial_division`, some riding names have, e.g., �
 6 Bloor and Yonge Toronto             
 ```
 
-(\()(?=[0-9]) # seems to work?
-(\()(?![0-9]) # not great
+So we need some funky regex:
+
+* `(?<=[ 0-9])(\\))`: only select `)` if it has a number before it (i.e. not `of)`)
+* ` (\\()(?=[0-9])`: only select ` (` if it has a number after it (i.e. not `(City)`)
+
+Then some geographies have funky date ranges, for whatever reason. We get a few more geographies than we do roles (6194 vs 6188 as of writing). After merging, and without dropping the date ranges from the geographies, we can find them like so:
+
+```
+lop_mps_role_type_of_parliamentarian_by_role %>% filter(period_end.x != period_end.y)
+```
+
+Returns 10 as of writing. A few are off by one dates (assumed data entry), e.g., `9-2` (`Adams, Michael`). Others have odd overlaps, e.g., `1274-2`—there’s also a `1274-3` in the geographies, that’s not in the roles.
+
+Just letting it slide, but noting here for future possible investigation.
