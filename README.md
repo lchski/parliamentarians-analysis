@@ -66,3 +66,9 @@ lop_mps_role_type_of_parliamentarian_by_role %>% filter(period_end.x != period_e
 Returns 10 as of writing. A few are off by one dates (assumed data entry), e.g., `9-2` (`Adams, Michael`). Others have odd overlaps, e.g., `1274-2`—there’s also a `1274-3` in the geographies, that’s not in the roles.
 
 Just letting it slide, but noting here for future possible investigation.
+
+## Interesting things to research
+
+- Critic roles (which have poor dating, understandable)
+  - How often do they change in a session?
+  - Are they linked to (or do they generate) news coverage, legislation?
