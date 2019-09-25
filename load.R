@@ -128,7 +128,8 @@ lop_mps_role_minister_by_position <- lop_mps %>%
   group_by(id) %>%
   mutate(minister_id = paste0(id, "-", row_number())) %>%
   ungroup() %>%
-  select(id, minister_id, minister, period_start, period_end)
+  mutate(period_interval = interval(period_start, period_end)) %>%
+  select(id, minister_id, minister, period_start, period_end, period_interval)
 
 ### `role_critic`
 #### Warning messages:
@@ -160,9 +161,13 @@ lop_mps_role_critic_by_position <- lop_mps %>%
   group_by(id) %>%
   mutate(critic_id = paste0(id, "-", row_number())) %>%
   ungroup() %>%
-  select(id, critic_id, critic, period_start, period_end)
+  mutate(period_interval = interval(period_start, period_end)) %>%
+  select(id, critic_id, critic, period_start, period_end, period_interval)
 
 
+# need a function to check:
+# `lop_mps_role_type_of_parliamentarian_by_role_by_day.date` %within% `lop_mps_role_minister_by_position.period_interval`
+# and to tag the `minister`` column of that row with the value of `lop_mps_role_minister_by_position.minister` if so.
 
 
 # Visualizing
