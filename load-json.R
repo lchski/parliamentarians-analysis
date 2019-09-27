@@ -104,35 +104,6 @@ years_of_service <- parliamentarians %>%
 roles %>% select(NameEn) %>% group_by(NameEn) %>% summarize(count = n()) %>% arrange(-count) %>% View()
 
 
-### figure out which columns vary, messing up distinct count (should be 5098)
-parliamentarians_fixed %>%
-  arrange(id) %>%
-  select(-PrimeMinisterEn:-AssistantCriticOfFr) %>%
-  distinct() %>%
-  select(-PremiershipExperienceEn:-MinistryDurationFr) %>%
-  distinct() %>%
-  select(-EthnicityLongEn:-EthnicityLongFr) %>%
-  distinct() %>%
-  select(-IsPrimeMinister) %>%
-  distinct() %>%
-  View()
-
-## Remove columns that differ across the data sources (because each contributes something different)
-## (NB: Removing Age is a cop-out, because there's one weird exception in my dataset because Jack Iyerak Anawak's
-##      birthday was the same as the day I downloaded the data, so the auto-calculated age column reflects that.
-##      We can calculate it ourselves, instead.)
-parliamentarians_fixed %>%
-  arrange(id) %>%
-  select(
-    -PrimeMinisterEn:-AssistantCriticOfFr,
-    -PremiershipExperienceEn:-MinistryDurationFr,
-    -EthnicityLongEn:-EthnicityLongFr,
-    -IsPrimeMinister
-  ) %>%
-  select(-Age) %>%
-  distinct() %>%
-  View()
-
 
 # Interesting tables!
 
