@@ -1,6 +1,7 @@
 library(tidyverse)
 library(jsonlite)
 library(lubridate)
+library(manifestoR) ## TODO: Actually make use of this.
 
 # LOAD THE DATAZ
 
@@ -101,7 +102,43 @@ years_of_service <- parliamentarians %>%
 
 
 ### count of each role
-roles %>% select(NameEn) %>% group_by(NameEn) %>% summarize(count = n()) %>% arrange(-count) %>% View()
+roles %>%
+  select(NameEn) %>%
+  group_by(NameEn) %>%
+  summarize(count = n()) %>%
+  arrange(-count) %>%
+  View()
+
+### understand minister styling vs organization names
+roles %>%
+  filter(NameEn == "Minister") %>%
+  group_by(ToBeStyledAsEn) %>%
+  summarize(count = n()) %>%
+  arrange(-count) %>%
+  View()
+roles %>%
+  filter(NameEn == "Minister") %>%
+  group_by(OrganizationLongEn) %>%
+  summarize(count = n()) %>%
+  arrange(-count) %>%
+  View()
+
+
+
+roles %>%
+  filter(NameEn == "Constituency Member") %>%
+  mutate(EndDate = case_when(
+    is.na(EndDate) ~ as.character(today()),
+    TRUE ~ EndDate
+  )) %>%
+  mutate(role_id = row_number()) %>%
+  gather(StartDate, EndDate, key = "period_bound", value = "date") %>%
+  mutate(date = date(date)) %>%
+  select(role_id, id, NameEn, OrganizationLongEn, date) %>%
+  arrange(id, role_id, NameEn, OrganizationLongEn, date) %>%
+  group_by(role_id) %>%
+  complete(date = full_seq(date, 1), nesting(id, NameEn, OrganizationLongEn)) %>%
+  ungroup()
 
 
 
@@ -192,3 +229,7 @@ parliamentarians_fixed %>% select(
 ) %>%
   group_by(id) %>%
   pivot_longer(-id, names_to = "column", values_to = "value", values_drop_na = TRUE)
+
+
+
+manifestos %>% mutate(lr = franzmann_kaiser(.)) %>% select(edate:partyabbrev, lr) %>% View()
