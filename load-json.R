@@ -10,31 +10,44 @@ files <- tibble(filename = dir(files_path, pattern = "*.json"))
 
 ## Pull rows from each file into a big table
 ## (this var used generally just for debug)
-data_by_file <- files %>%
+data_by_file_nested <- files %>%
   mutate(
     contents = map(filename,
                    ~ as_tibble(fromJSON(file.path(files_path, .), flatten = TRUE))
                    )
-  ) %>%
-  unnest()
+  )
+
+## Separate
+data_by_file <- data_by_file_nested %>%
+  mutate(contents = map(contents, ~
+                          .x %>% mutate(
+                            EthnicityLongEn = as.character(EthnicityLongEn),
+                            EthnicityLongFr = as.character(EthnicityLongFr),
+                            FamilyRelations = as.list(FamilyRelations),
+                            Languages = as.list(Languages)
+                          ))) %>%
+  unnest(cols = c(contents))
+
 
 ## Get rid of the filename column
 parliamentarians <- data_by_file %>%
   select(-filename)
 
 ## Find columns that are "empty" (only one unique variable)
-empty_columns <- parliamentarians %>%
-  gather() %>%
-  group_by(key) %>%
-  unique() %>%
-  summarize(count = n()) %>%
-  filter(count == 1) %>%
-  select(key) %>%
-  pull()
+identify_empty_columns <- function(dataset) {
+  dataset %>%
+    gather() %>%
+    group_by(key) %>%
+    unique() %>%
+    summarize(count = n()) %>%
+    filter(count == 1) %>%
+    select(key) %>%
+    pull()
+}
 
 ## Version of the table _without_ list columns (makes it easier to identify distinct entries)
 parliamentarians_fixed <- parliamentarians %>%
-  select(-empty_columns) %>%
+  select(-one_of(identify_empty_columns(.))) %>%
   select(
     -Professions,
     -Languages,
@@ -63,23 +76,26 @@ parliamentarians_backgrounds <- parliamentarians_fixed %>%
 ## Table of roles
 roles <- parliamentarians %>%
   select(id = PersonId, Roles) %>%
-  unnest() %>%
+  unnest(cols = c(Roles)) %>%
   select(-Classes) %>%
-  distinct()
+  distinct() %>%
+  select(-one_of(identify_empty_columns(.)))
 
 ## Table of professions
 ### FIXME: Doesn't work??
 professions <- parliamentarians %>%
   select(id = PersonId, Professions) %>%
-  unnest() %>%
-  distinct()
+  unnest(cols = c(Professions)) %>%
+  distinct() %>%
+  select(-one_of(identify_empty_columns(.)))
 
 ## Table of years of service
 ### TODO: confirm assumption that multiple rows indicate a break in service (e.g. resigning as MP, then running a year later)
 years_of_service <- parliamentarians %>%
   select(id = PersonId, YearsOfServiceSegments) %>%
-  unnest() %>%
-  distinct()
+  unnest(cols = c(YearsOfServiceSegments)) %>%
+  distinct() %>%
+  select(-one_of(identify_empty_columns(.)))
 
 
 
@@ -161,3 +177,47 @@ lop_mps_clone <- parliamentarians_fixed %>% select(
   profession = ProfessionsEn,
   political_affiliation = PartyEn,
 )
+
+
+
+### trying to deal with the long table thing...
+### BUT probably not a big deal, because most of this data is in `Roles`
+parliamentarians_fixed %>% select(
+  id,
+  PrimeMinisterEn:AssistantCriticOfFr,
+  PremiershipExperienceEn:MinistryDurationFr,
+  EthnicityLongEn:EthnicityLongFr,
+  IsPrimeMinister
+) %>%
+  group_by(id) %>%
+  gather(-id, key = "key", value = "value") %>%
+  group_by(id, key) %>%
+  unique() %>%
+  filter(value != "") %>%
+  ungroup() %>%
+  spread(key = key, value = value)
+
+parliamentarians_fixed %>% select(
+  id,
+  PrimeMinisterEn:AssistantCriticOfFr,
+  PremiershipExperienceEn:MinistryDurationFr,
+  EthnicityLongEn:EthnicityLongFr,
+  IsPrimeMinister
+) %>%
+  group_by(id) %>%
+  gather(-id, key = "key", value = "value") %>%
+  group_by(id, key) %>%
+  unique() %>%
+  ungroup() %>%
+  group_by(id) %>%
+  spread(key = key, value = value)
+
+parliamentarians_fixed %>% select(
+  id,
+  PrimeMinisterEn:AssistantCriticOfFr,
+  PremiershipExperienceEn:MinistryDurationFr,
+  EthnicityLongEn:EthnicityLongFr,
+  IsPrimeMinister
+) %>%
+  group_by(id) %>%
+  pivot_longer(-id, names_to = "column", values_to = "value", values_drop_na = TRUE)
