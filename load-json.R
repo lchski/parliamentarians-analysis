@@ -80,7 +80,16 @@ roles <- parliamentarians %>%
   unnest(cols = c(Roles)) %>%
   select(-Classes) %>%
   distinct() %>%
-  select(-one_of(identify_empty_columns(.)))
+  select(-one_of(identify_empty_columns(.))) %>%
+  mutate(
+    StartDate = date(StartDate),
+    EndDate = if_else(
+      is.na(EndDate),
+      today(),
+      date(EndDate)
+    )
+  ) %>%
+  distinct()
 
 ## Table of professions
 ### FIXME: Doesn't work??
@@ -110,19 +119,39 @@ roles %>%
   View()
 
 ### understand minister styling vs organization names
-roles %>%
-  filter(NameEn == "Minister") %>%
+ministers <- roles %>%
+  filter(NameEn == "Minister")
+
+min_to_be_styled <- ministers %>%
   group_by(ToBeStyledAsEn) %>%
   summarize(count = n()) %>%
-  arrange(-count) %>%
-  View()
-roles %>%
-  filter(NameEn == "Minister") %>%
+  arrange(-count)
+min_org <- ministers %>%
   group_by(OrganizationLongEn) %>%
   summarize(count = n()) %>%
-  arrange(-count) %>%
+  arrange(-count)
+
+multi_ministers <- ministers %>%
+  group_by(id) %>%
+  summarize(count = n()) %>%
+  filter(count > 1) %>%
+  pull(id)
+
+ministers %>%
+  filter(id %in% multi_ministers) %>%
+  #filter(str_detect(ToBeStyledAsEn, "and|,")) %>%
+  focus_role_columns() %>%
   View()
 
+focus_role_columns <- function(role_tibble) {
+  role_tibble %>%
+    select(id, StartDate, EndDate, NameEn, OrganizationLongEn, ToBeStyledAsEn) %>%
+    arrange(id, StartDate, EndDate)
+}
+
+ministers %>%
+  filter(OrganizationLongEn == "Treasury Board") %>%
+  arrange(id, StartDate)
 
 
 roles %>%
@@ -139,6 +168,32 @@ roles %>%
   group_by(role_id) %>%
   complete(date = full_seq(date, 1), nesting(id, NameEn, OrganizationLongEn)) %>%
   ungroup()
+
+senators <- roles %>%
+  filter(NameEn == "Senator") %>%
+  group_by(id) %>%
+  summarize(
+    date_appointed = min(StartDate),
+    date_left = max(EndDate)
+  ) %>%
+  left_join(parliamentarians_backgrounds) %>%
+  select(
+    id,
+    DisplayName,
+    dob = DateOfBirth,
+    date_appointed,
+    date_left,
+    dod = Death.DateOfDeath
+  ) %>%
+  mutate(
+    dob = date(dob),
+    dod = date(dod),
+    age_at_appt = interval(dob, date_appointed) / years(1),
+    age_at_leaving = interval(dob, date_left) / years(1),
+    length_of_service = interval(date_appointed, date_left) / years(1),
+    died_in_office = date_left == dod
+  ) %>%
+  arrange(age_at_appt)
 
 
 
