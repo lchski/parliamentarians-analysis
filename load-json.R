@@ -305,3 +305,21 @@ parliamentarians_backgrounds %>%
   mutate(url = paste0("https://lop.parl.ca/ParlinfoWebApi/Person/GetPersonWebProfile/", id, "?callback=jQuery33107266187344061623_1569968990479&_=1569968990480")) %>%
   select(url) %>%
   write_csv("data/members/urls.csv")
+
+
+vectorize_json = Vectorize(fromJSON)
+
+member_files <- as_tibble(readtext::readtext("data/members/", verbosity = 0)) %>%
+  mutate(doc_id = str_split(doc_id, fixed("?callback=jQuery33107266187344061623_1569968990479&_=1569968990480"))) %>%
+  unnest(cols = c(doc_id)) %>%
+  filter(doc_id != "") %>%
+  mutate(text = str_split(text, fixed("/**/ typeof jQuery33107266187344061623_1569968990479 === 'function' && jQuery33107266187344061623_1569968990479("))) %>%
+  unnest(cols = c(text)) %>%
+  mutate(text = str_split(text, fixed("});"))) %>%
+  unnest(cols = c(text)) %>%
+  filter(text != "") %>%
+  mutate(text = paste0("[", text, "}]")) %>% # TODO: use only up to this point to export JSON versions of the files
+  mutate(contents = vectorize_json(text, flatten = TRUE)) %>%
+  select(contents) %>%
+  bind_rows(.$contents) %>%
+  filter(! is.na(Person.PersonId))
