@@ -309,7 +309,7 @@ parliamentarians_backgrounds %>%
 
 vectorize_json = Vectorize(fromJSON)
 
-member_files <- as_tibble(readtext::readtext("data/members/", verbosity = 0)) %>%
+parliamentarians <- as_tibble(readtext::readtext("data/members/", verbosity = 0)) %>%
   mutate(doc_id = str_split(doc_id, fixed("?callback=jQuery33107266187344061623_1569968990479&_=1569968990480"))) %>%
   unnest(cols = c(doc_id)) %>%
   filter(doc_id != "") %>%
@@ -322,4 +322,5 @@ member_files <- as_tibble(readtext::readtext("data/members/", verbosity = 0)) %>
   mutate(contents = vectorize_json(text, flatten = TRUE)) %>%
   select(contents) %>%
   bind_rows(.$contents) %>%
-  filter(! is.na(Person.PersonId))
+  filter(! is.na(Person.PersonId)) %>%
+  select(-one_of(identify_empty_columns(.)))
