@@ -288,3 +288,20 @@ parliamentarians_fixed %>% select(
 
 
 manifestos %>% mutate(lr = franzmann_kaiser(.)) %>% select(edate:partyabbrev, lr) %>% View()
+
+
+abbottdc <- as_tibble(fromJSON("data/members/3761.json", flatten = TRUE))
+abbottjjc <- as_tibble(fromJSON("data/members/8200.json", flatten = TRUE))
+
+test <- abbottdc %>% bind_rows(abbottjjc)
+## can't unnest directly (errors)
+test %>% unnest()
+## can unnest specific nested columns
+test %>% select(Person.PersonId, Person.Education) %>% unnest() %>% View()
+
+
+parliamentarians_backgrounds %>%
+  select(id) %>%
+  mutate(url = paste0("https://lop.parl.ca/ParlinfoWebApi/Person/GetPersonWebProfile/", id, "?callback=jQuery33107266187344061623_1569968990479&_=1569968990480")) %>%
+  select(url) %>%
+  write_csv("data/members/urls.csv")

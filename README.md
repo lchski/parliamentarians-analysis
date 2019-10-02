@@ -84,3 +84,6 @@ Just letting it slide, but noting here for future possible investigation.
 - Critic roles (which have poor dating, understandable)
   - How often do they change in a session?
   - Are they linked to (or do they generate) news coverage, legislation?
+- Education
+  - Which schools? (correlation to Senate/MP, Minister, etc?)
+  - Trends over time: level of education, type of degrees
