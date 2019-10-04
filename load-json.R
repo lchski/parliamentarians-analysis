@@ -46,6 +46,13 @@ identify_empty_columns <- function(dataset) {
     pull()
 }
 
+## 
+count_group <- function(dataset) {
+  dataset %>%
+    summarize(count = n()) %>%
+    arrange(-count)
+}
+
 ## Version of the table _without_ list columns (makes it easier to identify distinct entries)
 parliamentarians_fixed <- parliamentarians %>%
   select(-one_of(identify_empty_columns(.))) %>%
@@ -324,3 +331,82 @@ parliamentarians <- as_tibble(readtext::readtext("data/members/", verbosity = 0)
   bind_rows(.$contents) %>%
   filter(! is.na(Person.PersonId)) %>%
   select(-one_of(identify_empty_columns(.)))
+
+## Just get Senators
+parliamentarians %>%
+  mutate(
+    was_senator = map(
+      Person.Roles,
+      ~ as_tibble(.) %>%
+        filter(NameEn == "Senator") %>%
+        summarize(count = n()) %>%
+        mutate(was_senator = count > 0) %>%
+        pull(was_senator)
+    )
+  ) %>%
+  filter(was_senator)
+
+parliamentarians %>%
+  mutate(degree_count = map_dbl(Person.Education,
+                            ~ as_tibble(.) %>%
+                              summarize(count = n()) %>%
+                              pull(count))
+         ) %>%
+  select(Person.PersonId, Person.DateOfBirth, Person.DisplayName, Person.Education, degree_count)
+
+roles %>%
+  filter(OrganizationTypeEn == "Cabinet Committee") %>%
+  mutate(decade = year(floor_date(date(StartDate), unit = "10 years"))) %>%
+  group_by(OrganizationLongEn, decade) %>%
+  count_group() %>%
+  View()
+
+roles %>%
+  filter(OrganizationTypeEn == "Cabinet Committee") %>%
+  group_by(OrganizationLongEn, ParliamentNumber) %>%
+  count_group() %>%
+  View()
+
+## how many Ministers of Veterans Affairs had military experience?
+vac_ministers <- parliamentarians %>%
+  mutate(
+    minister_of_va = map_lgl(
+      Person.Roles,
+      ~ as_tibble(.) %>%
+        filter(NameEn == "Minister") %>%
+        filter(OrganizationLongEn %in% c("Veterans Affairs", "Soldiers' Civil Re-establishment")) %>%
+        summarize(count = n()) %>%
+        mutate(had_role = count > 0) %>%
+        pull(had_role)
+    ),
+    had_military_experience = map_lgl(
+      MilitaryExperience,
+      ~ as_tibble(.) %>%
+        summarize(count = n()) %>%
+        mutate(had_role = count > 0) %>%
+        pull(had_role)
+    )
+  ) %>%
+  filter(minister_of_va)
+
+vac_ministers %>%
+  mutate(earliest_date_as_minister = map(
+    Person.Roles,
+    ~ as_tibble(.) %>%
+      filter(NameEn == "Minister") %>%
+      filter(OrganizationLongEn %in% c("Veterans Affairs", "Soldiers' Civil Re-establishment")) %>%
+      summarize(date = max(date(StartDate))) %>%
+      pull(date)
+  ) %>% reduce(c)) %>%
+  select(
+    Person.PersonId,
+    Person.DisplayName,
+    Person.DateOfBirth,
+    earliest_date_as_minister,
+    had_military_experience,
+    MilitaryExperience
+  ) %>%
+  arrange(earliest_date_as_minister)
+
+	
+
