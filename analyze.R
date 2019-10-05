@@ -79,3 +79,46 @@ age_at_election %>%
     y = "Years of service",
     caption = "Note: Years of service includes time in the Senate. By @lchski with data from Library of Parliament."
   )
+
+
+senators <- roles %>%
+  filter(NameEn == "Senator") %>%
+  group_by(id) %>%
+  summarize(
+    date_appointed = min(StartDate),
+    date_left = max(EndDate)
+  ) %>%
+  left_join(parliamentarians_backgrounds) %>%
+  select(
+    id,
+    DisplayName,
+    dob = DateOfBirth,
+    date_appointed,
+    date_left,
+    dod = Death.DateOfDeath
+  ) %>%
+  mutate(
+    dob = date(dob),
+    dod = date(dod),
+    age_at_appt = interval(dob, date_appointed) / years(1),
+    age_at_leaving = interval(dob, date_left) / years(1),
+    length_of_service = interval(date_appointed, date_left) / years(1),
+    died_in_office = date_left == dod
+  ) %>%
+  arrange(age_at_appt)
+
+## expanding by day
+roles %>%
+  filter(NameEn == "Constituency Member") %>%
+  mutate(EndDate = case_when(
+    is.na(EndDate) ~ as.character(today()),
+    TRUE ~ EndDate
+  )) %>%
+  mutate(role_id = row_number()) %>%
+  gather(StartDate, EndDate, key = "period_bound", value = "date") %>%
+  mutate(date = date(date)) %>%
+  select(role_id, id, NameEn, OrganizationLongEn, date) %>%
+  arrange(id, role_id, NameEn, OrganizationLongEn, date) %>%
+  group_by(role_id) %>%
+  complete(date = full_seq(date, 1), nesting(id, NameEn, OrganizationLongEn)) %>%
+  ungroup()
