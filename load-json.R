@@ -21,47 +21,6 @@ parliamentarians <- as_tibble(readtext::readtext("data/members/", verbosity = 0)
   filter(! is.na(Person.PersonId)) %>%
   select(-one_of(identify_empty_columns(.)))
 
-## how many Ministers of Veterans Affairs had military experience?
-vac_ministers <- parliamentarians %>%
-  mutate(
-    minister_of_va = map_lgl(
-      Person.Roles,
-      ~ as_tibble(.) %>%
-        filter(NameEn == "Minister") %>%
-        filter(OrganizationLongEn %in% c("Veterans Affairs", "Soldiers' Civil Re-establishment")) %>%
-        summarize(count = n()) %>%
-        mutate(had_role = count > 0) %>%
-        pull(had_role)
-    ),
-    had_military_experience = map_lgl(
-      MilitaryExperience,
-      ~ as_tibble(.) %>%
-        summarize(count = n()) %>%
-        mutate(had_role = count > 0) %>%
-        pull(had_role)
-    )
-  ) %>%
-  filter(minister_of_va)
-
-vac_ministers %>%
-  mutate(earliest_date_as_minister = map(
-    Person.Roles,
-    ~ as_tibble(.) %>%
-      filter(NameEn == "Minister") %>%
-      filter(OrganizationLongEn %in% c("Veterans Affairs", "Soldiers' Civil Re-establishment")) %>%
-      summarize(date = max(date(StartDate))) %>%
-      pull(date)
-  ) %>% reduce(c)) %>%
-  select(
-    Person.PersonId,
-    Person.DisplayName,
-    Person.DateOfBirth,
-    earliest_date_as_minister,
-    had_military_experience,
-    MilitaryExperience
-  ) %>%
-  arrange(earliest_date_as_minister)
-
 ## more nuanced capture for ministers
 ministers <- roles %>%
   filter(GroupingTitleEn == "Cabinet") %>%
@@ -79,38 +38,3 @@ ministers <- roles %>%
     EndDate = date(EndDate),
     period_in_office = interval(StartDate, EndDate)
   )
-	
-
-## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
-### Peeps
-ministers %>%
-  mutate(in_range = date("1997-04-26") %within% period_in_office) %>%
-  filter(in_range) %>%
-  left_join(parliamentarians) %>%
-  select(Person.PersonId, Person.DisplayName, StartDate, EndDate, NameEn, OrganizationLongEn) %>%
-  View()
-
-### Count unique peeps
-### (good parallel for "Cabinet Size" figure—add 1 to this and you get it,
-### except when the PM was counted, e.g., "1993-06-25", when Kim Campbell
-### was both PM and Minister responsible for Federal-Provincial Relations.)
-ministers %>%
-  mutate(in_range = date("1997-04-26") %within% period_in_office) %>%
-  filter(in_range) %>%
-  distinct(Person.PersonId) %>%
-  summarize(count = n())
-
-
-
-ministers %>%
-  mutate(in_range = date("1993-06-25") %within% period_in_office) %>%
-  filter(in_range) %>%
-  left_join(parliamentarians) %>%
-  select(Person.PersonId, Person.DisplayName, StartDate, EndDate, NameEn, OrganizationLongEn, ToBeStyledAsEn) %>%
-  View()
-
-ministers %>%
-  mutate(in_range = date("1993-01-03") %within% period_in_office) %>%
-  filter(in_range) %>%
-  distinct(Person.PersonId) %>%
-  summarize(count = n())
