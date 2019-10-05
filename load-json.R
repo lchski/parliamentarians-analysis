@@ -114,19 +114,3 @@ ministers %>%
   filter(in_range) %>%
   distinct(Person.PersonId) %>%
   summarize(count = n())
-
-
-
-
-
-
-departments <- as_tibble(readtext::readtext("../lop-departments-data/data/")) %>%
-  mutate(text = str_split(text, fixed("/**/ typeof jQuery33105631282387368284_1570190165107 === 'function' && jQuery33105631282387368284_1570190165107(["))) %>%
-  unnest(cols = c(text)) %>%
-  mutate(text = str_split(text, fixed("}]);"))) %>%
-  unnest(cols = c(text)) %>%
-  filter(text != "") %>%
-  mutate(text = paste0("[", text, "}]")) %>%
-  mutate(contents = vectorize_json(text, flatten = TRUE)) %>%
-  select(contents) %>%
-  bind_rows(.$contents)
