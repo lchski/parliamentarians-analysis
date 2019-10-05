@@ -1,4 +1,5 @@
 library(tidyverse)
+library(readtext)
 library(jsonlite)
 library(lubridate)
 library(manifestoR) ## TODO: Actually make use of this.
@@ -44,6 +45,21 @@ identify_empty_columns <- function(dataset) {
     filter(count == 1) %>%
     select(key) %>%
     pull()
+}
+
+## Find columns that provide French values
+identify_fr_columns <- function(dataset) {
+  dataset %>%
+    names() %>%
+    tibble::enframe(name = NULL) %>%
+    filter(str_detect(value, "Fr$")) %>%
+    pull()
+}
+
+remove_extra_columns <- function(dataset) {
+  dataset %>%
+    select(-one_of(identify_empty_columns(.))) %>%
+    select(-one_of(identify_fr_columns(.)))
 }
 
 ## 
@@ -354,6 +370,10 @@ parliamentarians %>%
          ) %>%
   select(Person.PersonId, Person.DateOfBirth, Person.DisplayName, Person.Education, degree_count)
 
+roles <- parliamentarians %>%
+  select(Person.PersonId, Person.Roles) %>%
+  unnest()
+
 roles %>%
   filter(OrganizationTypeEn == "Cabinet Committee") %>%
   mutate(decade = year(floor_date(date(StartDate), unit = "10 years"))) %>%
@@ -408,5 +428,71 @@ vac_ministers %>%
   ) %>%
   arrange(earliest_date_as_minister)
 
+## more nuanced capture for ministers
+ministers <- roles %>%
+  filter(GroupingTitleEn == "Cabinet") %>%
+  filter(
+    ! OrganizationTypeEn %in% 
+      c("Province",
+        "Municipal Government",
+        "Regional Government",
+        "Party"
+      )
+  ) %>%
+  remove_extra_columns(.) %>%
+  mutate(
+    StartDate = date(StartDate),
+    EndDate = date(EndDate),
+    period_in_office = interval(StartDate, EndDate)
+  )
 	
 
+## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
+### Peeps
+ministers %>%
+  mutate(in_range = date("1997-04-26") %within% period_in_office) %>%
+  filter(in_range) %>%
+  left_join(parliamentarians) %>%
+  select(Person.PersonId, Person.DisplayName, StartDate, EndDate, NameEn, OrganizationLongEn) %>%
+  View()
+
+### Count unique peeps
+### (good parallel for "Cabinet Size" figure—add 1 to this and you get it,
+### except when the PM was counted, e.g., "1993-06-25", when Kim Campbell
+### was both PM and Minister responsible for Federal-Provincial Relations.)
+ministers %>%
+  mutate(in_range = date("1997-04-26") %within% period_in_office) %>%
+  filter(in_range) %>%
+  distinct(Person.PersonId) %>%
+  summarize(count = n())
+
+
+
+ministers %>%
+  mutate(in_range = date("1993-06-25") %within% period_in_office) %>%
+  filter(in_range) %>%
+  left_join(parliamentarians) %>%
+  select(Person.PersonId, Person.DisplayName, StartDate, EndDate, NameEn, OrganizationLongEn, ToBeStyledAsEn) %>%
+  View()
+
+ministers %>%
+  mutate(in_range = date("1993-01-03") %within% period_in_office) %>%
+  filter(in_range) %>%
+  distinct(Person.PersonId) %>%
+  summarize(count = n())
+
+
+
+
+
+
+departments <- as_tibble(readtext::readtext("../lop-departments-data/data/")) %>%
+  mutate(text = str_split(text, fixed("/**/ typeof jQuery33105631282387368284_1570190165107 === 'function' && jQuery33105631282387368284_1570190165107(["))) %>%
+  unnest(cols = c(text)) %>%
+  mutate(text = str_split(text, fixed("}]);"))) %>%
+  unnest(cols = c(text)) %>%
+  filter(text != "") %>%
+  mutate(text = paste0("[", text, "}]")) %>%
+  mutate(contents = vectorize_json(text, flatten = TRUE)) %>%
+  select(contents) %>%
+  bind_rows(.$contents)
