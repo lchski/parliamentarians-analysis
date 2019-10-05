@@ -21,45 +21,6 @@ parliamentarians <- as_tibble(readtext::readtext("data/members/", verbosity = 0)
   filter(! is.na(Person.PersonId)) %>%
   select(-one_of(identify_empty_columns(.)))
 
-## Just get Senators
-parliamentarians %>%
-  mutate(
-    was_senator = map(
-      Person.Roles,
-      ~ as_tibble(.) %>%
-        filter(NameEn == "Senator") %>%
-        summarize(count = n()) %>%
-        mutate(was_senator = count > 0) %>%
-        pull(was_senator)
-    )
-  ) %>%
-  filter(was_senator)
-
-parliamentarians %>%
-  mutate(degree_count = map_dbl(Person.Education,
-                            ~ as_tibble(.) %>%
-                              summarize(count = n()) %>%
-                              pull(count))
-         ) %>%
-  select(Person.PersonId, Person.DateOfBirth, Person.DisplayName, Person.Education, degree_count)
-
-roles <- parliamentarians %>%
-  select(Person.PersonId, Person.Roles) %>%
-  unnest()
-
-roles %>%
-  filter(OrganizationTypeEn == "Cabinet Committee") %>%
-  mutate(decade = year(floor_date(date(StartDate), unit = "10 years"))) %>%
-  group_by(OrganizationLongEn, decade) %>%
-  count_group() %>%
-  View()
-
-roles %>%
-  filter(OrganizationTypeEn == "Cabinet Committee") %>%
-  group_by(OrganizationLongEn, ParliamentNumber) %>%
-  count_group() %>%
-  View()
-
 ## how many Ministers of Veterans Affairs had military experience?
 vac_ministers <- parliamentarians %>%
   mutate(
