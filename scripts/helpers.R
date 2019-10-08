@@ -40,6 +40,12 @@ pull_count <- function(dataset) {
     pull(count)
 }
 
+pull_count_unique_people <- function(dataset) {
+  dataset %>%
+    distinct(Person.PersonId) %>%
+    pull_count()
+}
+
 focus_role_columns <- function(role_tibble, ...) {
   role_tibble %>%
     select(Person.PersonId, StartDate, EndDate, NameEn, OrganizationLongEn, ToBeStyledAsEn, ...) %>%

@@ -101,7 +101,7 @@ cabinet_size_by_day %>%
   ggplot(mapping = aes(x = date_to_check, y = cabinet_size)) +
   geom_point() +
   geom_smooth() +
-  xlim(c(date("1867-07-01"), date("2016-01-01")))
+  xlim(c(date("1867-07-01"), today()))
 
 cabinet_between_dates <- function(ministers, start_date = "1867-07-01", end_date = today(), include_detailed_cabinet = FALSE) {
   cabinets_by_day <- full_seq(c(date(start_date), date(end_date)), period = 1) %>%
@@ -112,24 +112,21 @@ cabinet_between_dates <- function(ministers, start_date = "1867-07-01", end_date
         date_to_check, function(dtc) ministers %>%
           mutate(in_range = dtc %within% period_in_office) %>%
           filter(in_range) %>%
-          left_join(parliamentarians)
+          left_join(parliamentarians, by = c("Person.PersonId" = "Person.PersonId"))
       ),
       cabinet_size = map_dbl(
-        cabinet, ~ . %>%
-          distinct(Person.PersonId) %>%
-          pull_count()
+        cabinet, ~ (.) %>%
+          pull_count_unique_people()
       ),
       cabinet_size_m = map_dbl(
-        cabinet, ~ . %>%
+        cabinet, ~ (.) %>%
           filter(Person.Gender == "M") %>%
-          distinct(Person.PersonId) %>%
-          pull_count()
+          pull_count_unique_people()
       ),
       cabinet_size_f = map_dbl(
-        cabinet, ~ . %>%
+        cabinet, ~ (.) %>%
           filter(Person.Gender == "F") %>%
-          distinct(Person.PersonId) %>%
-          pull_count()
+          pull_count_unique_people()
       )
     )
   
@@ -141,10 +138,34 @@ cabinet_between_dates <- function(ministers, start_date = "1867-07-01", end_date
   cabinets_by_day
 }
 
+mutate(
+  ,
+  cabinet_size = map_dbl(
+    cabinet, ~ . %>%
+      distinct(Person.PersonId) %>%
+      pull_count()
+  ),
+  cabinet_size_m = map_dbl(
+    cabinet, ~ . %>%
+      filter(Person.Gender == "M") %>%
+      distinct(Person.PersonId) %>%
+      pull_count()
+  ),
+  cabinet_size_f = map_dbl(
+    cabinet, ~ . %>%
+      filter(Person.Gender == "F") %>%
+      distinct(Person.PersonId) %>%
+      pull_count()
+  )
+)
+
 ministers %>%
-  cabinet_between_dates(., "2019-07-01")
+  cabinet_between_dates("2006-02-06") %>%
+  ggplot(mapping = aes(x = date_to_check, y = cabinet_size)) +
+  geom_point() +
+  geom_smooth()
 
-cabinet_between_dates(ministers, "2019-07-01")
-
++
+  xlim(c(date("1867-07-01"), today()))
 
 
