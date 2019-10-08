@@ -36,6 +36,13 @@ roles <- parliamentarians_unmodified %>%
       "GovernorGeneral.PublishedDate"
     ),
     date
+  ) %>%
+  mutate(
+    IsCurrent = as.logical(IsCurrent),
+    EndDate = case_when(
+      is.na(EndDate) & IsCurrent ~ today(),
+      TRUE ~ EndDate
+    )
   )
 
 professions <- parliamentarians_unmodified %>%
@@ -85,7 +92,7 @@ parliamentarians <- parliamentarians_unmodified %>%
   select(-Person.ElectionCandidates) %>%
   rename(Person.ElectionCandidates = election_candidates_cleaned)
 
-## Clean up a bit (we don't need this anymore)
+## Clean up a bit (we don't need these variables anymore)
 rm(parliamentarians_unmodified)
 rm(roles_nested)
 rm(election_candidates_nested)
@@ -103,8 +110,6 @@ ministers <- roles %>%
   ) %>%
   remove_extra_columns(.) %>%
   mutate(
-    StartDate = date(StartDate),
-    EndDate = date(EndDate),
     period_in_office = interval(StartDate, EndDate)
   )
 

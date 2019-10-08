@@ -34,8 +34,14 @@ count_group <- function(dataset) {
     arrange(-count)
 }
 
-focus_role_columns <- function(role_tibble) {
+pull_count <- function(dataset) {
+  dataset %>%
+    summarize(count = n()) %>%
+    pull(count)
+}
+
+focus_role_columns <- function(role_tibble, ...) {
   role_tibble %>%
-    select(id, StartDate, EndDate, NameEn, OrganizationLongEn, ToBeStyledAsEn) %>%
-    arrange(id, StartDate, EndDate)
+    select(Person.PersonId, StartDate, EndDate, NameEn, OrganizationLongEn, ToBeStyledAsEn, ...) %>%
+    arrange(Person.PersonId, StartDate, EndDate)
 }
