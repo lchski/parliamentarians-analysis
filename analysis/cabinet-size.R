@@ -102,32 +102,24 @@ cabinet_size_by_day %>%
   geom_smooth(method = "lm") +
   xlim(c(date("1867-07-01"), today()))
 
-library(digest)
 
-cabinet_size_by_day %>% filter(date_to_check > date("2019-01-01")) %>% mutate(previous = list(lag((.) %>% select(-date_to_check) %>% pull())))
-cabinet_size_by_day %>% filter(date_to_check > date("2019-01-01")) %>% mutate(previous = lag((.) %>% select(-date_to_check) %>% digest(.)))
+# comparing (to integrate, to accommodate tibble)
+
+library(digest)
 
 vectorize_digest = Vectorize(digest)
 
-cabinet_size_by_day %>%
-  slice(1:10) %>%
-  rowwise() %>%
-  mutate(hash = vectorize_digest(lag(.), serialize = TRUE))
+csbd <- ministers %>%
+  filter(in_cabinet) %>%
+  cabinet_between_dates("2017-01-01", include_detailed_cabinet = TRUE)
 
-cabinet_size_by_day %>%
-  slice(1:10) %>%
-  rowwise() %>%
-  do(data.frame(., hash = digest(. %>% select(-date_to_check) %>% pull(), serialize = TRUE)))
+csbd_hashes <- csbd %>%
+  select(-date_to_check) %>%
+  pull()
 
-cabinet_size_by_day %>%
-  slice(1:10) %>%
-  rowwise() %>%
-  mutate(hash = digest(.))
-
-## works, but needs integrating
+## worksih (just takes last col), but needs integrating
 cabinet_size_by_day_hashes <- cabinet_size_by_day %>%
   select(-date_to_check) %>%
-  pull() %>%
   vectorize_digest()
 
 cabinet_size_by_day <- cabinet_size_by_day %>%
@@ -143,12 +135,7 @@ cabinet_size_by_day <- cabinet_size_by_day %>%
     )
   )
 
-cabinet_size_by_day %>%
-  slice(1:10) %>%
-  cbind(hashes)
+csbd %>% slice(1:2) %>% mutate(hash = map_chr(., digest))
 
-cabinet_size_by_day %>%
-  slice(1:10) %>%
-  rowwise() %>%
-  do(data.frame(., hash = . %>% select(-date_to_check) %>% pull() %>% paste0(collapse = "")))
+csbd %>% slice(1:2) %>% as.list() %>% digest()
 
