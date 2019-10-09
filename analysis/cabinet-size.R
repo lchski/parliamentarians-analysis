@@ -75,11 +75,11 @@ system.time(
 
 cabinet_size_by_day <- ministers %>%
   filter(in_cabinet) %>%
-  cabinet_between_dates()
+  cabinet_between_dates(include_detailed_cabinet = TRUE)
 
 ministry_size_by_day <- ministers %>%
   filter(in_ministry) %>%
-  cabinet_between_dates()
+  cabinet_between_dates(include_detailed_cabinet = TRUE)
 
 cabinet_size_by_day %>%
   ggplot(mapping = aes(x = date_to_check, y = cabinet_size)) +
