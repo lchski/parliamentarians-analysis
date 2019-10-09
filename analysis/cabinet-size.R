@@ -92,3 +92,63 @@ ministers %>%
   ggplot(mapping = aes(x = date_to_check, y = cabinet_size)) +
   geom_point() +
   geom_smooth()
+
+
+cabinet_size_by_day %>%
+  pivot_longer(c(cabinet_size_m, cabinet_size_f)) %>%
+  select(date_to_check, cabinet_size_key = name, cabinet_size_value = value) %>%
+  ggplot(mapping = aes(x = date_to_check, y = cabinet_size_value, colour = cabinet_size_key)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  xlim(c(date("1867-07-01"), today()))
+
+library(digest)
+
+cabinet_size_by_day %>% filter(date_to_check > date("2019-01-01")) %>% mutate(previous = list(lag((.) %>% select(-date_to_check) %>% pull())))
+cabinet_size_by_day %>% filter(date_to_check > date("2019-01-01")) %>% mutate(previous = lag((.) %>% select(-date_to_check) %>% digest(.)))
+
+vectorize_digest = Vectorize(digest)
+
+cabinet_size_by_day %>%
+  slice(1:10) %>%
+  rowwise() %>%
+  mutate(hash = vectorize_digest(lag(.), serialize = TRUE))
+
+cabinet_size_by_day %>%
+  slice(1:10) %>%
+  rowwise() %>%
+  do(data.frame(., hash = digest(. %>% select(-date_to_check) %>% pull(), serialize = TRUE)))
+
+cabinet_size_by_day %>%
+  slice(1:10) %>%
+  rowwise() %>%
+  mutate(hash = digest(.))
+
+## works, but needs integrating
+cabinet_size_by_day_hashes <- cabinet_size_by_day %>%
+  select(-date_to_check) %>%
+  pull() %>%
+  vectorize_digest()
+
+cabinet_size_by_day <- cabinet_size_by_day %>%
+  cbind(cabinet_size_by_day_hashes) %>%
+  as_tibble() %>%
+  rename(hash = cabinet_size_by_day_hashes) %>%
+  mutate(is_same_as_previous = hash == lag(hash)) %>%
+  mutate(
+    is_same_as_previous = if_else(
+      is.na(is_same_as_previous),
+      FALSE,
+      is_same_as_previous
+    )
+  )
+
+cabinet_size_by_day %>%
+  slice(1:10) %>%
+  cbind(hashes)
+
+cabinet_size_by_day %>%
+  slice(1:10) %>%
+  rowwise() %>%
+  do(data.frame(., hash = . %>% select(-date_to_check) %>% pull() %>% paste0(collapse = "")))
+
