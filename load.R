@@ -99,7 +99,7 @@ rm(election_candidates_nested)
 
 ## more nuanced capture for ministers
 ministers <- roles %>%
-  filter(GroupingTitleEn == "Cabinet") %>%
+  filter(GroupingTitleEn %in% c("Cabinet", "House of Commons Roles")) %>%
   filter(
     ! OrganizationTypeEn %in% 
       c("Province",
@@ -108,8 +108,28 @@ ministers <- roles %>%
         "Party"
       )
   ) %>%
+  filter(
+    str_detect(NameEn, paste0(c(
+      "Minister",
+      "Minister of State",
+      "Associate Minister",
+      "Secretary of State",
+      "Parliamentary Secretary",
+      "Parliamentary Assistant"
+    ), collapse = "|"))
+  ) %>%
+  filter(
+    ! str_detect(NameEn, "Shadow")
+  ) %>%
   remove_extra_columns(.) %>%
   mutate(
-    period_in_office = interval(StartDate, EndDate)
+    period_in_office = interval(StartDate, EndDate),
+    in_cabinet =
+      str_detect(NameEn, "Minister") &
+      ! str_detect(NameEn, "Secretary") &
+      ! str_detect(NameEn, "of State"),
+    in_ministry =
+      str_detect(NameEn, "Minister") &
+      ! str_detect(NameEn, "Secretary")
   )
 

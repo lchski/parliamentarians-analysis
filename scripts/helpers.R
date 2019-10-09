@@ -28,8 +28,9 @@ remove_extra_columns <- function(dataset) {
 }
 
 ## 
-count_group <- function(dataset) {
+count_group <- function(dataset, ...) {
   dataset %>%
+    group_by(...) %>%
     summarize(count = n()) %>%
     arrange(-count)
 }
