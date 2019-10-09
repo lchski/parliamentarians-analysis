@@ -1,10 +1,11 @@
 ## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
 ### Peeps
 ministers %>%
-  mutate(in_range = date("1997-04-26") %within% period_in_office) %>%
+  filter(in_ministry) %>%
+  mutate(in_range = date("1993-11-04") %within% period_in_office) %>%
   filter(in_range) %>%
   left_join(parliamentarians) %>%
-  select(Person.PersonId, Person.DisplayName, StartDate, EndDate, NameEn, OrganizationLongEn) %>%
+  select(Person.PersonId, Person.DisplayName, StartDate, EndDate, NameEn, OrganizationLongEn, in_ministry, in_cabinet) %>%
   View()
 
 ### Count unique peeps
@@ -12,26 +13,32 @@ ministers %>%
 ### except when the PM was counted, e.g., "1993-06-25", when Kim Campbell
 ### was both PM and Minister responsible for Federal-Provincial Relations.)
 ministers %>%
-  mutate(in_range = date("1997-04-26") %within% period_in_office) %>%
+  filter(in_ministry) %>%
+  mutate(in_range = date("1993-11-04") %within% period_in_office) %>%
   filter(in_range) %>%
   pull_count_unique_people()
 
 
 
-cabinet_between_dates <- function(ministers, start_date = "1867-07-01", end_date = today(), include_detailed_cabinet = FALSE) {
+cabinet_between_dates <- function(
+  ministers_to_analyze,
+  start_date = "1867-07-01",
+  end_date = today(),
+  include_detailed_cabinet = FALSE,
+  ...
+) {
   cabinets_by_day <- full_seq(c(date(start_date), date(end_date)), period = 1) %>%
     as_tibble() %>%
     rename(date_to_check = value) %>%
     mutate(
       cabinet = map(
-        date_to_check, function(dtc) ministers %>%
+        date_to_check, function(dtc) ministers_to_analyze %>%
           mutate(in_range = dtc %within% period_in_office) %>%
           filter(in_range) %>%
-          left_join(parliamentarians, by = c("Person.PersonId" = "Person.PersonId"))
-      ),
-      cabinet_size = map_dbl(
-        cabinet, ~ (.) %>%
-          pull_count_unique_people()
+          left_join(
+            (parliamentarians %>% select(Person.PersonId, Person.Gender, ...)),
+            by = c("Person.PersonId" = "Person.PersonId")
+          )
       ),
       cabinet_size_m = map_dbl(
         cabinet, ~ (.) %>%
@@ -42,7 +49,8 @@ cabinet_between_dates <- function(ministers, start_date = "1867-07-01", end_date
         cabinet, ~ (.) %>%
           filter(Person.Gender == "F") %>%
           pull_count_unique_people()
-      )
+      ),
+      cabinet_size = cabinet_size_m + cabinet_size_f
     )
   
   if (! include_detailed_cabinet) {
@@ -53,7 +61,24 @@ cabinet_between_dates <- function(ministers, start_date = "1867-07-01", end_date
   cabinets_by_day
 }
 
+system.time(
+  ministers %>%
+    filter(in_ministry) %>%
+    cabinet_between_dates_mod(start_date = "2010-03-26", end_date = "2019-10-08")
+)
+
+system.time(
+  cabinet_size_by_day <- ministers %>%
+    filter(in_cabinet) %>%
+    cabinet_between_dates()
+)
+
 cabinet_size_by_day <- ministers %>%
+  filter(in_cabinet) %>%
+  cabinet_between_dates()
+
+ministry_size_by_day <- ministers %>%
+  filter(in_ministry) %>%
   cabinet_between_dates()
 
 cabinet_size_by_day %>%
