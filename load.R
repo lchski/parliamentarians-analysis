@@ -57,6 +57,9 @@ election_candidates <- parliamentarians_unmodified %>%
       "ElectionDate"
     ),
     date
+  ) %>%
+  mutate(
+    IsWin = ResultLongEn == "Elected"
   )
 
 ## Create nested versions of modified extracts to recombine
