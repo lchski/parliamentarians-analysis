@@ -43,6 +43,12 @@ roles <- parliamentarians_unmodified %>%
       is.na(EndDate) & IsCurrent ~ today(),
       TRUE ~ EndDate
     )
+  ) %>%
+  mutate_at(
+    c(
+      "PortFolioEn"
+    ),
+    trimws
   )
 
 professions <- parliamentarians_unmodified %>%
