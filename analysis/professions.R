@@ -36,7 +36,7 @@ by_profession %>%
   mutate(decade_of_first_election = floor_date(date_of_first_election, years(10))) %>%
   ggplot(aes(x = decade_of_first_election)) + ## TODO figure out why the `fill` with `Person.Gender` changes the %s in `y`
   geom_bar(aes(y = ..prop.., group = 1)) +
-  facet_wrap(vars(ProfessionTypeEn), ncol = 2, labeller = label_wrap_gen()) +
+  facet_wrap(vars(ProfessionTypeEn), ncol = 2, labeller = label_wrap_gen(width = 50)) +
   theme(strip.text.x = element_text(hjust = 0)) +
   xlim(as.Date(c("1860-01-01", "2020-01-01")))
 
