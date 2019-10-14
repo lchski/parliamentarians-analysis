@@ -114,17 +114,7 @@ cabinet_details_by_lop_shuffle_qc %>%
   ) %>%
   filter(cabinet_size_diff > 0)
 
-system.time(
-  ministers %>%
-    filter(in_ministry) %>%
-    cabinet_between_dates_mod(start_date = "2010-03-26", end_date = "2019-10-08")
-)
 
-system.time(
-  cabinet_size_by_day <- ministers %>%
-    filter(in_cabinet) %>%
-    cabinet_between_dates()
-)
 
 cabinet_size_by_day <- ministers %>%
   filter(in_cabinet) %>%
@@ -141,6 +131,7 @@ cabinet_size_by_day %>%
   xlim(c(date("1867-07-01"), today()))
 
 ministers %>%
+  filter(in_cabinet) %>%
   cabinet_between_dates("2006-02-06") %>%
   ggplot(mapping = aes(x = date_to_check, y = cabinet_size)) +
   geom_point() +
