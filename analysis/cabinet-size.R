@@ -1,4 +1,15 @@
 ## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
+cabinet_size_by_lop_shuffle <- read_csv("data/lop-primeministers-cabinet.csv") %>%
+  rename(
+    shuffle_date = `Cabinet Shuffle Date`,
+    cabinet_size = `Cabinet Size`,
+    ministry_size = `Ministry Size`
+  ) %>%
+  filter(! is.na(cabinet_size)) %>%
+  mutate(
+    shuffle_date = mdy(shuffle_date)
+  )
+
 ### Peeps
 ministers %>%
   filter(in_ministry) %>%
@@ -36,7 +47,7 @@ cabinet_between_dates <- function(
           mutate(in_range = dtc %within% period_in_office) %>%
           filter(in_range) %>%
           left_join(
-            (parliamentarians %>% select(Person.PersonId, Person.Gender, ...)),
+            (parliamentarians %>% select(Person.PersonId, Person.DisplayName, Person.Gender, ...)),
             by = c("Person.PersonId" = "Person.PersonId")
           )
       ),
@@ -60,6 +71,48 @@ cabinet_between_dates <- function(
   
   cabinets_by_day
 }
+
+
+cabinet_details_by_lop_shuffle <- cabinet_size_by_lop_shuffle %>%
+  mutate(
+    cabinet_details = map(
+      shuffle_date,
+      function(dtc) cabinet_between_dates(
+        ministers_to_analyze = ministers %>%
+          filter(in_cabinet),
+        start_date = dtc,
+        end_date = dtc,
+        include_detailed_cabinet = TRUE
+      )
+    ),
+    ministry_details = map(
+      shuffle_date,
+      function(dtc) cabinet_between_dates(
+        ministers_to_analyze = ministers %>%
+          filter(in_ministry),
+        start_date = dtc,
+        end_date = dtc,
+        include_detailed_cabinet = TRUE
+      )
+    )
+  ) %>%
+  unnest(cols = c(cabinet_details, ministry_details), names_sep = ".")
+
+## TODO QA on this stuff, y'know
+cabinet_details_by_lop_shuffle_qc <- cabinet_details_by_lop_shuffle %>%
+  mutate(
+    cabinet_size_diff = cabinet_size - cabinet_details.cabinet_size,
+    ministry_size_diff = ministry_size - ministry_details.cabinet_size
+  )
+cabinet_details_by_lop_shuffle_qc %>%
+  select(
+    shuffle_date,
+    cabinet_details.cabinet,
+    ministry_details.cabinet,
+    cabinet_size_diff,
+    ministry_size_diff
+  ) %>%
+  filter(cabinet_size_diff > 0)
 
 system.time(
   ministers %>%
