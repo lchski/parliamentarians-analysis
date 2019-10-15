@@ -97,20 +97,6 @@ organizations_without_ministers_of_each_gender <- cabinet_minister_gender_by_org
   )
 
 
-## TODO baaaah fix me
-## what trying to do: get the earliest date for each
-cabinet_minister_gender_count_by_portfolio %>%
-  mutate(
-    earliest_date = map(
-      .x = c(PortFolioEn, Person.Gender),
-      .f = function(PortFolioEn, Person.Gender) cabinet_ministers %>%
-        filter(PortFolioEn == PortFolioEn) %>%
-        filter(Person.Gender == Person.Gender) %>%
-        summarize(earliest_date = min(StartDate)) %>%
-        pull()
-    )
-  )
-
 
 ## calculate number of years a position is actually occupied
 ## (or # of days, if we drop the division at the end)
