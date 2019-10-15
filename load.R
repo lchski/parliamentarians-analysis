@@ -42,7 +42,8 @@ roles <- parliamentarians_unmodified %>%
     EndDate = case_when(
       is.na(EndDate) & IsCurrent ~ today(),
       TRUE ~ EndDate
-    )
+    ),
+    period_in_role = interval(StartDate, EndDate)
   ) %>%
   mutate_at(
     c(
@@ -132,7 +133,7 @@ ministers <- roles %>%
   ) %>%
   remove_extra_columns(.) %>%
   mutate(
-    period_in_office = interval(StartDate, EndDate),
+    period_in_office = period_in_role,
     in_cabinet =
       str_detect(NameEn, "Minister") &
       ! str_detect(NameEn, "Secretary") &
@@ -140,6 +141,10 @@ ministers <- roles %>%
     in_ministry =
       str_detect(NameEn, "Minister") &
       ! str_detect(NameEn, "Secretary")
+  ) %>%
+  left_join(
+    parliamentarians %>%
+      select(Person.PersonId, Person.DisplayName, Person.Gender)
   )
 
 ## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
@@ -156,16 +161,39 @@ cabinet_size_by_lop_shuffle <- read_csv("data/lop-primeministers-cabinet.csv") %
     shuffle_date = date(shuffle_date)
   )
 
+## map party names to party groupings
+## NB: This is contestable! fork and change as necessary for your analysis
 simplified_party_mappings = tribble(
   ~party, ~party_simple,
   #--|--|----
+  "Liberal Party of Canada","liberal",
   "Liberal","liberal",
+  "Liberal Party","liberal",
+  "Conservative Party of Canada","conservative",
+  "Conservative (1867-1942)","conservative",
   "Conservative (Historical)","conservative",
   "Liberal-Conservative","conservative",
   "Progressive Conservative","conservative",
+  "Progressive Conservative Party","conservative",
   "Conservative","conservative",
   "Nat'l Liberal & Conservative","conservative",
-  "Unionist","conservative"
+  "Reform Party of Canada","conservative",
+  "Canadian Reform Conservative Alliance","conservative",
+  "National Government","conservative",
+  "Unionist","conservative",
+  "New Democratic Party","ccf/ndp",
+  "Co-operative Commonwealth Federation","ccf/ndp",
+  "Bloc Québécois","bq",
+  "Social Credit Party of Canada","socred",
+  "Ralliement des créditistes","socred",
+  "Progressive","progressive",
+  "Liberal Progressive","progressive",
+  "United Farmers of Alberta","progressive",
+  "Green Party of Canada","green",
+  "Independent","independent",
+  "Independent Liberal","independent",
+  "Independent Conservative","independent",
+  "Independent Progressive Conservative","independent",
 )
 
 ministries <- read_tsv("data/wikipedia-ministries.tsv", skip = 1) %>%
@@ -178,6 +206,12 @@ ministries <- read_tsv("data/wikipedia-ministries.tsv", skip = 1) %>%
   select(-duration) %>%
   left_join(simplified_party_mappings)
 
-
-
-
+members <- roles %>%
+  filter(NameEn == "Constituency Member") %>%
+  filter(OrganizationTypeEn == "Constituency") %>%
+  remove_extra_columns() %>%
+  left_join(
+    parliamentarians %>%
+      select(Person.PersonId, Person.DisplayName, Person.Gender)
+  ) %>%
+  left_join(simplified_party_mappings, by = c("PartyEn" = "party"))

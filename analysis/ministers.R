@@ -46,7 +46,6 @@ cabinet_ministers %>%
 ## calculate number of years a position is actually occupied
 ## (or # of days, if we drop the division at the end)
 ## doesn't work for roles where n = 1 (lists!)
-seq_date_vectorized <- Vectorize(seq.Date, vectorize.args = c("from", "to"))
 cabinet_ministers %>%
   filter(OrganizationLongEn == "Agriculture") %>%
   select(StartDate, EndDate, period_in_office) %>%

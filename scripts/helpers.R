@@ -90,3 +90,6 @@ colour_block_by_party <- function() {
     )
   )
 }
+
+## for calculating number of days a position occupied
+seq_date_vectorized <- Vectorize(seq.Date, vectorize.args = c("from", "to"))
