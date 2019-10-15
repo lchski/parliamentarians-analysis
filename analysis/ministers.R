@@ -9,12 +9,13 @@ summarize_roles_by_category <- function(dataset, ...) {
       first_appearance = min(StartDate, na.rm = FALSE),
       last_appearance = max(EndDate, na.rm = FALSE),
       count = n(),
-      category_occupied_yrs = sum(time_length(period_in_office, "years")),
+      category_occupied_yrs_sum = sum(time_length(period_in_office, "years")),
       dates_off = length(unlist(dates_in_office_during_period)) / n(),
       dates_on = length(unique(unlist(dates_in_office_during_period))),
       category_occupied_prop = dates_on / dates_off,
-      category_occupied_yrs_prop = category_occupied_yrs * category_occupied_prop,
+      category_occupied_yrs_prop = category_occupied_yrs_sum * category_occupied_prop,
       category_lifespan_yrs = time_length(interval(first_appearance, last_appearance), "years"),
+      category_occupied_yrs = dates_on / 365.25,
       avg_length_mos =
         mean(
           time_length(period_in_office, unit = "months")
@@ -28,11 +29,8 @@ summarize_roles_by_category <- function(dataset, ...) {
           time_length(period_in_office, unit = "months")
         )
     ) %>%
-    select(-category_occupied_yrs:-category_occupied_yrs_prop)
+    select(-category_occupied_yrs_sum:-category_occupied_yrs_prop)
 }
-
-cabinet_ministers_by_org_party_gender <- cabinet_ministers %>%
-  summarize_roles_by_category(OrganizationLongEn, party_simple, Person.Gender)
 
 cabinet_ministers %>%
   mutate(yrs_in_office = time_length(period_in_office, "years")) %>%
@@ -40,6 +38,78 @@ cabinet_ministers %>%
   geom_point(aes(x = StartDate, y = yrs_in_office)) +
   geom_smooth(aes(x = StartDate, y = yrs_in_office)) +
   colour_block_by_party()
+
+
+
+cabinet_minister_gender_by_portfolio <- cabinet_ministers %>%
+  select(PortFolioEn) %>%
+  unique() %>%
+  arrange(PortFolioEn) %>%
+  mutate(
+    M = NA,
+    F = NA
+  ) %>%
+  pivot_longer(
+    -PortFolioEn,
+    names_to = "Person.Gender"
+  ) %>%
+  select(-value) %>%
+  left_join(cabinet_ministers %>%
+              summarize_roles_by_category(PortFolioEn, Person.Gender)) %>%
+  mutate(count = ifelse(is.na(count), 0, count))
+
+cabinet_minister_gender_by_organization <- cabinet_ministers %>%
+  select(OrganizationLongEn) %>%
+  unique() %>%
+  arrange(OrganizationLongEn) %>%
+  mutate(
+    M = NA,
+    F = NA
+  ) %>%
+  pivot_longer(
+    -OrganizationLongEn,
+    names_to = "Person.Gender"
+  ) %>%
+  select(-value) %>%
+  left_join(cabinet_ministers %>%
+              summarize_roles_by_category(OrganizationLongEn, Person.Gender)) %>%
+  mutate(count = ifelse(is.na(count), 0, count))
+
+
+portfolios_without_ministers_of_each_gender <- cabinet_minister_gender_by_portfolio %>%
+  filter(
+    PortFolioEn %in%
+      (cabinet_minister_gender_by_portfolio %>%
+         filter(count == 0) %>%
+         pull(PortFolioEn) %>%
+         unique()
+      )
+  )
+
+organizations_without_ministers_of_each_gender <- cabinet_minister_gender_by_organization %>%
+  filter(
+    OrganizationLongEn %in%
+      (cabinet_minister_gender_by_organization %>%
+         filter(count == 0) %>%
+         pull(OrganizationLongEn) %>%
+         unique()
+       )
+  )
+
+
+## TODO baaaah fix me
+## what trying to do: get the earliest date for each
+cabinet_minister_gender_count_by_portfolio %>%
+  mutate(
+    earliest_date = map(
+      .x = c(PortFolioEn, Person.Gender),
+      .f = function(PortFolioEn, Person.Gender) cabinet_ministers %>%
+        filter(PortFolioEn == PortFolioEn) %>%
+        filter(Person.Gender == Person.Gender) %>%
+        summarize(earliest_date = min(StartDate)) %>%
+        pull()
+    )
+  )
 
 
 ## calculate number of years a position is actually occupied
