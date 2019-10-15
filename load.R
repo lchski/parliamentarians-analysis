@@ -5,6 +5,41 @@ library(lubridate)
 
 source("scripts/helpers.R")
 
+## map party names to party groupings
+## NB: This is contestable! fork and change as necessary for your analysis
+simplified_party_mappings = tribble(
+  ~party, ~party_simple,
+  #--|--|----
+  "Liberal Party of Canada","liberal",
+  "Liberal","liberal",
+  "Liberal Party","liberal",
+  "Conservative Party of Canada","conservative",
+  "Conservative (1867-1942)","conservative",
+  "Conservative (Historical)","conservative",
+  "Liberal-Conservative","conservative",
+  "Progressive Conservative","conservative",
+  "Progressive Conservative Party","conservative",
+  "Conservative","conservative",
+  "Nat'l Liberal & Conservative","conservative",
+  "Reform Party of Canada","conservative",
+  "Canadian Reform Conservative Alliance","conservative",
+  "National Government","conservative",
+  "Unionist","conservative",
+  "New Democratic Party","ccf/ndp",
+  "Co-operative Commonwealth Federation","ccf/ndp",
+  "Bloc Québécois","bq",
+  "Social Credit Party of Canada","socred",
+  "Ralliement des créditistes","socred",
+  "Progressive","progressive",
+  "Liberal Progressive","progressive",
+  "United Farmers of Alberta","progressive",
+  "Green Party of Canada","green",
+  "Independent","independent",
+  "Independent Liberal","independent",
+  "Independent Conservative","independent",
+  "Independent Progressive Conservative","independent",
+)
+
 parliamentarians_unmodified <- as_tibble(readtext::readtext("data/members/", verbosity = 0)) %>%
   mutate(doc_id = str_split(doc_id, fixed("?callback=jQuery33107266187344061623_1569968990479&_=1569968990480"))) %>%
   unnest(cols = c(doc_id)) %>%
@@ -50,7 +85,8 @@ roles <- parliamentarians_unmodified %>%
       "PortFolioEn"
     ),
     trimws
-  )
+  ) %>%
+  left_join(simplified_party_mappings, by = c("PartyEn" = "party"))
 
 professions <- parliamentarians_unmodified %>%
   select(Person.PersonId, Person.Professions) %>%
@@ -161,41 +197,6 @@ cabinet_size_by_lop_shuffle <- read_csv("data/lop-primeministers-cabinet.csv") %
     shuffle_date = date(shuffle_date)
   )
 
-## map party names to party groupings
-## NB: This is contestable! fork and change as necessary for your analysis
-simplified_party_mappings = tribble(
-  ~party, ~party_simple,
-  #--|--|----
-  "Liberal Party of Canada","liberal",
-  "Liberal","liberal",
-  "Liberal Party","liberal",
-  "Conservative Party of Canada","conservative",
-  "Conservative (1867-1942)","conservative",
-  "Conservative (Historical)","conservative",
-  "Liberal-Conservative","conservative",
-  "Progressive Conservative","conservative",
-  "Progressive Conservative Party","conservative",
-  "Conservative","conservative",
-  "Nat'l Liberal & Conservative","conservative",
-  "Reform Party of Canada","conservative",
-  "Canadian Reform Conservative Alliance","conservative",
-  "National Government","conservative",
-  "Unionist","conservative",
-  "New Democratic Party","ccf/ndp",
-  "Co-operative Commonwealth Federation","ccf/ndp",
-  "Bloc Québécois","bq",
-  "Social Credit Party of Canada","socred",
-  "Ralliement des créditistes","socred",
-  "Progressive","progressive",
-  "Liberal Progressive","progressive",
-  "United Farmers of Alberta","progressive",
-  "Green Party of Canada","green",
-  "Independent","independent",
-  "Independent Liberal","independent",
-  "Independent Conservative","independent",
-  "Independent Progressive Conservative","independent",
-)
-
 ministries <- read_tsv("data/wikipedia-ministries.tsv", skip = 1) %>%
   mutate(
     ministry = as.numeric(gsub("([0-9]+).*$", "\\1", ministry)),
@@ -213,5 +214,4 @@ members <- roles %>%
   left_join(
     parliamentarians %>%
       select(Person.PersonId, Person.DisplayName, Person.Gender)
-  ) %>%
-  left_join(simplified_party_mappings, by = c("PartyEn" = "party"))
+  )
