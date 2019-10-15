@@ -142,3 +142,42 @@ ministers <- roles %>%
       ! str_detect(NameEn, "Secretary")
   )
 
+## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
+cabinet_size_by_lop_shuffle <- read_csv("data/lop-primeministers-cabinet.csv") %>%
+  rename(
+    shuffle_date = `Cabinet Shuffle Date`,
+    prime_minister = `Prime Minister`,
+    political_affiliation = `Political Affiliation`,
+    cabinet_size = `Cabinet Size`,
+    ministry_size = `Ministry Size`
+  ) %>%
+  filter(! is.na(cabinet_size)) %>%
+  mutate(
+    shuffle_date = date(shuffle_date)
+  )
+
+simplified_party_mappings = tribble(
+  ~party, ~party_simple,
+  #--|--|----
+  "Liberal","liberal",
+  "Conservative (Historical)","conservative",
+  "Liberal-Conservative","conservative",
+  "Progressive Conservative","conservative",
+  "Conservative","conservative",
+  "Nat'l Liberal & Conservative","conservative",
+  "Unionist","conservative"
+)
+
+ministries <- read_tsv("data/wikipedia-ministries.tsv", skip = 1) %>%
+  mutate(
+    ministry = as.numeric(gsub("([0-9]+).*$", "\\1", ministry)),
+    start_date = as_date(parse_date_time(start_date, c("%B %d, %Y"))),
+    end_date = as_date(parse_date_time(end_date, c("%B %d, %Y"))),
+    end_date = if_else(is.na(end_date), today(), end_date)
+  ) %>%
+  select(-duration) %>%
+  left_join(simplified_party_mappings)
+
+
+
+

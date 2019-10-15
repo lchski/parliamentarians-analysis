@@ -4,12 +4,17 @@ cabinet_ministers <- ministers %>%
 summarize_roles_by_category <- function(dataset, ...) {
   dataset %>%
     group_by(...) %>%
+    mutate(dates_in_office_during_period = list(seq_date_vectorized(StartDate, EndDate, by = "days"))) %>%
     summarize(
       first_appearance = min(StartDate, na.rm = FALSE),
       last_appearance = max(EndDate, na.rm = FALSE),
-      category_occupied_yrs = sum(time_length(period_in_office, "years")),
-      category_lifespan_yrs = time_length(interval(first_appearance, last_appearance), "years"),
       count = n(),
+      category_occupied_yrs = sum(time_length(period_in_office, "years")),
+      dates_off = length(unlist(dates_in_office_during_period)) / n(),
+      dates_on = length(unique(unlist(dates_in_office_during_period))),
+      category_occupied_prop = dates_on / dates_off,
+      category_occupied_yrs_prop = category_occupied_yrs * category_occupied_prop,
+      category_lifespan_yrs = time_length(interval(first_appearance, last_appearance), "years"),
       avg_length_mos =
         mean(
           time_length(period_in_office, unit = "months")
@@ -22,12 +27,20 @@ summarize_roles_by_category <- function(dataset, ...) {
         max(
           time_length(period_in_office, unit = "months")
         )
-    )
+    ) %>%
+    select(-category_occupied_yrs:-category_occupied_yrs_prop)
 }
 
 cabinet_ministers %>%
   summarize_roles_by_category(OrganizationLongEn) %>%
   View()
+
+cabinet_ministers %>%
+  mutate(yrs_in_office = time_length(period_in_office, "years")) %>%
+  ggplot() +
+  geom_point(aes(x = StartDate, y = yrs_in_office)) +
+  geom_smooth(aes(x = StartDate, y = yrs_in_office)) +
+  colour_block_by_party()
 
 
 ## calculate number of years a position is actually occupied
@@ -35,8 +48,13 @@ cabinet_ministers %>%
 ## doesn't work for roles where n = 1 (lists!)
 seq_date_vectorized <- Vectorize(seq.Date, vectorize.args = c("from", "to"))
 cabinet_ministers %>%
-  filter(OrganizationLongEn == "Forestry and Rural Development") %>%
+  filter(OrganizationLongEn == "Agriculture") %>%
   select(StartDate, EndDate, period_in_office) %>%
-  mutate(dates = seq_date_vectorized(StartDate, EndDate, by = "days")) %>%
-  summarize(dates = length(unique(do.call(c, dates))) / 365.25)
+  mutate(dates = list(seq_date_vectorized(StartDate, EndDate, by = "days"))) %>%
+  summarize(
+    dates_off = length(unlist(dates)) / n(),
+    dates_on = length(unique(unlist(dates))),
+    dates_on_proportion = dates_on / dates_off
+  )
+
 

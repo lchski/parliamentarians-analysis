@@ -52,3 +52,41 @@ focus_role_columns <- function(role_tibble, ...) {
     select(Person.PersonId, StartDate, EndDate, NameEn, OrganizationLongEn, ToBeStyledAsEn, ...) %>%
     arrange(Person.PersonId, StartDate, EndDate)
 }
+
+## find details on a person
+lookup_person <- function(PersonId, ...) {
+  parliamentarians %>%
+    filter(Person.PersonId == PersonId) %>%
+    select(Person.DisplayName, ...)
+}
+
+party_colour_mappings = tribble(
+  ~party_simple,~colour,
+  #--|--|----
+  "liberal","red",
+  "conservative","blue"
+)
+
+## note that we need to return a `list`
+## ref: https://stackoverflow.com/questions/58072649/using-geoms-inside-a-function
+colour_block_by_party <- function() {
+  list(
+      geom_rect(
+      data = ministries,
+      alpha = 0.1,
+      mapping = aes(
+        xmin = start_date,
+        xmax = end_date,
+        ymin = -Inf,
+        ymax = Inf,
+        fill = party_simple
+      )
+    ),
+    scale_fill_manual(
+      values = c(
+        "conservative" = "blue",
+        "liberal" = "red"
+      )
+    )
+  )
+}

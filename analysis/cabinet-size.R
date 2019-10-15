@@ -1,15 +1,3 @@
-## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
-cabinet_size_by_lop_shuffle <- read_csv("data/lop-primeministers-cabinet.csv") %>%
-  rename(
-    shuffle_date = `Cabinet Shuffle Date`,
-    cabinet_size = `Cabinet Size`,
-    ministry_size = `Ministry Size`
-  ) %>%
-  filter(! is.na(cabinet_size)) %>%
-  mutate(
-    shuffle_date = mdy(shuffle_date)
-  )
-
 ### Peeps
 ministers %>%
   filter(in_ministry) %>%
