@@ -31,9 +31,8 @@ summarize_roles_by_category <- function(dataset, ...) {
     select(-category_occupied_yrs:-category_occupied_yrs_prop)
 }
 
-cabinet_ministers %>%
-  summarize_roles_by_category(OrganizationLongEn) %>%
-  View()
+cabinet_ministers_by_org_party_gender <- cabinet_ministers %>%
+  summarize_roles_by_category(OrganizationLongEn, party_simple, Person.Gender)
 
 cabinet_ministers %>%
   mutate(yrs_in_office = time_length(period_in_office, "years")) %>%
