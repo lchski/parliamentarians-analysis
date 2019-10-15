@@ -95,20 +95,3 @@ organizations_without_ministers_of_each_gender <- cabinet_minister_gender_by_org
          unique()
        )
   )
-
-
-
-## calculate number of years a position is actually occupied
-## (or # of days, if we drop the division at the end)
-## doesn't work for roles where n = 1 (lists!)
-cabinet_ministers %>%
-  filter(OrganizationLongEn == "Agriculture") %>%
-  select(StartDate, EndDate, period_in_office) %>%
-  mutate(dates = list(seq_date_vectorized(StartDate, EndDate, by = "days"))) %>%
-  summarize(
-    dates_off = length(unlist(dates)) / n(),
-    dates_on = length(unique(unlist(dates))),
-    dates_on_proportion = dates_on / dates_off
-  )
-
-
