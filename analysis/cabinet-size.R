@@ -121,9 +121,19 @@ cabinet_size_by_day <- cabinet_size_by_day %>%
 
 distinct_cabinets <- cabinet_size_by_day %>%
   group_by(cabinet_digest) %>%
-  top_n(1, wt = date_to_check)
+  top_n(1, wt = date_to_check) %>%
+  ungroup() %>%
+  rename(shuffle_date = date_to_check)
 
-
+distinct_cabinets_unnested <- distinct_cabinets %>%
+  mutate(cabinet = map(cabinet, . %>% select(-period_in_office, -period_in_role))) %>%
+  unnest(cols = c(cabinet)) %>%
+  select(-cabinet_size_m:-cabinet_json)
+  
+distinct_cabinets_unnested %>%
+  group_by(shuffle_date) %>%
+  select(shuffle_date, Person.DisplayName, OrganizationLongEn, PortFolioEn, ToBeStyledAsEn) %>%
+  group_walk(~ write_csv(.x, paste0("data/out/cabinets/", .y$shuffle_date, ".csv")))
 
 ministry_size_by_day <- ministers %>%
   filter(in_ministry) %>%
