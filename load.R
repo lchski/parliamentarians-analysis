@@ -103,7 +103,9 @@ election_candidates <- parliamentarians_unmodified %>%
   ) %>%
   mutate(
     IsWin = ResultLongEn == "Elected"
-  )
+  ) %>%
+  left_join(simplified_party_mappings, by = c("PartyNameEn" = "party"))
+  
 
 ## Create nested versions of modified extracts to recombine
 roles_nested <- roles %>%

@@ -65,15 +65,33 @@ party_colour_mappings = tribble(
   #--|--|----
   "liberal","red",
   "conservative","blue"
+) %>%
+  rename(name = party_simple)
+
+gender_colour_mappings = tribble(
+  ~Person.Gender,~colour,
+  #--|--|----,
+  "F","red",
+  "M","blue"
+) %>%
+  rename(name = Person.Gender)
+
+generic_colour_mappings = rbind(
+  party_colour_mappings,
+  gender_colour_mappings
 )
+
+generic_colour_mappings_v <- generic_colour_mappings$colour
+names(generic_colour_mappings_v) <- generic_colour_mappings$name
 
 ## note that we need to return a `list`
 ## ref: https://stackoverflow.com/questions/58072649/using-geoms-inside-a-function
-colour_block_by_party <- function() {
+colour_block_by_party <- function(party_bg_alpha = 0.1) {
   list(
-      geom_rect(
+    geom_rect(
       data = ministries,
-      alpha = 0.1,
+      inherit.aes = FALSE,
+      alpha = party_bg_alpha,
       mapping = aes(
         xmin = start_date,
         xmax = end_date,
@@ -83,10 +101,7 @@ colour_block_by_party <- function() {
       )
     ),
     scale_fill_manual(
-      values = c(
-        "conservative" = "blue",
-        "liberal" = "red"
-      )
+      values = generic_colour_mappings_v
     )
   )
 }

@@ -27,7 +27,7 @@ cabinet_between_dates <- function(
   ...
 ) {
   cabinets_by_day <- full_seq(c(date(start_date), date(end_date)), period = 1) %>%
-    as_tibble() %>%
+    tibble::enframe(name = NULL) %>%
     rename(date_to_check = value) %>%
     mutate(
       cabinet = map(
@@ -35,7 +35,7 @@ cabinet_between_dates <- function(
           mutate(in_range = dtc %within% period_in_office) %>%
           filter(in_range) %>%
           left_join(
-            (parliamentarians %>% select(Person.PersonId, Person.DisplayName, Person.Gender, ...)),
+            (parliamentarians %>% select(Person.PersonId, ...)),
             by = c("Person.PersonId" = "Person.PersonId")
           )
       ),
@@ -104,9 +104,26 @@ cabinet_details_by_lop_shuffle_qc %>%
 
 
 
+library(digest)
+
+toJSON_vectorized = Vectorize(toJSON)
+digest_vectorized = Vectorize(digest)
+
 cabinet_size_by_day <- ministers %>%
   filter(in_cabinet) %>%
   cabinet_between_dates(include_detailed_cabinet = TRUE)
+
+cabinet_size_by_day <- cabinet_size_by_day %>%
+  mutate(
+    cabinet_json = toJSON_vectorized(cabinet),
+    cabinet_digest = digest_vectorized(cabinet_json)
+  )
+
+distinct_cabinets <- cabinet_size_by_day %>%
+  group_by(cabinet_digest) %>%
+  top_n(1, wt = date_to_check)
+
+
 
 ministry_size_by_day <- ministers %>%
   filter(in_ministry) %>%
@@ -133,6 +150,15 @@ cabinet_size_by_day %>%
   geom_point() +
   geom_smooth(method = "lm") +
   xlim(c(date("1867-07-01"), today()))
+
+## cabinet size proportions!
+p_cabinet_size_day_gender_prop <- cabinet_size_by_day %>%
+  rename(M = cabinet_size_m, F = cabinet_size_f) %>%
+  pivot_longer(cols = c(M, F), names_to = "gender") %>%
+  ggplot(aes(x = date_to_check, y = value, fill = gender)) +
+    geom_col(alpha = 0.5, position = "fill") +
+    scale_x_date(limits = c(date("1867-07-01"), today())) +
+    colour_block_by_party(party_bg_alpha = 0.2)
 
 
 # comparing (to integrate, to accommodate tibble)
@@ -166,6 +192,8 @@ cabinet_size_by_day <- cabinet_size_by_day %>%
       is_same_as_previous
     )
   )
+
+
 
 csbd %>% slice(1:2) %>% mutate(hash = map_chr(., digest))
 

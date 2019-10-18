@@ -50,3 +50,9 @@ by_age_at_first_election %>%
     y = "Age at first election",
     caption = "By @lchski with data from Library of Parliament."
   )
+
+election_candidates %>%
+  filter(IsWin) %>%
+  group_by(Person.PersonId) %>%
+  top_n(1, ElectionDate) %>%
+  top_n(1) %>% filter(Person.PersonId %in% tids)
