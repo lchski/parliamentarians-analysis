@@ -217,3 +217,38 @@ members <- roles %>%
     parliamentarians %>%
       select(Person.PersonId, Person.DisplayName, Person.Gender)
   )
+
+
+
+parliaments <- read_csv("data/lop-parliament-key-dates.csv") %>%
+  select(
+    parliament = `Parliament`,
+    key_dates = `Key Dates`
+  ) %>%
+  mutate(
+    parliament = as.numeric(gsub("([0-9]+).*$", "\\1", parliament)),
+    key_dates = str_replace(key_dates, "1st", "")
+  ) %>%
+  separate(
+    key_dates,
+    c(NA, "writs_issued", "general_election", "writs_returned", "first_sitting", "first_budget", "dissolution"),
+    "[A-Za-z ]*: "
+  ) %>%
+  mutate(
+    dissolution = ifelse(parliament == 25, first_budget, dissolution),
+    first_budget = ifelse(parliament == 25, NA, first_budget)
+  ) %>%
+  mutate_at(
+    c(
+      "writs_issued", "general_election", "writs_returned", "first_sitting", "first_budget", "dissolution"
+    ),
+    date
+  ) %>%
+  mutate(
+    interval_from_election_to_first_budget = interval(general_election, first_budget),
+    days_to_budget_from_election = time_length(interval_from_election_to_first_budget, "days"),
+    interval_from_first_sitting_to_first_budget = interval(first_sitting, first_budget),
+    days_to_budget_from_first_sitting = time_length(interval_from_first_sitting_to_first_budget, "days"),
+    interval_from_returns_to_dissolution = interval(writs_returned, dissolution),
+    days_to_dissolution_from_returns = time_length(interval_from_returns_to_dissolution, "days")
+  )
