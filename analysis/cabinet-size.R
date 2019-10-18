@@ -160,6 +160,14 @@ p_cabinet_size_day_gender_prop <- cabinet_size_by_day %>%
     scale_x_date(limits = c(date("1867-07-01"), today())) +
     colour_block_by_party(party_bg_alpha = 0.2)
 
+p_cabinet_size_day_gender_count <- cabinet_size_by_day %>%
+  rename(M = cabinet_size_m, F = cabinet_size_f) %>%
+  pivot_longer(cols = c(M, F), names_to = "gender") %>%
+  ggplot(aes(x = date_to_check, y = value, fill = gender)) +
+  geom_col(alpha = 0.5) +
+  scale_x_date(limits = c(date("1867-07-01"), today())) +
+  colour_block_by_party(party_bg_alpha = 0.2)
+
 
 # comparing (to integrate, to accommodate tibble)
 
