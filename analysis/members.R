@@ -1,3 +1,23 @@
+party_members <- roles %>%
+  filter(NameEn == "Party Member") %>%
+  filter(OrganizationTypeEn == "Party") %>% # filter out provincial experience
+  remove_extra_columns()
+
+## make some tea
+party_members_by_day <- party_members %>% gather(StartDate, EndDate, key = "period_bound", value = "date") %>%
+  mutate(date = date(date)) %>%
+  select(Person.PersonId, PersonRoleId, OrganizationLongEn, date) %>%
+  arrange(Person.PersonId, PersonRoleId, OrganizationLongEn, date) %>%
+  group_by(PersonRoleId) %>%
+  complete(date = full_seq(date, 1), nesting(Person.PersonId, OrganizationLongEn)) %>%
+  ungroup()
+
+party_members_by_day %>%
+  mutate(grouping = paste0(Person.PersonId, OrganizationLongEn)) %>%
+  group_by(grouping) %>%
+  top_n(1, wt = date) %>%
+  ungroup()
+
 ## number of unique people by party
 members %>%
   select(PartyEn, Person.PersonId) %>%

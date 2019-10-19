@@ -225,7 +225,8 @@ members <- roles %>%
   left_join(
     parliamentarians %>%
       select(Person.PersonId, Person.DisplayName, Person.Gender)
-  )
+  ) %>%
+  select(-PartyOrganizationId:-PartyEndDate, -party_simple)
 
 
 
