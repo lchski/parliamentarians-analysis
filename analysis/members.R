@@ -19,14 +19,15 @@ members_by_party_time_in_office <- members %>%
   summarize(
     days_as_member = length(unique(unlist(dates_in_office_during_period))),
     years_as_member = days_as_member / 365.25
-  )
+  ) %>%
+  ungroup()
 
 ## floor crossers! (and/or people who ran under different party banners)
 ## note: not all reflected accurately; e.g. Scott Brison isn't in here
 ## to correct this, we could explode to day-by-day, then pull party affiliation
-## by comparing to `roles.NameEn`` == "Caucus Member".
+## by comparing to `roles.NameEn`` == "Party Member" (preferred over Caucus Member,
+## the dates correspond better to time in the role as MP).
 members_by_party_time_in_office %>%
-  ungroup() %>%
   filter(Person.PersonId %in% (members_by_party_time_in_office %>%
            count_group(Person.PersonId) %>%
            filter(count > 1) %>%
