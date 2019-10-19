@@ -207,7 +207,16 @@ ministries <- read_tsv("data/wikipedia-ministries.tsv", skip = 1) %>%
     end_date = if_else(is.na(end_date), today(), end_date)
   ) %>%
   select(-duration) %>%
-  left_join(simplified_party_mappings)
+  left_join(simplified_party_mappings) %>%
+  left_join(
+    (
+      roles %>%
+        filter(NameEn == "Prime Minister" & OrganizationTypeEn == "Ministry") %>%
+        select(OrganizationAcronymEn, Person.PersonId, PersonRoleId, NotesEn, period_in_role) %>%
+        mutate(OrganizationAcronymEn = as.numeric(OrganizationAcronymEn))
+    ),
+    by = c("ministry" = "OrganizationAcronymEn")
+  )
 
 members <- roles %>%
   filter(NameEn == "Constituency Member") %>%
