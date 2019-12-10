@@ -20,6 +20,10 @@ summarize_roles_by_category <- function(dataset, ...) {
         mean(
           time_length(period_in_office, unit = "months")
         ),
+      median_length_mos =
+        median(
+          time_length(period_in_office, unit = "months")
+        ),
       min_length_mos = 
         min(
           time_length(period_in_office, unit = "months")
