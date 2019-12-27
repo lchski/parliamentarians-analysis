@@ -50,27 +50,7 @@ find_closest_date <- function(date_to_place, dates_to_compare) {
 find_closest_date_vectorized <- Vectorize(find_closest_date)
 
 deputy_heads %>%
-  mutate(closest_ministry_date = find_closest_date_vectorized(StartDate, ministries$start_date))
+  mutate(closest_ministry_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., ministries$start_date)))) %>%
+  mutate(closest_election_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., parliaments$general_election))))
 
-deputy_heads %>%
-  mutate(closest_ministry_date = map_int(StartDate, find_closest_date(., ministries$start_date)))
-
-deputy_heads %>%
-  mutate(closest_ministry_date = find_closest_date_vectorized(StartDate, ministries$start_date)) %>% filter(is.na(closest_ministry_date)) %>% View()
-
-deputy_heads %>%
-  mutate(closest_ministry_date = map_int(StartDate, find_closest_date(., ministries$start_date)))
-
-deputy_heads %>%
-  mutate(closest_ministry_date = map_dbl(StartDate, ~ find_closest_date(., ministries$start_date))) %>%
-  mutate(closest_ministry_date = as_date(closest_ministry_date))
-
-find_closest_date(date("1988-09-15"), ministries$start_date)
-
-tibble(date = ministries$start_date, source = "base") %>%
-  bind_rows(list(date = date("1994-05-09"), source = "comparator")) %>%
-  arrange(date) %>%
-  mutate(previous_date = lag(date)) %>%
-  filter(source == "comparator") %>%
-  pull(previous_date)
-  View()
+summary(lm(years_in_role_raw ~ Gender, deputy_heads %>% filter(Gender != "")))
