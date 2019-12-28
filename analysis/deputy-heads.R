@@ -77,11 +77,21 @@ deputy_heads %>%
 
 summary(lm(years_in_role_raw ~ Gender, deputy_heads %>% filter(Gender != "")))
 summary(lm(
-  years_in_role_raw ~ Gender + decade + IsActing,  ## could also be `Gender * decade`
+  years_in_role ~ Gender + decade + IsActing,  ## could also be `Gender * decade`
   deputy_heads %>%
     mutate(decade = floor_date(StartDate, "10 years")) %>%
-    filter(Gender != "")
+    filter(Gender != "") %>%
+    filter(years_in_role > 0)
 ))
+
+deputy_heads %>%
+  mutate(decade = floor_date(StartDate, "10 years")) %>%
+  filter(Gender != "") %>%
+  filter(years_in_role_raw > 0) %>%
+  ggplot(aes(x = StartDate, y = years_in_role_raw)) +
+  geom_point() +
+  geom_smooth() +
+  facet_grid(~ Gender)
 
 
 

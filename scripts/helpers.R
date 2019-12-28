@@ -32,6 +32,7 @@ count_group <- function(dataset, ...) {
   dataset %>%
     group_by(...) %>%
     summarize(count = n()) %>%
+    mutate(count_prop = count / sum(count)) %>%
     arrange(-count)
 }
 

@@ -1,6 +1,6 @@
 departmental_roles <- fromJSON("data/institutions/departments.json", simplifyDataFrame = TRUE) %>%
   as_tibble() %>%
-  remove_extra_columns() %>%
+  remove_extra_columns()
 
 departmental_roles_extra_roles <- departmental_roles %>%
   select(ExtraRoles) %>% ## probably want an ID variable or something to be able to connect back to `departmental_roles`
