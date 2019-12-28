@@ -83,6 +83,13 @@ summary(lm(
     filter(Gender != "") %>%
     filter(years_in_role > 0)
 ))
+summary(lm(
+  years_in_role_raw ~ Gender + decade + IsActing,  ## could also be `Gender * decade`
+  dhs_annotated %>%
+    mutate(decade = floor_date(StartDate, "10 years")) %>%
+    filter(Gender != "") %>%
+    filter(years_in_role_raw > 0)
+))
 
 deputy_heads %>%
   mutate(decade = floor_date(StartDate, "10 years")) %>%
@@ -126,4 +133,46 @@ dhs_annotated %>%
   ggplot(aes(x = StartDate, y = ministries_count)) +
   geom_point() +
   geom_smooth()
+
+
+
+
+dhs_annotated %>%
+  mutate(
+    map_int
+  )
+
+identify_quartile_of_range <- function(dtc, date_range) {
+  d0 <- int_start(date_range)
+  d25 <- int_end((interval(date("1867-07-01"), date("1873-11-05")) / 4) * 1)
+  d50 <- int_end((interval(date("1867-07-01"), date("1873-11-05")) / 4) * 2)
+  d75 <- int_end((interval(date("1867-07-01"), date("1873-11-05")) / 4) * 3)
+  d100 <- int_end(date_range)
+  
+  tribble(
+    ~quarter, ~quarter_end_date,
+    1, d25,
+    2, d50,
+    3, d75,
+    4, d100
+  ) %>%
+    mutate(quarter_end_date = as_date(quarter_end_date)) %>%
+    bind_rows(list(quarter = NA_integer_, quarter_end_date = today() + days(1)))
+}
+
+identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05")))
+
+identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05"))) %>%
+  mutate(dist = abs(time_length(quarter_end_date %--% date("1868-05-29")))) %>%
+  top_n(-1, dist)
+
+
+identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05")))
+
+identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05"))) %>%
+  mutate(dist = time_length(date("1867-06-30") %--% quarter_end_date)) %>%
+  filter(dist >= 0) %>%
+  top_n(-1, dist) %>%
+  pull(quarter)
+
 
