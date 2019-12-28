@@ -15,7 +15,7 @@ find_closest_date_vectorized <- Vectorize(find_closest_date)
 
 
 
-deputy_heads_annotated <- deputy_heads %>%
+dhs_annotated <- deputy_heads %>%
   mutate(closest_ministry_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., ministries$start_date)))) %>%
   mutate(closest_election_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., parliaments$general_election)))) %>%
   mutate(ministries_count = map_int(
@@ -112,6 +112,8 @@ dhs_position_counts <- deputy_heads %>%
   
 
 
-deputy_heads_annotated %>% ggplot(aes(x = StartDate, y = ministries_count)) +
+dhs_annotated %>%
+  ggplot(aes(x = StartDate, y = ministries_count)) +
   geom_point() +
   geom_smooth()
+
