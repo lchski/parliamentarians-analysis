@@ -137,19 +137,21 @@ dhs_annotated %>%
 
 
 
-dhs_annotated %>%
-  mutate(
-    map_int
-  )
-
-identify_quartile_of_range <- function(dtc, date_range) {
-  d0 <- int_start(date_range)
-  d25 <- int_end((interval(date("1867-07-01"), date("1873-11-05")) / 4) * 1)
-  d50 <- int_end((interval(date("1867-07-01"), date("1873-11-05")) / 4) * 2)
-  d75 <- int_end((interval(date("1867-07-01"), date("1873-11-05")) / 4) * 3)
+identify_quarter_in_range <- function(dtc, date_range) {
+  if(! is.interval(date_range)) {
+    break("oops, not an interval")
+  }
+  
+  if(! is.Date(dtc)) {
+    break("oops, not a date")
+  }
+  
+  d25 <- int_end((date_range / 4) * 1)
+  d50 <- int_end((date_range / 4) * 2)
+  d75 <- int_end((date_range / 4) * 3)
   d100 <- int_end(date_range)
   
-  tribble(
+  quarters_to_check <- tribble(
     ~quarter, ~quarter_end_date,
     1, d25,
     2, d50,
@@ -157,22 +159,42 @@ identify_quartile_of_range <- function(dtc, date_range) {
     4, d100
   ) %>%
     mutate(quarter_end_date = as_date(quarter_end_date)) %>%
-    bind_rows(list(quarter = NA_integer_, quarter_end_date = today() + days(1)))
+    bind_rows(list(quarter = NA_real_, quarter_end_date = today() + days(1)))
+  
+  quarters_to_check %>%
+    mutate(dist = time_length(dtc %--% quarter_end_date)) %>%
+    filter(dist >= 0) %>%
+    top_n(-1, dist) %>%
+    pull(quarter)
 }
-
-identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05")))
-
-identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05"))) %>%
-  mutate(dist = abs(time_length(quarter_end_date %--% date("1868-05-29")))) %>%
-  top_n(-1, dist)
+identify_quarter_in_range_vectorized <- Vectorize(identify_quarter_in_range)
 
 
-identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05")))
+dhs_annotated %>%
+  mutate(
+    ministry_quarter_at_appointment = map_dbl(StartDate, function(dtc) {
+      ministry_interval <- ministries %>% 
+        filter(dtc %within% period_in_role) %>%
+        top_n(1, start_date) %>%
+        pull(period_in_role)
+      
+      ## handle edge case where no ministry interval is identified.
+      ## only one case fits this description, `StartDate` == "1867-01-01" (before ministries)
+      if(is_empty(ministry_interval)) {
+        return(1)
+      }
+      
+      identify_quarter_in_range(dtc, ministry_interval)
+    })
+  )
 
-identify_quartile_of_range(1, interval(date("1867-07-01"), date("1873-11-05"))) %>%
-  mutate(dist = time_length(date("1867-06-30") %--% quarter_end_date)) %>%
-  filter(dist >= 0) %>%
-  top_n(-1, dist) %>%
-  pull(quarter)
+ministry_interval <- ministries %>% 
+  filter(date("1867-01-01") %within% period_in_role) %>%
+  top_n(1, start_date) %>%
+  pull(period_in_role) %>% is_empty()
 
+identify_quarter_in_range(date("1867-01-01"), ministry_interval)
+
+
+identify_quarter_in_range(date("1869-06-30"), date("1867-07-01") %--% date("1873-11-05"))
 
