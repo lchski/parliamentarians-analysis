@@ -77,7 +77,7 @@ deputy_heads %>%
 
 summary(lm(years_in_role_raw ~ Gender, deputy_heads %>% filter(Gender != "")))
 summary(lm(
-  years_in_role_raw ~ Gender + decade,  ## could also be `Gender * decade`
+  years_in_role_raw ~ Gender + decade + IsActing,  ## could also be `Gender * decade`
   deputy_heads %>%
     mutate(decade = floor_date(StartDate, "10 years")) %>%
     filter(Gender != "")
