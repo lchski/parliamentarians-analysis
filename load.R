@@ -252,7 +252,13 @@ parliaments <- read_csv("data/lop-parliament-key-dates.csv") %>%
     c(
       "writs_issued", "general_election", "writs_returned", "first_sitting", "first_budget", "dissolution"
     ),
-    date
+    as_date
+  ) %>%
+  mutate(
+    dissolution = ifelse(is.na(dissolution), today(), dissolution)
+  ) %>%
+  mutate(
+    dissolution = as_date(dissolution)
   ) %>%
   mutate(
     interval_from_election_to_first_budget = interval(general_election, first_budget),
