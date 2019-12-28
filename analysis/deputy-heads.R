@@ -14,6 +14,38 @@ find_closest_date <- function(date_to_place, dates_to_compare) {
 find_closest_date_vectorized <- Vectorize(find_closest_date)
 
 
+identify_quarter_in_range <- function(dtc, date_range) {
+  if(! is.interval(date_range)) {
+    break("oops, not an interval")
+  }
+  
+  if(! is.Date(dtc)) {
+    break("oops, not a date")
+  }
+  
+  d25 <- int_end((date_range / 4) * 1)
+  d50 <- int_end((date_range / 4) * 2)
+  d75 <- int_end((date_range / 4) * 3)
+  d100 <- int_end(date_range)
+  
+  quarters_to_check <- tribble(
+    ~quarter, ~quarter_end_date,
+    1, d25,
+    2, d50,
+    3, d75,
+    4, d100
+  ) %>%
+    mutate(quarter_end_date = as_date(quarter_end_date)) %>%
+    bind_rows(list(quarter = NA_real_, quarter_end_date = today() + days(1)))
+  
+  quarters_to_check %>%
+    mutate(dist = time_length(dtc %--% quarter_end_date)) %>%
+    filter(dist >= 0) %>%
+    top_n(-1, dist) %>%
+    pull(quarter)
+}
+
+
 
 dhs_annotated <- deputy_heads %>%
   mutate(closest_ministry_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., ministries$start_date)))) %>%
@@ -31,7 +63,23 @@ dhs_annotated <- deputy_heads %>%
       filter(int_overlaps(interval_from_returns_to_dissolution, pirr)) %>%
       summarize(count = n()) %>%
       pull(count)
-  ))
+  )) %>%
+  mutate(
+    ministry_quarter_at_appointment = map_dbl(StartDate, function(dtc) {
+      ministry_interval <- ministries %>% 
+        filter(dtc %within% period_in_role) %>%
+        top_n(1, start_date) %>%
+        pull(period_in_role)
+      
+      ## handle edge case where no ministry interval is identified.
+      ## only one case fits this description, `StartDate` == "1867-01-01" (before ministries)
+      if(is_empty(ministry_interval)) {
+        return(1)
+      }
+      
+      identify_quarter_in_range(dtc, ministry_interval)
+    })
+  )
 
 
 
@@ -90,6 +138,13 @@ summary(lm(
     filter(Gender != "") %>%
     filter(years_in_role_raw > 0)
 ))
+summary(lm(
+  years_in_role_raw ~ Gender + decade + IsActing + ministry_quarter_at_appointment,  ## could also be `Gender * decade`
+  dhs_annotated %>%
+    mutate(decade = floor_date(StartDate, "10 years")) %>%
+    filter(Gender != "") %>%
+    filter(years_in_role_raw > 0)
+))
 
 deputy_heads %>%
   mutate(decade = floor_date(StartDate, "10 years")) %>%
@@ -137,64 +192,7 @@ dhs_annotated %>%
 
 
 
-identify_quarter_in_range <- function(dtc, date_range) {
-  if(! is.interval(date_range)) {
-    break("oops, not an interval")
-  }
-  
-  if(! is.Date(dtc)) {
-    break("oops, not a date")
-  }
-  
-  d25 <- int_end((date_range / 4) * 1)
-  d50 <- int_end((date_range / 4) * 2)
-  d75 <- int_end((date_range / 4) * 3)
-  d100 <- int_end(date_range)
-  
-  quarters_to_check <- tribble(
-    ~quarter, ~quarter_end_date,
-    1, d25,
-    2, d50,
-    3, d75,
-    4, d100
-  ) %>%
-    mutate(quarter_end_date = as_date(quarter_end_date)) %>%
-    bind_rows(list(quarter = NA_real_, quarter_end_date = today() + days(1)))
-  
-  quarters_to_check %>%
-    mutate(dist = time_length(dtc %--% quarter_end_date)) %>%
-    filter(dist >= 0) %>%
-    top_n(-1, dist) %>%
-    pull(quarter)
-}
-identify_quarter_in_range_vectorized <- Vectorize(identify_quarter_in_range)
 
 
 dhs_annotated %>%
-  mutate(
-    ministry_quarter_at_appointment = map_dbl(StartDate, function(dtc) {
-      ministry_interval <- ministries %>% 
-        filter(dtc %within% period_in_role) %>%
-        top_n(1, start_date) %>%
-        pull(period_in_role)
-      
-      ## handle edge case where no ministry interval is identified.
-      ## only one case fits this description, `StartDate` == "1867-01-01" (before ministries)
-      if(is_empty(ministry_interval)) {
-        return(1)
-      }
-      
-      identify_quarter_in_range(dtc, ministry_interval)
-    })
-  )
-
-ministry_interval <- ministries %>% 
-  filter(date("1867-01-01") %within% period_in_role) %>%
-  top_n(1, start_date) %>%
-  pull(period_in_role) %>% is_empty()
-
-identify_quarter_in_range(date("1867-01-01"), ministry_interval)
-
-
-identify_quarter_in_range(date("1869-06-30"), date("1867-07-01") %--% date("1873-11-05"))
-
+  
