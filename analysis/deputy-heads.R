@@ -73,9 +73,7 @@ deputy_heads %>%
   summarize(count = n(), years = sum(years_as_dh)) %>%
   mutate(count_prop = count / sum(count), years_prop = years / sum(years))
 
-deputy_heads %>%
-  mutate(closest_ministry_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., ministries$start_date)))) %>%
-  mutate(closest_election_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., parliaments$general_election))))
+
 
 summary(lm(years_in_role_raw ~ Gender, deputy_heads %>% filter(Gender != "")))
 summary(lm(
@@ -111,22 +109,6 @@ dhs_position_counts <- deputy_heads %>%
               select(LastFirstName, PersonId, EndDateRaw) %>%
               distinct() %>%
               ungroup())
-  
-deputy_heads %>%
-  mutate(ministries_count = map_int(
-    period_in_role_raw,
-    function(pirr) ministries %>%
-      filter(int_overlaps(period_in_role, pirr)) %>%
-      summarize(count = n()) %>%
-      pull(count)
-  )) %>%
-  mutate(parliaments_count = map_int(
-    period_in_role_raw,
-    function(pirr) parliaments %>%
-      filter(int_overlaps(interval_from_returns_to_dissolution, pirr)) %>%
-      summarize(count = n()) %>%
-      pull(count)
-  ))
   
 
 
