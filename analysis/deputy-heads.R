@@ -194,8 +194,6 @@ dhs_annotated %>%
 
 
 
-t_start_date <- date("1918-01-01")
-
 dhs_at_date <- function(dhs_to_check, dtc) {
   dtc <- date(dtc)
   
@@ -252,57 +250,3 @@ dhs_at_date <- function(dhs_to_check, dtc) {
   
   dhs_to_return
 }
-
-dhs_annotated %>%
-  filter(! StartDate > t_start_date) %>%
-  mutate(EndDate = case_when(
-    EndDate > t_start_date ~ t_start_date,
-    TRUE ~ EndDate
-  )) %>%
-  mutate(EndDateRaw = case_when(
-    EndDateRaw > t_start_date ~ t_start_date,
-    TRUE ~ EndDateRaw
-  )) %>%
-  mutate(
-    period_in_role_raw = interval(StartDate, EndDateRaw),
-    years_in_role_raw = time_length(period_in_role_raw, unit = "years"),
-    period_in_role = interval(StartDate, EndDate),
-    years_in_role = time_length(period_in_role, unit = "years")
-  ) %>%
-  mutate(closest_ministry_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., ministries$start_date)))) %>%
-  mutate(closest_election_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., parliaments$general_election)))) %>%
-  mutate(ministries_count = map_int(
-    period_in_role_raw,
-    function(pirr) ministries %>%
-      filter(int_overlaps(period_in_role, pirr)) %>%
-      summarize(count = n()) %>%
-      pull(count)
-  )) %>%
-  mutate(parliaments_count = map_int(
-    period_in_role_raw,
-    function(pirr) parliaments %>%
-      filter(int_overlaps(interval_from_returns_to_dissolution, pirr)) %>%
-      summarize(count = n()) %>%
-      pull(count)
-  )) %>%
-  mutate(
-    ministry_quarter_at_appointment = map_dbl(StartDate, function(dtc) {
-      ministry_interval <- ministries %>% 
-        filter(dtc %within% period_in_role) %>%
-        top_n(1, start_date) %>%
-        pull(period_in_role)
-      
-      ## handle edge case where no ministry interval is identified.
-      ## only one case fits this description, `StartDate` == "1867-01-01" (before ministries)
-      if(is_empty(ministry_interval)) {
-        return(1)
-      }
-      
-      identify_quarter_in_range(dtc, ministry_interval)
-    })
-  )
-  
-  
-  
-  
-  
