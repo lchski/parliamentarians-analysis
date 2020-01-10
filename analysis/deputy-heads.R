@@ -250,3 +250,15 @@ dhs_at_date <- function(dhs_to_check, dtc) {
   
   dhs_to_return
 }
+
+
+## Which ministers did JB Hunter serve?
+ministers %>%
+  filter(OrganizationLongEn == "Public Works" | PortFolioEn == "Public Works") %>% ## from JB Hunter's PW entry; may wreak havoc elsewhere
+  filter(EndDate > date("1908-07-01")) %>% ## JB Hunter's `StartDate`
+  filter(StartDate < date("1942-10-05")) %>% ## JB Hunter's `EndDate`
+  remove_extra_columns() %>%
+  mutate(yrs_in_office = time_length(period_in_role, "years")) %>%
+  count_group(Person.PersonId, Person.DisplayName)
+
+
