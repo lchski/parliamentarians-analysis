@@ -53,3 +53,60 @@ members_by_party_time_in_office %>%
            filter(count > 1) %>%
            pull(Person.PersonId))) %>%
   View()
+
+
+
+library(fuzzyjoin)
+
+z_members <- tibble(index_date = seq.Date(as_date("1867-07-01"), as_date("1869-07-01"), "1 day")) %>%
+  fuzzy_left_join(
+    members %>% select(PersonRoleId, StartDate, EndDate),
+    by = c(
+      "index_date" = "StartDate",
+      "index_date" = "EndDate"
+    ),
+    match_fun = list(`>=`, `<=`)
+  )
+
+z_party <- tibble(index_date = seq.Date(as_date("1867-07-01"), as_date("1869-07-01"), "1 day")) %>%
+  fuzzy_left_join(
+    party_members %>% select(PersonRoleId, StartDate, EndDate),
+    by = c(
+      "index_date" = "StartDate",
+      "index_date" = "EndDate"
+    ),
+    match_fun = list(`>=`, `<=`)
+  )
+
+zzz_members <- tibble(index_date = seq.Date(as_date("1867-07-01"), today(), "1 day")) %>%
+  fuzzy_left_join(
+    members %>% select(PersonRoleId, StartDate, EndDate),
+    by = c(
+      "index_date" = "StartDate",
+      "index_date" = "EndDate"
+    ),
+    match_fun = list(`>=`, `<=`)
+  )
+
+zzz_party <- tibble(index_date = seq.Date(as_date("1867-07-01"), as_date("1877-07-01"), "1 day")) %>%
+  fuzzy_left_join(
+    party_members %>% select(PersonRoleId, StartDate, EndDate),
+    by = c(
+      "index_date" = "StartDate",
+      "index_date" = "EndDate"
+    ),
+    match_fun = list(`>=`, `<=`)
+  ) %>%
+  select(index_date, PersonRoleId)
+
+
+
+
+zzz2_members <- members %>%
+  select(PersonRoleId, StartDate, EndDate) %>%
+  mutate(
+    index_date = map2(StartDate, EndDate, seq.Date, by = "days")
+  ) %>%
+  select(PersonRoleId, index_date) %>%
+  unnest_longer(c(index_date))
+
