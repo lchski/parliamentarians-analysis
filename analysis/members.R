@@ -182,15 +182,32 @@ zzz2_party %>%
 
 
 
-## members, get the person; then get the _party_ of that person from zzz2_party with a left_join on Person.PersonId
-zzz2_members %>%
-  filter(index_date < "1887-07-01") %>%
+## members, get the person;
+## then get the _party_ of that person from zzz2_party with a left_join on Person.PersonId
+yyyy <- zzz2_members %>%
+  # filter(index_date < "1887-07-01") %>% ## optional, add a filter here if you want to go quicker
   left_join(
     members %>% select(PersonRoleId, Person.PersonId)
   ) %>%
   left_join(
-    party_members %>% select(Person.PersonId, )
+    zzz2_party %>%
+      left_join(
+        party_members %>% select(PersonRoleId, Person.PersonId, party_simple)
+      ) %>%
+      rename(PartyPersonRoleId = PersonRoleId),
+    by = c(
+      "index_date",
+      "Person.PersonId"
+    )
   )
+
+yyyyy %>%
+  count_group(index_date, party_simple) %>%
+  ungroup() %>%
+  ggplot(aes(x = index_date, y = count_prop, fill = party_simple, colour = party_simple)) +
+  geom_area() +
+  scale_fill_manual(values = party_colour_mappings, na.value = "white") +
+  scale_colour_manual(values = party_colour_mappings, na.value = "white")
 
 
 
