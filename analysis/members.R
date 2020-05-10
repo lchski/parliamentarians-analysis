@@ -102,11 +102,95 @@ zzz_party <- tibble(index_date = seq.Date(as_date("1867-07-01"), as_date("1877-0
 
 
 
-zzz2_members <- members %>%
-  select(PersonRoleId, StartDate, EndDate) %>%
-  mutate(
-    index_date = map2(StartDate, EndDate, seq.Date, by = "days")
+
+
+party_colour_mappings = c(
+  "liberal" = "red",
+  "conservative" = "navy",
+  "ccf/ndp" = "orange",
+  "bq" = "skyblue",
+  "socred" = "lightgreen",
+  "progressive" = "gold",
+  "green" = "chartreuse4",
+  "independent" = "grey"
+)
+
+
+
+## to refresh:
+# zzz2_members <- members %>%
+#   select(PersonRoleId, StartDate, EndDate) %>%
+#   mutate(
+#     index_date = map2(StartDate, EndDate, seq.Date, by = "days")
+#   ) %>%
+#   select(PersonRoleId, index_date) %>%
+#   unnest_longer(c(index_date))
+# 
+# zzz2_members %>% write_csv("data/out/zzz2_members.csv.gz")
+
+zzz2_members <- read_csv("data/out/zzz2_members.csv.gz")
+
+
+zzz2_members %>%
+  left_join(members %>% select(PersonRoleId, Person.Gender)) %>%
+  count_group(index_date, Person.Gender) %>% ## don't try to plot this directly, crashes R
+  ungroup() %>%
+  arrange(index_date) %>%
+  ggplot(aes(x = index_date, y = count_prop, fill = Person.Gender, colour = Person.Gender)) +
+  geom_point()
+  
+
+
+
+
+
+## to refresh:
+# zzz2_party <- party_members %>%
+#   select(PersonRoleId, StartDate, EndDate) %>%
+#   filter(EndDate >= StartDate) %>% ## have one where EndDate < StartDate, which breaks seq.Date
+#   mutate(
+#     index_date = map2(StartDate, EndDate, seq.Date, by = "days")
+#   ) %>%
+#   select(PersonRoleId, index_date) %>%
+#   unnest_longer(c(index_date))
+#
+# zzz2_party %>% write_csv("data/out/zzz2_party.csv.gz")
+
+zzz2_party <- read_csv("data/out/zzz2_party.csv.gz")
+
+zzz2_party %>%
+  left_join(party_members %>% select(PersonRoleId, Person.PersonId, party_simple)) %>%
+  filter(Person.PersonId %in% (members %>% pull(Person.PersonId))) %>% ## filter to just MPs
+  count_group(index_date, party_simple) %>%
+  ungroup() %>%
+  arrange(index_date) %>%
+  ggplot(aes(x = index_date, y = count, fill = party_simple, colour = party_simple)) +
+  geom_point()
+
+zzz2_party %>%
+  left_join(party_members %>% select(PersonRoleId, Person.PersonId, party_simple)) %>%
+  filter(Person.PersonId %in% (members %>% pull(Person.PersonId))) %>% ## filter to just MPs
+  count_group(index_date, party_simple) %>%
+  ungroup() %>%
+  arrange(index_date) %>%
+  ggplot(aes(x = index_date, y = count_prop, fill = party_simple, colour = party_simple)) +
+  geom_area() +
+  scale_fill_manual(values = party_colour_mappings, na.value = "white") +
+  scale_colour_manual(values = party_colour_mappings, na.value = "white")
+
+
+
+
+
+## members, get the person; then get the _party_ of that person from zzz2_party with a left_join on Person.PersonId
+zzz2_members %>%
+  filter(index_date < "1887-07-01") %>%
+  left_join(
+    members %>% select(PersonRoleId, Person.PersonId)
   ) %>%
-  select(PersonRoleId, index_date) %>%
-  unnest_longer(c(index_date))
+  left_join(
+    party_members %>% select(Person.PersonId, )
+  )
+
+
 
