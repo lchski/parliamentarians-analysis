@@ -182,29 +182,35 @@ zzz2_party %>%
 
 
 
-## members, get the person;
-## then get the _party_ of that person from zzz2_party with a left_join on Person.PersonId
-yyyy <- zzz2_members %>%
-  # filter(index_date < "1887-07-01") %>% ## optional, add a filter here if you want to go quicker
-  left_join(
-    members %>% select(PersonRoleId, Person.PersonId)
-  ) %>%
-  left_join(
-    zzz2_party %>%
-      left_join(
-        party_members %>% select(PersonRoleId, Person.PersonId, party_simple)
-      ) %>%
-      rename(PartyPersonRoleId = PersonRoleId),
-    by = c(
-      "index_date",
-      "Person.PersonId"
-    )
-  )
+## To refresh:
+## members, get the person; then get the _party_ of that person from zzz2_party with a left_join on Person.PersonId
+# members_by_day_by_party_simple <- zzz2_members %>%
+#   # filter(index_date < "1887-07-01") %>% ## optional, add a filter here if you want to go quicker
+#   left_join(
+#     members %>% select(PersonRoleId, Person.PersonId)
+#   ) %>%
+#   left_join(
+#     zzz2_party %>%
+#       left_join(
+#         party_members %>% select(PersonRoleId, Person.PersonId, party_simple)
+#       ) %>%
+#       rename(PartyPersonRoleId = PersonRoleId),
+#     by = c(
+#       "index_date",
+#       "Person.PersonId"
+#     )
+#   )
+#
+# members_by_day_by_party_simple %>% write_csv("data/out/members_by_day_by_party_simple.csv.gz")
+members_by_day_by_party_simple <- read_csv("data/out/members_by_day_by_party_simple.csv.gz")
 
-yyyyy %>%
+members_by_day_by_party_simple_counted <- members_by_day_by_party_simple %>%
   count_group(index_date, party_simple) %>%
   ungroup() %>%
-  ggplot(aes(x = index_date, y = count_prop, fill = party_simple, colour = party_simple)) +
+  arrange(index_date)
+
+members_by_day_by_party_simple_counted %>%
+  ggplot(aes(x = index_date, y = count, fill = party_simple, colour = party_simple)) +
   geom_area() +
   scale_fill_manual(values = party_colour_mappings, na.value = "white") +
   scale_colour_manual(values = party_colour_mappings, na.value = "white")
