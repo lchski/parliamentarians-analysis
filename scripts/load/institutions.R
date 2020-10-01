@@ -1,4 +1,4 @@
-departmental_roles <- fromJSON("data/institutions/departments.json", simplifyDataFrame = TRUE) %>%
+departmental_roles <- fromJSON("data/source/lop/institutions/departments.json", simplifyDataFrame = TRUE) %>%
   as_tibble() %>%
   remove_extra_columns()
 
