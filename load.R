@@ -4,7 +4,7 @@ library(jsonlite)
 library(lubridate)
 library(janitor)
 
-source("scripts/helpers.R")
+source("scripts/helpers/load.R")
 
 ## map party names to party groupings
 ## NB: This is contestable! fork and change as necessary for your analysis
