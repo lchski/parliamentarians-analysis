@@ -2,7 +2,13 @@
 
 Playing with Library of Parliament data on parliamentarians in Canada.
 
+To enable this repo, [download a copy of the data repo](https://github.com/lchski/lop-parliamentarians-data) (which includes instructions for downloading the data yourself, if you want an up-to-date copy). You’ll want to copy `data/source/lop/` from the data repo into the `data/` folder of this repo. Once you’re done, this repo should have a `data/source/lop/parliamentarians/` folder with over 5,000 files in it.
+
+Then, you can run `load.R`. It may take a few minutes and throw up some errors / warnings—as long as it loads all the data, though, you’re all good! (If not, consider adding an issue so we can sort out what’s happening.) It’s a somewhat large dataset (probably over 1 GB once loaded into R).
+
 ## Interesting things to research
+
+A scratch list for myself:
 
 - Critic roles (which have poor dating, understandable)
   - How often do they change in a session?
@@ -11,13 +17,4 @@ Playing with Library of Parliament data on parliamentarians in Canada.
   - Which schools? (correlation to Senate/MP, Minister, etc?)
   - Trends over time: level of education, type of degrees
 
-## API URLs
-
-- Get all the peoples
-  - Unfiltered: https://lop.parl.ca/ParlinfoWebAPI/Person/SearchAndRefine?callback=jQuery33105224920274316343_1569971548277&expression=&refiners=&_=1569971548282
-  - Just a text search (`keyword`): https://lop.parl.ca/ParlinfoWebAPI/Person/SearchAndRefine?callback=jQuery33105224920274316343_1569971548277&expression=Abbott&refiners=&_=1569971548279
-  - Text search and a refiner, prime minister (`refiners=5-1%2C`): https://lop.parl.ca/ParlinfoWebAPI/Person/SearchAndRefine?callback=jQuery33105224920274316343_1569971548277&expression=Abbott&refiners=5-1%2C&_=1569971548281
-  - Just a refiner, prime minister (`refiners=5-1%2C`): https://lop.parl.ca/ParlinfoWebAPI/Person/SearchAndRefine?callback=jQuery33105370148350178735_1569971635373&expression=&refiners=5-1%2C&_=1569971635375
-  - Refine for municipal experience (`refiners=28-3%2C`): https://lop.parl.ca/ParlinfoWebAPI/Person/SearchAndRefine?callback=jQuery33105370148350178735_1569971635373&expression=&refiners=28-3%2C&_=1569971635377
-  - Refine for PM and municipal experience (`refiners=5-1%2C28-3%2C`): https://lop.parl.ca/ParlinfoWebAPI/Person/SearchAndRefine?callback=jQuery33106068412624955225_1569971757145&expression=&refiners=5-1%2C28-3%2C&_=1569971757147
-- Get info from specific person ID: https://lop.parl.ca/ParlinfoWebApi/Person/GetPersonWebProfile/3761?callback=jQuery33107266187344061623_1569968990479&_=1569968990480
+The `analysis/` folder contains various inquiries I’ve launched. It’s very messy.
