@@ -179,3 +179,19 @@ ministers %>%
   count_group(Person.PersonId, Person.DisplayName)
 
 
+
+
+pco_clerk_person_ids <- deputy_heads %>%
+  filter(str_detect(NameEn, "Clerk of the Privy Council") | str_detect(ToBeStyledAsEn, "Clerk of the Privy Council")) %>%
+  pull(PersonId) %>%
+  unique
+
+deputy_heads %>%
+  filter(PersonId %in% pco_clerk_person_ids)
+
+deputy_heads %>%
+  filter(PersonId %in% pco_clerk_person_ids) %>%
+  select(-ConstituencyProvinceEn:-PartyId) %>%
+  remove_extra_columns()
+
+
