@@ -2,6 +2,7 @@ library(tidyverse)
 library(readtext)
 library(jsonlite)
 library(lubridate)
+library(janitor)
 
 source("scripts/helpers.R")
 
@@ -40,116 +41,119 @@ simplified_party_mappings = tribble(
   "Independent Progressive Conservative","independent",
 )
 
-parliamentarians_unmodified <- as_tibble(readtext::readtext("data/members/", verbosity = 0)) %>%
-  mutate(doc_id = str_split(doc_id, fixed("?callback=jQuery33107266187344061623_1569968990479&_=1569968990480"))) %>%
+parliamentarians_raw <- as_tibble(readtext::readtext("data/source/lop/parliamentarians/", verbosity = 0)) %>%
+  mutate(doc_id = str_split(doc_id, fixed("?callback=1"))) %>%
   unnest(cols = c(doc_id)) %>%
   filter(doc_id != "") %>%
-  mutate(text = str_split(text, fixed("/**/ typeof jQuery33107266187344061623_1569968990479 === 'function' && jQuery33107266187344061623_1569968990479("))) %>%
+  mutate(text = str_split(text, fixed("/**/ typeof 1 === 'function' && 1("))) %>%
   unnest(cols = c(text)) %>%
   mutate(text = str_split(text, fixed("});"))) %>%
   unnest(cols = c(text)) %>%
   filter(text != "") %>%
   mutate(text = paste0("[", text, "}]")) %>% # TODO: use only up to this point to export JSON versions of the files
   mutate(contents = vectorize_json(text, flatten = TRUE)) %>%
-  select(contents) %>%
-  bind_rows(.$contents) %>%
-  filter(! is.na(Person.PersonId)) %>%
+  unnest(contents) %>%
+  clean_names %>%
+  filter(! is.na(person_person_id)) %>%
   select(-one_of(identify_empty_columns(.)))
 
 ## Extract any subsetted data frames for easier analysis
-roles <- parliamentarians_unmodified %>%
-  select(Person.PersonId, Person.Roles) %>%
-  unnest(cols = c(Person.Roles)) %>%
+roles <- parliamentarians_raw %>%
+  select(person_person_id, person_roles) %>%
+  unnest(cols = c(person_roles)) %>%
+  clean_names %>%
   mutate_at(
     c(
-      "StartDate",
-      "EndDate",
-      "PartyStartDate",
-      "PartyEndDate",
-      "Senator.NominationEndDate",
-      "GovernorGeneral.AppointedDate",
-      "GovernorGeneral.PublishedDate"
+      "start_date",
+      "end_date",
+      "party_start_date",
+      "party_end_date",
+      "senator_nomination_end_date",
+      "governor_general_appointed_date",
+      "governor_general_published_date"
     ),
     date
   ) %>%
   mutate(
-    IsCurrent = as.logical(IsCurrent),
-    EndDate = case_when(
-      is.na(EndDate) & IsCurrent ~ today(),
-      TRUE ~ EndDate
+    is_current = as.logical(is_current),
+    end_date = case_when(
+      is.na(end_date) & is_current ~ today(),
+      TRUE ~ end_date
     ),
-    period_in_role = interval(StartDate, EndDate)
+    period_in_role = interval(start_date, end_date)
   ) %>%
   mutate_at(
     c(
-      "PortFolioEn"
+      "port_folio_en"
     ),
     trimws
   ) %>%
-  left_join(simplified_party_mappings, by = c("PartyEn" = "party"))
+  left_join(simplified_party_mappings, by = c("party_en" = "party"))
 
-professions <- parliamentarians_unmodified %>%
-  select(Person.PersonId, Person.Professions) %>%
-  unnest(cols = c(Person.Professions))
+professions <- parliamentarians_raw %>%
+  select(person_person_id, person_professions) %>%
+  unnest(cols = c(person_professions)) %>%
+  clean_names
 
-election_candidates <- parliamentarians_unmodified %>%
-  select(Person.PersonId, Person.ElectionCandidates) %>%
-  unnest(cols = c(Person.ElectionCandidates)) %>%
+election_candidates <- parliamentarians_raw %>%
+  select(person_person_id, person_election_candidates) %>%
+  unnest(cols = c(person_election_candidates)) %>%
+  clean_names %>%
   mutate_at(
     c(
-      "ElectionDate"
+      "election_date"
     ),
     date
   ) %>%
   mutate(
-    IsWin = ResultLongEn == "Elected"
+    is_win = result_long_en == "Elected"
   ) %>%
-  left_join(simplified_party_mappings, by = c("PartyNameEn" = "party"))
+  left_join(simplified_party_mappings, by = c("party_name_en" = "party"))
   
 
 ## Create nested versions of modified extracts to recombine
 roles_nested <- roles %>%
-  nest(-Person.PersonId) %>%
+  nest(-person_person_id) %>%
   rename(roles_cleaned = data)
 election_candidates_nested <- election_candidates %>%
-  nest(-Person.PersonId) %>%
+  nest(-person_person_id) %>%
   rename(election_candidates_cleaned = data)
   
 
 ## Create the `parliamentarians` object for analysis
-parliamentarians <- parliamentarians_unmodified %>%
+parliamentarians <- parliamentarians_raw %>%
   mutate_if(is.list, ~ map(., as_tibble)) %>%
   mutate_at(
     c(
-      "Person.DateOfBirth",
-      "Person.Death.DateOfDeath",
-      "Person.Death.FuneralDate",
-      "Person.Death.StateLayFuneralStartDate",
-      "Person.Death.StateLayFuneralEndDate"
+      "person_date_of_birth",
+      "person_death_date_of_death",
+      "person_death_funeral_date",
+      "person_death_state_lay_funeral_start_date",
+      "person_death_state_lay_funeral_end_date"
     ),
     date
   ) %>%
   mutate(
-    Person.LifeInterval = interval(Person.DateOfBirth, Person.Death.DateOfDeath),
-    Person.Death.StateLayFuneralInterval = interval(Person.Death.StateLayFuneralStartDate, Person.Death.StateLayFuneralEndDate)
+    person_life_interval = interval(person_date_of_birth, person_death_date_of_death),
+    person_death_state_lay_funeral_interval = interval(person_death_state_lay_funeral_start_date, person_death_state_lay_funeral_end_date)
   ) %>%
-  left_join(roles_nested, by = c("Person.PersonId" = "Person.PersonId")) %>%
-  select(-Person.Roles) %>%
-  rename(Person.Roles = roles_cleaned) %>%
-  left_join(election_candidates_nested, by = c("Person.PersonId" = "Person.PersonId")) %>%
-  select(-Person.ElectionCandidates) %>%
-  rename(Person.ElectionCandidates = election_candidates_cleaned)
+  left_join(roles_nested, by = c("person_person_id" = "person_person_id")) %>%
+  select(-person_roles) %>%
+  rename(person_roles = roles_cleaned) %>%
+  left_join(election_candidates_nested, by = c("person_person_id" = "person_person_id")) %>%
+  select(-person_election_candidates) %>%
+  rename(person_election_candidates = election_candidates_cleaned)
 
 ## Clean up a bit (we don't need these variables anymore)
-rm(parliamentarians_unmodified)
+rm(parliamentarians_raw)
 rm(roles_nested)
 rm(election_candidates_nested)
 
 ## more nuanced capture for ministers
 ministers <- roles %>%
-  filter(GroupingTitleEn %in% c("Cabinet", "House of Commons Roles")) %>%
+  filter(grouping_title_en %in% c("Cabinet", "House of Commons Roles")) %>%
   filter(
-    ! OrganizationTypeEn %in% 
+    ! organization_type_en %in% 
       c("Province",
         "Municipal Government",
         "Regional Government",
@@ -157,7 +161,7 @@ ministers <- roles %>%
       )
   ) %>%
   filter(
-    str_detect(NameEn, paste0(c(
+    str_detect(name_en, paste0(c(
       "Minister",
       "Minister of State",
       "Associate Minister",
@@ -167,34 +171,31 @@ ministers <- roles %>%
     ), collapse = "|"))
   ) %>%
   filter(
-    ! str_detect(NameEn, "Shadow")
+    ! str_detect(name_en, "Shadow")
   ) %>%
   remove_extra_columns(.) %>%
   mutate(
     period_in_office = period_in_role,
     in_cabinet =
-      str_detect(NameEn, "Minister") &
-      ! str_detect(NameEn, "Secretary") &
-      ! str_detect(NameEn, "of State"),
+      str_detect(name_en, "Minister") &
+      ! str_detect(name_en, "Secretary") &
+      ! str_detect(name_en, "of State"),
     in_ministry =
-      str_detect(NameEn, "Minister") &
-      ! str_detect(NameEn, "Secretary")
+      str_detect(name_en, "Minister") &
+      ! str_detect(name_en, "Secretary")
   ) %>%
   left_join(
     parliamentarians %>%
-      select(Person.PersonId, Person.DisplayName, Person.Gender)
+      select(person_person_id, person_display_name, person_gender)
   )
 
 ## Cabinet Size! Replicating: https://lop.parl.ca/sites/ParlInfo/default/en_CA/People/primeMinisters/Cabinet
 cabinet_size_by_lop_shuffle <- read_csv("data/lop-primeministers-cabinet.csv") %>%
+  clean_names %>%
   rename(
-    shuffle_date = `Cabinet Shuffle Date`,
-    prime_minister = `Prime Minister`,
-    political_affiliation = `Political Affiliation`,
-    cabinet_size = `Cabinet Size`,
-    ministry_size = `Ministry Size`
+    shuffle_date = cabinet_shuffle_date
   ) %>%
-  filter(! is.na(cabinet_size)) %>%
+  filter(! is.na(cabinet_size)) %>% ## TODO: instead, extract the ministry # and parliament # and dates from these rows, then `fill` down`
   mutate(
     shuffle_date = date(shuffle_date)
   )
@@ -211,60 +212,41 @@ ministries <- read_tsv("data/wikipedia-ministries.tsv", skip = 1) %>%
   left_join(
     (
       roles %>%
-        filter(NameEn == "Prime Minister" & OrganizationTypeEn == "Ministry") %>%
-        select(OrganizationAcronymEn, Person.PersonId, PersonRoleId, NotesEn, period_in_role) %>%
-        mutate(OrganizationAcronymEn = as.numeric(OrganizationAcronymEn))
+        filter(name_en == "Prime Minister" & organization_type_en == "Ministry") %>%
+        select(organization_acronym_en, person_person_id, person_role_id, notes_en, period_in_role) %>%
+        mutate(organization_acronym_en = as.numeric(organization_acronym_en))
     ),
-    by = c("ministry" = "OrganizationAcronymEn")
+    by = c("ministry" = "organization_acronym_en")
   )
 
 members <- roles %>%
-  filter(NameEn == "Constituency Member") %>%
-  filter(OrganizationTypeEn == "Constituency") %>%
+  filter(name_en == "Constituency Member") %>%
+  filter(organization_type_en == "Constituency") %>%
   remove_extra_columns() %>%
   left_join(
     parliamentarians %>%
-      select(Person.PersonId, Person.DisplayName, Person.Gender)
+      select(person_person_id, person_display_name, person_gender)
   ) %>%
-  select(-PartyOrganizationId:-PartyEndDate, -party_simple)
+  select(-party_organization_id:-party_end_date, -party_simple)
 
 
 
 parliaments <- read_csv("data/lop-parliament-key-dates.csv") %>%
-  select(
-    parliament = `Parliament`,
-    key_dates = `Key Dates`
+  clean_names %>%
+  mutate(parliament = lag(term)) %>%
+  select(parliament, everything()) %>%
+  filter(! is.na(duration)) %>% ## get rid of the parliament header rows from the Excel
+  mutate(parliament = as.integer(str_remove(parliament, "Parliament: "))) %>%
+  separate(term, c("term_start", "term_end"), " - ") %>%
+  mutate(
+    first_sitting = term_start,
+    dissolution = ifelse(is.na(term_end), today(), term_end)
   ) %>%
   mutate(
-    parliament = as.numeric(gsub("([0-9]+).*$", "\\1", parliament)),
-    key_dates = str_replace(key_dates, "1st", "")
-  ) %>%
-  separate(
-    key_dates,
-    c(NA, "writs_issued", "general_election", "writs_returned", "first_sitting", "first_budget", "dissolution"),
-    "[A-Za-z ]*: "
-  ) %>%
-  mutate(
-    dissolution = ifelse(parliament == 25, first_budget, dissolution),
-    first_budget = ifelse(parliament == 25, NA, first_budget)
-  ) %>%
-  mutate_at(
-    c(
-      "writs_issued", "general_election", "writs_returned", "first_sitting", "first_budget", "dissolution"
-    ),
-    as_date
-  ) %>%
-  mutate(
-    dissolution = ifelse(is.na(dissolution), today(), dissolution)
-  ) %>%
-  mutate(
-    dissolution = as_date(dissolution)
-  ) %>%
-  mutate(
-    interval_from_election_to_first_budget = interval(general_election, first_budget),
+    interval_from_election_to_first_budget = interval(general_election_date, date_of_first_budget),
     days_to_budget_from_election = time_length(interval_from_election_to_first_budget, "days"),
-    interval_from_first_sitting_to_first_budget = interval(first_sitting, first_budget),
+    interval_from_first_sitting_to_first_budget = interval(first_sitting, date_of_first_budget),
     days_to_budget_from_first_sitting = time_length(interval_from_first_sitting_to_first_budget, "days"),
-    interval_from_returns_to_dissolution = interval(writs_returned, dissolution),
+    interval_from_returns_to_dissolution = interval(return_of_the_writs, dissolution),
     days_to_dissolution_from_returns = time_length(interval_from_returns_to_dissolution, "days")
   )
