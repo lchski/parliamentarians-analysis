@@ -1,47 +1,50 @@
+## Get the data: https://github.com/lchski/lop-institutions-data
 departmental_roles <- fromJSON("data/source/lop/institutions/departments.json", simplifyDataFrame = TRUE) %>%
   as_tibble() %>%
-  remove_extra_columns()
+  remove_extra_columns() %>%
+  clean_names
 
 departmental_roles_extra_roles <- departmental_roles %>%
-  select(ExtraRoles) %>% ## probably want an ID variable or something to be able to connect back to `departmental_roles`
-  unnest(cols = c(ExtraRoles))
+  select(extra_roles) %>% ## probably want an ID variable or something to be able to connect back to `departmental_roles`
+  unnest(cols = c(extra_roles)) %>%
+  clean_names
 
 departmental_roles <- departmental_roles %>%
-  select(-ExtraRoles) %>%
+  select(-extra_roles) %>%
   mutate_at(
     c(
-      "OrganizationStartDate",
-      "OrganizationEndDate",
-      "StartDate",
-      "EndDate"
+      "organization_start_date",
+      "organization_end_date",
+      "start_date",
+      "end_date"
     ),
     date
   ) %>%
   mutate(
-    IsCurrent = is.na(EndDate),
-    EndDate = case_when(
-      IsCurrent ~ today(),
-      TRUE ~ EndDate
+    is_current = is.na(end_date),
+    end_date = case_when(
+      is_current ~ today(),
+      TRUE ~ end_date
     ),
-    period_in_role = interval(StartDate, EndDate),
+    period_in_role = interval(start_date, end_date),
     years_in_role = time_length(period_in_role, unit = "years")
   ) %>%
   mutate_at(
     c(
-      "PortFolioEn"
+      "port_folio_en"
     ),
     trimws
   )
 
 remove_deputy_head_duplicates <- function(dhs) {
   dhs %>%
-    select(-Parliament:-ParliamentEndDate) %>%
+    select(-parliament:-parliament_end_date) %>%
     distinct()
 }
 
 ## for use if you want to analyse DHs surviving parliaments
 deputy_heads_raw <- departmental_roles %>%
-  filter(! NameEn %in% c(
+  filter(! name_en %in% c(
     "Minister",
     "Parliamentary Secretary",
     "Critic",
@@ -55,21 +58,21 @@ deputy_heads_raw <- departmental_roles %>%
 
 deputy_heads <- deputy_heads_raw %>%
   remove_deputy_head_duplicates() %>%
-  arrange(OrganizationId, PortFolioEn, StartDate) %>%
-  group_by(OrganizationId, PortFolioEn, NameEn) %>%
-  mutate(EndDateRaw = EndDate) %>%
-  mutate(EndDate = case_when(
-    EndDateIsApproximate ~ lead(StartDate) - days(1),
-    TRUE ~ EndDate
+  arrange(organization_id, port_folio_en, start_date) %>%
+  group_by(organization_id, port_folio_en, name_en) %>%
+  mutate(end_date_raw = end_date) %>%
+  mutate(end_date = case_when(
+    end_date_is_approximate ~ lead(start_date) - days(1),
+    TRUE ~ end_date
   )) %>%
   ungroup() %>%
-  select(OrganizationId:EndDate, EndDateRaw, EndDateIsApproximate:years_in_role) %>%
+  select(organization_id:end_date, end_date_raw, end_date_is_approximate:years_in_role) %>%
   rename(
     period_in_role_raw = period_in_role,
     years_in_role_raw = years_in_role
   ) %>%
   mutate(
-    period_in_role = interval(StartDate, EndDate),
+    period_in_role = interval(start_date, end_date),
     years_in_role = time_length(period_in_role, unit = "years")
   )
 
@@ -119,8 +122,8 @@ identify_quarter_in_range <- function(dtc, date_range) {
 
 
 dhs_annotated <- deputy_heads %>%
-  mutate(closest_ministry_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., ministries$start_date)))) %>%
-  mutate(closest_election_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., parliaments$general_election)))) %>%
+  mutate(closest_ministry_date_to_start = as_date(map_dbl(start_date, ~ find_closest_date(., ministries$start_date)))) %>%
+  mutate(closest_election_date_to_start = as_date(map_dbl(start_date, ~ find_closest_date(., parliaments$general_election_date)))) %>%
   mutate(ministries_count = map_int(
     period_in_role_raw,
     function(pirr) ministries %>%
@@ -136,7 +139,7 @@ dhs_annotated <- deputy_heads %>%
       pull(count)
   )) %>%
   mutate(
-    ministry_quarter_at_appointment = map_dbl(StartDate, function(dtc) {
+    ministry_quarter_at_appointment = map_dbl(start_date, function(dtc) {
       ministry_interval <- ministries %>% 
         filter(dtc %within% period_in_role) %>%
         top_n(1, start_date) %>%
