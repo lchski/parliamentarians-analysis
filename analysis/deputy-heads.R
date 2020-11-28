@@ -1,4 +1,4 @@
-source("scripts/load-institutions.R")
+source("scripts/load/institutions.R")
 
 ## list current DHs
 dhs_current <- deputy_heads %>%
@@ -115,25 +115,25 @@ dhs_at_date <- function(dhs_to_check, dtc) {
   dtc <- date(dtc)
   
   dhs_to_return <- dhs_to_check %>%
-    filter(! StartDate > dtc) %>%
-    mutate(EndDate = case_when(
-      EndDate > t_start_date ~ dtc,
-      TRUE ~ EndDate
+    filter(! start_date > dtc) %>%
+    mutate(end_date = case_when(
+      end_date > t_start_date ~ dtc,
+      TRUE ~ end_date
     )) %>%
-    mutate(EndDateRaw = case_when(
-      EndDateRaw > t_start_date ~ dtc,
-      TRUE ~ EndDateRaw
+    mutate(end_date_raw = case_when(
+      end_date_raw > t_start_date ~ dtc,
+      TRUE ~ end_date_raw
     ))
   
   dhs_to_return <- dhs_to_return %>%
     mutate(
-      period_in_role_raw = interval(StartDate, EndDateRaw),
+      period_in_role_raw = interval(start_date, end_date_raw),
       years_in_role_raw = time_length(period_in_role_raw, unit = "years"),
-      period_in_role = interval(StartDate, EndDate),
+      period_in_role = interval(start_date, end_date),
       years_in_role = time_length(period_in_role, unit = "years")
     ) %>%
-    mutate(closest_ministry_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., ministries$start_date)))) %>%
-    mutate(closest_election_date_to_start = as_date(map_dbl(StartDate, ~ find_closest_date(., parliaments$general_election)))) %>%
+    mutate(closest_ministry_date_to_start = as_date(map_dbl(start_date, ~ find_closest_date(., ministries$start_date)))) %>%
+    mutate(closest_election_date_to_start = as_date(map_dbl(start_date, ~ find_closest_date(., parliaments$general_election)))) %>%
     mutate(ministries_count = map_int(
       period_in_role_raw,
       function(pirr) ministries %>%
@@ -149,7 +149,7 @@ dhs_at_date <- function(dhs_to_check, dtc) {
         pull(count)
     )) %>%
     mutate(
-      ministry_quarter_at_appointment = map_dbl(StartDate, function(dtc) {
+      ministry_quarter_at_appointment = map_dbl(start_date, function(dtc) {
         ministry_interval <- ministries %>% 
           filter(dtc %within% period_in_role) %>%
           top_n(1, start_date) %>%
